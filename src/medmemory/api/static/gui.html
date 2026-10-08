@@ -748,12 +748,17 @@
     let activePatientId = "P0001";
     let currentPatientData = null;
 
-    // Load active patient & patient list on startup
-    window.addEventListener("DOMContentLoaded", () => {
+    function initApp() {
+      checkHealth();
       loadPatientList();
       loadPatientDetails(activePatientId);
-      checkHealth();
-    });
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initApp);
+    } else {
+      initApp();
+    }
 
     async function checkHealth() {
       try {
@@ -792,13 +797,32 @@
 
     async function loadPatientDetails(pid) {
       try {
+        // Visual loading state
+        const condEl = document.getElementById("pt-conditions");
+        const medsEl = document.getElementById("pt-meds");
+        const labsEl = document.getElementById("pt-labs-preview");
+        if (condEl) condEl.innerHTML = '<span class="tag tag-condition">Loading conditions...</span>';
+        if (medsEl) medsEl.innerHTML = '<span class="tag tag-med">Loading medications...</span>';
+        if (labsEl) labsEl.innerHTML = '<div class="tag-lab-pill"><span>Loading labs...</span></div>';
+
         const res = await fetch(`/v1/patients/${pid}`);
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status}: Failed to load patient`);
+        }
         const data = await res.json();
         currentPatientData = data;
         renderPatientSummary(data);
         renderQuickQueries(data);
       } catch (err) {
         console.error("Failed to load patient:", err);
+        const condEl = document.getElementById("pt-conditions");
+        const medsEl = document.getElementById("pt-meds");
+        const labsEl = document.getElementById("pt-labs-preview");
+        const narrativeEl = document.getElementById("pt-narrative-summary");
+        if (condEl) condEl.innerHTML = '<span class="tag" style="color:var(--accent-rose);">Error loading</span>';
+        if (medsEl) medsEl.innerHTML = '<span class="tag" style="color:var(--accent-rose);">Error loading</span>';
+        if (labsEl) labsEl.innerHTML = '<div class="tag-lab-pill" style="color:var(--accent-rose);">Error loading</div>';
+        if (narrativeEl) narrativeEl.innerHTML = `<span style="color:var(--accent-rose);">Failed to retrieve patient ${pid}: ${err.message}</span>`;
       }
     }
 
@@ -808,73 +832,113 @@
       const notes = data.notes || [];
 
       // Patient Identity
-      document.getElementById("pt-name").textContent = s.name || s.patient_id;
-      document.getElementById("pt-id").textContent = s.patient_id;
+      const nameEl = document.getElementById("pt-name");
+      const idEl = document.getElementById("pt-id");
+      const demogEl = document.getElementById("pt-demog");
+      if (nameEl) nameEl.textContent = s.name || s.patient_id;
+      if (idEl) idEl.textContent = s.patient_id;
       const sexLabel = (s.sex || "").toLowerCase() === "female" ? "Female" : "Male";
-      document.getElementById("pt-demog").textContent = `${s.age}yo ${sexLabel} · Born ${s.birth_date} · Last Encounter: ${s.last_encounter || "None"}`;
+      if (demogEl) demogEl.textContent = `${s.age}yo ${sexLabel} · Born ${s.birth_date} · Last Encounter: ${s.last_encounter || "None"}`;
 
       // Conditions
       const condContainer = document.getElementById("pt-conditions");
-      condContainer.innerHTML = "";
-      const conditions = s.conditions || [];
-      if (conditions.length > 0) {
-        conditions.forEach(cond => {
-          condContainer.innerHTML += `<span class="tag tag-condition" title="${cond}">${cond}</span>`;
-        });
-      } else {
-        condContainer.innerHTML = "<span class="tag">None recorded</span>";
+      if (condContainer) {
+        condContainer.innerHTML = "";
+        const conditions = s.conditions || [];
+        if (conditions.length > 0) {
+          conditions.forEach(cond => {
+            const span = document.createElement("span");
+            span.className = "tag tag-condition";
+            span.title = cond;
+            span.textContent = cond;
+            condContainer.appendChild(span);
+          });
+        } else {
+          condContainer.innerHTML = '<span class="tag">None recorded</span>';
+        }
       }
 
       // Active Medications from structured records
       const medsContainer = document.getElementById("pt-meds");
-      medsContainer.innerHTML = "";
       const activeMeds = records.filter(r => r.kind === "medication" && r.data && r.data.status === "active");
-      if (activeMeds.length > 0) {
-        activeMeds.forEach(m => {
-          const d = m.data;
-          const medText = `${d.drug} ${d.dose || ""} (${d.frequency || ""})`.trim();
-          medsContainer.innerHTML += `<span class="tag tag-med" title="${d.indication || ""}">${medText}</span>`;
-        });
-      } else {
-        medsContainer.innerHTML = "<span class="tag">None active</span>";
+      if (medsContainer) {
+        medsContainer.innerHTML = "";
+        if (activeMeds.length > 0) {
+          activeMeds.forEach(m => {
+            const d = m.data;
+            const medText = `${d.drug} ${d.dose || ""} (${d.frequency || ""})`.trim();
+            const span = document.createElement("span");
+            span.className = "tag tag-med";
+            span.title = d.indication || "";
+            span.textContent = medText;
+            medsContainer.appendChild(span);
+          });
+        } else {
+          medsContainer.innerHTML = '<span class="tag">None active</span>';
+        }
       }
 
       // Latest Key Labs from structured records
       const labsContainer = document.getElementById("pt-labs-preview");
-      labsContainer.innerHTML = "";
-      const labRecords = records.filter(r => r.kind === "lab" && r.data);
-      if (labRecords.length > 0) {
-        const seen = new Set();
-        const recent = [];
-        for (let i = labRecords.length - 1; i >= 0 && recent.length < 3; i--) {
-          const l = labRecords[i].data;
-          if (l && l.lab && !seen.has(l.lab)) {
-            seen.add(l.lab);
-            recent.push(l);
+      if (labsContainer) {
+        labsContainer.innerHTML = "";
+        const labRecords = records.filter(r => r.kind === "lab" && r.data);
+        if (labRecords.length > 0) {
+          const seen = new Set();
+          const recent = [];
+          for (let i = labRecords.length - 1; i >= 0 && recent.length < 3; i--) {
+            const l = labRecords[i].data;
+            if (l && l.lab && !seen.has(l.lab)) {
+              seen.add(l.lab);
+              recent.push(l);
+            }
           }
+          recent.forEach(l => {
+            const pill = document.createElement("div");
+            pill.className = "tag-lab-pill";
+            pill.title = `Recorded: ${l.date || "N/A"}`;
+            const nameSpan = document.createElement("span");
+            nameSpan.textContent = l.lab;
+            const valSpan = document.createElement("span");
+            valSpan.textContent = `${l.value} ${l.unit || ""}`;
+            if (l.flag === "high") {
+              valSpan.style.color = "var(--accent-rose)";
+              valSpan.style.fontWeight = "600";
+            } else if (l.flag === "low") {
+              valSpan.style.color = "var(--accent-amber)";
+              valSpan.style.fontWeight = "600";
+            } else {
+              valSpan.style.color = "var(--accent-emerald)";
+              valSpan.style.fontWeight = "600";
+            }
+            pill.appendChild(nameSpan);
+            pill.appendChild(valSpan);
+            labsContainer.appendChild(pill);
+          });
+        } else {
+          labsContainer.innerHTML = '<span style="font-size:0.75rem; color:var(--text-dim);">No labs recorded</span>';
         }
-        recent.forEach(l => {
-          const flagColor = l.flag === "high" ? "color:var(--accent-rose); font-weight:600;" : l.flag === "low" ? "color:var(--accent-amber); font-weight:600;" : "color:var(--accent-emerald); font-weight:600;";
-          labsContainer.innerHTML += `
-            <div class="tag-lab-pill" title="Recorded: ${l.date}">
-              <span>${l.lab}</span>
-              <span style="${flagColor}">${l.value} ${l.unit}</span>
-            </div>
-          `;
-        });
-      } else {
-        labsContainer.innerHTML = "<span style="font-size:0.75rem; color:var(--text-dim);">No labs recorded</span>";
       }
 
       // Longitudinal Clinical Executive Narrative Summary Banner
       const narrativeEl = document.getElementById("pt-narrative-summary");
       if (narrativeEl) {
         const medNames = activeMeds.map(m => m.data.drug).join(", ") || "no active medications";
-        const condSummary = conditions.length > 0 ? conditions.join(", ") : "no chronic conditions documented";
-        narrativeEl.innerHTML = `
-          <strong style="color:var(--accent-cyan); font-family:var(--mono); text-transform:uppercase; font-size:0.75rem;">Clinical Snapshot:</strong>
-          <span>${s.name} (${s.patient_id}) is a ${s.age}-year-old ${s.sex} managed for <strong>${condSummary}</strong>. Active pharmacotherapy regimen includes <strong>${medNames}</strong>. Storage engines index <strong>${s.lab_count}</strong> longitudinal laboratory facts, <strong>${records.filter(r => r.kind === "encounter").length}</strong> clinical encounters, and <strong>${notes.length}</strong> narrative progress notes across SQLite WAL and FAISS stores.</span>
-        `;
+        const condSummary = (s.conditions && s.conditions.length > 0) ? s.conditions.join(", ") : "no chronic conditions documented";
+        narrativeEl.innerHTML = "";
+
+        const badge = document.createElement("strong");
+        badge.style.color = "var(--accent-cyan)";
+        badge.style.fontFamily = "var(--mono)";
+        badge.style.textTransform = "uppercase";
+        badge.style.fontSize = "0.75rem";
+        badge.textContent = "Clinical Snapshot: ";
+
+        const textSpan = document.createElement("span");
+        textSpan.textContent = `${s.name} (${s.patient_id}) is a ${s.age}-year-old ${s.sex} managed for ${condSummary}. Active pharmacotherapy regimen includes ${medNames}. Storage engines index ${s.lab_count} longitudinal laboratory facts, ${records.filter(r => r.kind === "encounter").length} clinical encounters, and ${notes.length} narrative progress notes across SQLite WAL and FAISS stores.`;
+
+        narrativeEl.appendChild(badge);
+        narrativeEl.appendChild(textSpan);
       }
     }
 
@@ -886,6 +950,7 @@
       const medName = activeMeds.length > 0 ? activeMeds[0].data.drug : "metformin";
 
       const qList = document.getElementById("quick-query-list");
+      if (!qList) return;
       qList.innerHTML = "";
 
       const suggestions = [
@@ -897,13 +962,13 @@
         { label: `🛡️ Scope Guard (Cross-Patient)`, query: `Show P0002s medications` }
       ];
 
-      suggestions.forEach(s => {
+      suggestions.forEach(item => {
         const btn = document.createElement("button");
         btn.type = "button";
         btn.className = "quick-query-btn";
-        btn.textContent = s.label;
+        btn.textContent = item.label;
         btn.onclick = () => {
-          document.getElementById("query-input").value = s.query;
+          document.getElementById("query-input").value = item.query;
           executeSearch();
         };
         qList.appendChild(btn);
@@ -957,12 +1022,10 @@
     }
 
     function renderResults(data) {
-      // Latency tag
       const latTag = document.getElementById("latency-tag");
       latTag.textContent = `${(data.total_ms || 0).toFixed(2)} ms`;
       latTag.style.color = "var(--accent-emerald)";
 
-      // Badges
       const badges = document.getElementById("meta-badges");
       badges.innerHTML = "";
 
@@ -982,12 +1045,10 @@
         badges.innerHTML += `<span class="badge badge-cache">Confidence: ${(data.confidence * 100).toFixed(0)}%</span>`;
       }
 
-      // Synthesized Answer with clickable citation highlights
       let ans = data.answer || "No answer generated.";
-      ans = ans.replace(/\[S(\d+)\]/g, "<span class="citation-chip" onclick="highlightEvidence($1)">[S$1]</span>");
+      ans = ans.replace(/\[S(\d+)\]/g, `<span class="citation-chip" onclick="highlightEvidence($1)">[S$1]</span>`);
       document.getElementById("answer-text").innerHTML = ans;
 
-      // Per-stage Latency Waterfall
       document.getElementById("wf-total-ms").textContent = `${(data.total_ms || 0).toFixed(2)} ms total`;
       const wfList = document.getElementById("waterfall-list");
       wfList.innerHTML = "";
@@ -1008,10 +1069,9 @@
           `;
         });
       } else {
-        wfList.innerHTML = "<div style="font-size:0.75rem; color:var(--accent-emerald);">Answer served directly from exact cache (0ms engine retrieval).</div>";
+        wfList.innerHTML = '<div style="font-size:0.75rem; color:var(--accent-emerald);">Answer served directly from exact cache (0ms engine retrieval).</div>';
       }
 
-      // Evidence details on the right side panel
       const evList = document.getElementById("evidence-list");
       evList.innerHTML = "";
 
@@ -1029,7 +1089,6 @@
         return;
       }
 
-      // Extract specific engine latencies from timings
       const kvStage = timings.find(t => t.stage === "kv");
       const vecStage = timings.find(t => t.stage === "vector_search");
       const kvLat = kvStage ? `${kvStage.duration_ms.toFixed(2)} ms` : "~0.3 ms";
@@ -1081,7 +1140,6 @@
       }
     }
 
-    // Modal logic
     function openAddLabModal() {
       document.getElementById("modal-pt-id").value = activePatientId;
       document.getElementById("add-lab-modal").style.display = "flex";
