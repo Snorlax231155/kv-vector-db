@@ -1,0 +1,118 @@
+# =============================================================================
+# MedMemory .gitignore
+# =============================================================================
+
+# --- Python Bytecode & Compiled Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.dll
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# --- Packaging & Builds ---
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Testing & Quality Assurance ---
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.nox/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# --- Environment Variables & Secrets ---
+# Never commit credentials or local overrides to GitHub
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.crt
+
+# --- Runtime Databases & Local Ephemeral State ---
+# Rebuilt on startup via `python -m medmemory ingest`
+var/
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.rdb
+
+# --- Ingestion Scratch & Model Checkpoints ---
+data/raw/
+data/router/
+models/*
+!models/.gitkeep
+!models/README.md
+
+# --- Eval & Benchmark Scratch Runs ---
+# Official results are committed under results/ only
+eval/runs/
+bench/runs/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- OS Specific Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+
+# --- IDEs & Code Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# --- Frontend & Node Artifacts (if cloned or built) ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo

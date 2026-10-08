@@ -1,0 +1,415 @@
+{"code": "D64.0", "name": "Hereditary sideroblastic anemia"}
+{"code": "D64.1", "name": "Secondary sideroblastic anemia due to disease"}
+{"code": "D64.2", "name": "Secondary sideroblastic anemia due to drugs and toxins"}
+{"code": "D64.3", "name": "Other sideroblastic anemias"}
+{"code": "D64.4", "name": "Congenital dyserythropoietic anemia"}
+{"code": "D64.81", "name": "Anemia due to antineoplastic chemotherapy"}
+{"code": "D64.89", "name": "Other specified anemias"}
+{"code": "D64.9", "name": "Anemia, unspecified"}
+{"code": "E03.0", "name": "Congenital hypothyroidism with diffuse goiter"}
+{"code": "E03.1", "name": "Congenital hypothyroidism without goiter"}
+{"code": "E03.2", "name": "Hypothyroidism due to medicaments and other exogenous substances"}
+{"code": "E03.3", "name": "Postinfectious hypothyroidism"}
+{"code": "E03.4", "name": "Atrophy of thyroid (acquired)"}
+{"code": "E03.5", "name": "Myxedema coma"}
+{"code": "E03.8", "name": "Other specified hypothyroidism"}
+{"code": "E03.9", "name": "Hypothyroidism, unspecified"}
+{"code": "E11.00", "name": "Type 2 diabetes mellitus with hyperosmolarity without nonketotic hyperglycemic-hyperosmolar coma (NKHHC)"}
+{"code": "E11.01", "name": "Type 2 diabetes mellitus with hyperosmolarity with coma"}
+{"code": "E11.10", "name": "Type 2 diabetes mellitus with ketoacidosis without coma"}
+{"code": "E11.11", "name": "Type 2 diabetes mellitus with ketoacidosis with coma"}
+{"code": "E11.21", "name": "Type 2 diabetes mellitus with diabetic nephropathy"}
+{"code": "E11.22", "name": "Type 2 diabetes mellitus with diabetic chronic kidney disease"}
+{"code": "E11.29", "name": "Type 2 diabetes mellitus with other diabetic kidney complication"}
+{"code": "E11.311", "name": "Type 2 diabetes mellitus with unspecified diabetic retinopathy with macular edema"}
+{"code": "E11.319", "name": "Type 2 diabetes mellitus with unspecified diabetic retinopathy without macular edema"}
+{"code": "E11.3211", "name": "Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, right eye"}
+{"code": "E11.3212", "name": "Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, left eye"}
+{"code": "E11.3213", "name": "Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, bilateral"}
+{"code": "E11.3219", "name": "Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy with macular edema, unspecified eye"}
+{"code": "E11.3291", "name": "Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, right eye"}
+{"code": "E11.3292", "name": "Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, left eye"}
+{"code": "E11.3293", "name": "Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, bilateral"}
+{"code": "E11.3299", "name": "Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy without macular edema, unspecified eye"}
+{"code": "E11.3311", "name": "Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, right eye"}
+{"code": "E11.3312", "name": "Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, left eye"}
+{"code": "E11.3313", "name": "Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, bilateral"}
+{"code": "E11.3319", "name": "Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy with macular edema, unspecified eye"}
+{"code": "E11.3391", "name": "Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, right eye"}
+{"code": "E11.3392", "name": "Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, left eye"}
+{"code": "E11.3393", "name": "Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, bilateral"}
+{"code": "E11.3399", "name": "Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy without macular edema, unspecified eye"}
+{"code": "E11.3411", "name": "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, right eye"}
+{"code": "E11.3412", "name": "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, left eye"}
+{"code": "E11.3413", "name": "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, bilateral"}
+{"code": "E11.3419", "name": "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy with macular edema, unspecified eye"}
+{"code": "E11.3491", "name": "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, right eye"}
+{"code": "E11.3492", "name": "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, left eye"}
+{"code": "E11.3493", "name": "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, bilateral"}
+{"code": "E11.3499", "name": "Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy without macular edema, unspecified eye"}
+{"code": "E11.3511", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, right eye"}
+{"code": "E11.3512", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, left eye"}
+{"code": "E11.3513", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, bilateral"}
+{"code": "E11.3519", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, unspecified eye"}
+{"code": "E11.3521", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, right eye"}
+{"code": "E11.3522", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, left eye"}
+{"code": "E11.3523", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, bilateral"}
+{"code": "E11.3529", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment involving the macula, unspecified eye"}
+{"code": "E11.3531", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, right eye"}
+{"code": "E11.3532", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, left eye"}
+{"code": "E11.3533", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, bilateral"}
+{"code": "E11.3539", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with traction retinal detachment not involving the macula, unspecified eye"}
+{"code": "E11.3541", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, right eye"}
+{"code": "E11.3542", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, left eye"}
+{"code": "E11.3543", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, bilateral"}
+{"code": "E11.3549", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy with combined traction retinal detachment and rhegmatogenous retinal detachment, unspecified eye"}
+{"code": "E11.3551", "name": "Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, right eye"}
+{"code": "E11.3552", "name": "Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, left eye"}
+{"code": "E11.3553", "name": "Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, bilateral"}
+{"code": "E11.3559", "name": "Type 2 diabetes mellitus with stable proliferative diabetic retinopathy, unspecified eye"}
+{"code": "E11.3591", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, right eye"}
+{"code": "E11.3592", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, left eye"}
+{"code": "E11.3593", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, bilateral"}
+{"code": "E11.3599", "name": "Type 2 diabetes mellitus with proliferative diabetic retinopathy without macular edema, unspecified eye"}
+{"code": "E11.36", "name": "Type 2 diabetes mellitus with diabetic cataract"}
+{"code": "E11.37X1", "name": "Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, right eye"}
+{"code": "E11.37X2", "name": "Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, left eye"}
+{"code": "E11.37X3", "name": "Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, bilateral"}
+{"code": "E11.37X9", "name": "Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, unspecified eye"}
+{"code": "E11.39", "name": "Type 2 diabetes mellitus with other diabetic ophthalmic complication"}
+{"code": "E11.40", "name": "Type 2 diabetes mellitus with diabetic neuropathy, unspecified"}
+{"code": "E11.41", "name": "Type 2 diabetes mellitus with diabetic mononeuropathy"}
+{"code": "E11.42", "name": "Type 2 diabetes mellitus with diabetic polyneuropathy"}
+{"code": "E11.43", "name": "Type 2 diabetes mellitus with diabetic autonomic (poly)neuropathy"}
+{"code": "E11.44", "name": "Type 2 diabetes mellitus with diabetic amyotrophy"}
+{"code": "E11.49", "name": "Type 2 diabetes mellitus with other diabetic neurological complication"}
+{"code": "E11.51", "name": "Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene"}
+{"code": "E11.52", "name": "Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene"}
+{"code": "E11.59", "name": "Type 2 diabetes mellitus with other circulatory complications"}
+{"code": "E11.610", "name": "Type 2 diabetes mellitus with diabetic neuropathic arthropathy"}
+{"code": "E11.618", "name": "Type 2 diabetes mellitus with other diabetic arthropathy"}
+{"code": "E11.620", "name": "Type 2 diabetes mellitus with diabetic dermatitis"}
+{"code": "E11.621", "name": "Type 2 diabetes mellitus with foot ulcer"}
+{"code": "E11.622", "name": "Type 2 diabetes mellitus with other skin ulcer"}
+{"code": "E11.628", "name": "Type 2 diabetes mellitus with other skin complications"}
+{"code": "E11.630", "name": "Type 2 diabetes mellitus with periodontal disease"}
+{"code": "E11.638", "name": "Type 2 diabetes mellitus with other oral complications"}
+{"code": "E11.641", "name": "Type 2 diabetes mellitus with hypoglycemia with coma"}
+{"code": "E11.649", "name": "Type 2 diabetes mellitus with hypoglycemia without coma"}
+{"code": "E11.65", "name": "Type 2 diabetes mellitus with hyperglycemia"}
+{"code": "E11.69", "name": "Type 2 diabetes mellitus with other specified complication"}
+{"code": "E11.8", "name": "Type 2 diabetes mellitus with unspecified complications"}
+{"code": "E11.9", "name": "Type 2 diabetes mellitus without complications"}
+{"code": "E11.A", "name": "Type 2 diabetes mellitus without complications in remission"}
+{"code": "E66.01", "name": "Morbid (severe) obesity due to excess calories"}
+{"code": "E66.09", "name": "Other obesity due to excess calories"}
+{"code": "E66.1", "name": "Drug-induced obesity"}
+{"code": "E66.2", "name": "Morbid (severe) obesity with alveolar hypoventilation"}
+{"code": "E66.3", "name": "Overweight"}
+{"code": "E66.811", "name": "Obesity, class 1"}
+{"code": "E66.812", "name": "Obesity, class 2"}
+{"code": "E66.813", "name": "Obesity, class 3"}
+{"code": "E66.89", "name": "Other obesity not elsewhere classified"}
+{"code": "E66.9", "name": "Obesity, unspecified"}
+{"code": "E78.00", "name": "Pure hypercholesterolemia, unspecified"}
+{"code": "E78.010", "name": "Homozygous familial hypercholesterolemia [HoFH]"}
+{"code": "E78.011", "name": "Heterozygous familial hypercholesterolemia [HeFH]"}
+{"code": "E78.019", "name": "Familial hypercholesterolemia, unspecified"}
+{"code": "E78.1", "name": "Pure hyperglyceridemia"}
+{"code": "E78.2", "name": "Mixed hyperlipidemia"}
+{"code": "E78.3", "name": "Hyperchylomicronemia"}
+{"code": "E78.41", "name": "Elevated Lipoprotein(a)"}
+{"code": "E78.49", "name": "Other hyperlipidemia"}
+{"code": "E78.5", "name": "Hyperlipidemia, unspecified"}
+{"code": "E78.6", "name": "Lipoprotein deficiency"}
+{"code": "E78.70", "name": "Disorder of bile acid and cholesterol metabolism, unspecified"}
+{"code": "E78.71", "name": "Barth syndrome"}
+{"code": "E78.72", "name": "Smith-Lemli-Opitz syndrome"}
+{"code": "E78.79", "name": "Other disorders of bile acid and cholesterol metabolism"}
+{"code": "E78.81", "name": "Lipoid dermatoarthritis"}
+{"code": "E78.89", "name": "Other lipoprotein metabolism disorders"}
+{"code": "E78.9", "name": "Disorder of lipoprotein metabolism, unspecified"}
+{"code": "F32.0", "name": "Major depressive disorder, single episode, mild"}
+{"code": "F32.1", "name": "Major depressive disorder, single episode, moderate"}
+{"code": "F32.2", "name": "Major depressive disorder, single episode, severe without psychotic features"}
+{"code": "F32.3", "name": "Major depressive disorder, single episode, severe with psychotic features"}
+{"code": "F32.4", "name": "Major depressive disorder, single episode, in partial remission"}
+{"code": "F32.5", "name": "Major depressive disorder, single episode, in full remission"}
+{"code": "F32.81", "name": "Premenstrual dysphoric disorder"}
+{"code": "F32.89", "name": "Other specified depressive episodes"}
+{"code": "F32.9", "name": "Major depressive disorder, single episode, unspecified"}
+{"code": "F32.A", "name": "Depression, unspecified"}
+{"code": "F41.0", "name": "Panic disorder [episodic paroxysmal anxiety]"}
+{"code": "F41.1", "name": "Generalized anxiety disorder"}
+{"code": "F41.3", "name": "Other mixed anxiety disorders"}
+{"code": "F41.8", "name": "Other specified anxiety disorders"}
+{"code": "F41.9", "name": "Anxiety disorder, unspecified"}
+{"code": "G43.001", "name": "Migraine without aura, not intractable, with status migrainosus"}
+{"code": "G43.009", "name": "Migraine without aura, not intractable, without status migrainosus"}
+{"code": "G43.011", "name": "Migraine without aura, intractable, with status migrainosus"}
+{"code": "G43.019", "name": "Migraine without aura, intractable, without status migrainosus"}
+{"code": "G43.101", "name": "Migraine with aura, not intractable, with status migrainosus"}
+{"code": "G43.109", "name": "Migraine with aura, not intractable, without status migrainosus"}
+{"code": "G43.111", "name": "Migraine with aura, intractable, with status migrainosus"}
+{"code": "G43.119", "name": "Migraine with aura, intractable, without status migrainosus"}
+{"code": "G43.401", "name": "Hemiplegic migraine, not intractable, with status migrainosus"}
+{"code": "G43.409", "name": "Hemiplegic migraine, not intractable, without status migrainosus"}
+{"code": "G43.411", "name": "Hemiplegic migraine, intractable, with status migrainosus"}
+{"code": "G43.419", "name": "Hemiplegic migraine, intractable, without status migrainosus"}
+{"code": "G43.501", "name": "Persistent migraine aura without cerebral infarction, not intractable, with status migrainosus"}
+{"code": "G43.509", "name": "Persistent migraine aura without cerebral infarction, not intractable, without status migrainosus"}
+{"code": "G43.511", "name": "Persistent migraine aura without cerebral infarction, intractable, with status migrainosus"}
+{"code": "G43.519", "name": "Persistent migraine aura without cerebral infarction, intractable, without status migrainosus"}
+{"code": "G43.601", "name": "Persistent migraine aura with cerebral infarction, not intractable, with status migrainosus"}
+{"code": "G43.609", "name": "Persistent migraine aura with cerebral infarction, not intractable, without status migrainosus"}
+{"code": "G43.611", "name": "Persistent migraine aura with cerebral infarction, intractable, with status migrainosus"}
+{"code": "G43.619", "name": "Persistent migraine aura with cerebral infarction, intractable, without status migrainosus"}
+{"code": "G43.701", "name": "Chronic migraine without aura, not intractable, with status migrainosus"}
+{"code": "G43.709", "name": "Chronic migraine without aura, not intractable, without status migrainosus"}
+{"code": "G43.711", "name": "Chronic migraine without aura, intractable, with status migrainosus"}
+{"code": "G43.719", "name": "Chronic migraine without aura, intractable, without status migrainosus"}
+{"code": "G43.801", "name": "Other migraine, not intractable, with status migrainosus"}
+{"code": "G43.809", "name": "Other migraine, not intractable, without status migrainosus"}
+{"code": "G43.811", "name": "Other migraine, intractable, with status migrainosus"}
+{"code": "G43.819", "name": "Other migraine, intractable, without status migrainosus"}
+{"code": "G43.821", "name": "Menstrual migraine, not intractable, with status migrainosus"}
+{"code": "G43.829", "name": "Menstrual migraine, not intractable, without status migrainosus"}
+{"code": "G43.831", "name": "Menstrual migraine, intractable, with status migrainosus"}
+{"code": "G43.839", "name": "Menstrual migraine, intractable, without status migrainosus"}
+{"code": "G43.901", "name": "Migraine, unspecified, not intractable, with status migrainosus"}
+{"code": "G43.909", "name": "Migraine, unspecified, not intractable, without status migrainosus"}
+{"code": "G43.911", "name": "Migraine, unspecified, intractable, with status migrainosus"}
+{"code": "G43.919", "name": "Migraine, unspecified, intractable, without status migrainosus"}
+{"code": "G43.A0", "name": "Cyclical vomiting, in migraine, not intractable"}
+{"code": "G43.A1", "name": "Cyclical vomiting, in migraine, intractable"}
+{"code": "G43.B0", "name": "Ophthalmoplegic migraine, not intractable"}
+{"code": "G43.B1", "name": "Ophthalmoplegic migraine, intractable"}
+{"code": "G43.C0", "name": "Periodic headache syndromes in child or adult, not intractable"}
+{"code": "G43.C1", "name": "Periodic headache syndromes in child or adult, intractable"}
+{"code": "G43.D0", "name": "Abdominal migraine, not intractable"}
+{"code": "G43.D1", "name": "Abdominal migraine, intractable"}
+{"code": "G43.E01", "name": "Chronic migraine with aura, not intractable, with status migrainosus"}
+{"code": "G43.E09", "name": "Chronic migraine with aura, not intractable, without status migrainosus"}
+{"code": "G43.E11", "name": "Chronic migraine with aura, intractable, with status migrainosus"}
+{"code": "G43.E19", "name": "Chronic migraine with aura, intractable, without status migrainosus"}
+{"code": "G47.00", "name": "Insomnia, unspecified"}
+{"code": "G47.01", "name": "Insomnia due to medical condition"}
+{"code": "G47.09", "name": "Other insomnia"}
+{"code": "G47.10", "name": "Hypersomnia, unspecified"}
+{"code": "G47.11", "name": "Idiopathic hypersomnia with long sleep time"}
+{"code": "G47.12", "name": "Idiopathic hypersomnia without long sleep time"}
+{"code": "G47.13", "name": "Recurrent hypersomnia"}
+{"code": "G47.14", "name": "Hypersomnia due to medical condition"}
+{"code": "G47.19", "name": "Other hypersomnia"}
+{"code": "G47.20", "name": "Circadian rhythm sleep disorder, unspecified type"}
+{"code": "G47.21", "name": "Circadian rhythm sleep disorder, delayed sleep phase type"}
+{"code": "G47.22", "name": "Circadian rhythm sleep disorder, advanced sleep phase type"}
+{"code": "G47.23", "name": "Circadian rhythm sleep disorder, irregular sleep wake type"}
+{"code": "G47.24", "name": "Circadian rhythm sleep disorder, free running type"}
+{"code": "G47.25", "name": "Circadian rhythm sleep disorder, jet lag type"}
+{"code": "G47.26", "name": "Circadian rhythm sleep disorder, shift work type"}
+{"code": "G47.27", "name": "Circadian rhythm sleep disorder in conditions classified elsewhere"}
+{"code": "G47.29", "name": "Other circadian rhythm sleep disorder"}
+{"code": "G47.30", "name": "Sleep apnea, unspecified"}
+{"code": "G47.31", "name": "Primary central sleep apnea"}
+{"code": "G47.32", "name": "High altitude periodic breathing"}
+{"code": "G47.33", "name": "Obstructive sleep apnea (adult) (pediatric)"}
+{"code": "G47.34", "name": "Idiopathic sleep related nonobstructive alveolar hypoventilation"}
+{"code": "G47.35", "name": "Congenital central alveolar hypoventilation syndrome"}
+{"code": "G47.36", "name": "Sleep related hypoventilation in conditions classified elsewhere"}
+{"code": "G47.37", "name": "Central sleep apnea in conditions classified elsewhere"}
+{"code": "G47.39", "name": "Other sleep apnea"}
+{"code": "G47.411", "name": "Narcolepsy with cataplexy"}
+{"code": "G47.419", "name": "Narcolepsy without cataplexy"}
+{"code": "G47.421", "name": "Narcolepsy in conditions classified elsewhere with cataplexy"}
+{"code": "G47.429", "name": "Narcolepsy in conditions classified elsewhere without cataplexy"}
+{"code": "G47.50", "name": "Parasomnia, unspecified"}
+{"code": "G47.51", "name": "Confusional arousals"}
+{"code": "G47.52", "name": "REM sleep behavior disorder"}
+{"code": "G47.53", "name": "Recurrent isolated sleep paralysis"}
+{"code": "G47.54", "name": "Parasomnia in conditions classified elsewhere"}
+{"code": "G47.59", "name": "Other parasomnia"}
+{"code": "G47.61", "name": "Periodic limb movement disorder"}
+{"code": "G47.62", "name": "Sleep related leg cramps"}
+{"code": "G47.63", "name": "Sleep related bruxism"}
+{"code": "G47.69", "name": "Other sleep related movement disorders"}
+{"code": "G47.8", "name": "Other sleep disorders"}
+{"code": "G47.9", "name": "Sleep disorder, unspecified"}
+{"code": "I10", "name": "Essential (primary) hypertension"}
+{"code": "I25.10", "name": "Atherosclerotic heart disease of native coronary artery without angina pectoris"}
+{"code": "I25.110", "name": "Atherosclerotic heart disease of native coronary artery with unstable angina pectoris"}
+{"code": "I25.111", "name": "Atherosclerotic heart disease of native coronary artery with angina pectoris with documented spasm"}
+{"code": "I25.112", "name": "Atherosclerotic heart disease of native coronary artery with refractory angina pectoris"}
+{"code": "I25.118", "name": "Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris"}
+{"code": "I25.119", "name": "Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris"}
+{"code": "I25.2", "name": "Old myocardial infarction"}
+{"code": "I25.3", "name": "Aneurysm of heart"}
+{"code": "I25.41", "name": "Coronary artery aneurysm"}
+{"code": "I25.42", "name": "Coronary artery dissection"}
+{"code": "I25.5", "name": "Ischemic cardiomyopathy"}
+{"code": "I25.6", "name": "Silent myocardial ischemia"}
+{"code": "I25.700", "name": "Atherosclerosis of coronary artery bypass graft(s), unspecified, with unstable angina pectoris"}
+{"code": "I25.701", "name": "Atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris with documented spasm"}
+{"code": "I25.702", "name": "Atherosclerosis of coronary artery bypass graft(s), unspecified, with refractory angina pectoris"}
+{"code": "I25.708", "name": "Atherosclerosis of coronary artery bypass graft(s), unspecified, with other forms of angina pectoris"}
+{"code": "I25.709", "name": "Atherosclerosis of coronary artery bypass graft(s), unspecified, with unspecified angina pectoris"}
+{"code": "I25.710", "name": "Atherosclerosis of autologous vein coronary artery bypass graft(s) with unstable angina pectoris"}
+{"code": "I25.711", "name": "Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris with documented spasm"}
+{"code": "I25.712", "name": "Atherosclerosis of autologous vein coronary artery bypass graft(s) with refractory angina pectoris"}
+{"code": "I25.718", "name": "Atherosclerosis of autologous vein coronary artery bypass graft(s) with other forms of angina pectoris"}
+{"code": "I25.719", "name": "Atherosclerosis of autologous vein coronary artery bypass graft(s) with unspecified angina pectoris"}
+{"code": "I25.720", "name": "Atherosclerosis of autologous artery coronary artery bypass graft(s) with unstable angina pectoris"}
+{"code": "I25.721", "name": "Atherosclerosis of autologous artery coronary artery bypass graft(s) with angina pectoris with documented spasm"}
+{"code": "I25.722", "name": "Atherosclerosis of autologous artery coronary artery bypass graft(s) with refractory angina pectoris"}
+{"code": "I25.728", "name": "Atherosclerosis of autologous artery coronary artery bypass graft(s) with other forms of angina pectoris"}
+{"code": "I25.729", "name": "Atherosclerosis of autologous artery coronary artery bypass graft(s) with unspecified angina pectoris"}
+{"code": "I25.730", "name": "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unstable angina pectoris"}
+{"code": "I25.731", "name": "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with angina pectoris with documented spasm"}
+{"code": "I25.732", "name": "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with refractory angina pectoris"}
+{"code": "I25.738", "name": "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with other forms of angina pectoris"}
+{"code": "I25.739", "name": "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unspecified angina pectoris"}
+{"code": "I25.750", "name": "Atherosclerosis of native coronary artery of transplanted heart with unstable angina"}
+{"code": "I25.751", "name": "Atherosclerosis of native coronary artery of transplanted heart with angina pectoris with documented spasm"}
+{"code": "I25.752", "name": "Atherosclerosis of native coronary artery of transplanted heart with refractory angina pectoris"}
+{"code": "I25.758", "name": "Atherosclerosis of native coronary artery of transplanted heart with other forms of angina pectoris"}
+{"code": "I25.759", "name": "Atherosclerosis of native coronary artery of transplanted heart with unspecified angina pectoris"}
+{"code": "I25.760", "name": "Atherosclerosis of bypass graft of coronary artery of transplanted heart with unstable angina"}
+{"code": "I25.761", "name": "Atherosclerosis of bypass graft of coronary artery of transplanted heart with angina pectoris with documented spasm"}
+{"code": "I25.762", "name": "Atherosclerosis of bypass graft of coronary artery of transplanted heart with refractory angina pectoris"}
+{"code": "I25.768", "name": "Atherosclerosis of bypass graft of coronary artery of transplanted heart with other forms of angina pectoris"}
+{"code": "I25.769", "name": "Atherosclerosis of bypass graft of coronary artery of transplanted heart with unspecified angina pectoris"}
+{"code": "I25.790", "name": "Atherosclerosis of other coronary artery bypass graft(s) with unstable angina pectoris"}
+{"code": "I25.791", "name": "Atherosclerosis of other coronary artery bypass graft(s) with angina pectoris with documented spasm"}
+{"code": "I25.792", "name": "Atherosclerosis of other coronary artery bypass graft(s) with refractory angina pectoris"}
+{"code": "I25.798", "name": "Atherosclerosis of other coronary artery bypass graft(s) with other forms of angina pectoris"}
+{"code": "I25.799", "name": "Atherosclerosis of other coronary artery bypass graft(s) with unspecified angina pectoris"}
+{"code": "I25.810", "name": "Atherosclerosis of coronary artery bypass graft(s) without angina pectoris"}
+{"code": "I25.811", "name": "Atherosclerosis of native coronary artery of transplanted heart without angina pectoris"}
+{"code": "I25.812", "name": "Atherosclerosis of bypass graft of coronary artery of transplanted heart without angina pectoris"}
+{"code": "I25.82", "name": "Chronic total occlusion of coronary artery"}
+{"code": "I25.83", "name": "Coronary atherosclerosis due to lipid rich plaque"}
+{"code": "I25.84", "name": "Coronary atherosclerosis due to calcified coronary lesion"}
+{"code": "I25.85", "name": "Chronic coronary microvascular dysfunction"}
+{"code": "I25.89", "name": "Other forms of chronic ischemic heart disease"}
+{"code": "I25.9", "name": "Chronic ischemic heart disease, unspecified"}
+{"code": "I48.0", "name": "Paroxysmal atrial fibrillation"}
+{"code": "I48.11", "name": "Longstanding persistent atrial fibrillation"}
+{"code": "I48.19", "name": "Other persistent atrial fibrillation"}
+{"code": "I48.20", "name": "Chronic atrial fibrillation, unspecified"}
+{"code": "I48.21", "name": "Permanent atrial fibrillation"}
+{"code": "I48.3", "name": "Typical atrial flutter"}
+{"code": "I48.4", "name": "Atypical atrial flutter"}
+{"code": "I48.91", "name": "Unspecified atrial fibrillation"}
+{"code": "I48.92", "name": "Unspecified atrial flutter"}
+{"code": "I50.1", "name": "Left ventricular failure, unspecified"}
+{"code": "I50.20", "name": "Unspecified systolic (congestive) heart failure"}
+{"code": "I50.21", "name": "Acute systolic (congestive) heart failure"}
+{"code": "I50.22", "name": "Chronic systolic (congestive) heart failure"}
+{"code": "I50.23", "name": "Acute on chronic systolic (congestive) heart failure"}
+{"code": "I50.30", "name": "Unspecified diastolic (congestive) heart failure"}
+{"code": "I50.31", "name": "Acute diastolic (congestive) heart failure"}
+{"code": "I50.32", "name": "Chronic diastolic (congestive) heart failure"}
+{"code": "I50.33", "name": "Acute on chronic diastolic (congestive) heart failure"}
+{"code": "I50.40", "name": "Unspecified combined systolic (congestive) and diastolic (congestive) heart failure"}
+{"code": "I50.41", "name": "Acute combined systolic (congestive) and diastolic (congestive) heart failure"}
+{"code": "I50.42", "name": "Chronic combined systolic (congestive) and diastolic (congestive) heart failure"}
+{"code": "I50.43", "name": "Acute on chronic combined systolic (congestive) and diastolic (congestive) heart failure"}
+{"code": "I50.810", "name": "Right heart failure, unspecified"}
+{"code": "I50.811", "name": "Acute right heart failure"}
+{"code": "I50.812", "name": "Chronic right heart failure"}
+{"code": "I50.813", "name": "Acute on chronic right heart failure"}
+{"code": "I50.814", "name": "Right heart failure due to left heart failure"}
+{"code": "I50.82", "name": "Biventricular heart failure"}
+{"code": "I50.83", "name": "High output heart failure"}
+{"code": "I50.84", "name": "End stage heart failure"}
+{"code": "I50.89", "name": "Other heart failure"}
+{"code": "I50.9", "name": "Heart failure, unspecified"}
+{"code": "J44.0", "name": "Chronic obstructive pulmonary disease with (acute) lower respiratory infection"}
+{"code": "J44.1", "name": "Chronic obstructive pulmonary disease with (acute) exacerbation"}
+{"code": "J44.81", "name": "Bronchiolitis obliterans and bronchiolitis obliterans syndrome"}
+{"code": "J44.89", "name": "Other specified chronic obstructive pulmonary disease"}
+{"code": "J44.9", "name": "Chronic obstructive pulmonary disease, unspecified"}
+{"code": "J45.20", "name": "Mild intermittent asthma, uncomplicated"}
+{"code": "J45.21", "name": "Mild intermittent asthma with (acute) exacerbation"}
+{"code": "J45.22", "name": "Mild intermittent asthma with status asthmaticus"}
+{"code": "J45.30", "name": "Mild persistent asthma, uncomplicated"}
+{"code": "J45.31", "name": "Mild persistent asthma with (acute) exacerbation"}
+{"code": "J45.32", "name": "Mild persistent asthma with status asthmaticus"}
+{"code": "J45.40", "name": "Moderate persistent asthma, uncomplicated"}
+{"code": "J45.41", "name": "Moderate persistent asthma with (acute) exacerbation"}
+{"code": "J45.42", "name": "Moderate persistent asthma with status asthmaticus"}
+{"code": "J45.50", "name": "Severe persistent asthma, uncomplicated"}
+{"code": "J45.51", "name": "Severe persistent asthma with (acute) exacerbation"}
+{"code": "J45.52", "name": "Severe persistent asthma with status asthmaticus"}
+{"code": "J45.901", "name": "Unspecified asthma with (acute) exacerbation"}
+{"code": "J45.902", "name": "Unspecified asthma with status asthmaticus"}
+{"code": "J45.909", "name": "Unspecified asthma, uncomplicated"}
+{"code": "J45.990", "name": "Exercise induced bronchospasm"}
+{"code": "J45.991", "name": "Cough variant asthma"}
+{"code": "J45.998", "name": "Other asthma"}
+{"code": "K21.00", "name": "Gastro-esophageal reflux disease with esophagitis, without bleeding"}
+{"code": "K21.01", "name": "Gastro-esophageal reflux disease with esophagitis, with bleeding"}
+{"code": "K21.9", "name": "Gastro-esophageal reflux disease without esophagitis"}
+{"code": "M17.0", "name": "Bilateral primary osteoarthritis of knee"}
+{"code": "M17.10", "name": "Unilateral primary osteoarthritis, unspecified knee"}
+{"code": "M17.11", "name": "Unilateral primary osteoarthritis, right knee"}
+{"code": "M17.12", "name": "Unilateral primary osteoarthritis, left knee"}
+{"code": "M17.2", "name": "Bilateral post-traumatic osteoarthritis of knee"}
+{"code": "M17.30", "name": "Unilateral post-traumatic osteoarthritis, unspecified knee"}
+{"code": "M17.31", "name": "Unilateral post-traumatic osteoarthritis, right knee"}
+{"code": "M17.32", "name": "Unilateral post-traumatic osteoarthritis, left knee"}
+{"code": "M17.4", "name": "Other bilateral secondary osteoarthritis of knee"}
+{"code": "M17.5", "name": "Other unilateral secondary osteoarthritis of knee"}
+{"code": "M17.9", "name": "Osteoarthritis of knee, unspecified"}
+{"code": "M81.0", "name": "Age-related osteoporosis without current pathological fracture"}
+{"code": "M81.6", "name": "Localized osteoporosis [Lequesne]"}
+{"code": "M81.8", "name": "Other osteoporosis without current pathological fracture"}
+{"code": "N18.1", "name": "Chronic kidney disease, stage 1"}
+{"code": "N18.2", "name": "Chronic kidney disease, stage 2 (mild)"}
+{"code": "N18.30", "name": "Chronic kidney disease, stage 3 unspecified"}
+{"code": "N18.31", "name": "Chronic kidney disease, stage 3a"}
+{"code": "N18.32", "name": "Chronic kidney disease, stage 3b"}
+{"code": "N18.4", "name": "Chronic kidney disease, stage 4 (severe)"}
+{"code": "N18.5", "name": "Chronic kidney disease, stage 5"}
+{"code": "N18.6", "name": "End stage renal disease"}
+{"code": "N18.9", "name": "Chronic kidney disease, unspecified"}
+{"code": "Z86.000", "name": "Personal history of in-situ neoplasm of breast"}
+{"code": "Z86.001", "name": "Personal history of in-situ neoplasm of cervix uteri"}
+{"code": "Z86.002", "name": "Personal history of in-situ neoplasm of other and unspecified genital organs"}
+{"code": "Z86.003", "name": "Personal history of in-situ neoplasm of oral cavity, esophagus and stomach"}
+{"code": "Z86.004", "name": "Personal history of in-situ neoplasm of other and unspecified digestive organs"}
+{"code": "Z86.005", "name": "Personal history of in-situ neoplasm of middle ear and respiratory system"}
+{"code": "Z86.006", "name": "Personal history of melanoma in-situ"}
+{"code": "Z86.007", "name": "Personal history of in-situ neoplasm of skin"}
+{"code": "Z86.008", "name": "Personal history of in-situ neoplasm of other site"}
+{"code": "Z86.00A", "name": "Personal history of in-situ neoplasm of the fallopian tube(s)"}
+{"code": "Z86.0100", "name": "Personal history of colon polyps, unspecified"}
+{"code": "Z86.0101", "name": "Personal history of adenomatous and serrated colon polyps"}
+{"code": "Z86.0102", "name": "Personal history of hyperplastic colon polyps"}
+{"code": "Z86.0109", "name": "Personal history of other colon polyps"}
+{"code": "Z86.011", "name": "Personal history of benign neoplasm of the brain"}
+{"code": "Z86.012", "name": "Personal history of benign carcinoid tumor"}
+{"code": "Z86.018", "name": "Personal history of other benign neoplasm"}
+{"code": "Z86.03", "name": "Personal history of neoplasm of uncertain behavior"}
+{"code": "Z86.11", "name": "Personal history of tuberculosis"}
+{"code": "Z86.12", "name": "Personal history of poliomyelitis"}
+{"code": "Z86.13", "name": "Personal history of malaria"}
+{"code": "Z86.14", "name": "Personal history of Methicillin resistant Staphylococcus aureus infection"}
+{"code": "Z86.15", "name": "Personal history of latent tuberculosis infection"}
+{"code": "Z86.16", "name": "Personal history of COVID-19"}
+{"code": "Z86.17", "name": "Personal history of Clostridioides difficile infection"}
+{"code": "Z86.19", "name": "Personal history of other infectious and parasitic diseases"}
+{"code": "Z86.2", "name": "Personal history of diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism"}
+{"code": "Z86.31", "name": "Personal history of diabetic foot ulcer"}
+{"code": "Z86.32", "name": "Personal history of gestational diabetes"}
+{"code": "Z86.39", "name": "Personal history of other endocrine, nutritional and metabolic disease"}
+{"code": "Z86.51", "name": "Personal history of combat and operational stress reaction"}
+{"code": "Z86.59", "name": "Personal history of other mental and behavioral disorders"}
+{"code": "Z86.61", "name": "Personal history of infections of the central nervous system"}
+{"code": "Z86.69", "name": "Personal history of other diseases of the nervous system and sense organs"}
+{"code": "Z86.711", "name": "Personal history of pulmonary embolism"}
+{"code": "Z86.718", "name": "Personal history of other venous thrombosis and embolism"}
+{"code": "Z86.72", "name": "Personal history of thrombophlebitis"}
+{"code": "Z86.73", "name": "Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits"}
+{"code": "Z86.74", "name": "Personal history of sudden cardiac arrest"}
+{"code": "Z86.79", "name": "Personal history of other diseases of the circulatory system"}

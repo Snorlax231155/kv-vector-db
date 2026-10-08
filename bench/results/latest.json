@@ -1,0 +1,404 @@
+{
+  "generated_at": "2026-10-06T20:08:12+00:00",
+  "machine": {
+    "os": "Windows-11-10.0.26220-SP0",
+    "python": "3.12.6",
+    "cpu": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+    "cpu_count": 24,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch": "2.6.0+cu124",
+    "faiss": "1.14.3",
+    "faiss_gpus": 0
+  },
+  "kv": [
+    {
+      "backend": "memory",
+      "op": "put",
+      "n": 10000,
+      "p50_us": 1.0,
+      "p95_us": 2.4,
+      "p99_us": 13.6,
+      "ops_per_s": 614111
+    },
+    {
+      "backend": "memory",
+      "op": "get",
+      "n": 20000,
+      "p50_us": 0.4,
+      "p95_us": 0.6,
+      "p99_us": 0.7,
+      "ops_per_s": 2065070
+    },
+    {
+      "backend": "memory",
+      "op": "scan(prefix, ~n/500 keys)",
+      "n": 1000,
+      "p50_us": 14.35,
+      "p95_us": 25.6,
+      "p99_us": 47.08,
+      "ops_per_s": 64713
+    },
+    {
+      "backend": "memory",
+      "op": "batch(100 puts)",
+      "n": 50,
+      "p50_us": 14.95,
+      "p95_us": 17.82,
+      "p99_us": 209.26,
+      "ops_per_s": 4392901
+    },
+    {
+      "backend": "sqlite (sync=FULL)",
+      "op": "put",
+      "n": 10000,
+      "p50_us": 130.8,
+      "p95_us": 299.4,
+      "p99_us": 482.42,
+      "ops_per_s": 6104
+    },
+    {
+      "backend": "sqlite (sync=FULL)",
+      "op": "get",
+      "n": 20000,
+      "p50_us": 4.4,
+      "p95_us": 6.1,
+      "p99_us": 11.6,
+      "ops_per_s": 204346
+    },
+    {
+      "backend": "sqlite (sync=FULL)",
+      "op": "scan(prefix, ~n/500 keys)",
+      "n": 1000,
+      "p50_us": 17.5,
+      "p95_us": 21.3,
+      "p99_us": 30.2,
+      "ops_per_s": 54262
+    },
+    {
+      "backend": "sqlite (sync=FULL)",
+      "op": "batch(100 puts)",
+      "n": 50,
+      "p50_us": 179.0,
+      "p95_us": 229.4,
+      "p99_us": 579.25,
+      "ops_per_s": 503474
+    },
+    {
+      "backend": "sqlite (sync=NORMAL)",
+      "op": "put",
+      "n": 10000,
+      "p50_us": 12.8,
+      "p95_us": 38.4,
+      "p99_us": 68.5,
+      "ops_per_s": 19596
+    },
+    {
+      "backend": "sqlite (sync=NORMAL)",
+      "op": "get",
+      "n": 20000,
+      "p50_us": 4.3,
+      "p95_us": 5.3,
+      "p99_us": 8.2,
+      "ops_per_s": 214470
+    },
+    {
+      "backend": "sqlite (sync=NORMAL)",
+      "op": "scan(prefix, ~n/500 keys)",
+      "n": 1000,
+      "p50_us": 17.8,
+      "p95_us": 22.7,
+      "p99_us": 49.41,
+      "ops_per_s": 51601
+    },
+    {
+      "backend": "sqlite (sync=NORMAL)",
+      "op": "batch(100 puts)",
+      "n": 50,
+      "p50_us": 169.8,
+      "p95_us": 196.49,
+      "p99_us": 267.21,
+      "ops_per_s": 571063
+    },
+    {
+      "backend": "rocksdb (sync WAL)",
+      "op": "put",
+      "n": 10000,
+      "p50_us": 103.0,
+      "p95_us": 256.05,
+      "p99_us": 420.93,
+      "ops_per_s": 7379
+    },
+    {
+      "backend": "rocksdb (sync WAL)",
+      "op": "get",
+      "n": 20000,
+      "p50_us": 1.2,
+      "p95_us": 1.8,
+      "p99_us": 2.5,
+      "ops_per_s": 704414
+    },
+    {
+      "backend": "rocksdb (sync WAL)",
+      "op": "scan(prefix, ~n/500 keys)",
+      "n": 1000,
+      "p50_us": 12.5,
+      "p95_us": 17.11,
+      "p99_us": 42.81,
+      "ops_per_s": 70617
+    },
+    {
+      "backend": "rocksdb (sync WAL)",
+      "op": "batch(100 puts)",
+      "n": 50,
+      "p50_us": 227.85,
+      "p95_us": 466.68,
+      "p99_us": 648.97,
+      "ops_per_s": 374942
+    },
+    {
+      "backend": "rocksdb (async WAL)",
+      "op": "put",
+      "n": 10000,
+      "p50_us": 4.0,
+      "p95_us": 5.3,
+      "p99_us": 10.8,
+      "ops_per_s": 221164
+    },
+    {
+      "backend": "rocksdb (async WAL)",
+      "op": "get",
+      "n": 20000,
+      "p50_us": 1.3,
+      "p95_us": 1.9,
+      "p99_us": 5.0,
+      "ops_per_s": 629026
+    },
+    {
+      "backend": "rocksdb (async WAL)",
+      "op": "scan(prefix, ~n/500 keys)",
+      "n": 1000,
+      "p50_us": 13.6,
+      "p95_us": 25.1,
+      "p99_us": 27.61,
+      "ops_per_s": 65179
+    },
+    {
+      "backend": "rocksdb (async WAL)",
+      "op": "batch(100 puts)",
+      "n": 50,
+      "p50_us": 78.0,
+      "p95_us": 118.07,
+      "p99_us": 158.25,
+      "ops_per_s": 1183236
+    }
+  ],
+  "vector": [
+    {
+      "store": "numpy exact (CPU)",
+      "n": 100000,
+      "dim": 384,
+      "recall_at_10": 1.0,
+      "build_s": 0.0,
+      "p50_ms": 6.594,
+      "p95_ms": 7.35,
+      "batch_qps": 374,
+      "note": "ground truth"
+    },
+    {
+      "store": "faiss Flat (CPU, exact)",
+      "n": 100000,
+      "dim": 384,
+      "recall_at_10": 1.0,
+      "build_s": 0.073,
+      "p50_ms": 9.316,
+      "p95_ms": 10.58,
+      "batch_qps": 239,
+      "note": ""
+    },
+    {
+      "store": "faiss HNSW (CPU, ANN)",
+      "n": 100000,
+      "dim": 384,
+      "recall_at_10": 0.9936,
+      "build_s": 3.136,
+      "p50_ms": 0.229,
+      "p95_ms": 0.289,
+      "batch_qps": 6467,
+      "note": "M=32 efSearch=64"
+    },
+    {
+      "store": "faiss IVF (CPU, ANN)",
+      "n": 100000,
+      "dim": 384,
+      "recall_at_10": 1.0,
+      "build_s": 2.255,
+      "p50_ms": 0.302,
+      "p95_ms": 0.39,
+      "batch_qps": 4823,
+      "note": "nlist=1264 nprobe=16"
+    },
+    {
+      "store": "torch exact (GPU fp16, NVIDIA GeForce RTX 4060 Laptop GPU)",
+      "n": 100000,
+      "dim": 384,
+      "recall_at_10": 0.982,
+      "build_s": 1.991,
+      "p50_ms": 0.486,
+      "p95_ms": 0.974,
+      "batch_qps": 5056,
+      "note": "faiss-gpu has no Windows wheel; same maths as IndexFlatIP on GPU"
+    }
+  ],
+  "vector_seed_scale": [
+    {
+      "store": "numpy exact (CPU)",
+      "n": 2131,
+      "dim": 384,
+      "recall_at_10": 1.0,
+      "build_s": 0.0,
+      "p50_ms": 0.197,
+      "p95_ms": 0.468,
+      "batch_qps": 19299,
+      "note": "ground truth"
+    },
+    {
+      "store": "faiss Flat (CPU, exact)",
+      "n": 2131,
+      "dim": 384,
+      "recall_at_10": 1.0,
+      "build_s": 0.001,
+      "p50_ms": 0.094,
+      "p95_ms": 0.175,
+      "batch_qps": 17477,
+      "note": ""
+    },
+    {
+      "store": "faiss HNSW (CPU, ANN)",
+      "n": 2131,
+      "dim": 384,
+      "recall_at_10": 0.9996,
+      "build_s": 0.026,
+      "p50_ms": 0.137,
+      "p95_ms": 0.156,
+      "batch_qps": 13661,
+      "note": "M=32 efSearch=64"
+    },
+    {
+      "store": "faiss IVF (CPU, ANN)",
+      "n": 2131,
+      "dim": 384,
+      "recall_at_10": 0.9918,
+      "build_s": 0.02,
+      "p50_ms": 0.048,
+      "p95_ms": 0.062,
+      "batch_qps": 29984,
+      "note": "nlist=184 nprobe=16"
+    },
+    {
+      "store": "torch exact (GPU fp16, NVIDIA GeForce RTX 4060 Laptop GPU)",
+      "n": 2131,
+      "dim": 384,
+      "recall_at_10": 0.9982,
+      "build_s": 0.001,
+      "p50_ms": 0.116,
+      "p95_ms": 0.266,
+      "batch_qps": 24336,
+      "note": "faiss-gpu has no Windows wheel; same maths as IndexFlatIP on GPU"
+    }
+  ],
+  "embedding": [
+    {
+      "model": "hashing-384 (mock)",
+      "device": "cpu",
+      "batch": 2124,
+      "texts_per_s": 3598
+    },
+    {
+      "model": "BAAI/bge-small-en-v1.5",
+      "device": "cpu (Intel64 Family 6 Model 191 Stepping 2, GenuineIntel)",
+      "batch": 128,
+      "texts_per_s": 46,
+      "corpus_seconds": 46.3
+    },
+    {
+      "model": "BAAI/bge-small-en-v1.5",
+      "device": "cuda (NVIDIA GeForce RTX 4060 Laptop GPU)",
+      "batch": 128,
+      "texts_per_s": 544,
+      "corpus_seconds": 3.9
+    }
+  ],
+  "singleflight": {
+    "concurrent": 50,
+    "backend_ms": 40.0,
+    "without": {
+      "backend_calls": 50,
+      "wall_ms": 48.5
+    },
+    "with": {
+      "backend_calls": 1,
+      "wall_ms": 47.0
+    },
+    "note": "Wall time is similar because the backend is async; what single-flight saves is backend work (LLM tokens, Pinecone read units)."
+  },
+  "ring": [
+    {
+      "nodes_before": 3,
+      "nodes_after": 4,
+      "vnodes": 1,
+      "moved_fraction": 0.1298,
+      "modulo_moved_fraction": 0.7457,
+      "ideal": 0.25,
+      "max_load_over_mean": 2.22
+    },
+    {
+      "nodes_before": 3,
+      "nodes_after": 4,
+      "vnodes": 8,
+      "moved_fraction": 0.2577,
+      "modulo_moved_fraction": 0.7457,
+      "ideal": 0.25,
+      "max_load_over_mean": 1.045
+    },
+    {
+      "nodes_before": 3,
+      "nodes_after": 4,
+      "vnodes": 32,
+      "moved_fraction": 0.283,
+      "modulo_moved_fraction": 0.7457,
+      "ideal": 0.25,
+      "max_load_over_mean": 1.184
+    },
+    {
+      "nodes_before": 3,
+      "nodes_after": 4,
+      "vnodes": 64,
+      "moved_fraction": 0.2902,
+      "modulo_moved_fraction": 0.7457,
+      "ideal": 0.25,
+      "max_load_over_mean": 1.161
+    },
+    {
+      "nodes_before": 3,
+      "nodes_after": 4,
+      "vnodes": 128,
+      "moved_fraction": 0.2394,
+      "modulo_moved_fraction": 0.7457,
+      "ideal": 0.25,
+      "max_load_over_mean": 1.081
+    },
+    {
+      "nodes_before": 3,
+      "nodes_after": 4,
+      "vnodes": 256,
+      "moved_fraction": 0.2568,
+      "modulo_moved_fraction": 0.7457,
+      "ideal": 0.25,
+      "max_load_over_mean": 1.066
+    }
+  ],
+  "pinecone": {
+    "status": "skipped: no PINECONE_API_KEY"
+  },
+  "embedding_note": "Measured over the full 2,124-chunk seed corpus (long FDA label chunks included). The --quick run uses the first 300 (shorter) chunks, so its texts/s is higher; the GPU/CPU ratio (~12x) is the same."
+}

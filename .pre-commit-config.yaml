@@ -1,0 +1,27 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.10
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-json
+        exclude: ^frontend/tsconfig\.json$
+      - id: end-of-file-fixer
+        exclude: ^data/seed/
+      - id: trailing-whitespace
+        exclude: ^data/seed/
+      - id: detect-private-key
+      - id: check-added-large-files
+        args: [--maxkb=1024]
+  - repo: local
+    hooks:
+      - id: no-env-files
+        name: never commit .env
+        entry: .env files must not be committed
+        language: fail
+        files: (^|/)\.env$

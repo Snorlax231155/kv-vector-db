@@ -1,0 +1,2115 @@
+{
+  "components": {
+    "schemas": {
+      "AnswerStatus": {
+        "enum": [
+          "answered",
+          "abstained",
+          "red_flag",
+          "out_of_scope",
+          "scope_violation"
+        ],
+        "title": "AnswerStatus",
+        "type": "string"
+      },
+      "CacheResult": {
+        "enum": [
+          "exact",
+          "semantic",
+          "miss",
+          "bypass"
+        ],
+        "title": "CacheResult",
+        "type": "string"
+      },
+      "Chunk": {
+        "properties": {
+          "chunk_id": {
+            "title": "Chunk Id",
+            "type": "string"
+          },
+          "doc_id": {
+            "title": "Doc Id",
+            "type": "string"
+          },
+          "metadata": {
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "boolean"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              ]
+            },
+            "title": "Metadata",
+            "type": "object"
+          },
+          "namespace": {
+            "$ref": "#/components/schemas/Namespace"
+          },
+          "patient_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Patient Id"
+          },
+          "section": {
+            "title": "Section",
+            "type": "string"
+          },
+          "source_id": {
+            "readOnly": true,
+            "title": "Source Id",
+            "type": "string"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "chunk_id",
+          "doc_id",
+          "namespace",
+          "title",
+          "section",
+          "text",
+          "source_id"
+        ],
+        "title": "Chunk",
+        "type": "object"
+      },
+      "Citation": {
+        "properties": {
+          "key": {
+            "title": "Key",
+            "type": "string"
+          },
+          "origin": {
+            "$ref": "#/components/schemas/Origin"
+          },
+          "snippet": {
+            "title": "Snippet",
+            "type": "string"
+          },
+          "source_id": {
+            "title": "Source Id",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "key",
+          "source_id",
+          "origin",
+          "title",
+          "snippet"
+        ],
+        "title": "Citation",
+        "type": "object"
+      },
+      "CitationCheck": {
+        "properties": {
+          "grounding_rate": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Grounding Rate",
+            "type": "number"
+          },
+          "invalid_citation_keys": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Invalid Citation Keys",
+            "type": "array"
+          },
+          "passed": {
+            "title": "Passed",
+            "type": "boolean"
+          },
+          "removed_sentences": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Removed Sentences",
+            "type": "array"
+          },
+          "supported_sentences": {
+            "title": "Supported Sentences",
+            "type": "integer"
+          },
+          "total_sentences": {
+            "title": "Total Sentences",
+            "type": "integer"
+          },
+          "unsupported_numbers": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Unsupported Numbers",
+            "type": "array"
+          }
+        },
+        "required": [
+          "passed",
+          "grounding_rate",
+          "total_sentences",
+          "supported_sentences"
+        ],
+        "title": "CitationCheck",
+        "type": "object"
+      },
+      "ComponentInfo": {
+        "properties": {
+          "embedder": {
+            "title": "Embedder",
+            "type": "string"
+          },
+          "generator": {
+            "title": "Generator",
+            "type": "string"
+          },
+          "kv_backend": {
+            "title": "Kv Backend",
+            "type": "string"
+          },
+          "min_evidence_score": {
+            "title": "Min Evidence Score",
+            "type": "number"
+          },
+          "mode": {
+            "enum": [
+              "mock",
+              "real"
+            ],
+            "title": "Mode",
+            "type": "string"
+          },
+          "reranker": {
+            "title": "Reranker",
+            "type": "string"
+          },
+          "router": {
+            "title": "Router",
+            "type": "string"
+          },
+          "semantic_cache_threshold": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Semantic Cache Threshold"
+          },
+          "vector_store": {
+            "title": "Vector Store",
+            "type": "string"
+          }
+        },
+        "required": [
+          "mode",
+          "kv_backend",
+          "vector_store",
+          "embedder",
+          "reranker",
+          "generator",
+          "router",
+          "min_evidence_score"
+        ],
+        "title": "ComponentInfo",
+        "type": "object"
+      },
+      "Entities": {
+        "properties": {
+          "conditions": {
+            "description": "Normalized condition names.",
+            "items": {
+              "type": "string"
+            },
+            "title": "Conditions",
+            "type": "array"
+          },
+          "dosage_intent": {
+            "default": false,
+            "description": "Query asks about doses/amounts.",
+            "title": "Dosage Intent",
+            "type": "boolean"
+          },
+          "drugs": {
+            "description": "Normalized generic names.",
+            "items": {
+              "type": "string"
+            },
+            "title": "Drugs",
+            "type": "array"
+          },
+          "icd10_codes": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Icd10 Codes",
+            "type": "array"
+          },
+          "labs": {
+            "description": "Normalized lab names.",
+            "items": {
+              "type": "string"
+            },
+            "title": "Labs",
+            "type": "array"
+          },
+          "negated": {
+            "description": "Entities mentioned under negation ('not on warfarin').",
+            "items": {
+              "type": "string"
+            },
+            "title": "Negated",
+            "type": "array"
+          },
+          "patient_ids": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Patient Ids",
+            "type": "array"
+          },
+          "record_types": {
+            "description": "Structured record kinds asked for: medications, allergies, labs, conditions, encounters, demographics.",
+            "items": {
+              "type": "string"
+            },
+            "title": "Record Types",
+            "type": "array"
+          },
+          "rxnorm_codes": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Rxnorm Codes",
+            "type": "array"
+          },
+          "time_range": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/TimeRange"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "title": "Entities",
+        "type": "object"
+      },
+      "Evidence": {
+        "properties": {
+          "key": {
+            "description": "Citation key shown to the model and user, e.g. 'S1'.",
+            "title": "Key",
+            "type": "string"
+          },
+          "namespace": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Namespace"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "origin": {
+            "$ref": "#/components/schemas/Origin"
+          },
+          "patient_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Patient Id"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          },
+          "source_id": {
+            "title": "Source Id",
+            "type": "string"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "key",
+          "source_id",
+          "origin",
+          "title",
+          "text"
+        ],
+        "title": "Evidence",
+        "type": "object"
+      },
+      "EvidenceSufficiency": {
+        "properties": {
+          "conflicts": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Conflicts",
+            "type": "array"
+          },
+          "max_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Max Score"
+          },
+          "reason": {
+            "title": "Reason",
+            "type": "string"
+          },
+          "sufficient": {
+            "title": "Sufficient",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "sufficient",
+          "reason"
+        ],
+        "title": "EvidenceSufficiency",
+        "type": "object"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "title": "Detail",
+            "type": "array"
+          }
+        },
+        "title": "HTTPValidationError",
+        "type": "object"
+      },
+      "KVRecord": {
+        "properties": {
+          "data": {
+            "additionalProperties": true,
+            "title": "Data",
+            "type": "object"
+          },
+          "key": {
+            "title": "Key",
+            "type": "string"
+          },
+          "kind": {
+            "description": "demographics | condition | medication | allergy | lab | encounter | icd10 | drug",
+            "title": "Kind",
+            "type": "string"
+          },
+          "patient_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Patient Id"
+          },
+          "source_id": {
+            "readOnly": true,
+            "title": "Source Id",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "key",
+          "kind",
+          "title",
+          "data",
+          "source_id"
+        ],
+        "title": "KVRecord",
+        "type": "object"
+      },
+      "LabWrite": {
+        "additionalProperties": false,
+        "properties": {
+          "date": {
+            "format": "date",
+            "title": "Date",
+            "type": "string"
+          },
+          "lab": {
+            "maxLength": 80,
+            "minLength": 1,
+            "title": "Lab",
+            "type": "string"
+          },
+          "unit": {
+            "maxLength": 20,
+            "title": "Unit",
+            "type": "string"
+          },
+          "value": {
+            "title": "Value",
+            "type": "number"
+          }
+        },
+        "required": [
+          "lab",
+          "value",
+          "unit",
+          "date"
+        ],
+        "title": "LabWrite",
+        "type": "object"
+      },
+      "Namespace": {
+        "enum": [
+          "patient_notes",
+          "drug_labels",
+          "guidelines"
+        ],
+        "title": "Namespace",
+        "type": "string"
+      },
+      "Origin": {
+        "enum": [
+          "kv",
+          "vector"
+        ],
+        "title": "Origin",
+        "type": "string"
+      },
+      "PatientRecord": {
+        "properties": {
+          "notes": {
+            "description": "Note metadata: doc_id, title, date.",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Notes",
+            "type": "array"
+          },
+          "records": {
+            "items": {
+              "$ref": "#/components/schemas/KVRecord"
+            },
+            "title": "Records",
+            "type": "array"
+          },
+          "summary": {
+            "$ref": "#/components/schemas/PatientSummary"
+          }
+        },
+        "required": [
+          "summary",
+          "records",
+          "notes"
+        ],
+        "title": "PatientRecord",
+        "type": "object"
+      },
+      "PatientSummary": {
+        "properties": {
+          "age": {
+            "title": "Age",
+            "type": "integer"
+          },
+          "birth_date": {
+            "format": "date",
+            "title": "Birth Date",
+            "type": "string"
+          },
+          "conditions": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Conditions",
+            "type": "array"
+          },
+          "lab_count": {
+            "title": "Lab Count",
+            "type": "integer"
+          },
+          "last_encounter": {
+            "anyOf": [
+              {
+                "format": "date",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Last Encounter"
+          },
+          "medication_count": {
+            "title": "Medication Count",
+            "type": "integer"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "note_count": {
+            "title": "Note Count",
+            "type": "integer"
+          },
+          "patient_id": {
+            "title": "Patient Id",
+            "type": "string"
+          },
+          "sex": {
+            "title": "Sex",
+            "type": "string"
+          }
+        },
+        "required": [
+          "patient_id",
+          "name",
+          "sex",
+          "birth_date",
+          "age",
+          "conditions",
+          "medication_count",
+          "lab_count",
+          "note_count"
+        ],
+        "title": "PatientSummary",
+        "type": "object"
+      },
+      "QueryOptions": {
+        "additionalProperties": false,
+        "properties": {
+          "hybrid_sparse": {
+            "default": false,
+            "description": "Fuse dense + BM25 results with RRF.",
+            "title": "Hybrid Sparse",
+            "type": "boolean"
+          },
+          "router": {
+            "default": "rules",
+            "enum": [
+              "rules",
+              "auto"
+            ],
+            "title": "Router",
+            "type": "string"
+          },
+          "top_k": {
+            "default": 5,
+            "maximum": 20.0,
+            "minimum": 1.0,
+            "title": "Top K",
+            "type": "integer"
+          },
+          "use_cache": {
+            "default": true,
+            "title": "Use Cache",
+            "type": "boolean"
+          },
+          "use_reranker": {
+            "default": true,
+            "title": "Use Reranker",
+            "type": "boolean"
+          }
+        },
+        "title": "QueryOptions",
+        "type": "object"
+      },
+      "QueryRequest": {
+        "additionalProperties": false,
+        "properties": {
+          "filters": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "boolean"
+                    }
+                  ]
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Extra equality filters on chunk metadata (e.g. {'section': 'warnings'}).",
+            "title": "Filters"
+          },
+          "namespaces": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/Namespace"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Restrict vector search; default depends on route and scope.",
+            "title": "Namespaces"
+          },
+          "options": {
+            "$ref": "#/components/schemas/QueryOptions"
+          },
+          "patient_scope": {
+            "anyOf": [
+              {
+                "pattern": "^P\\d{4,6}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Active patient. Queries naming a different patient are refused.",
+            "title": "Patient Scope"
+          },
+          "query": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Query",
+            "type": "string"
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "title": "QueryRequest",
+        "type": "object"
+      },
+      "QueryResponse": {
+        "properties": {
+          "answer": {
+            "title": "Answer",
+            "type": "string"
+          },
+          "cache_hit": {
+            "$ref": "#/components/schemas/CacheResult"
+          },
+          "citation_check": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/CitationCheck"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "citations": {
+            "items": {
+              "$ref": "#/components/schemas/Citation"
+            },
+            "title": "Citations",
+            "type": "array"
+          },
+          "confidence": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Confidence"
+          },
+          "disclaimer": {
+            "default": "Educational prototype. Not medical advice.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "entities": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Entities"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evidence": {
+            "items": {
+              "$ref": "#/components/schemas/Evidence"
+            },
+            "title": "Evidence",
+            "type": "array"
+          },
+          "evidence_origin": {
+            "description": "Stages the cited evidence came from.",
+            "items": {
+              "$ref": "#/components/schemas/Origin"
+            },
+            "title": "Evidence Origin",
+            "type": "array"
+          },
+          "generator": {
+            "default": "",
+            "title": "Generator",
+            "type": "string"
+          },
+          "kv_records": {
+            "items": {
+              "$ref": "#/components/schemas/KVRecord"
+            },
+            "title": "Kv Records",
+            "type": "array"
+          },
+          "latency_ms": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "description": "Per-stage duration in ms, keyed by stage.",
+            "title": "Latency Ms",
+            "type": "object"
+          },
+          "patient_scope": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Patient Scope"
+          },
+          "route": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Route"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "router": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/RouterDecision"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "safety": {
+            "$ref": "#/components/schemas/SafetyResult"
+          },
+          "status": {
+            "$ref": "#/components/schemas/AnswerStatus"
+          },
+          "sufficiency": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/EvidenceSufficiency"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "timings": {
+            "items": {
+              "$ref": "#/components/schemas/StageTiming"
+            },
+            "title": "Timings",
+            "type": "array"
+          },
+          "total_ms": {
+            "title": "Total Ms",
+            "type": "number"
+          },
+          "trace_id": {
+            "title": "Trace Id",
+            "type": "string"
+          },
+          "vector_chunks": {
+            "items": {
+              "$ref": "#/components/schemas/ScoredChunk"
+            },
+            "title": "Vector Chunks",
+            "type": "array"
+          }
+        },
+        "required": [
+          "trace_id",
+          "status",
+          "answer",
+          "cache_hit",
+          "latency_ms",
+          "total_ms",
+          "timings",
+          "safety"
+        ],
+        "title": "QueryResponse",
+        "type": "object"
+      },
+      "ReadyStatus": {
+        "properties": {
+          "checks": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "title": "Checks",
+            "type": "object"
+          },
+          "ready": {
+            "title": "Ready",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "ready",
+          "checks"
+        ],
+        "title": "ReadyStatus",
+        "type": "object"
+      },
+      "Route": {
+        "enum": [
+          "KV",
+          "VECTOR",
+          "HYBRID"
+        ],
+        "title": "Route",
+        "type": "string"
+      },
+      "RouterDecision": {
+        "properties": {
+          "confidence": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence",
+            "type": "number"
+          },
+          "entities": {
+            "$ref": "#/components/schemas/Entities"
+          },
+          "expansions": {
+            "description": "Applied normalizations, e.g. 'HbA1c \u2192 hemoglobin a1c'.",
+            "items": {
+              "type": "string"
+            },
+            "title": "Expansions",
+            "type": "array"
+          },
+          "normalized_query": {
+            "title": "Normalized Query",
+            "type": "string"
+          },
+          "probabilities": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "type": "number"
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Probabilities"
+          },
+          "reasons": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Reasons",
+            "type": "array"
+          },
+          "route": {
+            "$ref": "#/components/schemas/Route"
+          },
+          "router": {
+            "description": "Which router decided: rules | lora | lora\u2192rules | \u2026",
+            "title": "Router",
+            "type": "string"
+          }
+        },
+        "required": [
+          "route",
+          "confidence",
+          "entities",
+          "normalized_query",
+          "router"
+        ],
+        "title": "RouterDecision",
+        "type": "object"
+      },
+      "SafetyResult": {
+        "properties": {
+          "category": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Category"
+          },
+          "matched": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Matched",
+            "type": "array"
+          },
+          "message": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Message"
+          },
+          "verdict": {
+            "enum": [
+              "ok",
+              "red_flag",
+              "out_of_scope"
+            ],
+            "title": "Verdict",
+            "type": "string"
+          }
+        },
+        "required": [
+          "verdict"
+        ],
+        "title": "SafetyResult",
+        "type": "object"
+      },
+      "Scenario": {
+        "properties": {
+          "description": {
+            "title": "Description",
+            "type": "string"
+          },
+          "expect": {
+            "title": "Expect",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "patient_scope": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Patient Scope"
+          },
+          "query": {
+            "title": "Query",
+            "type": "string"
+          },
+          "run_twice": {
+            "default": false,
+            "title": "Run Twice",
+            "type": "boolean"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "description",
+          "query",
+          "expect"
+        ],
+        "title": "Scenario",
+        "type": "object"
+      },
+      "ScoredChunk": {
+        "properties": {
+          "chunk": {
+            "$ref": "#/components/schemas/Chunk"
+          },
+          "rank": {
+            "title": "Rank",
+            "type": "integer"
+          },
+          "rerank_score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rerank Score"
+          },
+          "retriever": {
+            "default": "dense",
+            "title": "Retriever",
+            "type": "string"
+          },
+          "score": {
+            "description": "Retriever similarity (cosine for dense, RRF for hybrid).",
+            "title": "Score",
+            "type": "number"
+          }
+        },
+        "required": [
+          "chunk",
+          "score",
+          "rank"
+        ],
+        "title": "ScoredChunk",
+        "type": "object"
+      },
+      "SearchRequest": {
+        "additionalProperties": false,
+        "properties": {
+          "filters": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "boolean"
+                    }
+                  ]
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Filters"
+          },
+          "hybrid_sparse": {
+            "default": false,
+            "title": "Hybrid Sparse",
+            "type": "boolean"
+          },
+          "namespace": {
+            "$ref": "#/components/schemas/Namespace"
+          },
+          "patient_scope": {
+            "anyOf": [
+              {
+                "pattern": "^P\\d{4,6}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Patient Scope"
+          },
+          "query": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "title": "Query",
+            "type": "string"
+          },
+          "rerank": {
+            "default": true,
+            "title": "Rerank",
+            "type": "boolean"
+          },
+          "top_k": {
+            "default": 8,
+            "maximum": 50.0,
+            "minimum": 1.0,
+            "title": "Top K",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "query",
+          "namespace"
+        ],
+        "title": "SearchRequest",
+        "type": "object"
+      },
+      "SearchResponse": {
+        "properties": {
+          "chunks": {
+            "items": {
+              "$ref": "#/components/schemas/ScoredChunk"
+            },
+            "title": "Chunks",
+            "type": "array"
+          },
+          "embedder": {
+            "title": "Embedder",
+            "type": "string"
+          },
+          "reranker": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reranker"
+          },
+          "store": {
+            "title": "Store",
+            "type": "string"
+          },
+          "timings": {
+            "items": {
+              "$ref": "#/components/schemas/StageTiming"
+            },
+            "title": "Timings",
+            "type": "array"
+          }
+        },
+        "required": [
+          "chunks",
+          "timings",
+          "embedder",
+          "store"
+        ],
+        "title": "SearchResponse",
+        "type": "object"
+      },
+      "SourceView": {
+        "properties": {
+          "metadata": {
+            "additionalProperties": true,
+            "title": "Metadata",
+            "type": "object"
+          },
+          "origin": {
+            "$ref": "#/components/schemas/Origin"
+          },
+          "source_id": {
+            "title": "Source Id",
+            "type": "string"
+          },
+          "text": {
+            "title": "Text",
+            "type": "string"
+          },
+          "title": {
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_id",
+          "origin",
+          "title",
+          "text"
+        ],
+        "title": "SourceView",
+        "type": "object"
+      },
+      "StageTiming": {
+        "properties": {
+          "duration_ms": {
+            "title": "Duration Ms",
+            "type": "number"
+          },
+          "meta": {
+            "additionalProperties": true,
+            "title": "Meta",
+            "type": "object"
+          },
+          "stage": {
+            "title": "Stage",
+            "type": "string"
+          },
+          "start_ms": {
+            "description": "Offset from request start.",
+            "title": "Start Ms",
+            "type": "number"
+          },
+          "status": {
+            "default": "ok",
+            "enum": [
+              "ok",
+              "skipped",
+              "error"
+            ],
+            "title": "Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "stage",
+          "start_ms",
+          "duration_ms"
+        ],
+        "title": "StageTiming",
+        "type": "object"
+      },
+      "TimeRange": {
+        "properties": {
+          "end": {
+            "anyOf": [
+              {
+                "format": "date",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "End"
+          },
+          "latest_only": {
+            "default": false,
+            "description": "True for 'latest' / 'most recent'.",
+            "title": "Latest Only",
+            "type": "boolean"
+          },
+          "start": {
+            "anyOf": [
+              {
+                "format": "date",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Start"
+          },
+          "text": {
+            "description": "The phrase that produced this range, e.g. 'last 6 months'.",
+            "title": "Text",
+            "type": "string"
+          }
+        },
+        "required": [
+          "text"
+        ],
+        "title": "TimeRange",
+        "type": "object"
+      },
+      "ValidationError": {
+        "properties": {
+          "ctx": {
+            "title": "Context",
+            "type": "object"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "title": "Location",
+            "type": "array"
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError",
+        "type": "object"
+      },
+      "WriteResult": {
+        "properties": {
+          "data_version": {
+            "title": "Data Version",
+            "type": "integer"
+          },
+          "invalidated_cache_entries": {
+            "title": "Invalidated Cache Entries",
+            "type": "integer"
+          },
+          "key": {
+            "title": "Key",
+            "type": "string"
+          }
+        },
+        "required": [
+          "key",
+          "invalidated_cache_entries",
+          "data_version"
+        ],
+        "title": "WriteResult",
+        "type": "object"
+      }
+    }
+  },
+  "info": {
+    "description": "Hybrid KV + vector retrieval for a clinical knowledge assistant. **Educational prototype. Not medical advice.**",
+    "title": "MedMemory API",
+    "version": "1.0.0"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/healthz": {
+      "get": {
+        "operationId": "healthz_healthz_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "title": "Response Healthz Healthz Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Healthz",
+        "tags": [
+          "ops"
+        ]
+      }
+    },
+    "/readyz": {
+      "get": {
+        "operationId": "readyz_readyz_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReadyStatus"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Readyz",
+        "tags": [
+          "ops"
+        ]
+      }
+    },
+    "/v1/audit": {
+      "get": {
+        "operationId": "audit_tail_v1_audit_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "n",
+            "required": false,
+            "schema": {
+              "default": 50,
+              "maximum": 500,
+              "minimum": 1,
+              "title": "N",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "additionalProperties": true,
+                    "type": "object"
+                  },
+                  "title": "Response Audit Tail V1 Audit Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Audit Tail",
+        "tags": [
+          "ops"
+        ]
+      }
+    },
+    "/v1/bench/latest": {
+      "get": {
+        "operationId": "bench_latest_v1_bench_latest_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Bench Latest V1 Bench Latest Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Bench Latest",
+        "tags": [
+          "ops"
+        ]
+      }
+    },
+    "/v1/config": {
+      "get": {
+        "operationId": "config_v1_config_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComponentInfo"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Config",
+        "tags": [
+          "ops"
+        ]
+      }
+    },
+    "/v1/eval/latest": {
+      "get": {
+        "operationId": "eval_latest_v1_eval_latest_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Eval Latest V1 Eval Latest Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Eval Latest",
+        "tags": [
+          "ops"
+        ]
+      }
+    },
+    "/v1/ingest": {
+      "get": {
+        "operationId": "ingest_report_v1_ingest_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Ingest Report V1 Ingest Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Ingest Report",
+        "tags": [
+          "ops"
+        ]
+      }
+    },
+    "/v1/kv": {
+      "get": {
+        "operationId": "kv_scan_v1_kv_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "prefix",
+            "required": true,
+            "schema": {
+              "minLength": 3,
+              "title": "Prefix",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 100,
+              "maximum": 500,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/KVRecord"
+                  },
+                  "title": "Response Kv Scan V1 Kv Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Kv Scan",
+        "tags": [
+          "records"
+        ]
+      }
+    },
+    "/v1/kv/{key}": {
+      "get": {
+        "operationId": "kv_get_v1_kv__key__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "key",
+            "required": true,
+            "schema": {
+              "title": "Key",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KVRecord"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Kv Get",
+        "tags": [
+          "records"
+        ]
+      }
+    },
+    "/v1/metrics": {
+      "get": {
+        "operationId": "metrics_v1_metrics_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Metrics V1 Metrics Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Metrics",
+        "tags": [
+          "ops"
+        ]
+      }
+    },
+    "/v1/patients": {
+      "get": {
+        "operationId": "patients_v1_patients_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "q",
+            "required": false,
+            "schema": {
+              "default": "",
+              "title": "Q",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 100,
+              "maximum": 500,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/PatientSummary"
+                  },
+                  "title": "Response Patients V1 Patients Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Patients",
+        "tags": [
+          "records"
+        ]
+      }
+    },
+    "/v1/patients/{pid}": {
+      "get": {
+        "operationId": "patient_v1_patients__pid__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "pid",
+            "required": true,
+            "schema": {
+              "title": "Pid",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PatientRecord"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Patient",
+        "tags": [
+          "records"
+        ]
+      }
+    },
+    "/v1/patients/{pid}/labs": {
+      "post": {
+        "description": "Write path: KV put, then write-through invalidation of every cached answer tagged\nwith this patient (and the data version bump orphans any stragglers).",
+        "operationId": "add_lab_v1_patients__pid__labs_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "pid",
+            "required": true,
+            "schema": {
+              "title": "Pid",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LabWrite"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WriteResult"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Add Lab",
+        "tags": [
+          "records"
+        ]
+      }
+    },
+    "/v1/query": {
+      "post": {
+        "operationId": "query_v1_query_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QueryRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/QueryResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Query",
+        "tags": [
+          "query"
+        ]
+      }
+    },
+    "/v1/query/stream": {
+      "post": {
+        "operationId": "query_stream_v1_query_stream_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QueryRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "text/event-stream": {}
+            },
+            "description": "SSE: meta, retrieval, token\u2026, final"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Query Stream",
+        "tags": [
+          "query"
+        ]
+      }
+    },
+    "/v1/scenarios": {
+      "get": {
+        "operationId": "scenarios_v1_scenarios_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Scenario"
+                  },
+                  "title": "Response Scenarios V1 Scenarios Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Scenarios",
+        "tags": [
+          "query"
+        ]
+      }
+    },
+    "/v1/search": {
+      "post": {
+        "operationId": "search_v1_search_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Search",
+        "tags": [
+          "vector"
+        ]
+      }
+    },
+    "/v1/sources/{source_id}": {
+      "get": {
+        "operationId": "source_v1_sources__source_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "source_id",
+            "required": true,
+            "schema": {
+              "title": "Source Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SourceView"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Source",
+        "tags": [
+          "vector"
+        ]
+      }
+    }
+  }
+}

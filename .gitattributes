@@ -1,0 +1,8 @@
+# Normalise line endings so file hashes (data/manifest.json) match on every OS.
+* text=auto eol=lf
+# Seed data and gold set are byte-for-byte artifacts: never convert.
+data/seed/** -text
+eval/gold/** -text
+*.png binary
+*.ico binary
+*.npy binary

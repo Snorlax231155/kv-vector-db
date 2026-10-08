@@ -1,0 +1,3 @@
+{"date": "2025-11-22", "from": "lisinopril", "patient_id": "P0001", "reason": "persistent dry cough", "to": "losartan", "type": "medication_switch"}
+{"doc_id": "note:P0004:E000404", "drug": "levothyroxine", "kv_dose": "75 mcg", "note_dose": "50 mcg", "patient_id": "P0004", "type": "dose_conflict"}
+{"doc_id": "note:P0040:E004004", "drug": "metformin", "kv_dose": "500 mg", "note_dose": "1000 mg", "patient_id": "P0040", "type": "dose_conflict"}

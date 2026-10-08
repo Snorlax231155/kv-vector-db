@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      MEDMEMORY_MODE: ${MEDMEMORY_MODE:-mock}
+      MEDMEMORY_KV_BACKEND: ${MEDMEMORY_KV_BACKEND:-sqlite}
+    ports: ["8000:8000"]
+    volumes: ["api-var:/app/var"]
+
+volumes:
+  api-var:

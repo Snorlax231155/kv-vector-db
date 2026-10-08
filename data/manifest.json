@@ -1,0 +1,61 @@
+{
+  "counts": {
+    "drug_labels": 33,
+    "guideline_topics": 24,
+    "icd10cm_codes": 415,
+    "lab_observations": 1736,
+    "medications": 114,
+    "notes": 173,
+    "patients": 50,
+    "scenario_facts": 3
+  },
+  "dataset": "medmemory-seed",
+  "files": {
+    "drug_labels.jsonl": {
+      "sha256": "12d5d1ecd8890bc23e3cc354492860290e0fe7e5af7c81f7f5070c76f6118fb6"
+    },
+    "guidelines.jsonl": {
+      "sha256": "7537e22d9904d0a8de282f7b88b3919b67c90be0742cea1cb7cd60ea6f9c41de"
+    },
+    "icd10cm.jsonl": {
+      "sha256": "30c784237eea815a58eb2e96381ad2a5aa5abbbbf31883d938337d5b36e36560"
+    },
+    "notes.jsonl": {
+      "sha256": "7b13e62542c37dc1e25fa882fa435a05650aa1a68a1407e674c67455be28e390"
+    },
+    "patients.jsonl": {
+      "sha256": "9650f36a3ea001fac0a7a9bde198217e493d640d0425caeaa8a6b3fcfcee40a2"
+    },
+    "scenarios.jsonl": {
+      "sha256": "31b316482ec02d072af0547c3488157266246dd86bbc01d5f9226a91a91e696f"
+    }
+  },
+  "generated_at": "2026-10-06T19:12:54+00:00",
+  "missing_labels": [],
+  "reference_date": "2026-09-30",
+  "sources": {
+    "icd10cm": {
+      "license": "Public domain (US CDC/CMS ICD-10-CM). Not WHO ICD-10.",
+      "source": "ICD-10-CM via NLM Clinical Tables API (https://clinicaltables.nlm.nih.gov)"
+    },
+    "medlineplus_topics": {
+      "attribution": "Courtesy of MedlinePlus from the National Library of Medicine",
+      "license": "Public domain (NLM-authored content only). A.D.A.M. and ASHP content excluded.",
+      "source": "MedlinePlus health topics web service (https://wsearch.nlm.nih.gov/ws/query)"
+    },
+    "openfda_labels": {
+      "license": "Public domain (US Government work); openFDA terms of service",
+      "notes": "Only source of drug facts and doses. Sections clipped to 3,500 chars, marked [truncated].",
+      "source": "openFDA drug label API (https://api.fda.gov/drug/label.json)"
+    },
+    "rxnorm_ingredients": {
+      "license": "Ingredient-level RxCUIs; no UMLS licence required for this use.",
+      "source": "NLM RxNav REST API (https://rxnav.nlm.nih.gov)"
+    },
+    "synthetic_patients": {
+      "license": "MIT (this project). Entirely fictional; no real patient data.",
+      "source": "medmemory.ingest.patients (deterministic generator, seed 42)"
+    }
+  },
+  "version": "2026-09-30-n50-s42"
+}

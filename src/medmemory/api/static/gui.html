@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedMemory — Hybrid KV + Vector Clinical Database</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --card-hover: #1e293b;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent-blue: #3b82f6;
+      --accent-cyan: #06b6d4;
+      --accent-indigo: #6366f1;
+      --accent-emerald: #10b981;
+      --accent-amber: #f59e0b;
+      --accent-rose: #f43f5e;
+      --accent-purple: #a855f7;
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+
+    /* Top Navigation */
+    header {
+      background: rgba(17, 24, 39, 0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--card-border);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 16px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo-badge {
+      background: linear-gradient(135deg, #3b82f6, #6366f1);
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 20px;
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    }
+    .brand h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #fff;
+    }
+    .brand span {
+      font-size: 0.75rem;
+      color: var(--accent-cyan);
+      background: rgba(6, 182, 212, 0.12);
+      padding: 2px 8px;
+      border-radius: 9999px;
+      border: 1px solid rgba(6, 182, 212, 0.3);
+      margin-left: 8px;
+      font-family: var(--mono);
+    }
+
+    .header-links {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .status-pill {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      color: var(--accent-emerald);
+      background: rgba(16, 185, 129, 0.1);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      font-family: var(--mono);
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent-emerald);
+      box-shadow: 0 0 10px var(--accent-emerald);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .api-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all 0.2s;
+      border: 1px solid var(--card-border);
+    }
+    .api-link:hover {
+      color: #fff;
+      background: var(--card-hover);
+      border-color: #374151;
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1300px;
+      margin: 28px auto;
+      padding: 0 24px;
+    }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 12px;
+    }
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .tab-btn.active {
+      color: #fff;
+      background: var(--card-border);
+      font-weight: 600;
+    }
+
+    /* Grid Layout */
+    .layout-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.35fr;
+      gap: 24px;
+    }
+    @media (max-width: 980px) {
+      .layout-grid { grid-template-columns: 1fr; }
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    }
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* Scenario Buttons */
+    .scenarios-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .scenario-btn {
+      background: #131c2e;
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      padding: 12px 14px;
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .scenario-btn:hover {
+      background: #1a243b;
+      border-color: var(--accent-blue);
+      transform: translateY(-1px);
+    }
+    .scenario-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .scenario-tag {
+      font-size: 0.7rem;
+      font-family: var(--mono);
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .tag-kv { background: rgba(6, 182, 212, 0.15); color: var(--accent-cyan); border: 1px solid rgba(6, 182, 212, 0.3); }
+    .tag-vector { background: rgba(168, 85, 247, 0.15); color: var(--accent-purple); border: 1px solid rgba(168, 85, 247, 0.3); }
+    .tag-hybrid { background: rgba(99, 102, 241, 0.15); color: var(--accent-indigo); border: 1px solid rgba(99, 102, 241, 0.3); }
+    .tag-safety { background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); border: 1px solid rgba(244, 63, 94, 0.3); }
+    .scenario-text {
+      font-size: 0.875rem;
+      color: #e2e8f0;
+      font-weight: 500;
+    }
+    .scenario-desc {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Form Inputs */
+    .form-group {
+      margin-bottom: 16px;
+    }
+    .form-label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    textarea.input-query {
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: #fff;
+      font-family: var(--font);
+      font-size: 0.95rem;
+      resize: vertical;
+      min-height: 80px;
+      transition: border-color 0.2s;
+    }
+    textarea.input-query:focus {
+      outline: none;
+      border-color: var(--accent-blue);
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+    }
+    .form-row {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    select.input-scope {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      color: #fff;
+      font-size: 0.875rem;
+      flex: 1;
+      font-family: var(--mono);
+    }
+    .btn-submit {
+      background: linear-gradient(135deg, #3b82f6, #6366f1);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 11px 24px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 14px rgba(59, 130, 246, 0.35);
+    }
+    .btn-submit:hover {
+      opacity: 0.92;
+      transform: translateY(-1px);
+    }
+    .btn-submit:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* Inspection & Response Badges */
+    .badges-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      font-family: var(--mono);
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+    }
+    .badge-route-kv { background: rgba(6, 182, 212, 0.15); color: var(--accent-cyan); border-color: rgba(6, 182, 212, 0.35); }
+    .badge-route-vector { background: rgba(168, 85, 247, 0.15); color: var(--accent-purple); border-color: rgba(168, 85, 247, 0.35); }
+    .badge-route-hybrid { background: rgba(99, 102, 241, 0.15); color: var(--accent-indigo); border-color: rgba(99, 102, 241, 0.35); }
+    .badge-status-answered { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border-color: rgba(16, 185, 129, 0.35); }
+    .badge-status-redflag { background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); border-color: rgba(244, 63, 94, 0.35); }
+    .badge-status-scope { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.35); }
+    .badge-cache-exact { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border-color: rgba(16, 185, 129, 0.35); }
+    .badge-cache-miss { background: rgba(156, 163, 175, 0.15); color: var(--text-muted); border-color: rgba(156, 163, 175, 0.3); }
+
+    /* Answer Box */
+    .answer-box {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 18px;
+      margin-bottom: 20px;
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+    .citation-chip {
+      background: rgba(59, 130, 246, 0.2);
+      color: var(--accent-blue);
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin: 0 2px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .citation-chip:hover {
+      background: var(--accent-blue);
+      color: #fff;
+    }
+
+    /* Latency Waterfall */
+    .waterfall-card {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 20px;
+    }
+    .waterfall-header {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      display: flex;
+      justify-content: space-between;
+    }
+    .waterfall-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+      font-size: 0.8rem;
+    }
+    .stage-name {
+      width: 120px;
+      font-family: var(--mono);
+      color: var(--text-muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .stage-bar-bg {
+      flex: 1;
+      height: 8px;
+      background: #1e293b;
+      border-radius: 9999px;
+      overflow: hidden;
+      position: relative;
+    }
+    .stage-bar-fill {
+      height: 100%;
+      border-radius: 9999px;
+      background: var(--accent-blue);
+      transition: width 0.4s ease-out;
+    }
+    .stage-ms {
+      width: 60px;
+      text-align: right;
+      font-family: var(--mono);
+      color: #e2e8f0;
+      font-size: 0.75rem;
+    }
+
+    /* Evidence Lists */
+    .evidence-section {
+      margin-top: 20px;
+    }
+    .evidence-section h4 {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .evidence-item {
+      background: #131c2e;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 10px;
+      font-size: 0.85rem;
+      line-height: 1.5;
+    }
+    .evidence-meta {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      color: var(--accent-cyan);
+      margin-bottom: 4px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Patient Browser */
+    .patient-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .patient-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      margin-top: 10px;
+    }
+    .patient-table th, .patient-table td {
+      border: 1px solid var(--card-border);
+      padding: 8px 12px;
+      text-align: left;
+    }
+    .patient-table th {
+      background: #131c2e;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="logo-badge">M</div>
+      <div>
+        <h1>MedMemory</h1>
+      </div>
+      <span>Phase 1 Milestone (~40–50%)</span>
+    </div>
+    <div class="header-links">
+      <div class="status-pill">
+        <div class="pulse-dot"></div>
+        <span id="server-status">API Connected (Mock Mode)</span>
+      </div>
+      <a href="/docs" target="_blank" class="api-link">OpenAPI Docs ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Navigation Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('query')">⚡ Clinical Query & Inspector</button>
+      <button class="tab-btn" onclick="switchTab('patient')">📋 Patient Chart & Cache Invalidation</button>
+      <button class="tab-btn" onclick="switchTab('architecture')">🏛️ Phase 1 Architecture & Team Split</button>
+    </div>
+
+    <!-- TAB 1: Query & Inspector -->
+    <div id="tab-query" class="tab-content">
+      <div class="layout-grid">
+        
+        <!-- Left: Scenarios & Query Input -->
+        <div class="card">
+          <div class="card-title">
+            <span>Clinical Scenarios</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted);">Click to load</span>
+          </div>
+
+          <div class="scenarios-grid">
+            <button class="scenario-btn" onclick="loadScenario('What is the latest HbA1c for P0001?', 'P0001', 'KV exact lookup (µs latency)')">
+              <div class="scenario-header">
+                <span class="scenario-tag tag-kv">1. Exact KV Lookup</span>
+                <span style="font-size: 0.75rem; color: var(--accent-cyan); font-family: var(--mono);">P0001</span>
+              </div>
+              <span class="scenario-text">What is the latest HbA1c for P0001?</span>
+              <span class="scenario-desc">Pulls structured lab from SQLite WAL without vector search.</span>
+            </button>
+
+            <button class="scenario-btn" onclick="loadScenario('What are the common side effects of metformin?', '', 'Vector semantic search')">
+              <div class="scenario-header">
+                <span class="scenario-tag tag-vector">2. Semantic Vector</span>
+                <span style="font-size: 0.75rem; color: var(--accent-purple); font-family: var(--mono);">Public</span>
+              </div>
+              <span class="scenario-text">What are the common side effects of metformin?</span>
+              <span class="scenario-desc">Dense + BM25 search across FDA package monographs.</span>
+            </button>
+
+            <button class="scenario-btn" onclick="loadScenario('Given her latest eGFR, what does the metformin label say about kidney function?', 'P0001', 'Hybrid multi-engine retrieval')">
+              <div class="scenario-header">
+                <span class="scenario-tag tag-hybrid">3. Hybrid Retrieval</span>
+                <span style="font-size: 0.75rem; color: var(--accent-indigo); font-family: var(--mono);">P0001</span>
+              </div>
+              <span class="scenario-text">Given her latest eGFR, what does the label say about kidneys?</span>
+              <span class="scenario-desc">KV scans P0001's eGFR + Vector searches FDA contraindications concurrently.</span>
+            </button>
+
+            <button class="scenario-btn" onclick="loadScenario('I have crushing chest pain spreading to my left arm', '', 'Safety red-flag interceptor')">
+              <div class="scenario-header">
+                <span class="scenario-tag tag-safety">4. Emergency Guard</span>
+                <span style="font-size: 0.75rem; color: var(--accent-rose); font-family: var(--mono);">Safety</span>
+              </div>
+              <span class="scenario-text">I have crushing chest pain spreading to my left arm</span>
+              <span class="scenario-desc">Immediate emergency protocol; zero database or LLM queries.</span>
+            </button>
+
+            <button class="scenario-btn" onclick="loadScenario('Show P0002s medications', 'P0001', 'Scope violation leak prevention')">
+              <div class="scenario-header">
+                <span class="scenario-tag tag-safety">5. Scope Violation</span>
+                <span style="font-size: 0.75rem; color: var(--accent-amber); font-family: var(--mono);">P0001</span>
+              </div>
+              <span class="scenario-text">Show P0002s medications (while in P0001 session)</span>
+              <span class="scenario-desc">Strictly rejected before retrieval to prevent cross-patient leakage.</span>
+            </button>
+          </div>
+
+          <form id="query-form" onsubmit="handleQuerySubmit(event)">
+            <div class="form-group">
+              <label class="form-label">Query Text</label>
+              <textarea id="query-input" class="input-query" placeholder="Type a clinical query or click a scenario above..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <div class="form-row">
+                <div style="flex: 1;">
+                  <label class="form-label">Active Patient Scope</label>
+                  <select id="scope-select" class="input-scope">
+                    <option value="">None (Open Medical Knowledge)</option>
+                    <option value="P0001" selected>P0001 — Eleanor Vance (T2DM, CKD)</option>
+                    <option value="P0002">P0002 — Arthur Pendelton (AF, HTN)</option>
+                    <option value="P0003">P0003 — Maya Lin (Asthma, HTN)</option>
+                    <option value="P0004">P0004 — Carlos Mendoza (Hypothyroid)</option>
+                    <option value="P0005">P0005 — Sophia Al-Mansoor (CAD)</option>
+                  </select>
+                </div>
+
+                <div style="padding-top: 22px;">
+                  <button type="submit" id="btn-submit" class="btn-submit">
+                    <span>Ask Database</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- Right: Real-Time Results Inspector -->
+        <div class="card">
+          <div class="card-title">
+            <span>Execution Inspector</span>
+            <span id="timing-tag" style="font-family: var(--mono); font-size: 0.8rem; color: var(--accent-emerald);">Ready</span>
+          </div>
+
+          <div id="inspector-badges" class="badges-row">
+            <span class="badge" style="background:#1e293b; color:#94a3b8;">Awaiting Query...</span>
+          </div>
+
+          <div class="form-label">Grounded Synthesized Answer</div>
+          <div id="answer-box" class="answer-box">
+            Select a scenario or enter a clinical question on the left to see live hybrid routing, microsecond KV lookups, and citation grounding.
+          </div>
+
+          <!-- Latency Waterfall -->
+          <div class="waterfall-card">
+            <div class="waterfall-header">
+              <span>Stage Latency Breakdown</span>
+              <span id="waterfall-total" style="font-family: var(--mono); color: var(--accent-cyan);">0.0 ms</span>
+            </div>
+            <div id="waterfall-rows">
+              <div style="color: var(--text-muted); font-size: 0.8rem;">Run a query to inspect live pipeline timings.</div>
+            </div>
+          </div>
+
+          <!-- Retrieved Evidence -->
+          <div class="evidence-section">
+            <div id="evidence-container"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- TAB 2: Patient Charts & Invalidation -->
+    <div id="tab-patient" class="tab-content" style="display: none;">
+      <div class="layout-grid">
+        
+        <!-- Left: Patient Selector & Record View -->
+        <div class="card">
+          <div class="card-title">
+            <span>Patient Record Browser</span>
+            <select id="browser-patient-select" class="input-scope" style="max-width: 220px;" onchange="loadPatientRecord(this.value)">
+              <option value="P0001">P0001 — Eleanor Vance</option>
+              <option value="P0002">P0002 — Arthur Pendelton</option>
+              <option value="P0003">P0003 — Maya Lin</option>
+              <option value="P0004">P0004 — Carlos Mendoza</option>
+              <option value="P0005">P0005 — Sophia Al-Mansoor</option>
+            </select>
+          </div>
+
+          <div id="patient-details-card">
+            <div style="color: var(--text-muted); font-size: 0.85rem;">Loading patient chart...</div>
+          </div>
+        </div>
+
+        <!-- Right: Append Lab Form & Invalidation Test -->
+        <div class="card">
+          <div class="card-title">
+            <span>Write Lab Record & Invalidate Cache</span>
+            <span class="scenario-tag tag-kv">Write-Through Invalidation</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
+            Writing a new laboratory result for a patient increments their data version (<code>meta:version:{id}</code>) and purges all tagged LRU cache entries immediately.
+          </p>
+
+          <form id="lab-write-form" onsubmit="handleLabWrite(event)">
+            <div class="form-group">
+              <label class="form-label">Target Patient</label>
+              <input type="text" id="lab-patient-id" class="input-query" value="P0001" readonly style="min-height: auto; padding: 8px 12px;">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Lab Test Name</label>
+              <input type="text" id="lab-name" class="input-query" value="hemoglobin a1c" required style="min-height: auto; padding: 8px 12px;">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group" style="flex: 1;">
+                <label class="form-label">New Value</label>
+                <input type="number" step="0.1" id="lab-value" class="input-query" value="7.3" required style="min-height: auto; padding: 8px 12px;">
+              </div>
+              <div class="form-group" style="flex: 1;">
+                <label class="form-label">Unit</label>
+                <input type="text" id="lab-unit" class="input-query" value="%" required style="min-height: auto; padding: 8px 12px;">
+              </div>
+              <div class="form-group" style="flex: 1;">
+                <label class="form-label">Date</label>
+                <input type="date" id="lab-date" class="input-query" value="2026-10-08" required style="min-height: auto; padding: 8px 12px;">
+              </div>
+            </div>
+
+            <button type="submit" class="btn-submit" style="width: 100%; justify-content: center;">
+              <span>Submit Lab & Trigger Invalidation</span>
+            </button>
+          </form>
+
+          <div id="invalidation-alert" style="display: none; margin-top: 18px; padding: 14px; border-radius: 8px; background: rgba(16, 185, 129, 0.15); border: 1px solid var(--accent-emerald); color: #fff; font-size: 0.85rem;"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- TAB 3: Team Work Split -->
+    <div id="tab-architecture" class="tab-content" style="display: none;">
+      <div class="card" style="margin-bottom: 24px;">
+        <div class="card-title">Phase 1 Milestone: Five-Person Work Division</div>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">
+          This ~40–50% presentation milestone covers the foundational database and orchestration core. Work is distributed across five balanced engineering roles:
+        </p>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
+            <div style="color: var(--accent-cyan); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 1: KV Storage</div>
+            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/kv/</code></div>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">SQLite WAL persistence, atomic batch operations, prefix scans, TTL expiry, and patient record modeling.</p>
+          </div>
+
+          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
+            <div style="color: var(--accent-purple); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 2: Vector Search</div>
+            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/vector/</code></div>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Section-aware clinical chunking, lexical embedder, FAISS/in-memory indices, and BM25 Reciprocal Rank Fusion.</p>
+          </div>
+
+          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
+            <div style="color: var(--accent-indigo); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 3: Query Router</div>
+            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/router/</code></div>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Clinical abbreviation expansion, regex + gazetteer entity extraction, and deterministic multi-criteria RulesRouter.</p>
+          </div>
+
+          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
+            <div style="color: var(--accent-emerald); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 4: Orchestrator</div>
+            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/pipeline/</code></div>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">Scatter-gather parallel execution, cross-engine evidence merger, grounded extractive generator, and stage timings.</p>
+          </div>
+
+          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
+            <div style="color: var(--accent-amber); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 5: API & Safety</div>
+            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/api/</code>, <code>cache/</code></div>
+            <p style="font-size: 0.75rem; color: var(--text-muted);">FastAPI REST/SSE service, LRU cache with tag invalidation, SingleFlight coalescing, and clinical emergency red-flag guards.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Tab switching
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('tab-' + tabId).style.display = 'block';
+      event.target.classList.add('active');
+      if (tabId === 'patient') {
+        loadPatientRecord(document.getElementById('browser-patient-select').value);
+      }
+    }
+
+    // Load Scenario
+    function loadScenario(query, scope, label) {
+      document.getElementById('query-input').value = query;
+      document.getElementById('scope-select').value = scope;
+      handleQuerySubmit();
+    }
+
+    // Query Submission
+    async function handleQuerySubmit(e) {
+      if (e) e.preventDefault();
+      const query = document.getElementById('query-input').value.trim();
+      const scope = document.getElementById('scope-select').value || null;
+      if (!query) return;
+
+      const btn = document.getElementById('btn-submit');
+      btn.disabled = true;
+      btn.innerHTML = '<span>Executing...</span>';
+
+      const timingTag = document.getElementById('timing-tag');
+      timingTag.textContent = 'Running...';
+      timingTag.style.color = 'var(--accent-amber)';
+
+      try {
+        const res = await fetch('/v1/query', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query, patient_scope: scope })
+        });
+        const data = await res.json();
+        renderInspectionResults(data);
+      } catch (err) {
+        alert('Query failed: ' + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<span>Ask Database</span>';
+      }
+    }
+
+    // Render Inspector Data
+    function renderInspectionResults(data) {
+      const timingTag = document.getElementById('timing-tag');
+      timingTag.textContent = `${data.total_ms || 0} ms`;
+      timingTag.style.color = 'var(--accent-emerald)';
+
+      // Badges
+      const badgesContainer = document.getElementById('inspector-badges');
+      badgesContainer.innerHTML = '';
+
+      if (data.route) {
+        const routeClass = data.route === 'KV' ? 'badge-route-kv' : data.route === 'VECTOR' ? 'badge-route-vector' : 'badge-route-hybrid';
+        badgesContainer.innerHTML += `<span class="badge ${routeClass}">Route: ${data.route}</span>`;
+      }
+
+      if (data.status) {
+        const statusClass = data.status === 'answered' ? 'badge-status-answered' : data.status === 'red_flag' ? 'badge-status-redflag' : 'badge-status-scope';
+        badgesContainer.innerHTML += `<span class="badge ${statusClass}">Status: ${data.status.toUpperCase()}</span>`;
+      }
+
+      if (data.cache_hit) {
+        const cacheClass = data.cache_hit === 'exact' ? 'badge-cache-exact' : 'badge-cache-miss';
+        badgesContainer.innerHTML += `<span class="badge ${cacheClass}">Cache: ${data.cache_hit.toUpperCase()}</span>`;
+      }
+
+      if (data.confidence !== undefined) {
+        badgesContainer.innerHTML += `<span class="badge" style="background:#1e293b; color:#38bdf8;">Confidence: ${(data.confidence * 100).toFixed(0)}%</span>`;
+      }
+
+      // Answer with highlighted citations
+      let answerText = data.answer || 'No answer generated.';
+      answerText = answerText.replace(/\[S(\d+)\]/g, '<span class="citation-chip">[S$1]</span>');
+      document.getElementById('answer-box').innerHTML = answerText;
+
+      // Latency Waterfall
+      document.getElementById('waterfall-total').textContent = `${data.total_ms || 0} ms total`;
+      const wfContainer = document.getElementById('waterfall-rows');
+      wfContainer.innerHTML = '';
+
+      if (data.timings && data.timings.length > 0) {
+        const maxDuration = Math.max(...data.timings.map(t => t.duration_ms || 0), 1);
+        data.timings.forEach(t => {
+          const pct = Math.max((t.duration_ms / maxDuration) * 100, 3);
+          wfContainer.innerHTML += `
+            <div class="waterfall-row">
+              <span class="stage-name" title="${t.stage}">${t.stage}</span>
+              <div class="stage-bar-bg">
+                <div class="stage-bar-fill" style="width: ${pct}%;"></div>
+              </div>
+              <span class="stage-ms">${(t.duration_ms || 0).toFixed(2)} ms</span>
+            </div>
+          `;
+        });
+      } else {
+        wfContainer.innerHTML = '<div style="color: var(--text-muted); font-size: 0.8rem;">Query served instantly from exact cache.</div>';
+      }
+
+      // Evidence Lists
+      const evContainer = document.getElementById('evidence-container');
+      evContainer.innerHTML = '';
+
+      if (data.kv_records && data.kv_records.length > 0) {
+        let kvHtml = '<h4>⚡ Structured KV Evidence</h4>';
+        data.kv_records.forEach((r, idx) => {
+          kvHtml += `
+            <div class="evidence-item">
+              <div class="evidence-meta">
+                <span>[S${idx+1}] ${r.key}</span>
+                <span>KV Engine</span>
+              </div>
+              <div>${r.text}</div>
+            </div>
+          `;
+        });
+        evContainer.innerHTML += kvHtml;
+      }
+
+      if (data.vector_chunks && data.vector_chunks.length > 0) {
+        let vecHtml = '<h4>🔍 Semantic Vector Evidence</h4>';
+        data.vector_chunks.forEach((vc, idx) => {
+          const sIdx = (data.kv_records ? data.kv_records.length : 0) + idx + 1;
+          vecHtml += `
+            <div class="evidence-item">
+              <div class="evidence-meta">
+                <span>[S${sIdx}] ${vc.chunk.title || 'Document Chunk'} · ${vc.chunk.section || ''}</span>
+                <span>Score: ${(vc.score || 0).toFixed(3)}</span>
+              </div>
+              <div style="color: #cbd5e1;">${vc.chunk.text}</div>
+            </div>
+          `;
+        });
+        evContainer.innerHTML += vecHtml;
+      }
+    }
+
+    // Patient Browser Data
+    async function loadPatientRecord(pid) {
+      document.getElementById('lab-patient-id').value = pid;
+      const card = document.getElementById('patient-details-card');
+      card.innerHTML = '<div style="color: var(--text-muted); font-size: 0.85rem;">Fetching records...</div>';
+
+      try {
+        const res = await fetch(`/v1/patients/${pid}`);
+        const data = await res.json();
+        
+        let html = `
+          <div style="margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--card-border);">
+            <div style="font-size: 1.1rem; font-weight: 700; color: #fff;">${data.name} (${data.id})</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Sex: ${data.sex} · DOB: ${data.birth_date}</div>
+          </div>
+          
+          <div class="form-label">Recent Laboratory Measurements</div>
+          <table class="patient-table">
+            <thead>
+              <tr>
+                <th>Lab</th>
+                <th>Value</th>
+                <th>Flag</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+        `;
+
+        if (data.labs && data.labs.length > 0) {
+          data.labs.slice(0, 8).forEach(l => {
+            const flagColor = l.flag === 'high' ? 'color: var(--accent-rose); font-weight: 600;' : l.flag === 'low' ? 'color: var(--accent-amber); font-weight: 600;' : '';
+            html += `
+              <tr>
+                <td>${l.lab}</td>
+                <td>${l.value} ${l.unit}</td>
+                <td style="${flagColor}">${l.flag}</td>
+                <td>${l.date}</td>
+              </tr>
+            `;
+          });
+        } else {
+          html += '<tr><td colspan="4" style="text-align:center;">No lab values recorded.</td></tr>';
+        }
+
+        html += `
+            </tbody>
+          </table>
+          
+          <div class="form-label" style="margin-top: 16px;">Active Medications</div>
+          <ul style="padding-left: 20px; font-size: 0.85rem; color: #cbd5e1;">
+        `;
+
+        if (data.medications && data.medications.length > 0) {
+          data.medications.forEach(m => {
+            html += `<li><strong>${m.drug}</strong> ${m.dose} (${m.frequency}) — for ${m.indication}</li>`;
+          });
+        } else {
+          html += '<li>None recorded</li>';
+        }
+
+        html += '</ul>';
+        card.innerHTML = html;
+      } catch (err) {
+        card.innerHTML = `<div style="color: var(--accent-rose);">Failed to load patient: ${err.message}</div>`;
+      }
+    }
+
+    // Write Lab Handler
+    async function handleLabWrite(e) {
+      e.preventDefault();
+      const pid = document.getElementById('lab-patient-id').value;
+      const lab = document.getElementById('lab-name').value;
+      const value = parseFloat(document.getElementById('lab-value').value);
+      const unit = document.getElementById('lab-unit').value;
+      const date = document.getElementById('lab-date').value;
+
+      try {
+        const res = await fetch(`/v1/patients/${pid}/labs`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ lab, value, unit, date })
+        });
+        const result = await res.json();
+        
+        const alertBox = document.getElementById('invalidation-alert');
+        alertBox.style.display = 'block';
+        alertBox.innerHTML = `
+          <strong>✓ Lab record committed to SQLite WAL!</strong><br>
+          Invalidated <code>${result.invalidated_cache_entries}</code> cache entry for patient <code>${pid}</code>.<br>
+          New patient version: <code>meta:version:${pid} = ${result.version}</code>.
+        `;
+
+        loadPatientRecord(pid);
+      } catch (err) {
+        alert('Failed to write lab: ' + err.message);
+      }
+    }
+
+    // Check server status on load
+    fetch('/readyz')
+      .then(res => res.json())
+      .then(data => {
+        if (data.ready) {
+          document.getElementById('server-status').textContent = 'API Ready (SQLite WAL + Vector Online)';
+        }
+      })
+      .catch(() => {
+        document.getElementById('server-status').textContent = 'Connecting...';
+      });
+  </script>
+</body>
+</html>

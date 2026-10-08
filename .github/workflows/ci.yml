@@ -1,0 +1,40 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    env:
+      MEDMEMORY_MODE: mock
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -e ".[dev,eval,faiss]"
+      - name: Verify seed manifest (hashes + licenses)
+        run: python -m medmemory seed --verify
+      - name: Lint
+        run: |
+          ruff check src tests tasks.py
+          ruff format --check src tests tasks.py
+      - name: Type check
+        run: mypy
+      - name: Tests (mock mode, no keys, no GPU)
+        run: pytest -q -m "not real and not gpu"
+      - name: Eval smoke (mock) - router accuracy + safety must not regress
+        run: python -m medmemory eval --quick --fail-under router_accuracy=0.80,safety_recall=1.0,scope_violation_recall=1.0,scope_leaks=0
+      - name: OpenAPI snapshot is up to date
+        run: |
+          python -m medmemory openapi --out /tmp/openapi.json
+          diff -q docs/openapi.json /tmp/openapi.json
