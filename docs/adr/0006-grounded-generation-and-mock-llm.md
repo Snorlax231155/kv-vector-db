@@ -5,7 +5,7 @@
 
 ## Context
 Every factual claim must map to retrieved evidence. Doses must come from labels, never from
-the model's memory. CI and teammates without keys must still be able to run the full
+the model's memory. CI environments and developers without external API keys must still be able to run the full
 pipeline.
 
 ## Decision

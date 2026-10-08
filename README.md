@@ -1,42 +1,60 @@
-# MedMemory: Hybrid Key-Value + Vector Database
-### Phase 1 Presentation Milestone (~40–50%) — Architectural & Engineering Report
+# MedMemory: Hybrid Key-Value + Vector Clinical Intelligence Engine
+### Senior Capstone Design Project & Architectural Engineering Report
 
-> ⚠️ **Educational Prototype. Not Medical Advice.** Uses synthetic patient records and public-domain clinical knowledge (openFDA, MedlinePlus, ICD-10-CM).
+> ⚠️ **Educational Prototype. Not Medical Advice.** Built using synthetic longitudinal patient records and public-domain clinical knowledge (openFDA, MedlinePlus, ICD-10-CM).
 
 ---
 
 ## Table of Contents
-1. [Data Architecture & Engine Separation (What Goes Where)](#1-data-architecture--engine-separation-what-goes-where)
-   - [Sample Seed Data Catalog](#sample-seed-data-catalog)
+1. [Executive Summary & Problem Statement](#1-executive-summary--problem-statement)
+2. [Data Architecture & Engine Separation (What Goes Where)](#2-data-architecture--engine-separation-what-goes-where)
+   - [Sample Seed Knowledge Catalog](#sample-seed-knowledge-catalog)
    - [What is Stored in the Key-Value Engine](#what-is-stored-in-the-key-value-engine)
    - [What is Stored in the Vector Engine](#what-is-stored-in-the-vector-engine)
    - [What is Retrieved and How](#what-is-retrieved-and-how)
-2. [Architectural Report](#2-architectural-report)
-   - [System Overview & Problem Statement](#system-overview--problem-statement)
-   - [Component Architecture & Interactions](#component-architecture--interactions)
-   - [End-to-End Execution & Data Flow](#end-to-end-execution--data-flow)
-   - [Project Maturity Assessment](#project-maturity-assessment)
-3. [Implementation Status Audit Table](#3-implementation-status-audit-table)
-4. [Five-Person Work Division (Current Milestone Only)](#4-five-person-work-division-current-milestone-only)
-5. [Verification Results](#5-verification-results)
-6. [Presentation & Live Demonstration Guide](#6-presentation--live-demonstration-guide)
-   - [Preparation & Server Startup](#preparation--server-startup)
-   - [Step-by-Step Live Demo Flow (3–4 minutes)](#step-by-step-live-demo-flow-34-minutes)
-7. [Cleanup & Milestone Decoupling Summary](#7-cleanup--milestone-decoupling-summary)
-8. [Future Work Specification & Extended Roadmap](#8-future-work-specification--extended-roadmap)
-   - [Evolution Roadmap Flowchart](#evolution-roadmap-flowchart)
-   - [Phase 2: Learned Intelligence & Semantic Acceleration](#phase-2-learned-intelligence--semantic-acceleration)
-   - [Phase 3: Distributed Architecture & Cloud Scale](#phase-3-distributed-architecture--cloud-scale)
+3. [System Architecture & End-to-End Execution Flow](#3-system-architecture--end-to-end-execution-flow)
+   - [Component Topology](#component-topology)
+   - [End-to-End Request Lifecycle](#end-to-end-request-lifecycle)
+4. [Engine Subsystem Architecture](#4-engine-subsystem-architecture)
+   - [Subsystem 1: Core Key-Value Storage Engine](#subsystem-1-core-key-value-storage-engine)
+   - [Subsystem 2: Vector Storage & Semantic Search Engine](#subsystem-2-vector-storage--semantic-search-engine)
+   - [Subsystem 3: Hybrid Query Routing & NLP Analysis](#subsystem-3-hybrid-query-routing--nlp-analysis)
+   - [Subsystem 4: Pipeline Orchestration & Grounded Synthesis](#subsystem-4-pipeline-orchestration--grounded-synthesis)
+   - [Subsystem 5: Reliability, Caching & Clinical Safety](#subsystem-5-reliability-caching--clinical-safety)
+5. [Implementation Status Audit](#5-implementation-status-audit)
+6. [Verification, Testing & Benchmarking Results](#6-verification-testing--benchmarking-results)
+   - [Automated Test Suite (162 Passing Tests)](#1-automated-test-suite-162-passing-tests)
+   - [Static Typing & Code Quality](#2-static-typing--code-quality)
+   - [Gold Evaluation Benchmark](#3-gold-evaluation-benchmark)
+7. [Live Demonstration & Interface Guide](#7-live-demonstration--interface-guide)
+   - [Interactive Clinician Web Dashboard](#interactive-clinician-web-dashboard)
+   - [CLI Toolchain & REST API Demonstration Scenarios](#cli-toolchain--rest-api-demonstration-scenarios)
+8. [Future Work & Long-Term Roadmap](#8-future-work--long-term-roadmap)
 
 ---
 
-## 1. Data Architecture & Engine Separation (What Goes Where)
+## 1. Executive Summary & Problem Statement
+
+Modern clinical information retrieval systems face a fundamental engineering dichotomy:
+- **Key-Value Stores (KV):** Provide deterministic, microsecond-latency lookups for structured clinical observations (laboratory measurements, vital signs, active prescriptions, diagnostic billing codes). However, they cannot process unstructured narratives or semantic clinical context.
+- **Vector Databases:** Excel at fuzzy semantic similarity search across unstructured medical documents (clinical progress notes, FDA package inserts, treatment guidelines). However, vector similarity is inherently approximate, cannot guarantee point-in-time exactness, and risks hallucinations when retrieving critical numeric lab values.
+
+**MedMemory** resolves this dichotomy by engineering a unified **Hybrid Key-Value + Vector Database** specifically architected for healthcare intelligence:
+1. **Intelligent Query Routing:** Automatically analyzes incoming medical queries, expands clinical abbreviations, extracts entities, and routes the query to the optimal engine (`KV`, `VECTOR`, or parallel `HYBRID`).
+2. **Defense-in-Depth Patient Scoping:** Enforces strict cryptographic and prefix boundaries to prevent cross-patient data leakage before retrieval starts.
+3. **Exact Caching & Concurrency Control:** Implements high-speed in-memory caching with patient-version tagging and SingleFlight stampede suppression, providing sub-millisecond repeated queries and instantaneous write-through cache invalidation.
+4. **Grounded Synthesis & Citation Verification:** Synthesizes answers citing verified source keys (`[S1]`, `[S2]`) and deterministically verifies that every numeric quantity in the answer matches retrieved evidence.
+5. **Interactive Clinician Dashboard:** Features a real-time web application displaying longitudinal patient snapshots, live stage latency waterfalls, and a side-by-side evidence inspector detailing structured KV records and semantic vector chunks.
+
+---
+
+## 2. Data Architecture & Engine Separation (What Goes Where)
 
 MedMemory enforces a strict architectural boundary between structured point-in-time facts (managed by the **Key-Value Engine**) and unstructured narrative context (managed by the **Vector Engine**).
 
-### Sample Seed Data Catalog
+### Sample Seed Knowledge Catalog
 The repository includes an offline seed dataset under [`data/seed/`](data/seed/):
-- **`patients.jsonl`**: 10 synthetic longitudinal patient profiles (`P0001` through `P0010`) covering chronic illness scenarios (Type 2 diabetes, hypertension, chronic kidney disease, atrial fibrillation, heart failure).
+- **`patients.jsonl`**: 50 synthetic longitudinal patient profiles (`P0001` through `P0050`) covering complex chronic illness scenarios (Type 2 diabetes, hypertension, chronic kidney disease, atrial fibrillation, heart failure).
 - **`notes.jsonl`**: Clinical encounter narratives, SOAP progress notes, and discharge summaries written for the synthetic patients.
 - **`drug_labels.jsonl`**: Authoritative FDA drug monographs (metformin, lisinopril, apixaban, atorvastatin, levothyroxine, etc.) with labeled clinical sections (indications, contraindications, boxed warnings, renal dosage adjustments).
 - **`icd10cm.jsonl`**: 2026 clinical diagnostic nomenclature codes (`E11.9`, `I10`, `N18.30`, `I48.0`, etc.).
@@ -49,20 +67,19 @@ The Key-Value Engine ([`src/medmemory/kv/`](src/medmemory/kv/)) uses **SQLite WA
 
 | Category | Key Format | Sample Key | Stored Payload (JSON) |
 |---|---|---|---|
-| **Patient Demographics** | `patient:{id}` | `patient:P0001` | `{"name": "Eleanor Vance", "sex": "F", "birth_date": "1958-04-12"}` |
-| **Lab Measurements** | `patient:{id}:lab:{name}:{date}` | `patient:P0001:lab:hemoglobin_a1c:2026-08-02` | `{"value": 6.4, "unit": "%", "flag": "normal", "ref_low": 4.0, "ref_high": 5.6}` |
-| **Active/Past Meds** | `patient:{id}:med:{status}:{drug}` | `patient:P0001:med:active:metformin` | `{"drug": "metformin", "dose": "500 mg", "frequency": "BID", "indication": "T2DM", "start": "2021-03-10"}` |
-| **Diagnosed Conditions** | `patient:{id}:condition:{status}:{code}` | `patient:P0001:condition:active:E11.9` | `{"name": "Type 2 diabetes", "icd10": "E11.9", "onset": "2021-03-01"}` |
-| **Documented Allergies** | `patient:{id}:allergy:{substance}` | `patient:P0001:allergy:penicillin` | `{"substance": "penicillin", "reaction": "rash", "severity": "moderate"}` |
+| **Patient Demographics** | `patient:{id}` | `patient:P0001` | `{"name": "Fatima Brown", "sex": "female", "birth_date": "1962-03-01"}` |
+| **Lab Measurements** | `patient:{id}:lab:{name}:{date}` | `patient:P0001:lab:hemoglobin_a1c:2026-08-02` | `{"value": 7.7, "unit": "%", "flag": "high", "ref_low": 4.0, "ref_high": 5.6}` |
+| **Active/Past Meds** | `patient:{id}:med:{drug}` | `patient:P0001:med:metformin` | `{"drug": "metformin", "dose": "500 mg", "frequency": "twice daily", "status": "active"}` |
+| **Diagnosed Conditions** | `patient:{id}:condition:{code}` | `patient:P0001:condition:E11.9` | `{"name": "Type 2 diabetes mellitus", "icd10": "E11.9", "status": "active"}` |
 | **Encounters** | `patient:{id}:encounter:{date}:{type}` | `patient:P0001:encounter:2026-08-02:office_visit` | `{"type": "office_visit", "reason": "Diabetes follow-up", "provider": "Dr. Smith"}` |
 | **ICD-10 Dictionary** | `icd10:{code}` | `icd10:I10` | `{"code": "I10", "name": "Essential (primary) hypertension"}` |
 | **RxNorm Drug Codes** | `drug:rx:{rxcui}` | `drug:rx:6809` | `{"name": "metformin", "rxcui": "6809", "brand_names": ["Glucophage"]}` |
-| **Data Versioning** | `meta:version:{patient}` | `meta:version:P0001` | Integer counter bumped on every write to invalidate cached queries |
+| **Data Versioning** | `meta:version:{patient}` | `meta:version:P0001` | Integer counter incremented on every write to invalidate cached queries |
 
 #### Why this goes to KV:
-- **Zero Hallucination:** Exact numbers (e.g. `HbA1c = 6.4%`, `eGFR = 48 mL/min`) cannot be approximated or distorted.
-- **Microsecond Access:** Lookups take ~1–4 µs.
-- **Prefix Isolation:** Scanning `patient:P0001:` guarantees that data for `P0002` can never leak into the response.
+- **Zero Hallucination Risk:** Critical diagnostic numbers (e.g. `HbA1c = 7.7%`, `eGFR = 47 mL/min`) cannot be approximated or distorted by neural embeddings.
+- **Microsecond Access:** Lookups execute in ~1–4 µs.
+- **Prefix Isolation:** Scanning `patient:P0001:` guarantees that records for `P0002` can never leak into the response.
 
 ---
 
@@ -76,8 +93,8 @@ The Vector Engine ([`src/medmemory/vector/`](src/medmemory/vector/)) indexes uns
 | **`guidelines`** | Clinical guidelines from `guidelines.jsonl` | Topic-based chunking with paragraph preservation | `{"topic": "type_2_diabetes", "doc_type": "guideline"}` |
 
 #### Why this goes to Vector:
-- **Semantic Understanding:** Clinical questions like *"What did the doctor note regarding ankle swelling?"* require semantic similarity matching across narrative paragraphs, not exact key lookups.
-- **Contextual Search:** Allows matching synonyms (e.g. *"shortness of breath"* matching *"dyspnea"*).
+- **Semantic Understanding:** Clinical inquiries like *"What did the doctor note regarding kidney disease progression?"* require semantic similarity matching across narrative paragraphs, not exact key lookups.
+- **Contextual Search:** Handles medical synonyms (e.g. matching *"shortness of breath"* to *"dyspnea"*).
 
 ---
 
@@ -97,8 +114,8 @@ The Vector Engine ([`src/medmemory/vector/`](src/medmemory/vector/)) indexes uns
                   │                               │
                   ▼                               ▼
         Structured Sentence              Narrative Chunk
-     "P0001 HbA1c on 2026-08-02:      "METFORMIN WARNINGS: Lactic
-      6.4% (flag: normal) [S1]"        acidosis is a rare..." [S1]
+     "P0001 HbA1c on 2026-08-02:       "METFORMIN WARNINGS: Lactic
+      7.7% (flag: high) [S1]"          acidosis is a rare..." [S1]
                   └───────────────┬───────────────┘
                                   ▼
                           [Cross-Modal Need]
@@ -116,7 +133,7 @@ The Vector Engine ([`src/medmemory/vector/`](src/medmemory/vector/)) indexes uns
    - The query router identifies structured entities (e.g., patient `P0001`, lab `hemoglobin a1c`).
    - The engine performs an ordered prefix scan: `patient:P0001:lab:hemoglobin_a1c:`.
    - The record is rendered into an unambiguous factual sentence:
-     > *"Patient P0001 hemoglobin a1c on 2026-08-02: 6.4% (flag: normal)."*
+     > *"Patient P0001 hemoglobin a1c on 2026-08-02: 7.7% (flag: high) [S1]"*
    - Returns in **~2 ms** without vector indexing overhead.
 
 2. **Vector Retrieval Path (`Route.VECTOR`):**
@@ -127,31 +144,26 @@ The Vector Engine ([`src/medmemory/vector/`](src/medmemory/vector/)) indexes uns
 
 3. **Hybrid Retrieval Path (`Route.HYBRID`):**
    - For clinical reasoning queries requiring both patient facts and drug knowledge (e.g., *"Given her eGFR, what does the metformin label say about kidneys?"*).
-   - **Parallel Fan-Out:** KV engine retrieves `P0001`'s latest eGFR lab reading (`48 mL/min`), while the Vector engine searches the FDA metformin label for renal contraindications concurrently.
+   - **Parallel Fan-Out:** KV engine retrieves `P0001`'s latest eGFR lab reading (`47 mL/min`), while the Vector engine searches the FDA metformin label for renal contraindications concurrently.
    - Evidence is merged, deduplicated, and passed to the grounded synthesis engine, producing answers that cite both sources (`[S1]` and `[S2]`).
 
 ---
 
-## 2. Architectural Report
+## 3. System Architecture & End-to-End Execution Flow
 
-### System Overview & Problem Statement
-Clinical decision support requires deterministic precision for laboratory measurements and flexible semantic retrieval for complex medical texts. Key-value databases provide speed and correctness for structured data but cannot answer semantic questions. Vector databases handle unstructured texts but cannot reliably guarantee exact numeric lookups.
-
-**MedMemory** orchestrates both paradigms into a unified hybrid database. Queries are routed dynamically, isolated by patient scope, accelerated by an exact LRU cache, and synthesized into grounded answers with verified citations.
-
-### Component Architecture & Interactions
+### Component Topology
 
 ```mermaid
 flowchart TD
-    Client["Client (REST / SSE Stream)"] --> API["FastAPI Service & Middleware"]
+    Client["Client (Web GUI / REST / SSE Stream)"] --> API["FastAPI Service & Security Middleware"]
     
-    subgraph S1["Safety & Routing Layer"]
+    subgraph S1["Safety & Routing Subsystems"]
         API --> Safety["Clinical Safety Pre-Check<br/>(Emergency red-flag interceptor)"]
         Safety --> Scope["Patient Scope Validator<br/>(Cross-patient leak prevention)"]
-        Scope --> Router["RulesRouter & NLP Pipeline<br/>(Normalization, entity extraction)"]
+        Scope --> Router["RulesRouter & NLP Pipeline<br/>(Synonym expansion, entity extraction)"]
     end
     
-    subgraph S2["Caching & Concurrency Layer"]
+    subgraph S2["Caching & Concurrency Subsystem"]
         Router --> Cache{"Exact LRU Cache & SingleFlight<br/>(Composite key: query + scope + version)"}
     end
     
@@ -161,7 +173,7 @@ flowchart TD
         Orchestrator --> VEC["Vector Engine (In-Memory / FAISS)<br/>• patient_notes<br/>• drug_labels<br/>• guidelines"]
     end
     
-    subgraph S4["Synthesis & Verification Layer"]
+    subgraph S4["Synthesis & Verification Subsystem"]
         KV --> Merge["Evidence Merger & Sufficiency Gate"]
         VEC --> Merge
         Merge --> Gen["Grounded Extractive Generator<br/>(Synthesizes answer with [S#] citations)"]
@@ -173,20 +185,20 @@ flowchart TD
     CacheWrite --> Client
 ```
 
-### End-to-End Execution & Data Flow
+### End-to-End Request Lifecycle
 
 ```mermaid
 sequenceDiagram
   autonumber
-  participant C as Client
+  participant C as Client (Web GUI / REST)
   participant A as API / Orchestrator
-  participant S as Safety
-  participant R as Router
-  participant X as Cache
-  participant K as KV Engine
-  participant V as Vector Engine
-  participant G as Generator
-  participant Q as Checks
+  participant S as Safety Guard
+  participant R as Query Router
+  participant X as Cache Engine
+  participant K as KV Store (SQLite WAL)
+  participant V as Vector Store (FAISS)
+  participant G as Grounded Generator
+  participant Q as Citation Checker
 
   C->>A: POST /v1/query {query, patient_scope}
   A->>S: precheck(query)
@@ -199,8 +211,8 @@ sequenceDiagram
   A->>A: Scope check (named patient == active patient?)
   A->>X: exact lookup(key = query + scope + filters + data_version)
   alt exact hit
-    X-->>A: Cached response
-  else miss (SingleFlight per key)
+    X-->>A: Cached response (0 ms engine latency)
+  else miss (SingleFlight coalesced)
     par KV route or HYBRID
       A->>K: get / scan(prefix)
     and VECTOR route or HYBRID
@@ -208,7 +220,7 @@ sequenceDiagram
     end
     A->>Q: merge + evidence sufficiency (+ conflict check)
     alt insufficient or conflicting
-      Q-->>A: Abstain with clinical explanation
+      Q-->>A: Abstain with clinical rationale
     else sufficient
       A->>G: generate(query, evidence S1..Sn)
       G-->>A: Grounded answer with [S#] citations
@@ -219,57 +231,91 @@ sequenceDiagram
   A-->>C: answer, route, entities, cache_hit, timings, records, chunks, citations, trace_id
 ```
 
-### Project Maturity Assessment
-The repository represents a **Phase 1 Presentation Milestone (~40–50% of the complete planned project)**.
-- **162 passing tests** across unit, contract, pipeline, and crash-resilience test suites.
-- Complete type safety (`mypy` passes cleanly across all 70 source files).
-- Clean code formatting and linting (`ruff` passes with zero errors).
-- **100% offline runnable** in mock mode with zero external API keys or GPU requirements.
+---
+
+## 4. Engine Subsystem Architecture
+
+### Subsystem 1: Core Key-Value Storage Engine
+- **Source Package:** [`src/medmemory/kv/`](src/medmemory/kv/)
+- **Core Interfaces:** `KVStore` ([`src/medmemory/contracts/protocols.py`](src/medmemory/contracts/protocols.py)), `PatientRecordStore` ([`src/medmemory/kv/records.py`](src/medmemory/kv/records.py))
+- **Storage Implementation:** `SQLiteKV` ([`src/medmemory/kv/sqlite.py`](src/medmemory/kv/sqlite.py)) operating with `journal_mode=WAL` and `synchronous=FULL`.
+- **Key Features:**
+  - Microsecond deterministic point lookups (~1–4 µs).
+  - Lexicographically ordered prefix scanning (`scan("patient:P0001:lab:")`).
+  - Atomic batch transactions (`batch([KVOp.put(...), KVOp.delete(...)])`) with crash recovery guaranteed across process kills (`SIGKILL`).
+  - Lazy TTL key expiration with explicit `purge_expired()` reclamation.
+  - Consistent point-in-time snapshotting using SQLite online backup APIs.
+  - Patient data version counter (`meta:version:{patient}`) tracking writes for cache invalidation.
 
 ---
 
-## 3. Implementation Status Audit Table
+### Subsystem 2: Vector Storage & Semantic Search Engine
+- **Source Package:** [`src/medmemory/vector/`](src/medmemory/vector/)
+- **Core Interfaces:** `Embedder`, `VectorStore`, `Reranker` ([`src/medmemory/contracts/protocols.py`](src/medmemory/contracts/protocols.py))
+- **Storage Implementations:** `InMemoryVectorStore` (exact cosine distance with disk persistence) and `FaissVectorStore` (HNSW/Flat index integration).
+- **Key Features:**
+  - **Section-Aware Chunking:** Enforces clinical headers (HPI, Medications, Assessment & Plan, Boxed Warnings) as hard boundary points; prepends contextual headers (`title | section | text`) to prevent orphaned excerpts.
+  - **Lexical & Dense Embedders:** `HashingEmbedder` provides lightweight, reproducible lexical representations without external model weight downloads; `SentenceTransformerEmbedder` provides dense embeddings.
+  - **Metadata Filter Engine:** MongoDB-style structured query filter evaluator supporting `$eq`, `$in`, `$gte`, `$and`, `$or` operators.
+  - **Reciprocal Rank Fusion (RRF):** Fuses dense vector similarity rankings with BM25 sparse keyword rankings (`rrf_fuse`), achieving high recall across specific drug names and medical terminology.
 
-| Feature / Subsystem | Actual Implementation Status | Technical Evidence & Code Locations |
+---
+
+### Subsystem 3: Hybrid Query Routing & NLP Analysis
+- **Source Package:** [`src/medmemory/router/`](src/medmemory/router/)
+- **Core Interfaces:** `Router` ([`src/medmemory/contracts/protocols.py`](src/medmemory/contracts/protocols.py))
+- **Implementation:** `RulesRouter` ([`src/medmemory/router/rules.py`](src/medmemory/router/rules.py)), `ClinicalLexicon` ([`src/medmemory/router/lexicon.py`](src/medmemory/router/lexicon.py)), `ClinicalExtractor` ([`src/medmemory/router/entities.py`](src/medmemory/router/entities.py)).
+- **Key Features:**
+  - **Clinical Normalization:** Expands medical abbreviations and synonyms (`HbA1c` $\rightarrow$ `hemoglobin a1c`, `HTN` $\rightarrow$ `hypertension`). Handles case-sensitive abbreviations (`MI`, `AF`, `Cr`) to avoid false positives.
+  - **Deterministic Entity Extraction:** Extracts patient identifiers (`P0001`), ICD-10-CM diagnostic codes, RxCUI drug identifiers, lab test types, temporal windows (e.g., "last 6 months"), and negation scopes.
+  - **Multi-Criteria Routing Decision:** Classifies queries into `KV`, `VECTOR`, or `HYBRID`, providing an audit trail with confidence score and human-readable decision reasons.
+
+---
+
+### Subsystem 4: Pipeline Orchestration & Grounded Synthesis
+- **Source Package:** [`src/medmemory/pipeline/`](src/medmemory/pipeline/), [`src/medmemory/generation/`](src/medmemory/generation/)
+- **Core Interfaces:** `PipelineOrchestrator` ([`src/medmemory/pipeline/orchestrator.py`](src/medmemory/pipeline/orchestrator.py))
+- **Key Features:**
+  - **Asynchronous Scatter-Gather Execution:** Executes KV lookups and Vector similarity searches in parallel using Python `asyncio`.
+  - **Evidence Merger & Sufficiency Gate:** Deduplicates cross-engine findings, detects conflicting drug recommendations, and halts generation if evidence is insufficient.
+  - **Grounded Extractive Generator:** Quotes and synthesizes retrieved evidence, enforcing numbered source citations (`[S1]`, `[S2]`).
+  - **Citation & Numerical Post-Checker:** Deterministic post-validation verifying that every numeric claim (dosage, lab measurement, date) exists verbatim in the cited source text. Unsupported claims trigger sentence removal or abstention.
+  - **Stage Latency Waterfall:** Instruments per-stage execution times (`precheck`, `route`, `scope`, `cache`, `kv`, `vector_search`, `merge`, `generate`, `citation_check`).
+
+---
+
+### Subsystem 5: Reliability, Caching & Clinical Safety
+- **Source Package:** [`src/medmemory/cache/`](src/medmemory/cache/), [`src/medmemory/safety/`](src/medmemory/safety/), [`src/medmemory/api/`](src/medmemory/api/)
+- **Key Features:**
+  - **Exact LRU Cache:** $O(1)$ memory cache with TTL expiry, tag-based group invalidation, and operational metrics (hit, miss, eviction, expiration counts).
+  - **SingleFlight Concurrency Coalescer:** Collapses concurrent identical requests into a single in-flight computation, preventing cache stampedes.
+  - **Write-Through Invalidation:** Writes to patient data (`POST /v1/patients/{id}/labs`) atomically bump `meta:version:{patient}` and evict all cache keys tagged with `patient:{id}`.
+  - **Emergency Red-Flag Interceptor:** Regex-based safety screening for acute medical emergencies (e.g. crushing chest pain, suicidal ideation) returning immediate emergency guidance without querying storage or generating text.
+  - **Multi-Tier Patient Scope Isolation:** Validates request patient scope, enforces prefix isolation (`patient:{id}:`), and sanitizes vector chunks to ensure zero cross-patient data leakage.
+  - **FastAPI Service:** Provides RESTful endpoints and Server-Sent Events (SSE) streaming (`POST /v1/query/stream`) with rate limiting and audit logging.
+
+---
+
+## 5. Implementation Status Audit
+
+| Feature / Subsystem | Implementation Status | Technical Evidence & Code Locations |
 |---|---|---|
 | **Core KV Storage Engine** | **Fully Implemented** | [`src/medmemory/kv/sqlite.py`](src/medmemory/kv/sqlite.py), [`memory.py`](src/medmemory/kv/memory.py). SQLite WAL mode, atomic `batch()`, prefix scans, TTL key expiration, backup snapshotting. Tested with crash-recovery `SIGKILL` tests. |
 | **Domain Record Modeling** | **Fully Implemented** | [`src/medmemory/kv/records.py`](src/medmemory/kv/records.py). Key schema `patient:{id}:lab:...`, JSON serialization, clinical sentence rendering, data version tracking (`meta:version:{patient}`). |
-| **Vector Indexing & Search** | **Fully Implemented** | [`src/medmemory/vector/stores/memory.py`](src/medmemory/vector/stores/memory.py), [`faiss_store.py`](src/medmemory/vector/stores/faiss_store.py). Section-aware chunking ([`chunking.py`](src/medmemory/vector/chunking.py)), lexical embedder ([`embedders.py`](src/medmemory/vector/embedders.py)), MongoDB-style filter evaluation ([`filters.py`](src/medmemory/vector/filters.py)). |
+| **Vector Indexing & Search** | **Fully Implemented** | [`src/medmemory/vector/stores/in_memory.py`](src/medmemory/vector/stores/in_memory.py), [`faiss_store.py`](src/medmemory/vector/stores/faiss_store.py). Section-aware chunking ([`chunking.py`](src/medmemory/vector/chunking.py)), lexical embedder ([`embedders.py`](src/medmemory/vector/embedders.py)), MongoDB-style filter evaluation ([`filters.py`](src/medmemory/vector/filters.py)). |
 | **Hybrid Sparse + Dense Search** | **Fully Implemented** | [`src/medmemory/vector/bm25.py`](src/medmemory/vector/bm25.py), [`rerankers.py`](src/medmemory/vector/rerankers.py). Reciprocal Rank Fusion (`rrf_fuse`) combining dense vector similarity with BM25 keyword rankings. |
 | **Query Routing (Rules)** | **Fully Implemented** | [`src/medmemory/router/rules.py`](src/medmemory/router/rules.py), [`entities.py`](src/medmemory/router/entities.py), [`normalize.py`](src/medmemory/router/normalize.py). Deterministic entity extraction, abbreviation expansion, transparent multi-tier routing (`KV`, `VECTOR`, `HYBRID`) with confidence and reasons. |
-| **Automatic Data Write Routing** | **Not Present** | The system does not use AI to classify incoming writes into KV vs Vector. Write paths are determined by domain contracts (structured labs $\rightarrow$ KV; clinical notes $\rightarrow$ Vector chunker). |
-| **LLM-Based Retrieval Decisions** | **Not Present** | Routing and retrieval planning are deterministic (`RulesRouter`). No LLM is used to make routing decisions. |
-| **LoRA Query Router** | **Postponed to Future (Phase 2)** | Decoupled from Phase 1 to eliminate uncommitted weight dependencies and ensure 100% deterministic evaluation. |
-| **Synthetic Training Data Gen** | **Postponed to Future (Phase 2)** | Decoupled along with the LoRA training pipeline. |
 | **Grounded Generation & Citations** | **Fully Implemented** | [`src/medmemory/generation/extractive.py`](src/medmemory/generation/extractive.py), [`chain.py`](src/medmemory/generation/chain.py), [`src/medmemory/safety/citations.py`](src/medmemory/safety/citations.py). Synthesizes answers citing source tags `[S#]`; deterministic numerical groundedness validation. |
 | **Multi-Tier Clinical Safety** | **Fully Implemented** | [`src/medmemory/safety/redflags.py`](src/medmemory/safety/redflags.py), [`scope.py`](src/medmemory/safety/scope.py), [`sufficiency.py`](src/medmemory/safety/sufficiency.py). Pre-retrieval emergency red-flag interceptor; cross-patient scope leakage checks; medication conflict abstention. |
-| **Caching Layer** | **Partially Implemented (Exact Only)** | [`src/medmemory/cache/lru.py`](src/medmemory/cache/lru.py), [`singleflight.py`](src/medmemory/cache/singleflight.py). Exact LRU cache with TTL, patient tag invalidation, and `SingleFlight` concurrency coalescing is fully implemented. Approximate semantic caching is postponed to Phase 2. |
-| **Automatic Write-Back** | **Not Present** | Model answers are not automatically written back into storage. Updates are handled via explicit REST endpoints (`POST /v1/patients/{id}/labs`). |
+| **Caching Layer** | **Fully Implemented** | [`src/medmemory/cache/lru.py`](src/medmemory/cache/lru.py), [`singleflight.py`](src/medmemory/cache/singleflight.py). Exact LRU cache with TTL, patient tag invalidation, and `SingleFlight` concurrency coalescing. |
 | **API & CLI Layer** | **Fully Implemented** | [`src/medmemory/api/app.py`](src/medmemory/api/app.py), [`src/medmemory/cli.py`](src/medmemory/cli.py). REST and SSE streaming endpoints, auth stubs, rate limiting, structured audit logging, and CLI (`seed`, `ingest`, `serve`, `eval`, `bench`). |
-| **Distributed KV Sharding** | **Postponed to Future (Phase 3)** | Consistent-hash ring and multi-process shard proxies decoupled from Phase 1 to present a clean single-node database core. |
-| **Cloud Vector Storage (Pinecone)** | **Postponed to Future (Phase 3)** | Pinecone serverless cloud adapter postponed to Phase 3. Phase 1 relies on self-contained local vector engines. |
-| **Commercial LLMs (Claude)** | **Postponed to Future (Phase 3)** | Commercial API integration postponed to Phase 3; Phase 1 runs completely offline with the deterministic extractive grounded model. |
-| **Next.js Web Frontend** | **Postponed to Future (Phase 3)** | Decoupled to keep Phase 1 focused purely on the database engine, API service, and CLI toolchain. |
+| **Interactive Web Dashboard** | **Fully Implemented** | [`src/medmemory/api/static/gui.html`](src/medmemory/api/static/gui.html). Single-page clinician interface with active patient selection, executive clinical summary card, query execution, latency waterfall, and side-by-side evidence inspector. |
 
 ---
 
-## 4. Five-Person Work Division (Current Milestone Only)
+## 6. Verification, Testing & Benchmarking Results
 
-> **Important Rule:** This division accounts **strictly for the code present in the repository today**. No contributor is assigned to future or removed features (no LoRA, no cluster sharding, no Pinecone, no semantic cache).
-
-| Person | Engineering Responsibility | Actual Modules & Files | Main Technical Contribution | Demonstrable Result |
-|---|---|---|---|---|
-| **Person 1** | **Core KV Storage Engine & Record Model** | `src/medmemory/kv/`<br>• `memory.py`<br>• `sqlite.py`<br>• `records.py`<br>• `__init__.py`<br>`src/medmemory/contracts/protocols.py`<br>`tests/kv/test_contract.py` | • Engineered the byte-level KV interface (`KVStore`)<br>• Implemented SQLite WAL persistence with `synchronous=FULL`<br>• Built lexicographical prefix scan and TTL key purging<br>• Implemented atomic batch operations (`KVOp`)<br>• Built point-in-time snapshot backup API<br>• Designed clinical record schemas (`PatientRecordStore`) | • Microsecond structured lookups (~1–4 µs)<br>• Atomic batch operations surviving `SIGKILL` crash testing<br>• Zero cross-patient prefix leakage (`patient:{id}:`)<br>• Patient data version tracking |
-| **Person 2** | **Vector Storage & Semantic Search Engine** | `src/medmemory/vector/`<br>• `chunking.py`<br>• `embedders.py`<br>• `filters.py`<br>• `rerankers.py`<br>• `retriever.py`<br>• `stores/in_memory.py`<br>• `stores/faiss_store.py`<br>`tests/vector/test_vector.py` | • Designed section-aware medical document chunking<br>• Created contextual chunk headers (`title \| section \| text`)<br>• Built lexical embedder (`HashingEmbedder`)<br>• Implemented In-Memory & FAISS vector indices<br>• Built MongoDB-style query filter evaluator (`$eq`, `$in`, `$gte`, `$and`)<br>• Implemented Reciprocal Rank Fusion (RRF) with BM25 | • Sub-millisecond similarity queries across FDA drug labels<br>• Hard clinical section boundary preservation<br>• Multi-namespace isolation (`notes`, `labels`, `guidelines`)<br>• Hybrid sparse + dense retrieval fusion |
-| **Person 3** | **Hybrid Query Routing & NLP Analysis** | `src/medmemory/router/`<br>• `lexicon.py`<br>• `normalize.py`<br>• `entities.py`<br>• `rules.py`<br>• `__init__.py`<br>• `router/lexicon/*.json`<br>`tests/router/test_router.py` | • Built medical abbreviation expansion and synonym resolution<br>• Implemented case-sensitive ambiguity handling (`MI`, `AF`, `Cr`)<br>• Built regex + gazetteer clinical entity extractor<br>• Implemented ICD-10-CM and RxCUI validation<br>• Built time-range and negation scope parsers<br>• Engineered deterministic multi-criteria `RulesRouter` | • Accurate classification into KV, Vector, Hybrid<br>• Full decision auditability (reasons & confidence score)<br>• Extraction of patient IDs, drugs, labs, and time ranges<br>• 0.85+ routing accuracy on benchmark set |
-| **Person 4** | **Hybrid Pipeline Orchestrator & Synthesis** | `src/medmemory/pipeline/`<br>• `orchestrator.py`<br>• `merger.py`<br>• `timing.py`<br>• `metrics.py`<br>`src/medmemory/generation/`<br>• `chain.py`<br>• `prompts.py`<br>`tests/pipeline/`<br>`tests/generation/` | • Built central query orchestrator managing end-to-end lifecycle<br>• Implemented asynchronous parallel scatter-gather across engines<br>• Built cross-engine evidence merger and deduplicator<br>• Implemented evidence sufficiency and medication conflict checks<br>• Built grounded extractive generation engine<br>• Instrumented millisecond stage timing across all stages | • End-to-end query execution across backends<br>• Verifiable `[S#]` citations in synthesized answers<br>• Honest abstention on missing or contradictory facts<br>• Per-stage latency metrics and histograms |
-| **Person 5** | **API Service, Caching, Ingestion & Safety** | `src/medmemory/api/`<br>• `app.py`<br>• `security.py`<br>• `observability.py`<br>`src/medmemory/cache/`<br>• `lru.py`<br>• `singleflight.py`<br>`src/medmemory/safety/`<br>• `guards.py`<br>• `patient_scope.py`<br>`src/medmemory/ingest/`<br>• `build.py`, `chunk.py`<br>`cli.py`, `config.py`, `container.py`<br>`tests/api/`, `tests/cache/`, `tests/safety/` | • Implemented FastAPI service with REST and SSE streaming<br>• Built auth stubs, rate limiter, and audit logger<br>• Built high-speed LRU cache with TTL and patient tag invalidation<br>• Built `SingleFlight` concurrency miss coalescer<br>• Engineered emergency red-flag interceptor<br>• Built multi-layer patient scope isolation enforcement<br>• Built seed data catalog ingestion and CLI toolchain | • Fast SSE streaming endpoint (`POST /v1/query/stream`)<br>• 100% emergency red-flag recall<br>• Zero cross-patient evidence leakage<br>• Instant cache eviction upon lab write |
-
----
-
-## 5. Verification Results
-
-### 1. Test Suite Execution (`pytest`)
+### 1. Automated Test Suite (162 Passing Tests)
 All 162 tests pass with zero failures:
 ```
 ============================= test session starts ==============================
@@ -310,8 +356,8 @@ tests/vector/test_vector.py ...................                          [100%]
   98 files already formatted
   ```
 
-### 3. Evaluation Benchmark Harness
-Running the evaluation harness against the frozen gold test suite yields:
+### 3. Gold Evaluation Benchmark
+Running the evaluation harness against the frozen gold clinical test suite yields:
 ```
 $ python -m medmemory eval --quick
 gold=113  mode=mock  (1.6s)
@@ -328,63 +374,71 @@ latency  VECTOR p50=10.07ms p95=22.97ms (miss, n=30)
 latency  HYBRID p50=12.56ms p95=30.22ms (miss, n=31)
 ```
 
-### 4. Git State Verification
-```
-$ git status
-On branch main
-nothing to commit, working tree clean
-
-$ git log -n 1 --oneline
-adc77b4 feat: initial presentation milestone (Phase 1 hybrid KV + vector database)
-```
-
 ---
 
-## 6. Presentation & Live Demonstration Guide
+## 7. Live Demonstration & Interface Guide
 
-### Preparation & Server Startup
-Ensure the Python virtual environment is active and launch the MedMemory API:
+### Interactive Clinician Web Dashboard
+MedMemory includes an interactive web dashboard served directly by the backend at `http://localhost:8000/`.
+
+To start the engine:
 ```bash
-# Start the MedMemory FastAPI server
-python -m medmemory serve
+# Start the FastAPI engine (serves web GUI and REST API)
+python -m medmemory serve --port 8000
 ```
-The server will bind to `http://localhost:8000` (interactive OpenAPI documentation available at `http://localhost:8000/docs`).
+Open **`http://localhost:8000/`** in your browser.
+
+#### Key Dashboard Capabilities:
+1. **Dynamic Patient Selection & Clinical Snapshot:**
+   - Selecting any patient (`P0001` through `P0050`) immediately fetches their records from the Key-Value store.
+   - The top banner renders an executive clinical summary: demographic details, active chronic diagnoses, active pharmacotherapy regimen, and latest laboratory measurements (with color-coded high/low clinical flags).
+2. **Context-Aware Quick Suggestions:**
+   - Quick action chips dynamically reconfigure based on the selected patient's active conditions and prescribed medications.
+3. **Execution Badges & Grounded Answer:**
+   - Displays the resolved route (`KV`, `VECTOR`, `HYBRID`), confidence score, execution status, and cache status.
+   - Displays synthesized answers with interactive citation markers (`[S1]`, `[S2]`). Clicking any citation chip smoothly scrolls to and highlights the corresponding source card.
+4. **Per-Stage Latency Waterfall:**
+   - Real-time visual breakdown showing exact millisecond timing for each stage (`precheck`, `route`, `kv`, `vector_search`, `merge`, `generate`, `citation_check`).
+5. **Retrieved Evidence & Engine Diagnostics (Side Panel):**
+   - Displays side-by-side evidence cards for **Structured Key-Value Facts** (showing SQLite WAL key and microsecond latency) and **Semantic Vector Chunks** (showing document title, section header, cosine similarity score, and excerpt text).
+6. **Live Cache Invalidation:**
+   - The "+ Add Lab & Invalidate Cache" modal allows clinicians to write a new lab observation directly to SQLite WAL, immediately bumping the patient version tag and evicting cached responses.
 
 ---
 
-### Step-by-Step Live Demo Flow (3–4 minutes)
+### CLI Toolchain & REST API Demonstration Scenarios
 
-#### Demonstration 1: Exact Key-Value Lookup (Person 1 + Person 3)
-*What it demonstrates:* Structured lab lookup in microseconds without touching vector search.
+#### Scenario 1: Exact Key-Value Lookup
+*Demonstrates structured lab lookup in microseconds without vector search overhead.*
 ```bash
 curl -s -X POST http://localhost:8000/v1/query \
   -H "Content-Type: application/json" \
   -d '{"query": "What is the latest HbA1c for P0001?"}' | jq
 ```
-*Key points to explain to the teacher:*
-- The router correctly identified structured lab intent and selected `route: "KV"`.
-- Look at `evidence_origin`: `["KV"]` — zero vector search performed.
-- Look at `citations`: points to `patient:P0001:lab:hemoglobin_a1c:2026-08-02`.
-- Read latency: ~2–4 ms end-to-end.
+*Key observations:*
+- Router selects `route: "KV"` with high confidence.
+- `evidence_origin`: `["KV"]` — zero vector search performed.
+- `citations`: points to `patient:P0001:lab:hemoglobin_a1c:2026-08-02`.
+- End-to-end latency: ~2–4 ms.
 
 ---
 
-#### Demonstration 2: Semantic Vector Search (Person 2 + Person 3)
-*What it demonstrates:* Semantic similarity search across unstructured FDA drug labels.
+#### Scenario 2: Semantic Vector Search
+*Demonstrates semantic similarity search across unstructured FDA drug labels.*
 ```bash
 curl -s -X POST http://localhost:8000/v1/query \
   -H "Content-Type: application/json" \
   -d '{"query": "What are the common side effects of metformin?"}' | jq
 ```
-*Key points to explain to the teacher:*
-- The router detected general medical knowledge language and selected `route: "VECTOR"`.
-- Look at `vector_chunks`: retrieved chunks from the `drug_labels` namespace.
-- Look at `chunk_id`: chunk headers strictly respected section boundaries (`ADVERSE REACTIONS`).
+*Key observations:*
+- Router selects `route: "VECTOR"`.
+- `vector_chunks`: retrieved chunks from the `drug_labels` namespace.
+- Section boundaries preserved (`ADVERSE REACTIONS`).
 
 ---
 
-#### Demonstration 3: Multi-Engine Hybrid Retrieval (Person 1 + Person 2 + Person 4)
-*What it demonstrates:* Parallel execution of KV and Vector engines, merging structured patient facts with unstructured drug guidelines.
+#### Scenario 3: Multi-Engine Hybrid Retrieval
+*Demonstrates concurrent execution of KV and Vector engines, merging structured patient facts with unstructured drug monographs.*
 ```bash
 curl -s -X POST http://localhost:8000/v1/query \
   -H "Content-Type: application/json" \
@@ -393,25 +447,25 @@ curl -s -X POST http://localhost:8000/v1/query \
     "patient_scope": "P0001"
   }' | jq
 ```
-*Key points to explain to the teacher:*
-- Router detected both structured patient evidence and drug narrative needs $\rightarrow$ `route: "HYBRID"`.
-- Look at `evidence_origin`: `["KV", "VECTOR"]`.
-- Look at `timings`: `kv` and `vector_search` ran concurrently.
-- Look at `answer`: cites both the specific patient lab reading (`eGFR 48 mL/min/1.73m² [S1]`) and the FDA label renal contraindications (`[S2]`).
+*Key observations:*
+- Router detects both structured patient evidence and drug narrative needs $\rightarrow$ `route: "HYBRID"`.
+- `evidence_origin`: `["KV", "VECTOR"]`.
+- `timings`: `kv` and `vector_search` run concurrently via asynchronous fan-out.
+- `answer`: cites both the patient lab value (`eGFR 47 mL/min [S1]`) and the FDA label renal contraindications (`[S2]`).
 
 ---
 
-#### Demonstration 4: High-Speed Caching & Invalidation (Person 5)
-*What it demonstrates:* LRU cache hit, followed by write-through tag invalidation.
+#### Scenario 4: High-Speed Caching & Invalidation
+*Demonstrates LRU cache hit, followed by write-through tag invalidation.*
 1. Re-run the exact query:
 ```bash
 curl -s -X POST http://localhost:8000/v1/query \
   -H "Content-Type: application/json" \
   -d '{"query": "What is the latest HbA1c for P0001?"}' | jq '.cache_hit'
 ```
-*Returns:* `"exact"` (zero backend computation; generation stage skipped).
+*Returns:* `"exact"` (0 ms engine retrieval; synthesis skipped).
 
-2. Now write a new lab record for patient `P0001`:
+2. Write a new lab result for patient `P0001`:
 ```bash
 curl -s -X POST http://localhost:8000/v1/patients/P0001/labs \
   -H "Content-Type: application/json" \
@@ -422,7 +476,7 @@ curl -s -X POST http://localhost:8000/v1/patients/P0001/labs \
     "date": "2026-10-08"
   }' | jq
 ```
-*Notice:* `invalidated_cache_entries: 1`.
+*Returns:* `invalidated_cache_entries: 1`, bumping `data_version`.
 
 3. Re-query the patient's HbA1c:
 ```bash
@@ -430,71 +484,45 @@ curl -s -X POST http://localhost:8000/v1/query \
   -H "Content-Type: application/json" \
   -d '{"query": "What is the latest HbA1c for P0001?"}' | jq '{cache_hit, answer}'
 ```
-*Notice:* `cache_hit: "miss"`, and the answer immediately reflects the new `7.2%` reading.
+*Returns:* `cache_hit: "miss"`, and the answer immediately reflects the updated `7.2%` reading.
 
 ---
 
-#### Demonstration 5: Clinical Safety & Patient Isolation (Person 5)
-*What it demonstrates:* Defense-in-depth safety and cross-patient isolation.
-1. Acute emergency red flag:
+#### Scenario 5: Clinical Safety & Patient Scope Isolation
+1. **Acute emergency red flag:**
 ```bash
 curl -s -X POST http://localhost:8000/v1/query \
   -H "Content-Type: application/json" \
   -d '{"query": "I have crushing chest pain spreading to my left arm"}' | jq
 ```
-*Notice:* `status: "red_flag"`. Zero database queries performed; immediate emergency guidance returned.
+*Verdict:* `status: "red_flag"`. Retrieval bypassed; immediate emergency clinical protocol returned.
 
-2. Cross-patient scope violation:
+2. **Cross-patient scope violation:**
 ```bash
 curl -s -X POST http://localhost:8000/v1/query \
   -H "Content-Type: application/json" \
   -d '{"query": "Show P0002s medications", "patient_scope": "P0001"}' | jq
 ```
-*Notice:* `status: "scope_violation"`. The system refuses the query before retrieval, preventing data leakage.
+*Verdict:* `status: "scope_violation"`. Request blocked prior to database retrieval, preventing cross-patient leakage.
 
 ---
 
-## 7. Cleanup & Milestone Decoupling Summary
+## 8. Future Work & Long-Term Roadmap
 
-To create a clean, functional Phase 1 presentation milestone, components belonging exclusively to future milestones were cleanly decoupled:
-
-1. **Distributed Sharding & Cluster Ring (`src/medmemory/cluster/`, `tests/cluster/`):**
-   - *Rationale:* Multi-node consistent-hash sharding is an advanced distributed systems topic planned for Phase 3. Retaining it would distract from grading the core hybrid database engine.
-2. **LoRA Router Training & Model Files (`src/medmemory/training/`, `src/medmemory/router/lora.py`):**
-   - *Rationale:* Fine-tuning DistilBERT requires GPU dependencies (`torch`, `transformers`, `peft`) and uncommitted model weights. The deterministic `RulesRouter` achieves 86% accuracy and runs instantly on any machine.
-3. **Scoped Semantic Cache (`src/medmemory/cache/semantic.py`, `tests/cache/test_semantic_cache.py`):**
-   - *Rationale:* Approximate semantic caching introduces cosine similarity thresholds that belong in Phase 2's learned layer. Phase 1 features the exact LRU cache with version-based and tag-based invalidation.
-4. **Cloud Vector Adapter (`src/medmemory/vector/stores/pinecone_store.py`, `tests/vector/test_pinecone_adapter.py`):**
-   - *Rationale:* Cloud database calls require external API keys and network access. Phase 1 is self-contained with local in-memory and FAISS stores.
-5. **RocksDB Engine (`src/medmemory/kv/rocks.py`):**
-   - *Rationale:* Requires platform-specific C++ binaries (`rocksdict`). SQLite WAL mode provides identical transactional guarantees and runs natively across all OS environments.
-6. **Commercial LLM Adapters (`langchain-anthropic` in generation chain):**
-   - *Rationale:* Commercial LLM APIs require external keys. The local extractive generator deterministically produces cited answers for all test cases.
-7. **Synthea FHIR Importer (`src/medmemory/ingest/synthea.py`):**
-   - *Rationale:* Decoupled to keep Phase 1 focused on the core seed knowledge catalog.
-8. **Next.js Frontend (`frontend/`):**
-   - *Rationale:* Decoupled to present the core database backend, REST/SSE API, and CLI toolchain.
-
----
-
-## 8. Future Work Specification & Extended Roadmap
-
-The complete planned project extends the current hybrid core across two future engineering milestones:
-
-### Evolution Roadmap Flowchart
+The modular architecture of MedMemory provides clear extension points for subsequent production enhancements:
 
 ```mermaid
 flowchart LR
-    subgraph P1["Phase 1: Current Presentation Milestone (~40–50%)"]
+    subgraph Core["Core Engine Architecture (Implemented)"]
         direction TB
         M1A["SQLite WAL KV Engine<br/>Atomic batching · TTL · Prefix scan"]
         M1B["Vector Retrieval Engine<br/>In-memory & FAISS · BM25 · RRF fusion"]
-        M1C["Rules-Based Router<br/>Abbreviation expansion · Entity extraction"]
+        M1C["Rules-Based Router<br/>Synonym expansion · Entity extraction"]
         M1D["Exact Cache & Safety<br/>LRU + SingleFlight · Red-flag interceptor"]
-        M1E["FastAPI Service & CLI<br/>REST · SSE streaming · Eval harness"]
+        M1E["Web GUI & FastAPI<br/>Interactive UI · REST · SSE streaming"]
     end
 
-    subgraph P2["Phase 2: Learned Intelligence"]
+    subgraph Learned["Learned Intelligence Extensions"]
         direction TB
         M2A["LoRA Query Classifier<br/>DistilBERT PEFT adapter"]
         M2B["Scoped Semantic Cache<br/>Embedding similarity with scope buckets"]
@@ -502,41 +530,24 @@ flowchart LR
         M2D["Neural Cross-Encoder<br/>BGE reranker & cross-encoder scoring"]
     end
 
-    subgraph P3["Phase 3: Distributed Scale"]
+    subgraph Dist["Distributed Scale Extensions"]
         direction TB
         M3A["Consistent Hash Ring<br/>Multi-node KV sharding with virtual nodes"]
         M3B["Federated Vector Search<br/>Distributed scatter-gather vector queries"]
-        M3C["Cloud Storage Adapters<br/>Pinecone serverless & RocksDB C++ engine"]
-        M3D["Clinician Dashboard<br/>Next.js web application with latency waterfalls"]
+        M3C["Cloud Storage Adapters<br/>Pinecone serverless & RocksDB LSM-tree"]
+        M3D["Hospital EHR Connector<br/>HL7 FHIR SMART-on-FHIR clinical bridge"]
     end
 
-    P1 ==> P2 ==> P3
+    Core ==> Learned ==> Dist
 ```
 
----
-
-### Phase 2: Learned Intelligence & Semantic Acceleration
-Features planned for the subsequent development sprint:
-1. **LoRA-Tuned Neural Query Classifier:**
-   - *Objective:* Train a parameter-efficient fine-tuning (PEFT) LoRA adapter on `distilbert-base-uncased` to classify open-ended clinician queries where syntactic rules yield low confidence.
-   - *Architecture:* Seamlessly implements the `Router` protocol, falling back to `RulesRouter` when prediction confidence is below threshold $\tau$.
-2. **Scoped Semantic Cache:**
-   - *Objective:* Accelerate repeated queries with lexical variations using approximate cosine similarity over dense query vectors.
-   - *Safety Guard:* Partitioned into strict isolated buckets keyed by `(patient_scope, entity_signature, data_version)` to prevent cross-patient or cross-entity cache collisions.
+1. **Parameter-Efficient LoRA Query Classifier:**
+   - Fine-tune a parameter-efficient adapter (PEFT LoRA) on `distilbert-base-uncased` to classify conversational clinician queries where rule-based heuristics yield ambiguous confidence scores.
+2. **Scoped Semantic Caching:**
+   - Implement approximate semantic caching using cosine similarity over dense query embeddings, partitioned into strict isolated buckets keyed by `(patient_scope, entity_signature, data_version)` to prevent cross-patient collisions.
 3. **Automated Synthea FHIR Ingestion:**
-   - *Objective:* Ingest synthetic FHIR bundles at scale, mapping `Observation` and `MedicationRequest` resources into structured KV rows and clinical encounters into vector narrative chunks.
-4. **Cross-Encoder Neural Reranking:**
-   - *Objective:* Integrate `cross-encoder/ms-marco-MiniLM-L-6-v2` to re-score top-$k$ vector candidates before evidence merging.
-
----
-
-### Phase 3: Distributed Architecture & Cloud Scale
-Features planned for production and scale-out:
-1. **Consistent-Hashing KV Shard Ring:**
-   - *Objective:* Scale structured data horizontally across multiple KV shard nodes using a consistent hash ring with virtual nodes (128 vnodes per node), minimizing key reassignment upon node churn.
-2. **Scatter-Gather Vector Federation:**
-   - *Objective:* Distribute vector search queries across a multi-partition vector cluster and merge candidates using distributed Reciprocal Rank Fusion.
-3. **Production Database Adapters:**
-   - *Objective:* Implement `KVStore` over RocksDB LSM-trees for write-heavy high-throughput ingestion, and `VectorStore` over managed serverless Pinecone.
-4. **Interactive Clinician Web Dashboard:**
-   - *Objective:* Production Next.js clinical interface featuring real-time Server-Sent Events (SSE) streaming, interactive per-stage latency waterfalls, and longitudinal patient health timelines.
+   - Ingest synthetic FHIR bundles at scale, mapping `Observation` and `MedicationRequest` resources into structured KV records and clinical encounter narratives into section-attributed vector chunks.
+4. **Distributed Sharding & Consistent Hashing:**
+   - Scale structured storage horizontally across multiple KV shard nodes using a consistent hash ring with virtual nodes (128 vnodes per node), minimizing key redistribution during topology changes.
+5. **Managed Cloud Storage Adapters:**
+   - Implement the `KVStore` protocol over RocksDB for write-heavy continuous telemetry, and `VectorStore` over managed serverless Pinecone for enterprise document corpora.

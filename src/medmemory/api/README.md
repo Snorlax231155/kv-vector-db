@@ -1,6 +1,6 @@
 # Module 5: API & Orchestration (`medmemory.api`, `medmemory.pipeline`)
 
-**Owner:** Person 4 & Person 5 (Pipeline & API) · **Contract:** OpenAPI spec at `/docs` or `python tasks.py openapi` · **Tests:** `tests/api/`, `tests/pipeline/`
+**Subsystem:** Pipeline & API Layer · **Contract:** OpenAPI spec at `/docs` or `python tasks.py openapi` · **Tests:** `tests/api/`, `tests/pipeline/`
 
 ## Pipeline Orchestrator (`medmemory.pipeline`)
 - `orchestrator.py`: Implements the end-to-end request lifecycle: safety pre-check → routing → patient scoping → exact caching → parallel KV/Vector retrieval → evidence merging → sufficiency evaluation → grounded extractive generation → citation validation → cache write.

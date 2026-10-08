@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MedMemory — Hybrid KV + Vector Clinical Database</title>
+  <title>MedMemory — Hybrid KV + Vector Clinical Intelligence Engine</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0b0f19;
+      --bg: #090d16;
       --card-bg: #111827;
       --card-border: #1f2937;
-      --card-hover: #1e293b;
-      --text: #f3f4f6;
+      --card-hover: #1f293d;
+      --text: #f9fafb;
       --text-muted: #9ca3af;
+      --text-dim: #6b7280;
       --accent-blue: #3b82f6;
       --accent-cyan: #06b6d4;
       --accent-indigo: #6366f1;
@@ -32,18 +33,20 @@
       color: var(--text);
       font-family: var(--font);
       line-height: 1.5;
-      padding-bottom: 60px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
 
     /* Top Navigation */
     header {
-      background: rgba(17, 24, 39, 0.85);
+      background: rgba(17, 24, 39, 0.95);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--card-border);
       position: sticky;
       top: 0;
       z-index: 50;
-      padding: 16px 32px;
+      padding: 14px 28px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -54,72 +57,96 @@
       gap: 12px;
     }
     .logo-badge {
-      background: linear-gradient(135deg, #3b82f6, #6366f1);
-      width: 40px;
-      height: 40px;
-      border-radius: 10px;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      width: 38px;
+      height: 38px;
+      border-radius: 9px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-weight: 700;
-      font-size: 20px;
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+      font-size: 19px;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
     }
-    .brand h1 {
-      font-size: 1.25rem;
+    .brand-title {
+      display: flex;
+      flex-direction: column;
+    }
+    .brand-title h1 {
+      font-size: 1.15rem;
       font-weight: 700;
       letter-spacing: -0.02em;
       color: #fff;
     }
-    .brand span {
-      font-size: 0.75rem;
-      color: var(--accent-cyan);
-      background: rgba(6, 182, 212, 0.12);
-      padding: 2px 8px;
-      border-radius: 9999px;
-      border: 1px solid rgba(6, 182, 212, 0.3);
-      margin-left: 8px;
-      font-family: var(--mono);
+    .brand-title span {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
     }
 
-    .header-links {
+    .header-controls {
       display: flex;
       align-items: center;
       gap: 16px;
     }
-    .status-pill {
+    .patient-picker-wrap {
       display: flex;
       align-items: center;
       gap: 8px;
-      font-size: 0.8rem;
+      background: #0f172a;
+      border: 1px solid #334155;
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+    .patient-picker-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      text-transform: uppercase;
+      font-family: var(--mono);
+    }
+    select.patient-select {
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 500;
+      font-family: var(--font);
+      outline: none;
+      cursor: pointer;
+    }
+    select.patient-select option {
+      background: #1e293b;
+      color: #fff;
+    }
+    .status-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
       color: var(--accent-emerald);
       background: rgba(16, 185, 129, 0.1);
-      padding: 6px 14px;
+      padding: 5px 12px;
       border-radius: 9999px;
       border: 1px solid rgba(16, 185, 129, 0.25);
       font-family: var(--mono);
     }
-    .pulse-dot {
-      width: 8px;
-      height: 8px;
+    .status-dot {
+      width: 7px;
+      height: 7px;
       border-radius: 50%;
       background: var(--accent-emerald);
-      box-shadow: 0 0 10px var(--accent-emerald);
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.85); }
+      box-shadow: 0 0 8px var(--accent-emerald);
     }
     .api-link {
       color: var(--text-muted);
       text-decoration: none;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-weight: 500;
       padding: 6px 12px;
       border-radius: 6px;
-      transition: all 0.2s;
       border: 1px solid var(--card-border);
+      transition: all 0.2s;
     }
     .api-link:hover {
       color: #fff;
@@ -129,359 +156,398 @@
 
     /* Main Container */
     main {
-      max-width: 1300px;
-      margin: 28px auto;
+      max-width: 1540px;
+      margin: 20px auto;
       padding: 0 24px;
-    }
-
-    /* Tabs */
-    .tabs {
+      width: 100%;
+      flex: 1;
       display: flex;
-      gap: 8px;
-      margin-bottom: 24px;
-      border-bottom: 1px solid var(--card-border);
-      padding-bottom: 12px;
-    }
-    .tab-btn {
-      background: transparent;
-      border: none;
-      color: var(--text-muted);
-      font-size: 0.95rem;
-      font-weight: 500;
-      padding: 8px 16px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    .tab-btn:hover {
-      color: #fff;
-      background: rgba(255, 255, 255, 0.04);
-    }
-    .tab-btn.active {
-      color: #fff;
-      background: var(--card-border);
-      font-weight: 600;
+      flex-direction: column;
+      gap: 20px;
     }
 
-    /* Grid Layout */
-    .layout-grid {
-      display: grid;
-      grid-template-columns: 1fr 1.35fr;
-      gap: 24px;
-    }
-    @media (max-width: 980px) {
-      .layout-grid { grid-template-columns: 1fr; }
-    }
-
-    .card {
+    /* Patient Summary Bar */
+    .patient-summary-bar {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-radius: 14px;
-      padding: 24px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-    }
-    .card-title {
-      font-size: 1.1rem;
-      font-weight: 600;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    /* Scenario Buttons */
-    .scenarios-grid {
+      border-radius: 12px;
+      padding: 18px 24px;
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 10px;
-      margin-bottom: 20px;
+      grid-template-columns: 260px 1fr 1fr 240px;
+      gap: 24px;
+      align-items: center;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     }
-    .scenario-btn {
-      background: #131c2e;
-      border: 1px solid #1e293b;
-      border-radius: 10px;
-      padding: 12px 14px;
-      text-align: left;
-      cursor: pointer;
-      transition: all 0.2s;
+    @media (max-width: 1200px) {
+      .patient-summary-bar { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 768px) {
+      .patient-summary-bar { grid-template-columns: 1fr; }
+    }
+    .summary-col {
       display: flex;
       flex-direction: column;
       gap: 4px;
     }
-    .scenario-btn:hover {
-      background: #1a243b;
-      border-color: var(--accent-blue);
-      transform: translateY(-1px);
-    }
-    .scenario-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .scenario-tag {
+    .summary-col-title {
       font-size: 0.7rem;
-      font-family: var(--mono);
-      font-weight: 600;
-      padding: 2px 6px;
-      border-radius: 4px;
-      text-transform: uppercase;
-    }
-    .tag-kv { background: rgba(6, 182, 212, 0.15); color: var(--accent-cyan); border: 1px solid rgba(6, 182, 212, 0.3); }
-    .tag-vector { background: rgba(168, 85, 247, 0.15); color: var(--accent-purple); border: 1px solid rgba(168, 85, 247, 0.3); }
-    .tag-hybrid { background: rgba(99, 102, 241, 0.15); color: var(--accent-indigo); border: 1px solid rgba(99, 102, 241, 0.3); }
-    .tag-safety { background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); border: 1px solid rgba(244, 63, 94, 0.3); }
-    .scenario-text {
-      font-size: 0.875rem;
-      color: #e2e8f0;
-      font-weight: 500;
-    }
-    .scenario-desc {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-    }
-
-    /* Form Inputs */
-    .form-group {
-      margin-bottom: 16px;
-    }
-    .form-label {
-      display: block;
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      margin-bottom: 6px;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+      color: var(--text-dim);
+      font-weight: 600;
+      font-family: var(--mono);
     }
-    textarea.input-query {
-      width: 100%;
-      background: #0f172a;
-      border: 1px solid var(--card-border);
-      border-radius: 10px;
-      padding: 12px 14px;
+    .patient-name-large {
+      font-size: 1.15rem;
+      font-weight: 700;
       color: #fff;
-      font-family: var(--font);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .patient-demog {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .tag {
+      font-size: 0.72rem;
+      padding: 2px 7px;
+      border-radius: 5px;
+      font-weight: 500;
+      background: #1e293b;
+      color: #cbd5e1;
+      border: 1px solid #334155;
+    }
+    .tag-condition {
+      background: rgba(99, 102, 241, 0.12);
+      color: #a5b4fc;
+      border-color: rgba(99, 102, 241, 0.3);
+    }
+    .tag-med {
+      background: rgba(6, 182, 212, 0.12);
+      color: #67e8f9;
+      border-color: rgba(6, 182, 212, 0.3);
+    }
+    .tag-lab-pill {
+      font-size: 0.75rem;
+      font-family: var(--mono);
+      background: #0f172a;
+      padding: 3px 8px;
+      border-radius: 6px;
+      border: 1px solid #334155;
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .btn-add-lab {
+      background: transparent;
+      border: 1px dashed #475569;
+      color: var(--accent-cyan);
+      font-size: 0.75rem;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: center;
+    }
+    .btn-add-lab:hover {
+      background: rgba(6, 182, 212, 0.1);
+      border-color: var(--accent-cyan);
+    }
+
+    /* Two-Column Workspace */
+    .workspace-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 20px;
+      flex: 1;
+    }
+    @media (max-width: 1080px) {
+      .workspace-grid { grid-template-columns: 1fr; }
+    }
+
+    .panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 12px;
+    }
+    .panel-title {
       font-size: 0.95rem;
-      resize: vertical;
-      min-height: 80px;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Query Box */
+    .query-box-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .quick-queries {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .quick-query-btn {
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #94a3b8;
+      font-size: 0.74rem;
+      padding: 4px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .quick-query-btn:hover {
+      background: #2563eb;
+      color: #fff;
+      border-color: #2563eb;
+    }
+    .search-input-group {
+      display: flex;
+      gap: 10px;
+    }
+    .search-input {
+      flex: 1;
+      background: #090d16;
+      border: 1px solid #334155;
+      color: #fff;
+      padding: 12px 14px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-family: var(--font);
+      outline: none;
       transition: border-color 0.2s;
     }
-    textarea.input-query:focus {
-      outline: none;
+    .search-input:focus {
       border-color: var(--accent-blue);
       box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
     }
-    .form-row {
-      display: flex;
-      gap: 12px;
-      align-items: center;
-    }
-    select.input-scope {
-      background: #0f172a;
-      border: 1px solid var(--card-border);
-      border-radius: 8px;
-      padding: 10px 12px;
-      color: #fff;
-      font-size: 0.875rem;
-      flex: 1;
-      font-family: var(--mono);
-    }
-    .btn-submit {
-      background: linear-gradient(135deg, #3b82f6, #6366f1);
-      color: #fff;
+    .btn-search {
+      background: linear-gradient(135deg, #2563eb, #4f46e5);
       border: none;
-      border-radius: 8px;
-      padding: 11px 24px;
-      font-size: 0.95rem;
+      color: #fff;
       font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0 22px;
+      border-radius: 8px;
       cursor: pointer;
       transition: all 0.2s;
       display: flex;
       align-items: center;
-      gap: 8px;
-      box-shadow: 0 4px 14px rgba(59, 130, 246, 0.35);
+      gap: 6px;
     }
-    .btn-submit:hover {
+    .btn-search:hover {
       opacity: 0.92;
       transform: translateY(-1px);
     }
-    .btn-submit:disabled {
-      opacity: 0.5;
-      cursor: not-allowed;
-      transform: none;
-    }
 
-    /* Inspection & Response Badges */
-    .badges-row {
+    /* Inspector & Answer */
+    .meta-badges {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      margin-bottom: 18px;
     }
     .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       font-family: var(--mono);
       font-weight: 600;
-      padding: 4px 10px;
+      padding: 3px 8px;
       border-radius: 6px;
       border: 1px solid transparent;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
     }
     .badge-route-kv { background: rgba(6, 182, 212, 0.15); color: var(--accent-cyan); border-color: rgba(6, 182, 212, 0.35); }
-    .badge-route-vector { background: rgba(168, 85, 247, 0.15); color: var(--accent-purple); border-color: rgba(168, 85, 247, 0.35); }
-    .badge-route-hybrid { background: rgba(99, 102, 241, 0.15); color: var(--accent-indigo); border-color: rgba(99, 102, 241, 0.35); }
-    .badge-status-answered { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border-color: rgba(16, 185, 129, 0.35); }
-    .badge-status-redflag { background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); border-color: rgba(244, 63, 94, 0.35); }
-    .badge-status-scope { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.35); }
-    .badge-cache-exact { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border-color: rgba(16, 185, 129, 0.35); }
-    .badge-cache-miss { background: rgba(156, 163, 175, 0.15); color: var(--text-muted); border-color: rgba(156, 163, 175, 0.3); }
+    .badge-route-vec { background: rgba(168, 85, 247, 0.15); color: var(--accent-purple); border-color: rgba(168, 85, 247, 0.35); }
+    .badge-route-hyb { background: rgba(99, 102, 241, 0.15); color: var(--accent-indigo); border-color: rgba(99, 102, 241, 0.35); }
+    .badge-status-ok { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border-color: rgba(16, 185, 129, 0.35); }
+    .badge-status-red { background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); border-color: rgba(244, 63, 94, 0.35); }
+    .badge-status-warn { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border-color: rgba(245, 158, 11, 0.35); }
+    .badge-cache { background: rgba(30, 41, 59, 0.8); color: #cbd5e1; border-color: #475569; }
 
-    /* Answer Box */
-    .answer-box {
-      background: #0f172a;
-      border: 1px solid var(--card-border);
+    .answer-card {
+      background: #090d16;
+      border: 1px solid #1f2937;
       border-radius: 10px;
       padding: 18px;
-      margin-bottom: 20px;
-      line-height: 1.6;
       font-size: 0.95rem;
+      line-height: 1.65;
     }
     .citation-chip {
       background: rgba(59, 130, 246, 0.2);
-      color: var(--accent-blue);
+      color: #60a5fa;
       border: 1px solid rgba(59, 130, 246, 0.4);
-      padding: 1px 6px;
+      padding: 1px 5px;
       border-radius: 4px;
       font-family: var(--mono);
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       font-weight: 600;
       margin: 0 2px;
       cursor: pointer;
-      transition: all 0.2s;
     }
     .citation-chip:hover {
-      background: var(--accent-blue);
+      background: #2563eb;
       color: #fff;
     }
 
     /* Latency Waterfall */
-    .waterfall-card {
-      background: #0f172a;
+    .waterfall-box {
+      background: #090d16;
       border: 1px solid var(--card-border);
       border-radius: 10px;
-      padding: 16px;
-      margin-bottom: 20px;
+      padding: 14px 16px;
     }
     .waterfall-header {
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      margin-bottom: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
       display: flex;
       justify-content: space-between;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      font-family: var(--mono);
+      margin-bottom: 10px;
+      font-weight: 600;
+      text-transform: uppercase;
     }
-    .waterfall-row {
+    .wf-row {
       display: flex;
       align-items: center;
-      gap: 12px;
-      margin-bottom: 8px;
-      font-size: 0.8rem;
+      gap: 10px;
+      margin-bottom: 6px;
+      font-size: 0.75rem;
     }
-    .stage-name {
-      width: 120px;
+    .wf-name {
+      width: 110px;
       font-family: var(--mono);
       color: var(--text-muted);
+      white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      white-space: nowrap;
     }
-    .stage-bar-bg {
+    .wf-bar-track {
       flex: 1;
-      height: 8px;
+      height: 6px;
       background: #1e293b;
       border-radius: 9999px;
       overflow: hidden;
-      position: relative;
     }
-    .stage-bar-fill {
+    .wf-bar-fill {
       height: 100%;
-      border-radius: 9999px;
       background: var(--accent-blue);
-      transition: width 0.4s ease-out;
+      border-radius: 9999px;
+      transition: width 0.3s;
     }
-    .stage-ms {
-      width: 60px;
+    .wf-time {
+      width: 55px;
       text-align: right;
       font-family: var(--mono);
-      color: #e2e8f0;
-      font-size: 0.75rem;
+      color: #cbd5e1;
     }
 
-    /* Evidence Lists */
-    .evidence-section {
-      margin-top: 20px;
-    }
-    .evidence-section h4 {
-      font-size: 0.85rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 10px;
+    /* Side Evidence Panels */
+    .evidence-scroll-area {
       display: flex;
-      align-items: center;
-      gap: 6px;
+      flex-direction: column;
+      gap: 14px;
+      overflow-y: auto;
+      max-height: calc(100vh - 340px);
+      padding-right: 4px;
     }
-    .evidence-item {
-      background: #131c2e;
-      border: 1px solid #1e293b;
-      border-radius: 8px;
-      padding: 12px;
-      margin-bottom: 10px;
-      font-size: 0.85rem;
-      line-height: 1.5;
+    .evidence-card {
+      background: #090d16;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
     }
-    .evidence-meta {
-      font-family: var(--mono);
-      font-size: 0.75rem;
-      color: var(--accent-cyan);
-      margin-bottom: 4px;
+    .evidence-card-header {
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      font-family: var(--mono);
     }
-
-    /* Patient Browser */
-    .patient-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-    .patient-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.85rem;
-      margin-top: 10px;
-    }
-    .patient-table th, .patient-table td {
-      border: 1px solid var(--card-border);
-      padding: 8px 12px;
-      text-align: left;
-    }
-    .patient-table th {
-      background: #131c2e;
-      color: var(--text-muted);
+    .evidence-origin-kv {
+      color: var(--accent-cyan);
       font-weight: 600;
     }
+    .evidence-origin-vec {
+      color: var(--accent-purple);
+      font-weight: 600;
+    }
+    .evidence-key {
+      color: var(--text-dim);
+      font-size: 0.72rem;
+      word-break: break-all;
+    }
+    .evidence-body {
+      font-size: 0.85rem;
+      color: #e2e8f0;
+      line-height: 1.5;
+    }
 
-    /* Empty state */
-    .empty-state {
-      text-align: center;
-      padding: 40px 20px;
+    /* Modal for Lab Adding */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+    }
+    .modal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 24px;
+      width: 100%;
+      max-width: 440px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .form-field label {
+      font-size: 0.75rem;
       color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .form-field input {
+      background: #090d16;
+      border: 1px solid #334155;
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
@@ -490,519 +556,562 @@
   <header>
     <div class="brand">
       <div class="logo-badge">M</div>
-      <div>
-        <h1>MedMemory</h1>
+      <div class="brand-title">
+        <h1>MedMemory Clinical Intelligence</h1>
+        <span>Hybrid Key-Value + Vector Knowledge Engine</span>
       </div>
-      <span>Phase 1 Milestone (~40–50%)</span>
     </div>
-    <div class="header-links">
-      <div class="status-pill">
-        <div class="pulse-dot"></div>
-        <span id="server-status">API Connected (Mock Mode)</span>
+
+    <div class="header-controls">
+      <div class="patient-picker-wrap">
+        <span class="patient-picker-label">Active Patient:</span>
+        <select id="patient-dropdown" class="patient-select" onchange="onPatientSelect(this.value)">
+          <option value="P0001">P0001 · Fatima Brown</option>
+          <option value="P0002">P0002 · Daniel Haddad</option>
+          <option value="P0003">P0003 · Irene Osei</option>
+          <option value="P0004">P0004 · Ananya Osei</option>
+          <option value="P0005">P0005 · Karan Osei</option>
+          <option value="P0006">P0006 · Michael Reddy</option>
+          <option value="P0007">P0007 · Joy Banerjee</option>
+          <option value="P0008">P0008 · Wei Tanaka</option>
+          <option value="P0009">P0009 · Luis Nair</option>
+          <option value="P0010">P0010 · Omar Johnson</option>
+        </select>
       </div>
-      <a href="/docs" target="_blank" class="api-link">OpenAPI Docs ↗</a>
+
+      <div class="status-badge">
+        <div class="status-dot"></div>
+        <span id="status-text">Engine Online</span>
+      </div>
+
+      <a href="/docs" target="_blank" class="api-link">API Specification ↗</a>
     </div>
   </header>
 
   <main>
-    <!-- Navigation Tabs -->
-    <div class="tabs">
-      <button class="tab-btn active" onclick="switchTab('query')">⚡ Clinical Query & Inspector</button>
-      <button class="tab-btn" onclick="switchTab('patient')">📋 Patient Chart & Cache Invalidation</button>
-      <button class="tab-btn" onclick="switchTab('architecture')">🏛️ Phase 1 Architecture & Team Split</button>
-    </div>
+    <!-- PATIENT SUMMARY BAR -->
+    <section class="patient-summary-bar" id="patient-summary-card">
+      <!-- Col 1: Identity -->
+      <div class="summary-col">
+        <span class="summary-col-title">Patient Profile</span>
+        <div class="patient-name-large">
+          <span id="pt-name">Fatima Brown</span>
+          <span id="pt-id" style="font-size:0.75rem; color:var(--accent-cyan); font-family:var(--mono);">P0001</span>
+        </div>
+        <div class="patient-demog" id="pt-demog">64yo Female · Born 1962-03-01</div>
+      </div>
 
-    <!-- TAB 1: Query & Inspector -->
-    <div id="tab-query" class="tab-content">
-      <div class="layout-grid">
-        
-        <!-- Left: Scenarios & Query Input -->
-        <div class="card">
-          <div class="card-title">
-            <span>Clinical Scenarios</span>
-            <span style="font-size: 0.75rem; color: var(--text-muted);">Click to load</span>
+      <!-- Col 2: Active Conditions -->
+      <div class="summary-col">
+        <span class="summary-col-title">Documented Conditions</span>
+        <div class="tag-list" id="pt-conditions">
+          <span class="tag tag-condition">Loading conditions...</span>
+        </div>
+      </div>
+
+      <!-- Col 3: Active Medications -->
+      <div class="summary-col">
+        <span class="summary-col-title">Active Regimen</span>
+        <div class="tag-list" id="pt-meds">
+          <span class="tag tag-med">Loading medications...</span>
+        </div>
+      </div>
+
+      <!-- Col 4: Key Baseline Labs & Action -->
+      <div class="summary-col" style="gap:6px;">
+        <span class="summary-col-title">Latest Key Lab Values</span>
+        <div id="pt-labs-preview" style="display:flex; flex-direction:column; gap:4px;">
+          <div class="tag-lab-pill"><span>Loading labs...</span></div>
+        </div>
+        <button class="btn-add-lab" onclick="openAddLabModal()">+ Add Lab & Invalidate Cache</button>
+      </div>
+
+      <!-- Full-Width Clinical Narrative Summary Banner -->
+      <div id="pt-narrative-summary" style="grid-column: 1 / -1; margin-top: 8px; padding: 12px 16px; background: rgba(15, 23, 42, 0.7); border-radius: 8px; border: 1px solid #1e293b; font-size: 0.83rem; color: #cbd5e1; line-height: 1.6;">
+        Loading longitudinal patient summary from Key-Value store...
+      </div>
+    </section>
+
+    <!-- TWO-COLUMN WORKSPACE -->
+    <div class="workspace-grid">
+      
+      <!-- LEFT PANEL: Search & Synthesis -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">
+            <span>Clinical Query & Synthesis</span>
+          </span>
+          <span id="latency-tag" style="font-family: var(--mono); font-size: 0.78rem; color: var(--accent-emerald);">Ready</span>
+        </div>
+
+        <!-- Query Form & Quick Suggestions -->
+        <div class="query-box-wrap">
+          <div class="quick-queries" id="quick-query-list">
+            <!-- Populated dynamically based on patient -->
           </div>
 
-          <div class="scenarios-grid">
-            <button class="scenario-btn" onclick="loadScenario('What is the latest HbA1c for P0001?', 'P0001', 'KV exact lookup (µs latency)')">
-              <div class="scenario-header">
-                <span class="scenario-tag tag-kv">1. Exact KV Lookup</span>
-                <span style="font-size: 0.75rem; color: var(--accent-cyan); font-family: var(--mono);">P0001</span>
-              </div>
-              <span class="scenario-text">What is the latest HbA1c for P0001?</span>
-              <span class="scenario-desc">Pulls structured lab from SQLite WAL without vector search.</span>
+          <form onsubmit="executeSearch(event)" class="search-input-group">
+            <input type="text" id="query-input" class="search-input" placeholder="Ask a clinical question about this patient or drug..." required autofocus>
+            <button type="submit" id="search-btn" class="btn-search">
+              <span>Execute</span>
             </button>
-
-            <button class="scenario-btn" onclick="loadScenario('What are the common side effects of metformin?', '', 'Vector semantic search')">
-              <div class="scenario-header">
-                <span class="scenario-tag tag-vector">2. Semantic Vector</span>
-                <span style="font-size: 0.75rem; color: var(--accent-purple); font-family: var(--mono);">Public</span>
-              </div>
-              <span class="scenario-text">What are the common side effects of metformin?</span>
-              <span class="scenario-desc">Dense + BM25 search across FDA package monographs.</span>
-            </button>
-
-            <button class="scenario-btn" onclick="loadScenario('Given her latest eGFR, what does the metformin label say about kidney function?', 'P0001', 'Hybrid multi-engine retrieval')">
-              <div class="scenario-header">
-                <span class="scenario-tag tag-hybrid">3. Hybrid Retrieval</span>
-                <span style="font-size: 0.75rem; color: var(--accent-indigo); font-family: var(--mono);">P0001</span>
-              </div>
-              <span class="scenario-text">Given her latest eGFR, what does the label say about kidneys?</span>
-              <span class="scenario-desc">KV scans P0001's eGFR + Vector searches FDA contraindications concurrently.</span>
-            </button>
-
-            <button class="scenario-btn" onclick="loadScenario('I have crushing chest pain spreading to my left arm', '', 'Safety red-flag interceptor')">
-              <div class="scenario-header">
-                <span class="scenario-tag tag-safety">4. Emergency Guard</span>
-                <span style="font-size: 0.75rem; color: var(--accent-rose); font-family: var(--mono);">Safety</span>
-              </div>
-              <span class="scenario-text">I have crushing chest pain spreading to my left arm</span>
-              <span class="scenario-desc">Immediate emergency protocol; zero database or LLM queries.</span>
-            </button>
-
-            <button class="scenario-btn" onclick="loadScenario('Show P0002s medications', 'P0001', 'Scope violation leak prevention')">
-              <div class="scenario-header">
-                <span class="scenario-tag tag-safety">5. Scope Violation</span>
-                <span style="font-size: 0.75rem; color: var(--accent-amber); font-family: var(--mono);">P0001</span>
-              </div>
-              <span class="scenario-text">Show P0002s medications (while in P0001 session)</span>
-              <span class="scenario-desc">Strictly rejected before retrieval to prevent cross-patient leakage.</span>
-            </button>
-          </div>
-
-          <form id="query-form" onsubmit="handleQuerySubmit(event)">
-            <div class="form-group">
-              <label class="form-label">Query Text</label>
-              <textarea id="query-input" class="input-query" placeholder="Type a clinical query or click a scenario above..." required></textarea>
-            </div>
-
-            <div class="form-group">
-              <div class="form-row">
-                <div style="flex: 1;">
-                  <label class="form-label">Active Patient Scope</label>
-                  <select id="scope-select" class="input-scope">
-                    <option value="">None (Open Medical Knowledge)</option>
-                    <option value="P0001" selected>P0001 — Eleanor Vance (T2DM, CKD)</option>
-                    <option value="P0002">P0002 — Arthur Pendelton (AF, HTN)</option>
-                    <option value="P0003">P0003 — Maya Lin (Asthma, HTN)</option>
-                    <option value="P0004">P0004 — Carlos Mendoza (Hypothyroid)</option>
-                    <option value="P0005">P0005 — Sophia Al-Mansoor (CAD)</option>
-                  </select>
-                </div>
-
-                <div style="padding-top: 22px;">
-                  <button type="submit" id="btn-submit" class="btn-submit">
-                    <span>Ask Database</span>
-                  </button>
-                </div>
-              </div>
-            </div>
           </form>
         </div>
 
-        <!-- Right: Real-Time Results Inspector -->
-        <div class="card">
-          <div class="card-title">
-            <span>Execution Inspector</span>
-            <span id="timing-tag" style="font-family: var(--mono); font-size: 0.8rem; color: var(--accent-emerald);">Ready</span>
-          </div>
+        <!-- Inspector Badges -->
+        <div class="meta-badges" id="meta-badges">
+          <span class="badge" style="background:#1e293b; color:#94a3b8;">Awaiting Query</span>
+        </div>
 
-          <div id="inspector-badges" class="badges-row">
-            <span class="badge" style="background:#1e293b; color:#94a3b8;">Awaiting Query...</span>
-          </div>
-
-          <div class="form-label">Grounded Synthesized Answer</div>
-          <div id="answer-box" class="answer-box">
-            Select a scenario or enter a clinical question on the left to see live hybrid routing, microsecond KV lookups, and citation grounding.
-          </div>
-
-          <!-- Latency Waterfall -->
-          <div class="waterfall-card">
-            <div class="waterfall-header">
-              <span>Stage Latency Breakdown</span>
-              <span id="waterfall-total" style="font-family: var(--mono); color: var(--accent-cyan);">0.0 ms</span>
-            </div>
-            <div id="waterfall-rows">
-              <div style="color: var(--text-muted); font-size: 0.8rem;">Run a query to inspect live pipeline timings.</div>
-            </div>
-          </div>
-
-          <!-- Retrieved Evidence -->
-          <div class="evidence-section">
-            <div id="evidence-container"></div>
+        <!-- Synthesized Answer -->
+        <div style="display:flex; flex-direction:column; gap:6px;">
+          <span style="font-size:0.75rem; text-transform:uppercase; color:var(--text-dim); font-weight:600; font-family:var(--mono);">Synthesized Grounded Answer</span>
+          <div class="answer-card" id="answer-text">
+            Select a quick question above or enter a query to inspect the hybrid retrieval execution across Key-Value and Vector stores.
           </div>
         </div>
 
-      </div>
-    </div>
-
-    <!-- TAB 2: Patient Charts & Invalidation -->
-    <div id="tab-patient" class="tab-content" style="display: none;">
-      <div class="layout-grid">
-        
-        <!-- Left: Patient Selector & Record View -->
-        <div class="card">
-          <div class="card-title">
-            <span>Patient Record Browser</span>
-            <select id="browser-patient-select" class="input-scope" style="max-width: 220px;" onchange="loadPatientRecord(this.value)">
-              <option value="P0001">P0001 — Eleanor Vance</option>
-              <option value="P0002">P0002 — Arthur Pendelton</option>
-              <option value="P0003">P0003 — Maya Lin</option>
-              <option value="P0004">P0004 — Carlos Mendoza</option>
-              <option value="P0005">P0005 — Sophia Al-Mansoor</option>
-            </select>
+        <!-- Stage Latency Waterfall -->
+        <div class="waterfall-box">
+          <div class="waterfall-header">
+            <span>Execution Stage Waterfall</span>
+            <span id="wf-total-ms" style="color: var(--accent-cyan);">0.0 ms</span>
           </div>
-
-          <div id="patient-details-card">
-            <div style="color: var(--text-muted); font-size: 0.85rem;">Loading patient chart...</div>
-          </div>
-        </div>
-
-        <!-- Right: Append Lab Form & Invalidation Test -->
-        <div class="card">
-          <div class="card-title">
-            <span>Write Lab Record & Invalidate Cache</span>
-            <span class="scenario-tag tag-kv">Write-Through Invalidation</span>
-          </div>
-          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
-            Writing a new laboratory result for a patient increments their data version (<code>meta:version:{id}</code>) and purges all tagged LRU cache entries immediately.
-          </p>
-
-          <form id="lab-write-form" onsubmit="handleLabWrite(event)">
-            <div class="form-group">
-              <label class="form-label">Target Patient</label>
-              <input type="text" id="lab-patient-id" class="input-query" value="P0001" readonly style="min-height: auto; padding: 8px 12px;">
-            </div>
-
-            <div class="form-group">
-              <label class="form-label">Lab Test Name</label>
-              <input type="text" id="lab-name" class="input-query" value="hemoglobin a1c" required style="min-height: auto; padding: 8px 12px;">
-            </div>
-
-            <div class="form-row">
-              <div class="form-group" style="flex: 1;">
-                <label class="form-label">New Value</label>
-                <input type="number" step="0.1" id="lab-value" class="input-query" value="7.3" required style="min-height: auto; padding: 8px 12px;">
-              </div>
-              <div class="form-group" style="flex: 1;">
-                <label class="form-label">Unit</label>
-                <input type="text" id="lab-unit" class="input-query" value="%" required style="min-height: auto; padding: 8px 12px;">
-              </div>
-              <div class="form-group" style="flex: 1;">
-                <label class="form-label">Date</label>
-                <input type="date" id="lab-date" class="input-query" value="2026-10-08" required style="min-height: auto; padding: 8px 12px;">
-              </div>
-            </div>
-
-            <button type="submit" class="btn-submit" style="width: 100%; justify-content: center;">
-              <span>Submit Lab & Trigger Invalidation</span>
-            </button>
-          </form>
-
-          <div id="invalidation-alert" style="display: none; margin-top: 18px; padding: 14px; border-radius: 8px; background: rgba(16, 185, 129, 0.15); border: 1px solid var(--accent-emerald); color: #fff; font-size: 0.85rem;"></div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- TAB 3: Team Work Split -->
-    <div id="tab-architecture" class="tab-content" style="display: none;">
-      <div class="card" style="margin-bottom: 24px;">
-        <div class="card-title">Phase 1 Milestone: Five-Person Work Division</div>
-        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">
-          This ~40–50% presentation milestone covers the foundational database and orchestration core. Work is distributed across five balanced engineering roles:
-        </p>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
-          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
-            <div style="color: var(--accent-cyan); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 1: KV Storage</div>
-            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/kv/</code></div>
-            <p style="font-size: 0.75rem; color: var(--text-muted);">SQLite WAL persistence, atomic batch operations, prefix scans, TTL expiry, and patient record modeling.</p>
-          </div>
-
-          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
-            <div style="color: var(--accent-purple); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 2: Vector Search</div>
-            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/vector/</code></div>
-            <p style="font-size: 0.75rem; color: var(--text-muted);">Section-aware clinical chunking, lexical embedder, FAISS/in-memory indices, and BM25 Reciprocal Rank Fusion.</p>
-          </div>
-
-          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
-            <div style="color: var(--accent-indigo); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 3: Query Router</div>
-            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/router/</code></div>
-            <p style="font-size: 0.75rem; color: var(--text-muted);">Clinical abbreviation expansion, regex + gazetteer entity extraction, and deterministic multi-criteria RulesRouter.</p>
-          </div>
-
-          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
-            <div style="color: var(--accent-emerald); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 4: Orchestrator</div>
-            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/pipeline/</code></div>
-            <p style="font-size: 0.75rem; color: var(--text-muted);">Scatter-gather parallel execution, cross-engine evidence merger, grounded extractive generator, and stage timings.</p>
-          </div>
-
-          <div style="background: #131c2e; border: 1px solid #1e293b; padding: 16px; border-radius: 10px;">
-            <div style="color: var(--accent-amber); font-weight: 700; font-size: 0.9rem; margin-bottom: 6px;">Person 5: API & Safety</div>
-            <div style="font-size: 0.8rem; color: #e2e8f0; margin-bottom: 8px;"><code>src/medmemory/api/</code>, <code>cache/</code></div>
-            <p style="font-size: 0.75rem; color: var(--text-muted);">FastAPI REST/SSE service, LRU cache with tag invalidation, SingleFlight coalescing, and clinical emergency red-flag guards.</p>
+          <div id="waterfall-list">
+            <div style="font-size:0.75rem; color:var(--text-dim);">Execute a query to inspect live stage timings.</div>
           </div>
         </div>
       </div>
+
+      <!-- RIGHT PANEL: Retrieved Evidence (KV + Vector In Side) -->
+      <div class="panel">
+        <div class="panel-header">
+          <span class="panel-title">
+            <span>Retrieved Evidence & Engine Diagnostics</span>
+          </span>
+          <span id="evidence-count" style="font-family: var(--mono); font-size: 0.75rem; color: var(--text-dim);">0 sources</span>
+        </div>
+
+        <div class="evidence-scroll-area" id="evidence-list">
+          <div style="text-align:center; padding:50px 20px; color:var(--text-dim); font-size:0.85rem;">
+            Retrieved structured KV facts and semantic vector chunks will appear here with detailed source attribution and microsecond latency figures.
+          </div>
+        </div>
+      </div>
+
     </div>
   </main>
 
+  <!-- Add Lab Modal -->
+  <div class="modal-overlay" id="add-lab-modal">
+    <div class="modal-card">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <h3 style="font-size:1rem; font-weight:700;">Record Laboratory Value</h3>
+        <button onclick="closeAddLabModal()" style="background:none; border:none; color:var(--text-dim); font-size:1.2rem; cursor:pointer;">&times;</button>
+      </div>
+      <p style="font-size:0.78rem; color:var(--text-muted);">
+        Writing a lab result writes to SQLite WAL, increments the patient's version tag, and instantly evicts all cached queries for this patient.
+      </p>
+
+      <form onsubmit="submitNewLab(event)" style="display:flex; flex-direction:column; gap:12px;">
+        <div class="form-field">
+          <label>Patient ID</label>
+          <input type="text" id="modal-pt-id" readonly style="color:var(--accent-cyan); font-family:var(--mono);">
+        </div>
+        <div class="form-field">
+          <label>Lab Name</label>
+          <input type="text" id="modal-lab-name" value="hemoglobin a1c" required>
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+          <div class="form-field">
+            <label>Value</label>
+            <input type="number" step="0.1" id="modal-lab-val" value="7.4" required>
+          </div>
+          <div class="form-field">
+            <label>Unit</label>
+            <input type="text" id="modal-lab-unit" value="%" required>
+          </div>
+        </div>
+        <div class="form-field">
+          <label>Date</label>
+          <input type="date" id="modal-lab-date" value="2026-10-08" required>
+        </div>
+
+        <button type="submit" class="btn-search" style="padding:12px; justify-content:center; margin-top:8px;">
+          Commit to SQLite & Invalidate Cache
+        </button>
+      </form>
+    </div>
+  </div>
+
   <script>
-    // Tab switching
-    function switchTab(tabId) {
-      document.querySelectorAll('.tab-content').forEach(el => el.style.display = 'none');
-      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-      document.getElementById('tab-' + tabId).style.display = 'block';
-      event.target.classList.add('active');
-      if (tabId === 'patient') {
-        loadPatientRecord(document.getElementById('browser-patient-select').value);
-      }
-    }
+    let activePatientId = "P0001";
+    let currentPatientData = null;
 
-    // Load Scenario
-    function loadScenario(query, scope, label) {
-      document.getElementById('query-input').value = query;
-      document.getElementById('scope-select').value = scope;
-      handleQuerySubmit();
-    }
+    // Load active patient & patient list on startup
+    window.addEventListener("DOMContentLoaded", () => {
+      loadPatientList();
+      loadPatientDetails(activePatientId);
+      checkHealth();
+    });
 
-    // Query Submission
-    async function handleQuerySubmit(e) {
-      if (e) e.preventDefault();
-      const query = document.getElementById('query-input').value.trim();
-      const scope = document.getElementById('scope-select').value || null;
-      if (!query) return;
-
-      const btn = document.getElementById('btn-submit');
-      btn.disabled = true;
-      btn.innerHTML = '<span>Executing...</span>';
-
-      const timingTag = document.getElementById('timing-tag');
-      timingTag.textContent = 'Running...';
-      timingTag.style.color = 'var(--accent-amber)';
-
+    async function checkHealth() {
       try {
-        const res = await fetch('/v1/query', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ query, patient_scope: scope })
-        });
+        const res = await fetch("/readyz");
         const data = await res.json();
-        renderInspectionResults(data);
-      } catch (err) {
-        alert('Query failed: ' + err.message);
-      } finally {
-        btn.disabled = false;
-        btn.innerHTML = '<span>Ask Database</span>';
+        if (data.ready) {
+          document.getElementById("status-text").textContent = "KV + Vector Engines Ready";
+        }
+      } catch (e) {
+        document.getElementById("status-text").textContent = "Connecting...";
       }
     }
 
-    // Render Inspector Data
-    function renderInspectionResults(data) {
-      const timingTag = document.getElementById('timing-tag');
-      timingTag.textContent = `${data.total_ms || 0} ms`;
-      timingTag.style.color = 'var(--accent-emerald)';
+    async function loadPatientList() {
+      try {
+        const res = await fetch("/v1/patients?limit=50");
+        const pts = await res.json();
+        const sel = document.getElementById("patient-dropdown");
+        sel.innerHTML = "";
+        pts.forEach(p => {
+          const opt = document.createElement("option");
+          opt.value = p.patient_id;
+          opt.textContent = `${p.patient_id} · ${p.name} (${p.age}yo ${p.sex === "female" ? "F" : "M"})`;
+          sel.appendChild(opt);
+        });
+        sel.value = activePatientId;
+      } catch (e) {
+        console.error("Failed to load patient list", e);
+      }
+    }
 
-      // Badges
-      const badgesContainer = document.getElementById('inspector-badges');
-      badgesContainer.innerHTML = '';
+    function onPatientSelect(pid) {
+      activePatientId = pid;
+      loadPatientDetails(pid);
+    }
 
-      if (data.route) {
-        const routeClass = data.route === 'KV' ? 'badge-route-kv' : data.route === 'VECTOR' ? 'badge-route-vector' : 'badge-route-hybrid';
-        badgesContainer.innerHTML += `<span class="badge ${routeClass}">Route: ${data.route}</span>`;
+    async function loadPatientDetails(pid) {
+      try {
+        const res = await fetch(`/v1/patients/${pid}`);
+        const data = await res.json();
+        currentPatientData = data;
+        renderPatientSummary(data);
+        renderQuickQueries(data);
+      } catch (err) {
+        console.error("Failed to load patient:", err);
+      }
+    }
+
+    function renderPatientSummary(data) {
+      const s = data.summary || data;
+      const records = data.records || [];
+      const notes = data.notes || [];
+
+      // Patient Identity
+      document.getElementById("pt-name").textContent = s.name || s.patient_id;
+      document.getElementById("pt-id").textContent = s.patient_id;
+      const sexLabel = (s.sex || "").toLowerCase() === "female" ? "Female" : "Male";
+      document.getElementById("pt-demog").textContent = `${s.age}yo ${sexLabel} · Born ${s.birth_date} · Last Encounter: ${s.last_encounter || "None"}`;
+
+      // Conditions
+      const condContainer = document.getElementById("pt-conditions");
+      condContainer.innerHTML = "";
+      const conditions = s.conditions || [];
+      if (conditions.length > 0) {
+        conditions.forEach(cond => {
+          condContainer.innerHTML += `<span class="tag tag-condition" title="${cond}">${cond}</span>`;
+        });
+      } else {
+        condContainer.innerHTML = "<span class="tag">None recorded</span>";
       }
 
-      if (data.status) {
-        const statusClass = data.status === 'answered' ? 'badge-status-answered' : data.status === 'red_flag' ? 'badge-status-redflag' : 'badge-status-scope';
-        badgesContainer.innerHTML += `<span class="badge ${statusClass}">Status: ${data.status.toUpperCase()}</span>`;
+      // Active Medications from structured records
+      const medsContainer = document.getElementById("pt-meds");
+      medsContainer.innerHTML = "";
+      const activeMeds = records.filter(r => r.kind === "medication" && r.data && r.data.status === "active");
+      if (activeMeds.length > 0) {
+        activeMeds.forEach(m => {
+          const d = m.data;
+          const medText = `${d.drug} ${d.dose || ""} (${d.frequency || ""})`.trim();
+          medsContainer.innerHTML += `<span class="tag tag-med" title="${d.indication || ""}">${medText}</span>`;
+        });
+      } else {
+        medsContainer.innerHTML = "<span class="tag">None active</span>";
       }
 
-      if (data.cache_hit) {
-        const cacheClass = data.cache_hit === 'exact' ? 'badge-cache-exact' : 'badge-cache-miss';
-        badgesContainer.innerHTML += `<span class="badge ${cacheClass}">Cache: ${data.cache_hit.toUpperCase()}</span>`;
-      }
-
-      if (data.confidence !== undefined) {
-        badgesContainer.innerHTML += `<span class="badge" style="background:#1e293b; color:#38bdf8;">Confidence: ${(data.confidence * 100).toFixed(0)}%</span>`;
-      }
-
-      // Answer with highlighted citations
-      let answerText = data.answer || 'No answer generated.';
-      answerText = answerText.replace(/\[S(\d+)\]/g, '<span class="citation-chip">[S$1]</span>');
-      document.getElementById('answer-box').innerHTML = answerText;
-
-      // Latency Waterfall
-      document.getElementById('waterfall-total').textContent = `${data.total_ms || 0} ms total`;
-      const wfContainer = document.getElementById('waterfall-rows');
-      wfContainer.innerHTML = '';
-
-      if (data.timings && data.timings.length > 0) {
-        const maxDuration = Math.max(...data.timings.map(t => t.duration_ms || 0), 1);
-        data.timings.forEach(t => {
-          const pct = Math.max((t.duration_ms / maxDuration) * 100, 3);
-          wfContainer.innerHTML += `
-            <div class="waterfall-row">
-              <span class="stage-name" title="${t.stage}">${t.stage}</span>
-              <div class="stage-bar-bg">
-                <div class="stage-bar-fill" style="width: ${pct}%;"></div>
-              </div>
-              <span class="stage-ms">${(t.duration_ms || 0).toFixed(2)} ms</span>
+      // Latest Key Labs from structured records
+      const labsContainer = document.getElementById("pt-labs-preview");
+      labsContainer.innerHTML = "";
+      const labRecords = records.filter(r => r.kind === "lab" && r.data);
+      if (labRecords.length > 0) {
+        const seen = new Set();
+        const recent = [];
+        for (let i = labRecords.length - 1; i >= 0 && recent.length < 3; i--) {
+          const l = labRecords[i].data;
+          if (l && l.lab && !seen.has(l.lab)) {
+            seen.add(l.lab);
+            recent.push(l);
+          }
+        }
+        recent.forEach(l => {
+          const flagColor = l.flag === "high" ? "color:var(--accent-rose); font-weight:600;" : l.flag === "low" ? "color:var(--accent-amber); font-weight:600;" : "color:var(--accent-emerald); font-weight:600;";
+          labsContainer.innerHTML += `
+            <div class="tag-lab-pill" title="Recorded: ${l.date}">
+              <span>${l.lab}</span>
+              <span style="${flagColor}">${l.value} ${l.unit}</span>
             </div>
           `;
         });
       } else {
-        wfContainer.innerHTML = '<div style="color: var(--text-muted); font-size: 0.8rem;">Query served instantly from exact cache.</div>';
+        labsContainer.innerHTML = "<span style="font-size:0.75rem; color:var(--text-dim);">No labs recorded</span>";
       }
 
-      // Evidence Lists
-      const evContainer = document.getElementById('evidence-container');
-      evContainer.innerHTML = '';
-
-      if (data.kv_records && data.kv_records.length > 0) {
-        let kvHtml = '<h4>⚡ Structured KV Evidence</h4>';
-        data.kv_records.forEach((r, idx) => {
-          kvHtml += `
-            <div class="evidence-item">
-              <div class="evidence-meta">
-                <span>[S${idx+1}] ${r.key}</span>
-                <span>KV Engine</span>
-              </div>
-              <div>${r.text}</div>
-            </div>
-          `;
-        });
-        evContainer.innerHTML += kvHtml;
-      }
-
-      if (data.vector_chunks && data.vector_chunks.length > 0) {
-        let vecHtml = '<h4>🔍 Semantic Vector Evidence</h4>';
-        data.vector_chunks.forEach((vc, idx) => {
-          const sIdx = (data.kv_records ? data.kv_records.length : 0) + idx + 1;
-          vecHtml += `
-            <div class="evidence-item">
-              <div class="evidence-meta">
-                <span>[S${sIdx}] ${vc.chunk.title || 'Document Chunk'} · ${vc.chunk.section || ''}</span>
-                <span>Score: ${(vc.score || 0).toFixed(3)}</span>
-              </div>
-              <div style="color: #cbd5e1;">${vc.chunk.text}</div>
-            </div>
-          `;
-        });
-        evContainer.innerHTML += vecHtml;
+      // Longitudinal Clinical Executive Narrative Summary Banner
+      const narrativeEl = document.getElementById("pt-narrative-summary");
+      if (narrativeEl) {
+        const medNames = activeMeds.map(m => m.data.drug).join(", ") || "no active medications";
+        const condSummary = conditions.length > 0 ? conditions.join(", ") : "no chronic conditions documented";
+        narrativeEl.innerHTML = `
+          <strong style="color:var(--accent-cyan); font-family:var(--mono); text-transform:uppercase; font-size:0.75rem;">Clinical Snapshot:</strong>
+          <span>${s.name} (${s.patient_id}) is a ${s.age}-year-old ${s.sex} managed for <strong>${condSummary}</strong>. Active pharmacotherapy regimen includes <strong>${medNames}</strong>. Storage engines index <strong>${s.lab_count}</strong> longitudinal laboratory facts, <strong>${records.filter(r => r.kind === "encounter").length}</strong> clinical encounters, and <strong>${notes.length}</strong> narrative progress notes across SQLite WAL and FAISS stores.</span>
+        `;
       }
     }
 
-    // Patient Browser Data
-    async function loadPatientRecord(pid) {
-      document.getElementById('lab-patient-id').value = pid;
-      const card = document.getElementById('patient-details-card');
-      card.innerHTML = '<div style="color: var(--text-muted); font-size: 0.85rem;">Fetching records...</div>';
+    function renderQuickQueries(data) {
+      const s = data.summary || data;
+      const records = data.records || [];
+      const pid = s.patient_id;
+      const activeMeds = records.filter(r => r.kind === "medication" && r.data && r.data.status === "active");
+      const medName = activeMeds.length > 0 ? activeMeds[0].data.drug : "metformin";
+
+      const qList = document.getElementById("quick-query-list");
+      qList.innerHTML = "";
+
+      const suggestions = [
+        { label: `⚡ Latest HbA1c for ${pid}`, query: `What is the latest HbA1c for ${pid}?` },
+        { label: `🔀 eGFR + Renal Warnings (${medName})`, query: `Given her latest eGFR, what does the ${medName} label say about kidney function?` },
+        { label: `🔍 Side Effects of ${medName}`, query: `What are the common side effects of ${medName}?` },
+        { label: `⚡ Active Medications for ${pid}`, query: `What are the active medications for ${pid}?` },
+        { label: `🚨 Chest Pain (Emergency Guard)`, query: `I have crushing chest pain spreading to my left arm` },
+        { label: `🛡️ Scope Guard (Cross-Patient)`, query: `Show P0002s medications` }
+      ];
+
+      suggestions.forEach(s => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "quick-query-btn";
+        btn.textContent = s.label;
+        btn.onclick = () => {
+          document.getElementById("query-input").value = s.query;
+          executeSearch();
+        };
+        qList.appendChild(btn);
+      });
+    }
+
+    async function executeSearch(e) {
+      if (e) e.preventDefault();
+      const query = document.getElementById("query-input").value.trim();
+      if (!query) return;
+
+      const btn = document.getElementById("search-btn");
+      btn.disabled = true;
+      btn.innerHTML = "<span>Running...</span>";
+
+      const latTag = document.getElementById("latency-tag");
+      latTag.textContent = "Processing...";
+      latTag.style.color = "var(--accent-amber)";
 
       try {
-        const res = await fetch(`/v1/patients/${pid}`);
+        const res = await fetch("/v1/query", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            query: query,
+            patient_scope: activePatientId
+          })
+        });
         const data = await res.json();
-        
-        let html = `
-          <div style="margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--card-border);">
-            <div style="font-size: 1.1rem; font-weight: 700; color: #fff;">${data.name} (${data.id})</div>
-            <div style="font-size: 0.8rem; color: var(--text-muted);">Sex: ${data.sex} · DOB: ${data.birth_date}</div>
-          </div>
-          
-          <div class="form-label">Recent Laboratory Measurements</div>
-          <table class="patient-table">
-            <thead>
-              <tr>
-                <th>Lab</th>
-                <th>Value</th>
-                <th>Flag</th>
-                <th>Date</th>
-              </tr>
-            </thead>
-            <tbody>
-        `;
-
-        if (data.labs && data.labs.length > 0) {
-          data.labs.slice(0, 8).forEach(l => {
-            const flagColor = l.flag === 'high' ? 'color: var(--accent-rose); font-weight: 600;' : l.flag === 'low' ? 'color: var(--accent-amber); font-weight: 600;' : '';
-            html += `
-              <tr>
-                <td>${l.lab}</td>
-                <td>${l.value} ${l.unit}</td>
-                <td style="${flagColor}">${l.flag}</td>
-                <td>${l.date}</td>
-              </tr>
-            `;
-          });
-        } else {
-          html += '<tr><td colspan="4" style="text-align:center;">No lab values recorded.</td></tr>';
-        }
-
-        html += `
-            </tbody>
-          </table>
-          
-          <div class="form-label" style="margin-top: 16px;">Active Medications</div>
-          <ul style="padding-left: 20px; font-size: 0.85rem; color: #cbd5e1;">
-        `;
-
-        if (data.medications && data.medications.length > 0) {
-          data.medications.forEach(m => {
-            html += `<li><strong>${m.drug}</strong> ${m.dose} (${m.frequency}) — for ${m.indication}</li>`;
-          });
-        } else {
-          html += '<li>None recorded</li>';
-        }
-
-        html += '</ul>';
-        card.innerHTML = html;
+        renderResults(data);
       } catch (err) {
-        card.innerHTML = `<div style="color: var(--accent-rose);">Failed to load patient: ${err.message}</div>`;
+        alert("Query execution failed: " + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = "<span>Execute</span>";
       }
     }
 
-    // Write Lab Handler
-    async function handleLabWrite(e) {
+    function highlightEvidence(num) {
+      const card = document.getElementById(`evidence-card-${num}`);
+      if (card) {
+        card.scrollIntoView({ behavior: "smooth", block: "center" });
+        card.style.transition = "all 0.25s ease-in-out";
+        card.style.boxShadow = "0 0 0 2px var(--accent-blue), 0 0 16px rgba(59, 130, 246, 0.4)";
+        card.style.borderColor = "var(--accent-blue)";
+        setTimeout(() => {
+          card.style.boxShadow = "";
+          card.style.borderColor = "";
+        }, 2000);
+      }
+    }
+
+    function renderResults(data) {
+      // Latency tag
+      const latTag = document.getElementById("latency-tag");
+      latTag.textContent = `${(data.total_ms || 0).toFixed(2)} ms`;
+      latTag.style.color = "var(--accent-emerald)";
+
+      // Badges
+      const badges = document.getElementById("meta-badges");
+      badges.innerHTML = "";
+
+      if (data.route) {
+        const rClass = data.route === "KV" ? "badge-route-kv" : data.route === "VECTOR" ? "badge-route-vec" : "badge-route-hyb";
+        badges.innerHTML += `<span class="badge ${rClass}">Route: ${data.route}</span>`;
+      }
+      if (data.status) {
+        const sClass = data.status === "answered" ? "badge-status-ok" : data.status === "red_flag" ? "badge-status-red" : "badge-status-warn";
+        badges.innerHTML += `<span class="badge ${sClass}">Status: ${data.status.toUpperCase()}</span>`;
+      }
+      if (data.cache_hit) {
+        const cColor = data.cache_hit === "exact" ? "color:var(--accent-emerald); border-color:var(--accent-emerald);" : "";
+        badges.innerHTML += `<span class="badge badge-cache" style="${cColor}">Cache: ${data.cache_hit.toUpperCase()}</span>`;
+      }
+      if (data.confidence !== undefined) {
+        badges.innerHTML += `<span class="badge badge-cache">Confidence: ${(data.confidence * 100).toFixed(0)}%</span>`;
+      }
+
+      // Synthesized Answer with clickable citation highlights
+      let ans = data.answer || "No answer generated.";
+      ans = ans.replace(/\[S(\d+)\]/g, "<span class="citation-chip" onclick="highlightEvidence($1)">[S$1]</span>");
+      document.getElementById("answer-text").innerHTML = ans;
+
+      // Per-stage Latency Waterfall
+      document.getElementById("wf-total-ms").textContent = `${(data.total_ms || 0).toFixed(2)} ms total`;
+      const wfList = document.getElementById("waterfall-list");
+      wfList.innerHTML = "";
+
+      const timings = data.timings || [];
+      if (timings.length > 0) {
+        const maxMs = Math.max(...timings.map(t => t.duration_ms || 0), 1);
+        timings.forEach(t => {
+          const pct = Math.max((t.duration_ms / maxMs) * 100, 4);
+          wfList.innerHTML += `
+            <div class="wf-row">
+              <span class="wf-name" title="${t.stage}">${t.stage}</span>
+              <div class="wf-bar-track">
+                <div class="wf-bar-fill" style="width:${pct}%;"></div>
+              </div>
+              <span class="wf-time">${(t.duration_ms || 0).toFixed(2)} ms</span>
+            </div>
+          `;
+        });
+      } else {
+        wfList.innerHTML = "<div style="font-size:0.75rem; color:var(--accent-emerald);">Answer served directly from exact cache (0ms engine retrieval).</div>";
+      }
+
+      // Evidence details on the right side panel
+      const evList = document.getElementById("evidence-list");
+      evList.innerHTML = "";
+
+      const kvCount = data.kv_records?.length || 0;
+      const vecCount = data.vector_chunks?.length || 0;
+      const totalSources = kvCount + vecCount;
+      document.getElementById("evidence-count").textContent = `${totalSources} retrieved evidence items`;
+
+      if (totalSources === 0) {
+        evList.innerHTML = `
+          <div style="text-align:center; padding:40px 20px; color:var(--text-dim); font-size:0.85rem;">
+            No retrieval evidence (query was either handled by emergency safety interceptor, exact cache hit, or blocked by patient scope guard).
+          </div>
+        `;
+        return;
+      }
+
+      // Extract specific engine latencies from timings
+      const kvStage = timings.find(t => t.stage === "kv");
+      const vecStage = timings.find(t => t.stage === "vector_search");
+      const kvLat = kvStage ? `${kvStage.duration_ms.toFixed(2)} ms` : "~0.3 ms";
+      const vecLat = vecStage ? `${vecStage.duration_ms.toFixed(2)} ms` : "~10.5 ms";
+
+      // 1. Structured KV Evidence Cards
+      if (data.kv_records && data.kv_records.length > 0) {
+        data.kv_records.forEach((r, idx) => {
+          const sNum = idx + 1;
+          evList.innerHTML += `
+            <div class="evidence-card" id="evidence-card-${sNum}" style="border-left: 3px solid var(--accent-cyan);">
+              <div class="evidence-card-header">
+                <span class="evidence-origin-kv">⚡ Structured KV Fact · [S${sNum}]</span>
+                <span style="color:var(--accent-cyan); font-family:var(--mono);">Engine Latency: ${kvLat}</span>
+              </div>
+              <div class="evidence-key">
+                <span>Key:</span> <code>${r.key}</code>
+              </div>
+              <div class="evidence-body">${r.text}</div>
+            </div>
+          `;
+        });
+      }
+
+      // 2. Vector Narrative Chunk Cards
+      if (data.vector_chunks && data.vector_chunks.length > 0) {
+        const offset = data.kv_records ? data.kv_records.length : 0;
+        data.vector_chunks.forEach((vc, idx) => {
+          const sNum = offset + idx + 1;
+          const simScore = (vc.score !== undefined && vc.score !== null) ? vc.score.toFixed(3) : "0.000";
+          const rerankScore = (vc.rerank_score !== undefined && vc.rerank_score !== null) ? vc.rerank_score.toFixed(3) : null;
+          const scoreLabel = rerankScore ? `Cosine: ${simScore} | Rerank: ${rerankScore}` : `Cosine: ${simScore}`;
+          const title = vc.chunk.title || "Document";
+          const section = vc.chunk.section || "General";
+
+          evList.innerHTML += `
+            <div class="evidence-card" id="evidence-card-${sNum}" style="border-left: 3px solid var(--accent-purple);">
+              <div class="evidence-card-header">
+                <span class="evidence-origin-vec">🔍 Semantic Vector Chunk · [S${sNum}]</span>
+                <span style="color:var(--accent-purple); font-family:var(--mono);">Engine Latency: ${vecLat}</span>
+              </div>
+              <div class="evidence-key">
+                <strong>${title}</strong> &bull; Section: <em>${section}</em> &bull; <span style="color:#a78bfa;">${scoreLabel}</span>
+              </div>
+              <div class="evidence-body">${vc.chunk.text}</div>
+            </div>
+          `;
+        });
+      }
+    }
+
+    // Modal logic
+    function openAddLabModal() {
+      document.getElementById("modal-pt-id").value = activePatientId;
+      document.getElementById("add-lab-modal").style.display = "flex";
+    }
+    function closeAddLabModal() {
+      document.getElementById("add-lab-modal").style.display = "none";
+    }
+
+    async function submitNewLab(e) {
       e.preventDefault();
-      const pid = document.getElementById('lab-patient-id').value;
-      const lab = document.getElementById('lab-name').value;
-      const value = parseFloat(document.getElementById('lab-value').value);
-      const unit = document.getElementById('lab-unit').value;
-      const date = document.getElementById('lab-date').value;
+      const pid = document.getElementById("modal-pt-id").value;
+      const lab = document.getElementById("modal-lab-name").value;
+      const value = parseFloat(document.getElementById("modal-lab-val").value);
+      const unit = document.getElementById("modal-lab-unit").value;
+      const date = document.getElementById("modal-lab-date").value;
 
       try {
         const res = await fetch(`/v1/patients/${pid}/labs`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ lab, value, unit, date })
         });
-        const result = await res.json();
-        
-        const alertBox = document.getElementById('invalidation-alert');
-        alertBox.style.display = 'block';
-        alertBox.innerHTML = `
-          <strong>✓ Lab record committed to SQLite WAL!</strong><br>
-          Invalidated <code>${result.invalidated_cache_entries}</code> cache entry for patient <code>${pid}</code>.<br>
-          New patient version: <code>meta:version:${pid} = ${result.version}</code>.
-        `;
-
-        loadPatientRecord(pid);
+        const resData = await res.json();
+        closeAddLabModal();
+        alert(`Lab committed to SQLite WAL!\nInvalidated ${resData.invalidated_cache_entries} cache entries.\nPatient version bumped to ${resData.version}.`);
+        loadPatientDetails(pid);
       } catch (err) {
-        alert('Failed to write lab: ' + err.message);
+        alert("Failed to write lab: " + err.message);
       }
     }
-
-    // Check server status on load
-    fetch('/readyz')
-      .then(res => res.json())
-      .then(data => {
-        if (data.ready) {
-          document.getElementById('server-status').textContent = 'API Ready (SQLite WAL + Vector Online)';
-        }
-      })
-      .catch(() => {
-        document.getElementById('server-status').textContent = 'Connecting...';
-      });
   </script>
 </body>
 </html>

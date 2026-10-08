@@ -1,6 +1,6 @@
 # Module 4: Cache Engine (`medmemory.cache`)
 
-**Owner:** Person 5 (Caching, Safety & Reliability) · **Interface:** `Cache` · **Tests:** `tests/cache/`
+**Subsystem:** Caching & Concurrency Control · **Interface:** `Cache` · **Tests:** `tests/cache/`
 
 The caching layer accelerates clinical query evaluation safely while guaranteeing consistency across patient data updates.
 

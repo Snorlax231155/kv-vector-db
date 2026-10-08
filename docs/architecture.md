@@ -1,4 +1,4 @@
-# MedMemory Architecture (Phase 1 Milestone)
+# MedMemory System Architecture
 
 > **Educational prototype. Not medical advice. Synthetic and public data only.**
 
@@ -99,4 +99,4 @@ Every stage records `{stage, start_ms, duration_ms, status, meta}` for observabi
 | **Pipeline & API** | `medmemory.pipeline`, `medmemory.api` | Pipeline Orchestrator & FastAPI routes | `Orchestrator`, `create_app` |
 | **Safety & Checks** | `medmemory.safety`, `medmemory.generation` | Pre-checks & Grounding | `precheck`, `check_citations`, `ExtractiveChatModel` |
 
-All concrete dependencies are injected via `container.py` (`Container`), enabling isolated unit testing and modular team development.
+All concrete dependencies are injected via `container.py` (`Container`), enabling isolated unit testing and modular extensible architecture.

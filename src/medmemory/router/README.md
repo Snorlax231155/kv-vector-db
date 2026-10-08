@@ -1,6 +1,6 @@
 # Module 3: Memory Router (`medmemory.router`)
 
-**Owner:** Person 3 (Hybrid Routing & Natural Language Analysis) · **Interface:** `Router` · **Tests:** `tests/router/`
+**Subsystem:** Hybrid Query Routing & NLP Analysis · **Interface:** `Router` · **Tests:** `tests/router/`
 
 The memory router classifies clinical incoming queries into exact structured lookup (`KV`), unstructured semantic search (`VECTOR`), or combined multi-engine execution (`HYBRID`).
 

@@ -1,6 +1,6 @@
 # Module 1: KV engine (`medmemory.kv`)
 
-**Owner:** Person 1 (Core KV Storage Engine) · **Interface:** `KVStore` in `contracts/protocols.py` · **Tests:** `tests/kv/`
+**Subsystem:** Core Key-Value Storage Engine · **Interface:** `KVStore` in `contracts/protocols.py` · **Tests:** `tests/kv/`
 
 The KV engine is a byte-oriented, ordered key-value store with TTL, prefix scan, atomic batches, and snapshots. It provides two backends that pass the contract suite:
 

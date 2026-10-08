@@ -16,7 +16,7 @@ backends must pass one shared contract test suite (`tests/kv/test_contract.py`),
 includes a hard-kill crash-recovery test.
 
 ## Consequences
-- Every teammate and CI gets a working KV store with zero native dependencies.
+- Developers and CI environments get a working KV store with zero native dependencies.
 - RocksDB numbers in the benchmark are real, but they are an optional path.
 - TTL is lazy: expired keys are hidden on read and removed by `purge_expired()`. That is
   simpler than RocksDB's compaction-filter TTL, and both backends behave the same.

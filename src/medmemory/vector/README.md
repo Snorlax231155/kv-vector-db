@@ -1,6 +1,6 @@
 # Module 2: Vector engine (`medmemory.vector`)
 
-**Owner:** Person 2 (Vector Storage & Similarity Search) · **Interfaces:** `Embedder`, `VectorStore`, `Reranker` · **Tests:** `tests/vector/`
+**Subsystem:** Vector Storage & Similarity Search Engine · **Interfaces:** `Embedder`, `VectorStore`, `Reranker` · **Tests:** `tests/vector/`
 
 The vector engine handles document chunking, lexical and dense vector representation, structured metadata filtering, similarity indexing, and multi-stage ranking.
 
