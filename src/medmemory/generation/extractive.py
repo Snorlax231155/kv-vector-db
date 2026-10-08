@@ -33,12 +33,24 @@ _QUESTION_NOISE = {
     "latest",
     "recent",
     "current",
+    "present",
     "list",
     "show",
     "tell",
     "know",
     "any",
     "there",
+    "all",
+    "active",
+}
+
+_RECORD_KIND_TERMS = {
+    "condition": {"condition", "diagnosi", "problem", "illness", "hx", "histor"},
+    "medication": {"medication", "drug", "med", "meds", "prescript", "prescrib", "take", "taking", "regimen"},
+    "lab": {"lab", "test", "result", "reading", "value", "level", "bloodwork"},
+    "encounter": {"encounter", "visit", "appointment", "seen"},
+    "allergy": {"allergi", "allergy", "allergic", "reaction"},
+    "demographics": {"demograph", "age", "sex", "dob", "birth"},
 }
 
 
@@ -51,21 +63,30 @@ def parse_prompt(text: str) -> tuple[str, list[tuple[str, str, str, str]]]:
     return question, sources
 
 
-def compose(question: str, sources: list[tuple[str, str, str, str]], max_sentences: int = 4) -> str:
+def compose(question: str, sources: list[tuple[str, str, str, str]], max_sentences: int = 6) -> str:
     q_terms = {t for t in tokenize(question) if t not in _QUESTION_NOISE}
     # Off-topic evidence is caught before generation (safety.sufficiency.unknown_subject);
     # here we only refuse when no source sentence shares a single term with the question.
     candidates: list[tuple[float, int, str, str]] = []
     for order, (key, origin, title, body) in enumerate(sources):
         title_terms = set(tokenize(title))
+        kind_match = False
+        if origin == "kv":
+            for kind, kterms in _RECORD_KIND_TERMS.items():
+                if kind in title_terms and any(qt in kterms for qt in q_terms):
+                    kind_match = True
+                    break
+
         for sent in split_sentences(body):
             sent = sent.strip(" -•")
             if len(sent.split()) < 3:
                 continue
             terms = set(tokenize(sent))
             overlap = len(q_terms & (terms | title_terms)) / (len(q_terms) or 1)
-            if overlap == 0:
+            if overlap == 0 and not kind_match:
                 continue
+            if overlap == 0 and kind_match:
+                overlap = 0.5
             # prefer exact structured facts, then earlier (better-ranked) sources, then shorter
             score = (
                 overlap
@@ -100,7 +121,7 @@ class ExtractiveChatModel(BaseChatModel):
     """Deterministic, offline stand-in for a chat LLM."""
 
     stream_delay_s: float = 0.0
-    max_sentences: int = 4
+    max_sentences: int = 6
 
     @property
     def _llm_type(self) -> str:

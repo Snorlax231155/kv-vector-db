@@ -148,7 +148,9 @@ class Orchestrator:
                 e.record_types,
             )
         )
-        about_patient = req.patient_scope is not None and PATIENT_REF.search(req.query) is not None
+        about_patient = req.patient_scope is not None and (
+            PATIENT_REF.search(req.query) is not None or bool(e.record_types)
+        )
         if not recognised and not about_patient and not looks_clinical(req.query):
             oos = SafetyResult(
                 verdict="out_of_scope", category="non_clinical", message=OUT_OF_SCOPE_MESSAGE

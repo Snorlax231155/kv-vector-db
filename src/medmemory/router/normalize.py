@@ -79,6 +79,8 @@ RULES: tuple[Rule, ...] = (
     _r(r"\bDx\b", "diagnosis", label="Dx"),
     _r(r"\bmeds\b", "medications", label="meds"),
     _r(r"\bpt\b", "patient", label="pt"),
+    _r(r"\bpatient'?s\b|\bpatients\b", "patient", label="patients"),
+    _r(r"\bdi[ag]{2}nos(?:is|es)?\b|\bdiganos(?:is|es)?\b|\bdiagnoisis\b", "diagnosis", label="diagnosis typo"),
 )
 
 

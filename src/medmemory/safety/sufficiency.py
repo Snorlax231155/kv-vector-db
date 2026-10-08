@@ -117,7 +117,7 @@ def unknown_subject(
     would be wrong. Skipped when a known drug was recognised. Without a vocabulary we fall
     back to the retrieved evidence, but only for unscoped questions with no entities.
     """
-    if entities.drugs or entities.icd10_codes or entities.rxnorm_codes:
+    if entities.drugs or entities.icd10_codes or entities.rxnorm_codes or entities.patient_ids:
         return []
     candidates = [w for w in _WORD.findall(query.lower()) if w not in _COMMON]
     if vocabulary is not None:
@@ -127,6 +127,7 @@ def unknown_subject(
             for w in candidates
             if len(w) >= 6
             and w not in vocabulary
+            and w not in evidence_text.lower()
             and not difflib.get_close_matches(w, vocab_list, n=1, cutoff=0.85)
         ]
     if scope or entities.labs or entities.conditions:

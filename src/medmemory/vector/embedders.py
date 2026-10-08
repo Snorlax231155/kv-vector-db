@@ -85,6 +85,8 @@ _STOP = frozenset(
         "show",
         "give",
         "about",
+        "s",
+        "t",
     ]
 )
 # Tiny shared vocabulary so the mock embedder isn't hopeless on abbreviations. The real
@@ -107,6 +109,28 @@ _SYN = {
     "ldl": "ldl cholesterol",
     "nsaid": "nsaids ibuprofen",
     "nsaids": "nsaids ibuprofen",
+    "diagnosis": "condition diagnosis",
+    "diagnoses": "condition diagnoses",
+    "diagnosed": "condition diagnosed",
+    "diganosis": "condition diagnosis",
+    "diganoses": "condition diagnoses",
+    "problem": "condition problem",
+    "problems": "condition problems",
+    "illness": "condition illness",
+    "illnesses": "condition illnesses",
+    "visit": "encounter visit",
+    "visits": "encounter visits",
+    "appointment": "encounter appointment",
+    "appointments": "encounter appointments",
+    "meds": "medication meds",
+    "medicine": "medication medicine",
+    "medicines": "medication medicines",
+    "prescription": "medication prescription",
+    "prescriptions": "medication prescriptions",
+    "drug": "medication drug",
+    "drugs": "medication drugs",
+    "regimen": "medication regimen",
+    "present": "present active",
 }
 
 

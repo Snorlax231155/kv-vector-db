@@ -78,14 +78,14 @@ URGENT_NOW = re.compile(
     re.IGNORECASE,
 )
 RECORD_FRAME = re.compile(
-    r"\b(history of|hx of|documented|notes?|records?|chart|report(?:ed|s)?|did (?:p\d{4,6}|the patient|he|she|they)|"
-    r"has (?:p\d{4,6}|the patient|he|she|they) (?:ever|had|been)|any (?:mention|episodes?|record)|"
+    r"\b(history of|hx of|documented|notes?|records?|chart|report(?:ed|s)?|did (?:p\d{4,6}|the patient|patients?|he|she|they)|"
+    r"has (?:p\d{4,6}|the patient|patients?|he|she|they) (?:ever|had|been)|any (?:mention|episodes?|record)|"
     r"previous(?:ly)?|prior|past|screen(?:ing|ed)? for|risk (?:of|for)|assessment)\b|\bp\d{4,6}\b",
     re.IGNORECASE,
 )
 MEDICAL_HINT = re.compile(
-    r"\b(patient|p\d{4,6}|medic\w*|meds|drug|warnings?|boxed|adverse|contraindicat\w*|interact\w*|prescri\w*|dose|dosage|tablet|pill|label|lab|test|result|blood|heart|kidney|liver|lung|"
-    r"diabet\w*|pressure|cholesterol|thyroid|asthma|copd|pain|symptom\w*|side effect\w*|diagnos\w*|condition\w*|"
+    r"\b(patient\w*|p\d{4,6}|medic\w*|meds|drug|warnings?|boxed|adverse|contraindicat\w*|interact\w*|prescri\w*|dose|dosage|tablet|pill|label|lab|test|result|blood|heart|kidney|liver|lung|"
+    r"diabet\w*|pressure|cholesterol|thyroid|asthma|copd|pain|symptom\w*|side effect\w*|di[ag]{1,2}nos\w*|condition\w*|"
     r"disease|treat\w*|therap\w*|allerg\w*|icd|rxcui|rxnorm|code|health|clinical|clinic|doctor|nurse|hospital|"
     r"infection|fever|cough|rash|headache|migraine|stroke|weight|bmi|glucose|a1c|egfr|creatinine|insulin|statin|"
     r"note|notes|visit|encounter|history|depress\w*|anxiety|sleep|bone|anemi\w*|reflux|vaccine|surgery|"
@@ -107,7 +107,8 @@ _VOCAB = sorted(
 CATALOG_HINT = re.compile(r"\b(" + "|".join(re.escape(v) for v in _VOCAB) + r")\b", re.IGNORECASE)
 
 PATIENT_REF = re.compile(
-    r"\b(she|he|her|his|him|they|their|them|patient|this patient|pt|p\d{4,6})\b", re.IGNORECASE
+    r"\b(she|he|her|his|him|they|their|them|patients?|patient'?s|patients'|this patient|pts?|p\d{4,6})\b",
+    re.IGNORECASE,
 )
 
 

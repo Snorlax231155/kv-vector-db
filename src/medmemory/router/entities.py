@@ -39,7 +39,7 @@ RECORD_TYPE_PATTERNS: dict[str, re.Pattern[str]] = {
     "allergies": re.compile(r"\b(allerg\w*|reactions? to)\b"),
     "labs": re.compile(r"\b(labs?|lab results?|bloodwork|blood work|test results?)\b"),
     "conditions": re.compile(
-        r"\b(conditions?|diagnos[ie]s|problem list|problems|comorbidit\w+|medical history|chronic illness\w*)\b"
+        r"\b(conditions?|di[ag]{1,2}nos[ie]s|problem list|problems|comorbidit\w+|medical history|chronic illness\w*)\b"
     ),
     "encounters": re.compile(r"\b(visits?|encounters?|appointments?|seen (?:last|in))\b"),
     "demographics": re.compile(

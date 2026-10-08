@@ -183,6 +183,10 @@ def build_vocabulary(seed_dir: Path, chunked: dict[Namespace, list[ChunkedDoc]])
         vocab |= words(" ".join([row["drug"], row["generic_name"], *row.get("brand_names", [])]))
     for row in _jsonl(seed_dir / "guidelines.jsonl"):
         vocab |= words(" ".join(row.get("also_called", [])))
+    patients_file = seed_dir / "patients.jsonl"
+    if patients_file.exists():
+        for row in _jsonl(patients_file):
+            vocab |= words(row.get("name", ""))
     return frozenset(vocab)
 
 
