@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0029
+Full Name:       Kavya Haddad
+Date of Birth:   1962-01-15
+Age:             64 years old
+Biological Sex:  Female
+Last Encounter:  2026-08-02

@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-11-25
+Patient: Daniel Iyer (P0022)
+
+CHIEF COMPLAINT:
+Obesity follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with obesity, anemia, gerd, hypothyroidism. Discussed nutrition and a gradual increase in physical activity. BMI 33.6 kg/m2. Reports fatigue and reduced exercise tolerance. Hemoglobin 9.0 g/dl on 2025-11-25.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- levothyroxine 100 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 119 mmHg; diastolic blood pressure 76 mmHg; bmi 33.6 kg/m2; creatinine 0.89 mg/dL; egfr 87 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin 9.0 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Obesity: Stable; continue current management and follow up in 3 months.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Gerd: Continue proton pump inhibitor; elevate head of bed.

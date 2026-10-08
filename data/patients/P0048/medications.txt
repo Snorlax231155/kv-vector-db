@@ -1,0 +1,23 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Metformin 1000 mg (twice daily)
+  Indication:  type 2 diabetes
+  RxCUI:       6809
+  Start Date:  2022-08-03
+  Status:      Active
+
+- Rosuvastatin 20 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       301542
+  Start Date:  2020-12-07
+  Status:      Active
+
+- Sertraline 100 mg (once daily)
+  Indication:  generalized anxiety disorder
+  RxCUI:       36437
+  Start Date:  2024-09-12
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

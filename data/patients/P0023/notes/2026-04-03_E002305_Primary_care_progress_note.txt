@@ -1,0 +1,24 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-04-03
+Patient: Rohan Garcia (P0023)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+63-year-old male with hypertension. Blood pressure today 140/89 mmHg. Occasional morning headaches, no vision changes.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, abdominal pain, or chest pain.
+
+CURRENT MEDICATIONS:
+- amlodipine 10 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 140 mmHg; diastolic blood pressure 89 mmHg; bmi 21.7 kg/m2; creatinine 0.9 mg/dL; egfr 100 mL/min/1.73m2; potassium 4.2 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.

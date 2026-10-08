@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-12-08
+Patient: Tariq Chen (P0042)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+35-year-old male with hypertension, type 2 diabetes with hyperglycemia. Blood pressure today 135/90 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, headache, or palpitations.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- empagliflozin 10 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 135 mmHg; diastolic blood pressure 90 mmHg; bmi 25.8 kg/m2; creatinine 0.99 mg/dL; egfr 96 mL/min/1.73m2; potassium 4.1 mmol/L; hemoglobin a1c 10.9%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+2. Type 2 diabetes with hyperglycemia: Reinforced diet and activity goals; review home glucose log at next visit.

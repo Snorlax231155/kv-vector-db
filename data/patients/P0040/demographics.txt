@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0040
+Full Name:       Carlos Patel
+Date of Birth:   1974-06-05
+Age:             52 years old
+Biological Sex:  Male
+Last Encounter:  2026-08-05

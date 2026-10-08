@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2017-02-09
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2019-06-20
+
+- Diagnosis:   Heart failure, unspecified
+  ICD-10-CM:   I50.9
+  Status:      active
+  Onset Date:  2020-04-19

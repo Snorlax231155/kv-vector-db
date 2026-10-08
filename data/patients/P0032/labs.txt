@@ -1,0 +1,37 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2025-08-18   | systolic blood pressure      | 123        | mmHg            | normal
+2025-08-18   | diastolic blood pressure     | 79         | mmHg            | normal
+2025-08-18   | bmi                          | 22.9       | kg/m2           | normal
+2025-08-18   | creatinine                   | 1.02       | mg/dL           | normal
+2025-08-18   | egfr                         | 96         | mL/min/1.73m2   | normal
+2025-08-18   | potassium                    | 4.5        | mmol/L          | normal
+2025-08-18   | sodium                       | 144        | mmol/L          | normal
+2025-08-18   | hemoglobin a1c               | 6.7        | %               | high
+2025-08-18   | fasting glucose              | 122        | mg/dL           | high
+2025-08-18   | urine albumin-creatinine ratio | 32         | mg/g            | high
+2025-08-18   | ldl cholesterol              | 168        | mg/dL           | high
+2025-08-18   | total cholesterol            | 236        | mg/dL           | high
+2025-06-19   | systolic blood pressure      | 111        | mmHg            | normal
+2025-06-19   | diastolic blood pressure     | 67         | mmHg            | normal
+2025-06-19   | bmi                          | 25.2       | kg/m2           | normal
+2025-06-19   | creatinine                   | 1.08       | mg/dL           | normal
+2025-06-19   | egfr                         | 83         | mL/min/1.73m2   | normal
+2025-06-19   | potassium                    | 4.4        | mmol/L          | normal
+2025-06-19   | sodium                       | 142        | mmol/L          | normal
+2025-06-19   | hemoglobin a1c               | 6.9        | %               | high
+2025-06-19   | fasting glucose              | 205        | mg/dL           | high
+2025-06-19   | ldl cholesterol              | 141        | mg/dL           | high
+2025-04-27   | systolic blood pressure      | 116        | mmHg            | normal
+2025-04-27   | diastolic blood pressure     | 74         | mmHg            | normal
+2025-04-27   | bmi                          | 20.8       | kg/m2           | normal
+2025-04-27   | creatinine                   | 0.69       | mg/dL           | normal
+2025-04-27   | egfr                         | 97         | mL/min/1.73m2   | normal
+2025-04-27   | potassium                    | 4.4        | mmol/L          | normal
+2025-04-27   | sodium                       | 143        | mmol/L          | normal
+2025-04-27   | hemoglobin a1c               | 7.9        | %               | high
+2025-04-27   | fasting glucose              | 166        | mg/dL           | high
+2025-04-27   | urine albumin-creatinine ratio | 42         | mg/g            | high
+2025-04-27   | total cholesterol            | 237        | mg/dL           | high

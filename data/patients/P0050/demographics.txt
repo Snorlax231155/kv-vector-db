@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0050
+Full Name:       Vikram Banerjee
+Date of Birth:   1979-02-02
+Age:             47 years old
+Biological Sex:  Male
+Last Encounter:  2026-08-16

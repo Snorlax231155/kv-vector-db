@@ -1,0 +1,6 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Gastro-esophageal reflux disease without esophagitis
+  ICD-10-CM:   K21.9
+  Status:      active
+  Onset Date:  2023-03-20

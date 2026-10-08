@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-09-14 [E003803]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2026-04-09 [E003802]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-04-10 [E003801]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up

@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0039
+Full Name:       Hannah Nguyen
+Date of Birth:   1973-02-05
+Age:             53 years old
+Biological Sex:  Female
+Last Encounter:  2026-09-21

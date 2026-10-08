@@ -1,0 +1,21 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2024-07-22
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2025-06-03
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2023-01-16
+
+- Diagnosis:   Chronic kidney disease, stage 3 unspecified
+  ICD-10-CM:   N18.30
+  Status:      active
+  Onset Date:  2024-07-26

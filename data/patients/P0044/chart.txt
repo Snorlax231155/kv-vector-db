@@ -1,0 +1,253 @@
+================================================================================
+PATIENT MEDICAL CHART: RAHUL KIM (P0044)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0044
+Full Name:       Rahul Kim
+Date of Birth:   1937-07-29
+Age:             89 years old
+Biological Sex:  Male
+Last Encounter:  2026-09-18
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: shellfish
+  Reaction:  lip swelling
+  Severity:  severe
+
+- Substance: codeine
+  Reaction:  nausea and vomiting
+  Severity:  mild
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2016-03-15
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2020-03-15
+
+- Diagnosis:   Generalized anxiety disorder
+  ICD-10-CM:   F41.1
+  Status:      active
+  Onset Date:  2015-04-27
+
+- Diagnosis:   Osteoarthritis of knee, unspecified
+  ICD-10-CM:   M17.9
+  Status:      active
+  Onset Date:  2017-09-20
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Levothyroxine 75 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2018-06-12
+  Status:      Active
+
+- Losartan 100 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       52175
+  Start Date:  2020-05-21
+  Status:      Active
+
+- Sertraline 50 mg (once daily)
+  Indication:  generalized anxiety disorder
+  RxCUI:       36437
+  Start Date:  2025-12-06
+  Status:      Active
+
+- Ibuprofen 400 mg (as needed)
+  Indication:  knee osteoarthritis
+  RxCUI:       5640
+  Start Date:  2018-09-24
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-09-18   | systolic blood pressure      | 157        | mmHg            | high
+2026-09-18   | diastolic blood pressure     | 90         | mmHg            | high
+2026-09-18   | bmi                          | 23.4       | kg/m2           | normal
+2026-09-18   | creatinine                   | 0.65       | mg/dL           | normal
+2026-09-18   | egfr                         | 108        | mL/min/1.73m2   | normal
+2026-09-18   | potassium                    | 4.5        | mmol/L          | normal
+2026-09-18   | sodium                       | 141        | mmol/L          | normal
+2026-03-30   | systolic blood pressure      | 140        | mmHg            | high
+2026-03-30   | diastolic blood pressure     | 86         | mmHg            | high
+2026-03-30   | bmi                          | 23.9       | kg/m2           | normal
+2026-03-30   | creatinine                   | 1.16       | mg/dL           | normal
+2026-03-30   | egfr                         | 97         | mL/min/1.73m2   | normal
+2026-03-30   | potassium                    | 4.4        | mmol/L          | normal
+2026-03-30   | sodium                       | 137        | mmol/L          | normal
+2026-03-30   | tsh                          | 7.02       | mIU/L           | high
+2025-10-26   | systolic blood pressure      | 149        | mmHg            | high
+2025-10-26   | diastolic blood pressure     | 84         | mmHg            | high
+2025-10-26   | bmi                          | 23.0       | kg/m2           | normal
+2025-10-26   | creatinine                   | 0.94       | mg/dL           | normal
+2025-10-26   | egfr                         | 86         | mL/min/1.73m2   | normal
+2025-10-26   | potassium                    | 4.7        | mmol/L          | normal
+... [9 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-09-18 [E004404]
+  Type:      Orthopedics clinic note
+  Reason:    knee osteoarthritis follow-up
+
+- Date:      2026-03-30 [E004403]
+  Type:      Behavioral health follow-up note
+  Reason:    generalized anxiety disorder follow-up
+
+- Date:      2025-10-26 [E004402]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-04-15 [E004401]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-04-15) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-04-15
+Patient: Rahul Kim (P0044)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old male with hypothyroidism, hypertension, generalized anxiety disorder, knee osteoarthritis. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements. Most recent tsh 7.12 mIU/L on 2025-04-15. Blood pressure today 145/88 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, shortness of breath at rest, or chest pain.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- losartan 100 mg once daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+shellfish (lip swelling); codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 145 mmHg; diastolic blood pressure 88 mmHg; bmi 22.0 kg/m2; creatinine 1.18 mg/dL; egfr 89 mL/min/1.73m2; potassium 3.8 mmol/L; tsh 7.12 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Primary care progress note (2025-10-26) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-10-26
+Patient: Rahul Kim (P0044)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old male with hypertension, hypothyroidism, generalized anxiety disorder, knee osteoarthritis. Blood pressure today 149/84 mmHg. Reports adherence to his antihypertensive regimen and a low-salt diet most days. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies fever, shortness of breath at rest, or palpitations.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- losartan 100 mg once daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+shellfish (lip swelling); codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 149 mmHg; diastolic blood pressure 84 mmHg; bmi 23.0 kg/m2; creatinine 0.94 mg/dL; egfr 86 mL/min/1.73m2; potassium 4.7 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Behavioral health follow-up note (2026-03-30) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-03-30
+Patient: Rahul Kim (P0044)
+
+CHIEF COMPLAINT:
+Generalized anxiety disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old male with generalized anxiety disorder, hypothyroidism, hypertension, knee osteoarthritis. Worry is less intrusive; using breathing exercises before work meetings. Fatigue and cold intolerance have improved since levothyroxine was adjusted.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, abdominal pain, or dizziness.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- losartan 100 mg once daily
+- sertraline 50 mg once daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+shellfish (lip swelling); codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 140 mmHg; diastolic blood pressure 86 mmHg; bmi 23.9 kg/m2; creatinine 1.16 mg/dL; egfr 97 mL/min/1.73m2; potassium 4.4 mmol/L; tsh 7.02 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+
+--- Note 4: Orthopedics clinic note (2026-09-18) ---
+ORTHOPEDICS CLINIC NOTE
+Date: 2026-09-18
+Patient: Rahul Kim (P0044)
+
+CHIEF COMPLAINT:
+Knee osteoarthritis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old male with knee osteoarthritis, hypothyroidism, hypertension, generalized anxiety disorder. Right knee pain worse with stairs and after prolonged standing; morning stiffness under 30 minutes. Fatigue and cold intolerance have improved since levothyroxine was adjusted.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, chest pain, or fever.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- losartan 100 mg once daily
+- sertraline 50 mg once daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+shellfish (lip swelling); codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 157 mmHg; diastolic blood pressure 90 mmHg; bmi 23.4 kg/m2; creatinine 0.65 mg/dL; egfr 108 mL/min/1.73m2; potassium 4.5 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+
+================================================================================
+[END OF CHART]

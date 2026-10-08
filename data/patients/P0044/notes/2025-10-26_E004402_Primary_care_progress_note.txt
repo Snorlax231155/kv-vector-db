@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-10-26
+Patient: Rahul Kim (P0044)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old male with hypertension, hypothyroidism, generalized anxiety disorder, knee osteoarthritis. Blood pressure today 149/84 mmHg. Reports adherence to his antihypertensive regimen and a low-salt diet most days. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies fever, shortness of breath at rest, or palpitations.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- losartan 100 mg once daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+shellfish (lip swelling); codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 149 mmHg; diastolic blood pressure 84 mmHg; bmi 23.0 kg/m2; creatinine 0.94 mg/dL; egfr 86 mL/min/1.73m2; potassium 4.7 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.

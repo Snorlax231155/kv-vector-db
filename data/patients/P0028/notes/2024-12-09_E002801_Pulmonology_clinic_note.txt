@@ -1,0 +1,24 @@
+PULMONOLOGY CLINIC NOTE
+Date: 2024-12-09
+Patient: Karan Ali (P0028)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old male with copd. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies fever, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+None.
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 128 mmHg; diastolic blood pressure 66 mmHg; bmi 25.8 kg/m2; creatinine 1.18 mg/dL; egfr 94 mL/min/1.73m2; potassium 3.9 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.

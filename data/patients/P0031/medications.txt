@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Aspirin 81 mg (once daily)
+  Indication:  coronary artery disease
+  RxCUI:       1191
+  Start Date:  2020-08-31
+  Status:      Active
+
+- Metformin 1000 mg (twice daily)
+  Indication:  type 2 diabetes with diabetic chronic kidney disease
+  RxCUI:       6809
+  Start Date:  2021-07-06
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

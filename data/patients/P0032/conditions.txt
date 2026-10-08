@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2014-03-28
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2017-10-21
+
+- Diagnosis:   Migraine, unspecified, not intractable, without status migrainosus
+  ICD-10-CM:   G43.909
+  Status:      active
+  Onset Date:  2017-06-27

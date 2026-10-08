@@ -1,0 +1,21 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-05 [E002005]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2026-05-17 [E002004]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2025-12-14 [E002003]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2025-01-18 [E002002]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2024-11-15 [E002001]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up

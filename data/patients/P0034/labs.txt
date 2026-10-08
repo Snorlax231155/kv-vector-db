@@ -1,0 +1,34 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2025-10-03   | systolic blood pressure      | 114        | mmHg            | normal
+2025-10-03   | diastolic blood pressure     | 79         | mmHg            | normal
+2025-10-03   | bmi                          | 36.5       | kg/m2           | high
+2025-10-03   | creatinine                   | 1.84       | mg/dL           | high
+2025-10-03   | egfr                         | 42         | mL/min/1.73m2   | low
+2025-10-03   | potassium                    | 4.1        | mmol/L          | normal
+2025-10-03   | sodium                       | 144        | mmol/L          | normal
+2025-10-03   | urine albumin-creatinine ratio | 41         | mg/g            | high
+2025-10-03   | hemoglobin a1c               | 7.0        | %               | high
+2025-10-03   | fasting glucose              | 169        | mg/dL           | high
+2025-05-20   | systolic blood pressure      | 112        | mmHg            | normal
+2025-05-20   | diastolic blood pressure     | 79         | mmHg            | normal
+2025-05-20   | bmi                          | 34.5       | kg/m2           | high
+2025-05-20   | creatinine                   | 1.56       | mg/dL           | high
+2025-05-20   | egfr                         | 43         | mL/min/1.73m2   | low
+2025-05-20   | potassium                    | 3.8        | mmol/L          | normal
+2025-05-20   | sodium                       | 144        | mmol/L          | normal
+2025-05-20   | tsh                          | 4.94       | mIU/L           | high
+2025-05-20   | hemoglobin a1c               | 7.8        | %               | high
+2025-05-20   | fasting glucose              | 141        | mg/dL           | high
+2025-03-12   | systolic blood pressure      | 111        | mmHg            | normal
+2025-03-12   | diastolic blood pressure     | 80         | mmHg            | normal
+2025-03-12   | bmi                          | 33.1       | kg/m2           | high
+2025-03-12   | creatinine                   | 1.89       | mg/dL           | high
+2025-03-12   | egfr                         | 44         | mL/min/1.73m2   | low
+2025-03-12   | potassium                    | 4.2        | mmol/L          | normal
+2025-03-12   | sodium                       | 140        | mmol/L          | normal
+2025-03-12   | tsh                          | 3.05       | mIU/L           | normal
+2025-03-12   | hemoglobin a1c               | 7.2        | %               | high
+2025-03-12   | fasting glucose              | 118        | mg/dL           | high

@@ -1,0 +1,188 @@
+================================================================================
+PATIENT MEDICAL CHART: HANNAH KOWALSKI (P0024)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0024
+Full Name:       Hannah Kowalski
+Date of Birth:   1950-06-13
+Age:             75 years old
+Biological Sex:  Female
+Last Encounter:  2026-03-08
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: latex
+  Reaction:  contact dermatitis
+  Severity:  mild
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2021-10-21
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2020-05-08
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Empagliflozin 25 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       1545653
+  Start Date:  2025-09-11
+  Status:      Active
+
+- Hydrochlorothiazide 12.5 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       5487
+  Start Date:  2020-06-09
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-03-08   | systolic blood pressure      | 156        | mmHg            | high
+2026-03-08   | diastolic blood pressure     | 84         | mmHg            | high
+2026-03-08   | bmi                          | 24.7       | kg/m2           | normal
+2026-03-08   | creatinine                   | 0.97       | mg/dL           | normal
+2026-03-08   | egfr                         | 97         | mL/min/1.73m2   | normal
+2026-03-08   | potassium                    | 5.0        | mmol/L          | normal
+2026-03-08   | sodium                       | 138        | mmol/L          | normal
+2026-03-08   | hemoglobin a1c               | 8.9        | %               | high
+2026-03-08   | fasting glucose              | 206        | mg/dL           | high
+2026-03-08   | urine albumin-creatinine ratio | 48         | mg/g            | high
+2025-10-18   | systolic blood pressure      | 147        | mmHg            | high
+2025-10-18   | diastolic blood pressure     | 85         | mmHg            | high
+2025-10-18   | bmi                          | 22.9       | kg/m2           | normal
+2025-10-18   | creatinine                   | 0.95       | mg/dL           | normal
+2025-10-18   | egfr                         | 75         | mL/min/1.73m2   | normal
+2025-10-18   | potassium                    | 4.3        | mmol/L          | normal
+2025-10-18   | sodium                       | 141        | mmol/L          | normal
+2025-10-18   | hemoglobin a1c               | 8.8        | %               | high
+2025-10-18   | fasting glucose              | 208        | mg/dL           | high
+2025-10-18   | urine albumin-creatinine ratio | 52         | mg/g            | high
+2025-01-15   | systolic blood pressure      | 153        | mmHg            | high
+... [18 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-03-08 [E002404]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-10-18 [E002403]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2025-01-15 [E002402]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2024-11-16 [E002401]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-01-15) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-01-15
+Patient: Hannah Kowalski (P0024)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+76-year-old female with hypertension, type 2 diabetes. Blood pressure today 153/86 mmHg. Reports adherence to her antihypertensive regimen and a low-salt diet most days. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies fever, abdominal pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 12.5 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 153 mmHg; diastolic blood pressure 86 mmHg; bmi 22.6 kg/m2; creatinine 0.61 mg/dL; egfr 98 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin a1c 8.8%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+
+--- Note 2: Endocrinology follow-up note (2025-10-18) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-10-18
+Patient: Hannah Kowalski (P0024)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+76-year-old female with type 2 diabetes, hypertension. Here for routine diabetes care. Checks fingerstick glucose a few times a week; readings have been slightly above goal. Most recent hemoglobin a1c 8.8% on 2025-10-18. Walking 20 minutes most days and has cut back on sweetened tea. Blood pressure today 147/85 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies fever, abdominal pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- empagliflozin 25 mg once daily
+- hydrochlorothiazide 12.5 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 147 mmHg; diastolic blood pressure 85 mmHg; bmi 22.9 kg/m2; creatinine 0.95 mg/dL; egfr 75 mL/min/1.73m2; potassium 4.3 mmol/L; hemoglobin a1c 8.8%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+
+--- Note 3: Primary care progress note (2026-03-08) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-03-08
+Patient: Hannah Kowalski (P0024)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+76-year-old female with hypertension, type 2 diabetes. Blood pressure today 156/84 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 126 and 181 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies headache, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- empagliflozin 25 mg once daily
+- hydrochlorothiazide 12.5 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 156 mmHg; diastolic blood pressure 84 mmHg; bmi 24.7 kg/m2; creatinine 0.97 mg/dL; egfr 97 mL/min/1.73m2; potassium 5.0 mmol/L; hemoglobin a1c 8.9%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+
+================================================================================
+[END OF CHART]

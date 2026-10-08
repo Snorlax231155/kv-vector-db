@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0036
+Full Name:       Priya Tanaka
+Date of Birth:   1945-07-01
+Age:             80 years old
+Biological Sex:  Female
+Last Encounter:  2025-09-09

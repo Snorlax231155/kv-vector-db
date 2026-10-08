@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2025-10-31 [E001504]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2025-04-30 [E001503]
+  Type:      Neurology follow-up note
+  Reason:    history of stroke follow-up
+
+- Date:      2024-11-18 [E001502]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2024-11-13 [E001501]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up

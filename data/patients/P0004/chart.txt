@@ -1,0 +1,226 @@
+================================================================================
+PATIENT MEDICAL CHART: ANANYA OSEI (P0004)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0004
+Full Name:       Ananya Osei
+Date of Birth:   1974-12-01
+Age:             51 years old
+Biological Sex:  Female
+Last Encounter:  2026-03-24
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: lisinopril
+  Reaction:  angioedema
+  Severity:  severe
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2015-04-25
+
+- Diagnosis:   Major depressive disorder, single episode, unspecified
+  ICD-10-CM:   F32.9
+  Status:      active
+  Onset Date:  2021-08-28
+
+- Diagnosis:   Obesity, unspecified
+  ICD-10-CM:   E66.9
+  Status:      active
+  Onset Date:  2013-03-18
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Levothyroxine 75 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2017-04-15
+  Status:      Active
+
+- Sertraline 100 mg (once daily)
+  Indication:  major depressive disorder
+  RxCUI:       36437
+  Start Date:  2024-03-19
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-03-24   | systolic blood pressure      | 121        | mmHg            | normal
+2026-03-24   | diastolic blood pressure     | 77         | mmHg            | normal
+2026-03-24   | bmi                          | 34.0       | kg/m2           | high
+2026-03-24   | creatinine                   | 1.03       | mg/dL           | normal
+2026-03-24   | egfr                         | 85         | mL/min/1.73m2   | normal
+2026-03-24   | potassium                    | 3.8        | mmol/L          | normal
+2026-03-24   | sodium                       | 142        | mmol/L          | normal
+2026-03-24   | tsh                          | 5.37       | mIU/L           | high
+2025-12-06   | systolic blood pressure      | 127        | mmHg            | normal
+2025-12-06   | diastolic blood pressure     | 68         | mmHg            | normal
+2025-12-06   | bmi                          | 36.6       | kg/m2           | high
+2025-12-06   | creatinine                   | 1.11       | mg/dL           | normal
+2025-12-06   | egfr                         | 89         | mL/min/1.73m2   | normal
+2025-12-06   | potassium                    | 3.6        | mmol/L          | normal
+2025-12-06   | sodium                       | 138        | mmol/L          | normal
+2025-09-10   | systolic blood pressure      | 122        | mmHg            | normal
+2025-09-10   | diastolic blood pressure     | 80         | mmHg            | normal
+2025-09-10   | bmi                          | 36.5       | kg/m2           | high
+2025-09-10   | creatinine                   | 0.77       | mg/dL           | normal
+2025-09-10   | egfr                         | 80         | mL/min/1.73m2   | normal
+2025-09-10   | potassium                    | 4.5        | mmol/L          | normal
+... [10 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-03-24 [E000404]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-12-06 [E000403]
+  Type:      Primary care progress note
+  Reason:    obesity follow-up
+
+- Date:      2025-09-10 [E000402]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2024-11-24 [E000401]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2024-11-24) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2024-11-24
+Patient: Ananya Osei (P0004)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with hypothyroidism, major depressive disorder, obesity. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements. Most recent tsh 4.98 mIU/L on 2024-11-24. Sleep has improved, still has low energy in the afternoons; engaged in weekly therapy.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- sertraline 100 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 120 mmHg; diastolic blood pressure 69 mmHg; bmi 33.6 kg/m2; creatinine 0.92 mg/dL; egfr 98 mL/min/1.73m2; potassium 4.2 mmol/L; tsh 4.98 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+3. Obesity: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Behavioral health follow-up note (2025-09-10) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2025-09-10
+Patient: Ananya Osei (P0004)
+
+CHIEF COMPLAINT:
+Major depressive disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with major depressive disorder, hypothyroidism, obesity. Mood is improving; PHQ-9 score decreased from 16 to 8. Denies thoughts of self-harm. Fatigue and cold intolerance have improved since levothyroxine was adjusted.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, headache, or chest pain.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- sertraline 100 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 122 mmHg; diastolic blood pressure 80 mmHg; bmi 36.5 kg/m2; creatinine 0.77 mg/dL; egfr 80 mL/min/1.73m2; potassium 4.5 mmol/L; tsh 6.39 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Obesity: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Primary care progress note (2025-12-06) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-12-06
+Patient: Ananya Osei (P0004)
+
+CHIEF COMPLAINT:
+Obesity follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with obesity, hypothyroidism, major depressive disorder. Discussed nutrition and a gradual increase in physical activity. BMI 36.6 kg/m2. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, headache, or fever.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- sertraline 100 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 127 mmHg; diastolic blood pressure 68 mmHg; bmi 36.6 kg/m2; creatinine 1.11 mg/dL; egfr 89 mL/min/1.73m2; potassium 3.6 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Obesity: Stable; continue current management and follow up in 3 months.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+
+--- Note 4: Primary care progress note (2026-03-24) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-03-24
+Patient: Ananya Osei (P0004)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with hypothyroidism, major depressive disorder, obesity. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements. Most recent tsh 5.37 mIU/L on 2026-03-24. Sleep has improved, still has low energy in the afternoons; engaged in weekly therapy.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, chest pain, or headache.
+
+CURRENT MEDICATIONS:
+- levothyroxine 50 mcg once daily before breakfast
+- sertraline 100 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 121 mmHg; diastolic blood pressure 77 mmHg; bmi 34.0 kg/m2; creatinine 1.03 mg/dL; egfr 85 mL/min/1.73m2; potassium 3.8 mmol/L; tsh 5.37 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+3. Obesity: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

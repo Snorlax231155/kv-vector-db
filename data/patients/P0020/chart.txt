@@ -1,0 +1,228 @@
+================================================================================
+PATIENT MEDICAL CHART: ZARA ALI (P0020)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0020
+Full Name:       Zara Ali
+Date of Birth:   1960-09-13
+Age:             65 years old
+Biological Sex:  Female
+Last Encounter:  2026-07-05
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: aspirin
+  Reaction:  wheezing
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Migraine, unspecified, not intractable, without status migrainosus
+  ICD-10-CM:   G43.909
+  Status:      active
+  Onset Date:  2016-02-19
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Sumatriptan 50 mg (as needed at migraine onset)
+  Indication:  migraine
+  RxCUI:       37418
+  Start Date:  2021-09-13
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-05   | systolic blood pressure      | 121        | mmHg            | normal
+2026-07-05   | diastolic blood pressure     | 79         | mmHg            | normal
+2026-07-05   | bmi                          | 23.3       | kg/m2           | normal
+2026-07-05   | creatinine                   | 0.71       | mg/dL           | normal
+2026-07-05   | egfr                         | 95         | mL/min/1.73m2   | normal
+2026-07-05   | potassium                    | 4.6        | mmol/L          | normal
+2026-07-05   | sodium                       | 140        | mmol/L          | normal
+2026-05-17   | systolic blood pressure      | 116        | mmHg            | normal
+2026-05-17   | diastolic blood pressure     | 67         | mmHg            | normal
+2026-05-17   | bmi                          | 22.3       | kg/m2           | normal
+2026-05-17   | creatinine                   | 0.82       | mg/dL           | normal
+2026-05-17   | egfr                         | 91         | mL/min/1.73m2   | normal
+2026-05-17   | potassium                    | 3.6        | mmol/L          | normal
+2026-05-17   | sodium                       | 139        | mmol/L          | normal
+2025-12-14   | systolic blood pressure      | 127        | mmHg            | normal
+2025-12-14   | diastolic blood pressure     | 75         | mmHg            | normal
+2025-12-14   | bmi                          | 21.1       | kg/m2           | normal
+2025-12-14   | creatinine                   | 1.07       | mg/dL           | normal
+2025-12-14   | egfr                         | 89         | mL/min/1.73m2   | normal
+2025-12-14   | potassium                    | 4.5        | mmol/L          | normal
+2025-12-14   | sodium                       | 138        | mmol/L          | normal
+... [14 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-05 [E002005]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2026-05-17 [E002004]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2025-12-14 [E002003]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2025-01-18 [E002002]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2024-11-15 [E002001]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Neurology follow-up note (2024-11-15) ---
+NEUROLOGY FOLLOW-UP NOTE
+Date: 2024-11-15
+Patient: Zara Ali (P0020)
+
+CHIEF COMPLAINT:
+Migraine follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old female with migraine. Has 2 migraines per month with light sensitivity and nausea; triptan helps within two hours.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, abdominal pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 67 mmHg; bmi 23.1 kg/m2; creatinine 1.05 mg/dL; egfr 97 mL/min/1.73m2; potassium 4.4 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Migraine: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Neurology follow-up note (2025-01-18) ---
+NEUROLOGY FOLLOW-UP NOTE
+Date: 2025-01-18
+Patient: Zara Ali (P0020)
+
+CHIEF COMPLAINT:
+Migraine follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old female with migraine. Has 4 migraines per month with light sensitivity and nausea; triptan helps within two hours.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, palpitations, or dizziness.
+
+CURRENT MEDICATIONS:
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 127 mmHg; diastolic blood pressure 72 mmHg; bmi 25.3 kg/m2; creatinine 0.61 mg/dL; egfr 84 mL/min/1.73m2; potassium 4.5 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Migraine: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Neurology follow-up note (2025-12-14) ---
+NEUROLOGY FOLLOW-UP NOTE
+Date: 2025-12-14
+Patient: Zara Ali (P0020)
+
+CHIEF COMPLAINT:
+Migraine follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old female with migraine. Has 4 migraines per month with light sensitivity and nausea; triptan helps within two hours.
+
+REVIEW OF SYSTEMS:
+Denies headache, chest pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 127 mmHg; diastolic blood pressure 75 mmHg; bmi 21.1 kg/m2; creatinine 1.07 mg/dL; egfr 89 mL/min/1.73m2; potassium 4.5 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Migraine: Stable; continue current management and follow up in 3 months.
+
+--- Note 4: Neurology follow-up note (2026-05-17) ---
+NEUROLOGY FOLLOW-UP NOTE
+Date: 2026-05-17
+Patient: Zara Ali (P0020)
+
+CHIEF COMPLAINT:
+Migraine follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old female with migraine. Has 4 migraines per month with light sensitivity and nausea; triptan helps within two hours.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, leg swelling, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 116 mmHg; diastolic blood pressure 67 mmHg; bmi 22.3 kg/m2; creatinine 0.82 mg/dL; egfr 91 mL/min/1.73m2; potassium 3.6 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Migraine: Stable; continue current management and follow up in 3 months.
+
+--- Note 5: Neurology follow-up note (2026-07-05) ---
+NEUROLOGY FOLLOW-UP NOTE
+Date: 2026-07-05
+Patient: Zara Ali (P0020)
+
+CHIEF COMPLAINT:
+Migraine follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old female with migraine. Has 3 migraines per month with light sensitivity and nausea; triptan helps within two hours.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, headache, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 121 mmHg; diastolic blood pressure 79 mmHg; bmi 23.3 kg/m2; creatinine 0.71 mg/dL; egfr 95 mL/min/1.73m2; potassium 4.6 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Migraine: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

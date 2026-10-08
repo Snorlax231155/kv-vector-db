@@ -1,0 +1,27 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-06   | systolic blood pressure      | 110        | mmHg            | normal
+2026-07-06   | diastolic blood pressure     | 66         | mmHg            | normal
+2026-07-06   | bmi                          | 23.6       | kg/m2           | normal
+2026-07-06   | creatinine                   | 3.24       | mg/dL           | high
+2026-07-06   | egfr                         | 22         | mL/min/1.73m2   | low
+2026-07-06   | potassium                    | 5.2        | mmol/L          | high
+2026-07-06   | sodium                       | 139        | mmol/L          | normal
+2025-12-02   | systolic blood pressure      | 125        | mmHg            | normal
+2025-12-02   | diastolic blood pressure     | 75         | mmHg            | normal
+2025-12-02   | bmi                          | 24.4       | kg/m2           | normal
+2025-12-02   | creatinine                   | 2.64       | mg/dL           | high
+2025-12-02   | egfr                         | 19         | mL/min/1.73m2   | low
+2025-12-02   | potassium                    | 4.9        | mmol/L          | normal
+2025-12-02   | sodium                       | 140        | mmol/L          | normal
+2025-12-02   | urine albumin-creatinine ratio | 22         | mg/g            | normal
+2024-11-09   | systolic blood pressure      | 120        | mmHg            | normal
+2024-11-09   | diastolic blood pressure     | 78         | mmHg            | normal
+2024-11-09   | bmi                          | 20.6       | kg/m2           | normal
+2024-11-09   | creatinine                   | 2.48       | mg/dL           | high
+2024-11-09   | egfr                         | 19         | mL/min/1.73m2   | low
+2024-11-09   | potassium                    | 5.1        | mmol/L          | high
+2024-11-09   | sodium                       | 144        | mmol/L          | normal
+2024-11-09   | urine albumin-creatinine ratio | 8          | mg/g            | normal

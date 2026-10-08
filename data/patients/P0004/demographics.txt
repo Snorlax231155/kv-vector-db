@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0004
+Full Name:       Ananya Osei
+Date of Birth:   1974-12-01
+Age:             51 years old
+Biological Sex:  Female
+Last Encounter:  2026-03-24

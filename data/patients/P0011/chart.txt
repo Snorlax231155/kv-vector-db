@@ -1,0 +1,187 @@
+================================================================================
+PATIENT MEDICAL CHART: JAMES MENON (P0011)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0011
+Full Name:       James Menon
+Date of Birth:   1967-09-14
+Age:             58 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-06
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: latex
+  Reaction:  contact dermatitis
+  Severity:  mild
+
+- Substance: sulfonamide antibiotics
+  Reaction:  hives
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Chronic obstructive pulmonary disease, unspecified
+  ICD-10-CM:   J44.9
+  Status:      active
+  Onset Date:  2021-06-17
+
+- Diagnosis:   Chronic kidney disease, stage 4 (severe)
+  ICD-10-CM:   N18.4
+  Status:      active
+  Onset Date:  2023-04-04
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Tiotropium 18 mcg inhaled (once daily)
+  Indication:  copd
+  RxCUI:       69120
+  Start Date:  2024-01-26
+  Status:      Active
+
+- Furosemide 40 mg (once daily)
+  Indication:  chronic kidney disease stage 4
+  RxCUI:       4603
+  Start Date:  2025-12-25
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-06   | systolic blood pressure      | 110        | mmHg            | normal
+2026-07-06   | diastolic blood pressure     | 66         | mmHg            | normal
+2026-07-06   | bmi                          | 23.6       | kg/m2           | normal
+2026-07-06   | creatinine                   | 3.24       | mg/dL           | high
+2026-07-06   | egfr                         | 22         | mL/min/1.73m2   | low
+2026-07-06   | potassium                    | 5.2        | mmol/L          | high
+2026-07-06   | sodium                       | 139        | mmol/L          | normal
+2025-12-02   | systolic blood pressure      | 125        | mmHg            | normal
+2025-12-02   | diastolic blood pressure     | 75         | mmHg            | normal
+2025-12-02   | bmi                          | 24.4       | kg/m2           | normal
+2025-12-02   | creatinine                   | 2.64       | mg/dL           | high
+2025-12-02   | egfr                         | 19         | mL/min/1.73m2   | low
+2025-12-02   | potassium                    | 4.9        | mmol/L          | normal
+2025-12-02   | sodium                       | 140        | mmol/L          | normal
+2025-12-02   | urine albumin-creatinine ratio | 22         | mg/g            | normal
+2024-11-09   | systolic blood pressure      | 120        | mmHg            | normal
+2024-11-09   | diastolic blood pressure     | 78         | mmHg            | normal
+2024-11-09   | bmi                          | 20.6       | kg/m2           | normal
+2024-11-09   | creatinine                   | 2.48       | mg/dL           | high
+2024-11-09   | egfr                         | 19         | mL/min/1.73m2   | low
+2024-11-09   | potassium                    | 5.1        | mmol/L          | high
+... [2 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-06 [E001103]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+- Date:      2025-12-02 [E001102]
+  Type:      Nephrology consult note
+  Reason:    chronic kidney disease stage 4 follow-up
+
+- Date:      2024-11-09 [E001101]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Pulmonology clinic note (2024-11-09) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2024-11-09
+Patient: James Menon (P0011)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old male with copd, chronic kidney disease stage 4. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015. Kidney function: egfr 19 mL/min/1.73m2 and creatinine 2.48 mg/dL on 2024-11-09.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, headache, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+
+ALLERGIES:
+latex (contact dermatitis); sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 120 mmHg; diastolic blood pressure 78 mmHg; bmi 20.6 kg/m2; creatinine 2.48 mg/dL; egfr 19 mL/min/1.73m2; potassium 5.1 mmol/L; urine albumin-creatinine ratio 8 mg/g.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+2. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+
+--- Note 2: Nephrology consult note (2025-12-02) ---
+NEPHROLOGY CONSULT NOTE
+Date: 2025-12-02
+Patient: James Menon (P0011)
+
+CHIEF COMPLAINT:
+Chronic kidney disease stage 4 follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old male with chronic kidney disease stage 4, copd. Kidney function: egfr 19 mL/min/1.73m2 and creatinine 2.64 mg/dL on 2025-12-02. No edema or change in urine output reported. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, headache, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+
+ALLERGIES:
+latex (contact dermatitis); sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 125 mmHg; diastolic blood pressure 75 mmHg; bmi 24.4 kg/m2; creatinine 2.64 mg/dL; egfr 19 mL/min/1.73m2; potassium 4.9 mmol/L; urine albumin-creatinine ratio 22 mg/g.
+
+ASSESSMENT AND PLAN:
+1. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+2. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+
+--- Note 3: Pulmonology clinic note (2026-07-06) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2026-07-06
+Patient: James Menon (P0011)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old male with copd, chronic kidney disease stage 4. Becomes short of breath after one flight of stairs; uses rescue inhaler about once a day. Kidney function: egfr 22 mL/min/1.73m2 and creatinine 3.24 mg/dL on 2026-07-06.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, chest pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- furosemide 40 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis); sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 110 mmHg; diastolic blood pressure 66 mmHg; bmi 23.6 kg/m2; creatinine 3.24 mg/dL; egfr 22 mL/min/1.73m2; potassium 5.2 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+2. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+
+================================================================================
+[END OF CHART]

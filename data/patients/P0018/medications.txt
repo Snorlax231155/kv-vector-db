@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Alendronate 70 mg (once weekly)
+  Indication:  osteoporosis
+  RxCUI:       46041
+  Start Date:  2020-01-06
+  Status:      Active
+
+- Atorvastatin 40 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       83367
+  Start Date:  2022-12-24
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0002
+Full Name:       Daniel Haddad
+Date of Birth:   1954-10-16
+Age:             71 years old
+Biological Sex:  Male
+Last Encounter:  2026-06-07

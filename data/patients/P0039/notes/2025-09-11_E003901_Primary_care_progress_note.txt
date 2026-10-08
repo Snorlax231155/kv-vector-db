@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-09-11
+Patient: Hannah Nguyen (P0039)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old female with hypertension, hyperlipidemia. Blood pressure today 142/93 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Tolerating statin therapy without muscle aches.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, fever, or palpitations.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 25 mg once daily
+- rosuvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 142 mmHg; diastolic blood pressure 93 mmHg; bmi 24.9 kg/m2; creatinine 1.03 mg/dL; egfr 80 mL/min/1.73m2; potassium 4.8 mmol/L; total cholesterol 241 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.

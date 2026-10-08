@@ -1,0 +1,233 @@
+================================================================================
+PATIENT MEDICAL CHART: KAVYA PATEL (P0037)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0037
+Full Name:       Kavya Patel
+Date of Birth:   1974-10-18
+Age:             51 years old
+Biological Sex:  Female
+Last Encounter:  2026-05-08
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: latex
+  Reaction:  contact dermatitis
+  Severity:  mild
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Osteoarthritis of knee, unspecified
+  ICD-10-CM:   M17.9
+  Status:      active
+  Onset Date:  2021-10-09
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2012-05-15
+
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2023-07-01
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Meloxicam 7.5 mg (once daily)
+  Indication:  knee osteoarthritis
+  RxCUI:       41493
+  Start Date:  2023-05-04
+  Status:      Active
+
+- Hydrochlorothiazide 25 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       5487
+  Start Date:  2013-08-08
+  Status:      Active
+
+- Levothyroxine 100 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2025-10-26
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-05-08   | systolic blood pressure      | 157        | mmHg            | high
+2026-05-08   | diastolic blood pressure     | 84         | mmHg            | high
+2026-05-08   | bmi                          | 25.3       | kg/m2           | normal
+2026-05-08   | creatinine                   | 0.67       | mg/dL           | normal
+2026-05-08   | egfr                         | 101        | mL/min/1.73m2   | normal
+2026-05-08   | potassium                    | 4.9        | mmol/L          | normal
+2026-05-08   | sodium                       | 138        | mmol/L          | normal
+2026-05-08   | tsh                          | 4.0        | mIU/L           | normal
+2025-08-13   | systolic blood pressure      | 145        | mmHg            | high
+2025-08-13   | diastolic blood pressure     | 91         | mmHg            | high
+2025-08-13   | bmi                          | 22.7       | kg/m2           | normal
+2025-08-13   | creatinine                   | 0.66       | mg/dL           | normal
+2025-08-13   | egfr                         | 107        | mL/min/1.73m2   | normal
+2025-08-13   | potassium                    | 4.7        | mmol/L          | normal
+2025-08-13   | sodium                       | 144        | mmol/L          | normal
+2025-04-27   | systolic blood pressure      | 148        | mmHg            | high
+2025-04-27   | diastolic blood pressure     | 88         | mmHg            | high
+2025-04-27   | bmi                          | 20.5       | kg/m2           | normal
+2025-04-27   | creatinine                   | 1.0        | mg/dL           | normal
+2025-04-27   | egfr                         | 103        | mL/min/1.73m2   | normal
+2025-04-27   | potassium                    | 3.7        | mmol/L          | normal
+... [10 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-05-08 [E003704]
+  Type:      Orthopedics clinic note
+  Reason:    knee osteoarthritis follow-up
+
+- Date:      2025-08-13 [E003703]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-04-27 [E003702]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-01-12 [E003701]
+  Type:      Orthopedics clinic note
+  Reason:    knee osteoarthritis follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Orthopedics clinic note (2025-01-12) ---
+ORTHOPEDICS CLINIC NOTE
+Date: 2025-01-12
+Patient: Kavya Patel (P0037)
+
+CHIEF COMPLAINT:
+Knee osteoarthritis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with knee osteoarthritis, hypertension, hypothyroidism. Bilateral knee pain limits walking to about 15 minutes. Blood pressure today 134/95 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies fever, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- meloxicam 7.5 mg once daily
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 134 mmHg; diastolic blood pressure 95 mmHg; bmi 21.1 kg/m2; creatinine 1.09 mg/dL; egfr 106 mL/min/1.73m2; potassium 4.7 mmol/L; tsh 2.77 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+
+--- Note 2: Primary care progress note (2025-04-27) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-04-27
+Patient: Kavya Patel (P0037)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with hypertension, knee osteoarthritis, hypothyroidism. Blood pressure today 148/88 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Right knee pain worse with stairs and after prolonged standing; morning stiffness under 30 minutes.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, abdominal pain, or fever.
+
+CURRENT MEDICATIONS:
+- meloxicam 7.5 mg once daily
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 148 mmHg; diastolic blood pressure 88 mmHg; bmi 20.5 kg/m2; creatinine 1.0 mg/dL; egfr 103 mL/min/1.73m2; potassium 3.7 mmol/L; tsh 3.88 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+
+--- Note 3: Primary care progress note (2025-08-13) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-08-13
+Patient: Kavya Patel (P0037)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with hypothyroidism, knee osteoarthritis, hypertension. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements. Most recent tsh 3.88 mIU/L on 2025-04-27. Bilateral knee pain limits walking to about 15 minutes.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, palpitations, or chest pain.
+
+CURRENT MEDICATIONS:
+- meloxicam 7.5 mg once daily
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 145 mmHg; diastolic blood pressure 91 mmHg; bmi 22.7 kg/m2; creatinine 0.66 mg/dL; egfr 107 mL/min/1.73m2; potassium 4.7 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+
+--- Note 4: Orthopedics clinic note (2026-05-08) ---
+ORTHOPEDICS CLINIC NOTE
+Date: 2026-05-08
+Patient: Kavya Patel (P0037)
+
+CHIEF COMPLAINT:
+Knee osteoarthritis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with knee osteoarthritis, hypertension, hypothyroidism. Bilateral knee pain limits walking to about 15 minutes. Blood pressure today 157/84 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, fever, or headache.
+
+CURRENT MEDICATIONS:
+- meloxicam 7.5 mg once daily
+- hydrochlorothiazide 25 mg once daily
+- levothyroxine 100 mcg once daily before breakfast
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 157 mmHg; diastolic blood pressure 84 mmHg; bmi 25.3 kg/m2; creatinine 0.67 mg/dL; egfr 101 mL/min/1.73m2; potassium 4.9 mmol/L; tsh 4.0 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+
+================================================================================
+[END OF CHART]

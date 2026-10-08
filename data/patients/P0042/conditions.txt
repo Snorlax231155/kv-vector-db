@@ -1,0 +1,11 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2021-01-21
+
+- Diagnosis:   Type 2 diabetes mellitus with hyperglycemia
+  ICD-10-CM:   E11.65
+  Status:      active
+  Onset Date:  2023-04-15

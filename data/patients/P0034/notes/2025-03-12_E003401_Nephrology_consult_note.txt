@@ -1,0 +1,27 @@
+NEPHROLOGY CONSULT NOTE
+Date: 2025-03-12
+Patient: Daniel Silva (P0034)
+
+CHIEF COMPLAINT:
+Chronic kidney disease stage 3 follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+80-year-old male with chronic kidney disease stage 3, hypothyroidism, obesity, type 2 diabetes. Kidney function: egfr 44 mL/min/1.73m2 and creatinine 1.89 mg/dL on 2025-03-12. No edema or change in urine output reported. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies fever, leg swelling, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- metformin 850 mg twice daily
+
+ALLERGIES:
+lisinopril (angioedema); shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 80 mmHg; bmi 33.1 kg/m2; creatinine 1.89 mg/dL; egfr 44 mL/min/1.73m2; potassium 4.2 mmol/L; tsh 3.05 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Chronic kidney disease stage 3: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Obesity: Stable; continue current management and follow up in 3 months.

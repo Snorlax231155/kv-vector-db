@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-08-05
+Patient: Carlos Patel (P0040)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old male with hyperlipidemia, type 2 diabetes with hyperglycemia. Lipid panel reviewed: ldl cholesterol 154 mg/dL on 2026-08-05. Trying to limit fried food and red meat. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been variable.
+
+REVIEW OF SYSTEMS:
+Denies headache, chest pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 80 mmHg; bmi 23.2 kg/m2; creatinine 0.85 mg/dL; egfr 86 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin a1c 9.7%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Type 2 diabetes with hyperglycemia: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.

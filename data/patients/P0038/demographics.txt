@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0038
+Full Name:       Carlos Ali
+Date of Birth:   1944-05-15
+Age:             82 years old
+Biological Sex:  Male
+Last Encounter:  2026-09-14

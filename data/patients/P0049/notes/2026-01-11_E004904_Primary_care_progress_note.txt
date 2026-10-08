@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-01-11
+Patient: Rahul Reddy (P0049)
+
+CHIEF COMPLAINT:
+Anemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+36-year-old male with anemia, generalized anxiety disorder, asthma. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.2 g/dl on 2026-01-11. Worry is less intrusive; using breathing exercises before work meetings.
+
+REVIEW OF SYSTEMS:
+Denies headache, palpitations, or fever.
+
+CURRENT MEDICATIONS:
+- buspirone 10 mg twice daily
+- montelukast 10 mg once daily in the evening
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 113 mmHg; diastolic blood pressure 73 mmHg; bmi 25.7 kg/m2; creatinine 1.09 mg/dL; egfr 80 mL/min/1.73m2; potassium 5.0 mmol/L; hemoglobin 10.2 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Anemia: Stable; continue current management and follow up in 3 months.
+2. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+3. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.

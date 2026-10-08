@@ -1,0 +1,27 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2025-07-09
+Patient: Samuel Banerjee (P0031)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+78-year-old male with coronary artery disease, type 2 diabetes with diabetic chronic kidney disease, obstructive sleep apnea. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 130 and 161 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, fever, or headache.
+
+CURRENT MEDICATIONS:
+- aspirin 81 mg once daily
+- metformin 1000 mg twice daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 70 mmHg; bmi 25.5 kg/m2; creatinine 0.84 mg/dL; egfr 107 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin a1c 7.2%.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.

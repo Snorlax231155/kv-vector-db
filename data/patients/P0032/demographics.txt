@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0032
+Full Name:       Sanjay Brown
+Date of Birth:   1972-09-12
+Age:             52 years old
+Biological Sex:  Male
+Last Encounter:  2025-08-18

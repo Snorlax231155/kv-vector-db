@@ -1,0 +1,28 @@
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-02-14
+Patient: Sofia Verma (P0048)
+
+CHIEF COMPLAINT:
+Generalized anxiety disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+84-year-old female with generalized anxiety disorder, type 2 diabetes, hyperlipidemia. Worry is less intrusive; using breathing exercises before work meetings. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 137 and 167 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, abdominal pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 20 mg once daily
+- sertraline 100 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 124 mmHg; diastolic blood pressure 73 mmHg; bmi 24.8 kg/m2; creatinine 1.1 mg/dL; egfr 100 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 9.5%.
+
+ASSESSMENT AND PLAN:
+1. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.

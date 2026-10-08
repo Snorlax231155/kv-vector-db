@@ -1,0 +1,11 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Gastro-esophageal reflux disease without esophagitis
+  ICD-10-CM:   K21.9
+  Status:      active
+  Onset Date:  2016-05-19
+
+- Diagnosis:   Obstructive sleep apnea (adult) (pediatric)
+  ICD-10-CM:   G47.33
+  Status:      active
+  Onset Date:  2023-12-27

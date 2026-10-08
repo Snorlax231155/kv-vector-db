@@ -1,0 +1,52 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-03-01   | systolic blood pressure      | 123        | mmHg            | normal
+2026-03-01   | diastolic blood pressure     | 68         | mmHg            | normal
+2026-03-01   | bmi                          | 25.8       | kg/m2           | normal
+2026-03-01   | creatinine                   | 0.95       | mg/dL           | normal
+2026-03-01   | egfr                         | 101        | mL/min/1.73m2   | normal
+2026-03-01   | potassium                    | 4.1        | mmol/L          | normal
+2026-03-01   | sodium                       | 138        | mmol/L          | normal
+2026-03-01   | ldl cholesterol              | 74         | mg/dL           | normal
+2026-03-01   | hemoglobin a1c               | 9.1        | %               | high
+2026-03-01   | urine albumin-creatinine ratio | 154        | mg/g            | high
+2025-07-09   | systolic blood pressure      | 123        | mmHg            | normal
+2025-07-09   | diastolic blood pressure     | 70         | mmHg            | normal
+2025-07-09   | bmi                          | 25.5       | kg/m2           | normal
+2025-07-09   | creatinine                   | 0.84       | mg/dL           | normal
+2025-07-09   | egfr                         | 107        | mL/min/1.73m2   | normal
+2025-07-09   | potassium                    | 4.9        | mmol/L          | normal
+2025-07-09   | sodium                       | 137        | mmol/L          | normal
+2025-07-09   | hemoglobin a1c               | 7.2        | %               | high
+2025-07-09   | urine albumin-creatinine ratio | 72         | mg/g            | high
+2025-05-22   | systolic blood pressure      | 109        | mmHg            | normal
+2025-05-22   | diastolic blood pressure     | 78         | mmHg            | normal
+2025-05-22   | bmi                          | 21.2       | kg/m2           | normal
+2025-05-22   | creatinine                   | 0.64       | mg/dL           | normal
+2025-05-22   | egfr                         | 81         | mL/min/1.73m2   | normal
+2025-05-22   | potassium                    | 4.6        | mmol/L          | normal
+2025-05-22   | sodium                       | 140        | mmol/L          | normal
+2025-05-22   | ldl cholesterol              | 98         | mg/dL           | normal
+2025-05-22   | hemoglobin a1c               | 7.5        | %               | high
+2025-05-22   | urine albumin-creatinine ratio | 232        | mg/g            | high
+2025-05-16   | systolic blood pressure      | 111        | mmHg            | normal
+2025-05-16   | diastolic blood pressure     | 74         | mmHg            | normal
+2025-05-16   | bmi                          | 20.6       | kg/m2           | normal
+2025-05-16   | creatinine                   | 0.93       | mg/dL           | normal
+2025-05-16   | egfr                         | 104        | mL/min/1.73m2   | normal
+2025-05-16   | potassium                    | 4.9        | mmol/L          | normal
+2025-05-16   | sodium                       | 138        | mmol/L          | normal
+2025-05-16   | ldl cholesterol              | 69         | mg/dL           | low
+2025-05-16   | hemoglobin a1c               | 8.1        | %               | high
+2024-12-14   | systolic blood pressure      | 115        | mmHg            | normal
+2024-12-14   | diastolic blood pressure     | 76         | mmHg            | normal
+2024-12-14   | bmi                          | 23.2       | kg/m2           | normal
+2024-12-14   | creatinine                   | 0.78       | mg/dL           | normal
+2024-12-14   | egfr                         | 86         | mL/min/1.73m2   | normal
+2024-12-14   | potassium                    | 5.0        | mmol/L          | normal
+2024-12-14   | sodium                       | 138        | mmol/L          | normal
+2024-12-14   | ldl cholesterol              | 71         | mg/dL           | normal
+2024-12-14   | hemoglobin a1c               | 7.4        | %               | high
+2024-12-14   | urine albumin-creatinine ratio | 192        | mg/g            | high

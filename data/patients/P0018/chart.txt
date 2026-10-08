@@ -1,0 +1,195 @@
+================================================================================
+PATIENT MEDICAL CHART: IRENE NOVAK (P0018)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0018
+Full Name:       Irene Novak
+Date of Birth:   1936-11-21
+Age:             89 years old
+Biological Sex:  Female
+Last Encounter:  2026-08-31
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Age-related osteoporosis without current pathological fracture
+  ICD-10-CM:   M81.0
+  Status:      active
+  Onset Date:  2019-07-30
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2017-06-15
+
+- Diagnosis:   Obstructive sleep apnea (adult) (pediatric)
+  ICD-10-CM:   G47.33
+  Status:      active
+  Onset Date:  2015-11-13
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Alendronate 70 mg (once weekly)
+  Indication:  osteoporosis
+  RxCUI:       46041
+  Start Date:  2020-01-06
+  Status:      Active
+
+- Atorvastatin 40 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       83367
+  Start Date:  2022-12-24
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-08-31   | systolic blood pressure      | 109        | mmHg            | normal
+2026-08-31   | diastolic blood pressure     | 71         | mmHg            | normal
+2026-08-31   | bmi                          | 20.5       | kg/m2           | normal
+2026-08-31   | creatinine                   | 1.01       | mg/dL           | normal
+2026-08-31   | egfr                         | 81         | mL/min/1.73m2   | normal
+2026-08-31   | potassium                    | 4.0        | mmol/L          | normal
+2026-08-31   | sodium                       | 137        | mmol/L          | normal
+2026-08-31   | ldl cholesterol              | 168        | mg/dL           | high
+2026-02-18   | systolic blood pressure      | 120        | mmHg            | normal
+2026-02-18   | diastolic blood pressure     | 78         | mmHg            | normal
+2026-02-18   | bmi                          | 24.9       | kg/m2           | normal
+2026-02-18   | creatinine                   | 1.18       | mg/dL           | normal
+2026-02-18   | egfr                         | 95         | mL/min/1.73m2   | normal
+2026-02-18   | potassium                    | 4.3        | mmol/L          | normal
+2026-02-18   | sodium                       | 140        | mmol/L          | normal
+2025-09-02   | systolic blood pressure      | 111        | mmHg            | normal
+2025-09-02   | diastolic blood pressure     | 68         | mmHg            | normal
+2025-09-02   | bmi                          | 22.6       | kg/m2           | normal
+2025-09-02   | creatinine                   | 1.02       | mg/dL           | normal
+2025-09-02   | egfr                         | 92         | mL/min/1.73m2   | normal
+2025-09-02   | potassium                    | 3.8        | mmol/L          | normal
+... [11 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-31 [E001804]
+  Type:      Primary care progress note
+  Reason:    osteoporosis follow-up
+
+- Date:      2026-02-18 [E001803]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2025-09-02 [E001802]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-07-24 [E001801]
+  Type:      Primary care progress note
+  Reason:    osteoporosis follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-09-02) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-09-02
+Patient: Irene Novak (P0018)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old female with hyperlipidemia, osteoporosis, obstructive sleep apnea. Lipid panel reviewed: ldl cholesterol 123 mg/dL on 2025-09-02. Trying to limit fried food and red meat. DEXA scan showed a lumbar spine T-score of -3.1. Takes calcium and vitamin D.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, palpitations, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- alendronate 70 mg once weekly
+- atorvastatin 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 68 mmHg; bmi 22.6 kg/m2; creatinine 1.02 mg/dL; egfr 92 mL/min/1.73m2; potassium 3.8 mmol/L; ldl cholesterol 123 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Osteoporosis: Stable; continue current management and follow up in 3 months.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Sleep medicine note (2026-02-18) ---
+SLEEP MEDICINE NOTE
+Date: 2026-02-18
+Patient: Irene Novak (P0018)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old female with obstructive sleep apnea, osteoporosis, hyperlipidemia. Uses CPAP about 4 hours per night; daytime sleepiness improved. DEXA scan showed a lumbar spine T-score of -2.6. Takes calcium and vitamin D.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, shortness of breath at rest, or palpitations.
+
+CURRENT MEDICATIONS:
+- alendronate 70 mg once weekly
+- atorvastatin 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 120 mmHg; diastolic blood pressure 78 mmHg; bmi 24.9 kg/m2; creatinine 1.18 mg/dL; egfr 95 mL/min/1.73m2; potassium 4.3 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+2. Osteoporosis: Stable; continue current management and follow up in 3 months.
+3. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+
+--- Note 3: Primary care progress note (2026-08-31) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-08-31
+Patient: Irene Novak (P0018)
+
+CHIEF COMPLAINT:
+Osteoporosis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old female with osteoporosis, hyperlipidemia, obstructive sleep apnea. DEXA scan showed a lumbar spine T-score of -2.8. Takes calcium and vitamin D. Lipid panel reviewed: ldl cholesterol 168 mg/dL on 2026-08-31.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or dizziness.
+
+CURRENT MEDICATIONS:
+- alendronate 70 mg once weekly
+- atorvastatin 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 109 mmHg; diastolic blood pressure 71 mmHg; bmi 20.5 kg/m2; creatinine 1.01 mg/dL; egfr 81 mL/min/1.73m2; potassium 4.0 mmol/L; ldl cholesterol 168 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Osteoporosis: Stable; continue current management and follow up in 3 months.
+2. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

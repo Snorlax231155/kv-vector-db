@@ -1,0 +1,21 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-01-31 [E002705]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2025-10-06 [E002704]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2025-01-28 [E002703]
+  Type:      Cardiology clinic note
+  Reason:    atrial fibrillation follow-up
+
+- Date:      2024-12-27 [E002702]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2024-12-08 [E002701]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up

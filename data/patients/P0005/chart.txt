@@ -1,0 +1,284 @@
+================================================================================
+PATIENT MEDICAL CHART: KARAN OSEI (P0005)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0005
+Full Name:       Karan Osei
+Date of Birth:   1958-06-06
+Age:             67 years old
+Biological Sex:  Male
+Last Encounter:  2026-05-22
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Chronic obstructive pulmonary disease, unspecified
+  ICD-10-CM:   J44.9
+  Status:      active
+  Onset Date:  2022-07-30
+
+- Diagnosis:   Atherosclerotic heart disease of native coronary artery without angina pectoris
+  ICD-10-CM:   I25.10
+  Status:      active
+  Onset Date:  2017-07-27
+
+- Diagnosis:   Old myocardial infarction
+  ICD-10-CM:   I25.2
+  Status:      active
+  Onset Date:  2016-11-16
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2016-02-04
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Tiotropium 18 mcg inhaled (once daily)
+  Indication:  copd
+  RxCUI:       69120
+  Start Date:  2023-08-07
+  Status:      Active
+
+- Aspirin 81 mg (once daily)
+  Indication:  coronary artery disease
+  RxCUI:       1191
+  Start Date:  2023-11-25
+  Status:      Active
+
+- Clopidogrel 75 mg (once daily)
+  Indication:  old myocardial infarction
+  RxCUI:       32968
+  Start Date:  2018-05-05
+  Status:      Active
+
+- Rosuvastatin 10 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       301542
+  Start Date:  2021-11-13
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-05-22   | systolic blood pressure      | 111        | mmHg            | normal
+2026-05-22   | diastolic blood pressure     | 69         | mmHg            | normal
+2026-05-22   | bmi                          | 24.5       | kg/m2           | normal
+2026-05-22   | creatinine                   | 1.03       | mg/dL           | normal
+2026-05-22   | egfr                         | 83         | mL/min/1.73m2   | normal
+2026-05-22   | potassium                    | 4.0        | mmol/L          | normal
+2026-05-22   | sodium                       | 140        | mmol/L          | normal
+2026-05-22   | ldl cholesterol              | 138        | mg/dL           | high
+2026-05-22   | total cholesterol            | 245        | mg/dL           | high
+2026-01-26   | systolic blood pressure      | 123        | mmHg            | normal
+2026-01-26   | diastolic blood pressure     | 76         | mmHg            | normal
+2026-01-26   | bmi                          | 22.2       | kg/m2           | normal
+2026-01-26   | creatinine                   | 0.98       | mg/dL           | normal
+2026-01-26   | egfr                         | 101        | mL/min/1.73m2   | normal
+2026-01-26   | potassium                    | 4.9        | mmol/L          | normal
+2026-01-26   | sodium                       | 140        | mmol/L          | normal
+2026-01-26   | total cholesterol            | 196        | mg/dL           | normal
+2025-01-11   | systolic blood pressure      | 108        | mmHg            | normal
+2025-01-11   | diastolic blood pressure     | 80         | mmHg            | normal
+2025-01-11   | bmi                          | 25.4       | kg/m2           | normal
+2025-01-11   | creatinine                   | 1.12       | mg/dL           | normal
+... [22 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-05-22 [E000505]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+- Date:      2026-01-26 [E000504]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-01-11 [E000503]
+  Type:      Cardiology clinic note
+  Reason:    old myocardial infarction follow-up
+
+- Date:      2024-11-27 [E000502]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+- Date:      2024-10-19 [E000501]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Pulmonology clinic note (2024-10-19) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2024-10-19
+Patient: Karan Osei (P0005)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+68-year-old male with copd, coronary artery disease, old myocardial infarction, hyperlipidemia. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, leg swelling, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- aspirin 81 mg once daily
+- clopidogrel 75 mg once daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 112 mmHg; diastolic blood pressure 75 mmHg; bmi 25.1 kg/m2; creatinine 0.65 mg/dL; egfr 90 mL/min/1.73m2; potassium 4.0 mmol/L; ldl cholesterol 165 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Old myocardial infarction: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Cardiology clinic note (2024-11-27) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2024-11-27
+Patient: Karan Osei (P0005)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+68-year-old male with coronary artery disease, copd, old myocardial infarction, hyperlipidemia. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies fever, headache, or chest pain.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- aspirin 81 mg once daily
+- clopidogrel 75 mg once daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 119 mmHg; diastolic blood pressure 75 mmHg; bmi 23.4 kg/m2; creatinine 1.09 mg/dL; egfr 109 mL/min/1.73m2; potassium 5.0 mmol/L; total cholesterol 209 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+3. Old myocardial infarction: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Cardiology clinic note (2025-01-11) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2025-01-11
+Patient: Karan Osei (P0005)
+
+CHIEF COMPLAINT:
+Old myocardial infarction follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+68-year-old male with old myocardial infarction, copd, coronary artery disease, hyperlipidemia. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, fever, or headache.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- aspirin 81 mg once daily
+- clopidogrel 75 mg once daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 108 mmHg; diastolic blood pressure 80 mmHg; bmi 25.4 kg/m2; creatinine 1.12 mg/dL; egfr 81 mL/min/1.73m2; potassium 4.6 mmol/L; ldl cholesterol 126 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Old myocardial infarction: Stable; continue current management and follow up in 3 months.
+2. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+3. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+
+--- Note 4: Primary care progress note (2026-01-26) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-01-26
+Patient: Karan Osei (P0005)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+68-year-old male with hyperlipidemia, copd, coronary artery disease, old myocardial infarction. Lipid panel reviewed: ldl cholesterol 126 mg/dL on 2025-01-11. Reports aching in both thighs and calves after climbing stairs, started a few months after beginning a statin. No dark urine. CK was within normal limits. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or chest pain.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- aspirin 81 mg once daily
+- clopidogrel 75 mg once daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 76 mmHg; bmi 22.2 kg/m2; creatinine 0.98 mg/dL; egfr 101 mL/min/1.73m2; potassium 4.9 mmol/L; total cholesterol 196 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+3. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+
+--- Note 5: Pulmonology clinic note (2026-05-22) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2026-05-22
+Patient: Karan Osei (P0005)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+68-year-old male with copd, coronary artery disease, old myocardial infarction, hyperlipidemia. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, headache, or dizziness.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- aspirin 81 mg once daily
+- clopidogrel 75 mg once daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 69 mmHg; bmi 24.5 kg/m2; creatinine 1.03 mg/dL; egfr 83 mL/min/1.73m2; potassium 4.0 mmol/L; ldl cholesterol 138 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Old myocardial infarction: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

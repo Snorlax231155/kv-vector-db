@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-05-20
+Patient: Daniel Silva (P0034)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+80-year-old male with hypothyroidism, chronic kidney disease stage 3, obesity, type 2 diabetes. Fatigue and cold intolerance have improved since levothyroxine was adjusted. Most recent tsh 4.94 mIU/L on 2025-05-20. Kidney function: egfr 43 mL/min/1.73m2 and creatinine 1.56 mg/dL on 2025-05-20.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or dizziness.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- levothyroxine 100 mcg once daily before breakfast
+- metformin 850 mg twice daily
+
+ALLERGIES:
+lisinopril (angioedema); shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 112 mmHg; diastolic blood pressure 79 mmHg; bmi 34.5 kg/m2; creatinine 1.56 mg/dL; egfr 43 mL/min/1.73m2; potassium 3.8 mmol/L; tsh 4.94 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Chronic kidney disease stage 3: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+3. Obesity: Stable; continue current management and follow up in 3 months.

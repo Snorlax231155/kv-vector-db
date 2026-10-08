@@ -1,0 +1,28 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2026-04-22
+Patient: Michael Reddy (P0006)
+
+CHIEF COMPLAINT:
+Heart failure follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with heart failure, type 2 diabetes with diabetic chronic kidney disease, chronic kidney disease stage 4. Sleeps on two pillows to breathe comfortably and gained 3 pounds over the past week. BNP 621 pg/mL measured on 2026-04-22. Advised daily weights and to call if weight increases more than 2 to 3 pounds in a day. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been variable.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- insulin glargine 24 units at bedtime
+- furosemide 40 mg once daily
+- carvedilol 6.25 mg twice daily
+
+ALLERGIES:
+aspirin (wheezing); lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 116 mmHg; diastolic blood pressure 72 mmHg; bmi 22.2 kg/m2; creatinine 2.3 mg/dL; egfr 24 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin a1c 7.5%.
+
+ASSESSMENT AND PLAN:
+1. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+2. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.

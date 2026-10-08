@@ -1,0 +1,25 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-11-03
+Patient: Carlos Patel (P0040)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with hyperglycemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old male with type 2 diabetes with hyperglycemia, hyperlipidemia. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been variable. Most recent hemoglobin a1c 8.9% on 2025-11-03. Notes increased thirst and getting up twice a night to urinate. Lipid panel reviewed: ldl cholesterol 158 mg/dL on 2025-11-03.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- metformin 500 mg twice daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 117 mmHg; diastolic blood pressure 81 mmHg; bmi 22.6 kg/m2; creatinine 0.82 mg/dL; egfr 104 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin a1c 8.9%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with hyperglycemia: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.

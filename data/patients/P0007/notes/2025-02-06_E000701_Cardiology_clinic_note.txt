@@ -1,0 +1,27 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2025-02-06
+Patient: Joy Banerjee (P0007)
+
+CHIEF COMPLAINT:
+Atrial fibrillation follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+58-year-old female with atrial fibrillation, osteoporosis, hypothyroidism. Rate controlled at today's visit; discussed stroke prevention and bleeding risk with anticoagulation. Noticed easy bruising on both forearms after minor bumps; no nosebleeds, no blood in stool. INR 2.2 on 2025-02-06. DEXA scan showed a lumbar spine T-score of -3.1. Takes calcium and vitamin D.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, abdominal pain, or fever.
+
+CURRENT MEDICATIONS:
+- alendronate 70 mg once weekly
+- levothyroxine 75 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 124 mmHg; diastolic blood pressure 68 mmHg; bmi 21.7 kg/m2; creatinine 0.97 mg/dL; egfr 76 mL/min/1.73m2; potassium 5.0 mmol/L; inr 2.5.
+
+ASSESSMENT AND PLAN:
+1. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+2. Osteoporosis: Stable; continue current management and follow up in 3 months.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.

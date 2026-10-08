@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0014
+Full Name:       Linda Reddy
+Date of Birth:   1973-01-06
+Age:             53 years old
+Biological Sex:  Female
+Last Encounter:  2026-08-28

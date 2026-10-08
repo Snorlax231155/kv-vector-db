@@ -1,0 +1,24 @@
+SLEEP MEDICINE NOTE
+Date: 2025-09-03
+Patient: Yuki Iyer (P0041)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with obstructive sleep apnea. Uses CPAP about 6 hours per night; daytime sleepiness improved.
+
+REVIEW OF SYSTEMS:
+Denies headache, fever, or abdominal pain.
+
+CURRENT MEDICATIONS:
+None.
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 127 mmHg; diastolic blood pressure 79 mmHg; bmi 24.7 kg/m2; creatinine 0.97 mg/dL; egfr 96 mL/min/1.73m2; potassium 4.8 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.

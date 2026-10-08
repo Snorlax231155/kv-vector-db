@@ -1,0 +1,217 @@
+================================================================================
+PATIENT MEDICAL CHART: MICHAEL ALI (P0021)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0021
+Full Name:       Michael Ali
+Date of Birth:   1953-03-25
+Age:             73 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-30
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: aspirin
+  Reaction:  wheezing
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Heart failure, unspecified
+  ICD-10-CM:   I50.9
+  Status:      active
+  Onset Date:  2013-10-25
+
+- Diagnosis:   Gastro-esophageal reflux disease without esophagitis
+  ICD-10-CM:   K21.9
+  Status:      active
+  Onset Date:  2012-02-21
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Carvedilol 12.5 mg (twice daily)
+  Indication:  heart failure
+  RxCUI:       20352
+  Start Date:  2021-03-23
+  Status:      Active
+
+- Omeprazole 20 mg (once daily before breakfast)
+  Indication:  gerd
+  RxCUI:       7646
+  Start Date:  2013-01-17
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-30   | systolic blood pressure      | 125        | mmHg            | normal
+2026-07-30   | diastolic blood pressure     | 71         | mmHg            | normal
+2026-07-30   | bmi                          | 23.1       | kg/m2           | normal
+2026-07-30   | creatinine                   | 0.84       | mg/dL           | normal
+2026-07-30   | egfr                         | 88         | mL/min/1.73m2   | normal
+2026-07-30   | potassium                    | 4.2        | mmol/L          | normal
+2026-07-30   | sodium                       | 140        | mmol/L          | normal
+2026-07-30   | bnp                          | 765        | pg/mL           | high
+2025-11-02   | systolic blood pressure      | 108        | mmHg            | normal
+2025-11-02   | diastolic blood pressure     | 82         | mmHg            | normal
+2025-11-02   | bmi                          | 23.0       | kg/m2           | normal
+2025-11-02   | creatinine                   | 0.98       | mg/dL           | normal
+2025-11-02   | egfr                         | 103        | mL/min/1.73m2   | normal
+2025-11-02   | potassium                    | 3.7        | mmol/L          | normal
+2025-11-02   | sodium                       | 143        | mmol/L          | normal
+2025-11-02   | bnp                          | 586        | pg/mL           | high
+2025-08-02   | systolic blood pressure      | 118        | mmHg            | normal
+2025-08-02   | diastolic blood pressure     | 73         | mmHg            | normal
+2025-08-02   | bmi                          | 23.6       | kg/m2           | normal
+2025-08-02   | creatinine                   | 0.82       | mg/dL           | normal
+2025-08-02   | egfr                         | 92         | mL/min/1.73m2   | normal
+... [11 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-30 [E002104]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2025-11-02 [E002103]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up
+
+- Date:      2025-08-02 [E002102]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2025-04-23 [E002101]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Cardiology clinic note (2025-04-23) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2025-04-23
+Patient: Michael Ali (P0021)
+
+CHIEF COMPLAINT:
+Heart failure follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+73-year-old male with heart failure, gerd. Mild shortness of breath walking to the mailbox; ankle swelling improves overnight. BNP 761 pg/mL measured on 2025-04-23. Advised daily weights and to call if weight increases more than 2 to 3 pounds in a day. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, palpitations, or headache.
+
+CURRENT MEDICATIONS:
+- carvedilol 12.5 mg twice daily
+- omeprazole 20 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 109 mmHg; diastolic blood pressure 77 mmHg; bmi 22.1 kg/m2; creatinine 0.94 mg/dL; egfr 79 mL/min/1.73m2; potassium 3.9 mmol/L; bnp 761 pg/mL.
+
+ASSESSMENT AND PLAN:
+1. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.
+
+--- Note 2: Primary care progress note (2025-08-02) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-08-02
+Patient: Michael Ali (P0021)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+73-year-old male with gerd, heart failure. Burning heartburn after large meals, worse when lying down at night. Mild shortness of breath walking to the mailbox; ankle swelling improves overnight.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, palpitations, or dizziness.
+
+CURRENT MEDICATIONS:
+- carvedilol 12.5 mg twice daily
+- omeprazole 20 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 118 mmHg; diastolic blood pressure 73 mmHg; bmi 23.6 kg/m2; creatinine 0.82 mg/dL; egfr 92 mL/min/1.73m2; potassium 3.8 mmol/L; bnp 684 pg/mL.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+
+--- Note 3: Cardiology clinic note (2025-11-02) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2025-11-02
+Patient: Michael Ali (P0021)
+
+CHIEF COMPLAINT:
+Heart failure follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+73-year-old male with heart failure, gerd. Sleeps on two pillows to breathe comfortably and gained 3 pounds over the past week. BNP 586 pg/mL measured on 2025-11-02. Advised daily weights and to call if weight increases more than 2 to 3 pounds in a day. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or chest pain.
+
+CURRENT MEDICATIONS:
+- carvedilol 12.5 mg twice daily
+- omeprazole 20 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 108 mmHg; diastolic blood pressure 82 mmHg; bmi 23.0 kg/m2; creatinine 0.98 mg/dL; egfr 103 mL/min/1.73m2; potassium 3.7 mmol/L; bnp 586 pg/mL.
+
+ASSESSMENT AND PLAN:
+1. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.
+
+--- Note 4: Primary care progress note (2026-07-30) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-07-30
+Patient: Michael Ali (P0021)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+73-year-old male with gerd, heart failure. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating. Sleeps on two pillows to breathe comfortably and gained 3 pounds over the past week.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- carvedilol 12.5 mg twice daily
+- omeprazole 20 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 125 mmHg; diastolic blood pressure 71 mmHg; bmi 23.1 kg/m2; creatinine 0.84 mg/dL; egfr 88 mL/min/1.73m2; potassium 4.2 mmol/L; bnp 765 pg/mL.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+
+================================================================================
+[END OF CHART]

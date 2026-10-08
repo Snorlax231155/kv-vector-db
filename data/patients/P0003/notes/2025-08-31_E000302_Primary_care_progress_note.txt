@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-08-31
+Patient: Irene Osei (P0003)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+29-year-old female with gerd, asthma, migraine. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating. Reports nighttime cough about twice a week and uses the rescue inhaler three or four times a week.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, chest pain, or fever.
+
+CURRENT MEDICATIONS:
+- albuterol 90 mcg/actuation, 2 puffs every 4 to 6 hours as needed
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 118 mmHg; diastolic blood pressure 81 mmHg; bmi 23.0 kg/m2; creatinine 0.91 mg/dL; egfr 105 mL/min/1.73m2; potassium 4.9 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+3. Migraine: Stable; continue current management and follow up in 3 months.

@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Osteoarthritis of knee, unspecified
+  ICD-10-CM:   M17.9
+  Status:      active
+  Onset Date:  2021-12-20
+
+- Diagnosis:   Anemia, unspecified
+  ICD-10-CM:   D64.9
+  Status:      active
+  Onset Date:  2012-07-30
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2014-08-05

@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-26 [E000304]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2026-05-12 [E000303]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2025-08-31 [E000302]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2025-01-11 [E000301]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up

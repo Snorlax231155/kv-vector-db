@@ -1,0 +1,28 @@
+ORTHOPEDICS CLINIC NOTE
+Date: 2026-03-05
+Patient: Luis Nair (P0009)
+
+CHIEF COMPLAINT:
+Knee osteoarthritis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with knee osteoarthritis, type 2 diabetes, hypertension. Right knee pain worse with stairs and after prolonged standing; morning stiffness under 30 minutes. Here for routine diabetes care. Checks fingerstick glucose a few times a week; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, abdominal pain, or headache.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- ibuprofen 400 mg as needed
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 143 mmHg; diastolic blood pressure 93 mmHg; bmi 24.5 kg/m2; creatinine 1.0 mg/dL; egfr 100 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 9.0%.
+
+ASSESSMENT AND PLAN:
+1. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.

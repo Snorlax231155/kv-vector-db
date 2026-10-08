@@ -1,0 +1,6 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Unspecified asthma, uncomplicated
+  ICD-10-CM:   J45.909
+  Status:      active
+  Onset Date:  2019-06-23

@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0011
+Full Name:       James Menon
+Date of Birth:   1967-09-14
+Age:             58 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-06

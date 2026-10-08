@@ -1,0 +1,28 @@
+PULMONOLOGY CLINIC NOTE
+Date: 2026-08-26
+Patient: Irene Osei (P0003)
+
+CHIEF COMPLAINT:
+Asthma follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+29-year-old female with asthma, gerd, migraine. Symptoms are triggered by cold air, exercise and exposure to cats. No emergency visits or oral steroid courses in the past year. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, abdominal pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- albuterol 90 mcg/actuation, 2 puffs every 4 to 6 hours as needed
+- omeprazole 20 mg once daily before breakfast
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 116 mmHg; diastolic blood pressure 73 mmHg; bmi 25.6 kg/m2; creatinine 1.02 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.7 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.
+3. Migraine: Stable; continue current management and follow up in 3 months.

@@ -1,0 +1,212 @@
+================================================================================
+PATIENT MEDICAL CHART: FATIMA BROWN (P0001)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0001
+Full Name:       Fatima Brown
+Date of Birth:   1962-03-01
+Age:             64 years old
+Biological Sex:  Female
+Last Encounter:  2026-08-02
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2024-07-22
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2025-06-03
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2023-01-16
+
+- Diagnosis:   Chronic kidney disease, stage 3 unspecified
+  ICD-10-CM:   N18.30
+  Status:      active
+  Onset Date:  2024-07-26
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Metformin 500 mg (twice daily)
+  Indication:  type 2 diabetes
+  RxCUI:       6809
+  Start Date:  2026-02-10
+  Status:      Active
+
+- Atorvastatin 20 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       83367
+  Start Date:  2023-08-16
+  Status:      Active
+
+- Losartan 50 mg (once daily)
+  Indication:  hypertension; chronic kidney disease stage 3
+  RxCUI:       52175
+  Start Date:  2025-11-25
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+- Lisinopril 20 mg (once daily)
+  Indication:  hypertension
+  Start Date:  2025-11-18
+  Stop Date:   2025-11-22
+  Stop Reason: persistent dry cough
+  Status:      Discontinued
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-08-02   | systolic blood pressure      | 133        | mmHg            | high
+2026-08-02   | diastolic blood pressure     | 86         | mmHg            | high
+2026-08-02   | bmi                          | 25.6       | kg/m2           | normal
+2026-08-02   | creatinine                   | 1.95       | mg/dL           | high
+2026-08-02   | egfr                         | 47         | mL/min/1.73m2   | low
+2026-08-02   | potassium                    | 4.2        | mmol/L          | normal
+2026-08-02   | sodium                       | 139        | mmol/L          | normal
+2026-08-02   | hemoglobin a1c               | 7.7        | %               | high
+2026-08-02   | fasting glucose              | 186        | mg/dL           | high
+2026-08-02   | total cholesterol            | 195        | mg/dL           | normal
+2026-06-17   | systolic blood pressure      | 135        | mmHg            | high
+2026-06-17   | diastolic blood pressure     | 85         | mmHg            | high
+2026-06-17   | bmi                          | 25.1       | kg/m2           | normal
+2026-06-17   | creatinine                   | 1.86       | mg/dL           | high
+2026-06-17   | egfr                         | 45         | mL/min/1.73m2   | low
+2026-06-17   | potassium                    | 4.0        | mmol/L          | normal
+2026-06-17   | sodium                       | 141        | mmol/L          | normal
+2026-06-17   | hemoglobin a1c               | 8.1        | %               | high
+2026-06-17   | fasting glucose              | 206        | mg/dL           | high
+2026-06-17   | total cholesterol            | 213        | mg/dL           | high
+2025-10-31   | systolic blood pressure      | 136        | mmHg            | high
+... [21 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-02 [E000104]
+  Type:      Nephrology consult note
+  Reason:    chronic kidney disease stage 3 follow-up
+
+- Date:      2026-06-17 [E000103]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-10-31 [E000102]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-06-03 [E000101]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-10-31) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-10-31
+Patient: Fatima Brown (P0001)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with hypertension, type 2 diabetes, hyperlipidemia, chronic kidney disease stage 3. Blood pressure today 136/92 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 119 and 150 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, fever, or leg swelling.
+
+CURRENT MEDICATIONS:
+- atorvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 136 mmHg; diastolic blood pressure 92 mmHg; bmi 20.7 kg/m2; creatinine 1.9 mg/dL; egfr 48 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin a1c 8.5%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+
+--- Note 2: Primary care progress note (2026-06-17) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-06-17
+Patient: Fatima Brown (P0001)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with hyperlipidemia, type 2 diabetes, hypertension, chronic kidney disease stage 3. Lipid panel reviewed: ldl cholesterol 162 mg/dL on 2025-06-03. Tolerating statin therapy without muscle aches. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 122 and 182 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, fever, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- metformin 500 mg twice daily
+- atorvastatin 20 mg once daily
+- losartan 50 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 135 mmHg; diastolic blood pressure 85 mmHg; bmi 25.1 kg/m2; creatinine 1.86 mg/dL; egfr 45 mL/min/1.73m2; potassium 4.0 mmol/L; hemoglobin a1c 8.1%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+
+--- Note 3: Nephrology consult note (2026-08-02) ---
+NEPHROLOGY CONSULT NOTE
+Date: 2026-08-02
+Patient: Fatima Brown (P0001)
+
+CHIEF COMPLAINT:
+Chronic kidney disease stage 3 follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with chronic kidney disease stage 3, type 2 diabetes, hypertension, hyperlipidemia. Kidney function: egfr 47 mL/min/1.73m2 and creatinine 1.95 mg/dL on 2026-08-02. No edema or change in urine output reported. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, leg swelling, or headache.
+
+CURRENT MEDICATIONS:
+- metformin 500 mg twice daily
+- atorvastatin 20 mg once daily
+- losartan 50 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 133 mmHg; diastolic blood pressure 86 mmHg; bmi 25.6 kg/m2; creatinine 1.95 mg/dL; egfr 47 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin a1c 7.7%.
+
+ASSESSMENT AND PLAN:
+1. Chronic kidney disease stage 3: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+
+================================================================================
+[END OF CHART]

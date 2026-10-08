@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Unspecified asthma, uncomplicated
+  ICD-10-CM:   J45.909
+  Status:      active
+  Onset Date:  2013-08-10
+
+- Diagnosis:   Osteoarthritis of knee, unspecified
+  ICD-10-CM:   M17.9
+  Status:      active
+  Onset Date:  2024-05-09
+
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2014-12-26

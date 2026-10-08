@@ -1,0 +1,185 @@
+================================================================================
+PATIENT MEDICAL CHART: CARLOS PATEL (P0040)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0040
+Full Name:       Carlos Patel
+Date of Birth:   1974-06-05
+Age:             52 years old
+Biological Sex:  Male
+Last Encounter:  2026-08-05
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus with hyperglycemia
+  ICD-10-CM:   E11.65
+  Status:      active
+  Onset Date:  2013-03-20
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2022-08-07
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Metformin 500 mg (twice daily)
+  Indication:  type 2 diabetes with hyperglycemia
+  RxCUI:       6809
+  Start Date:  2015-05-02
+  Status:      Active
+
+- Rosuvastatin 10 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       301542
+  Start Date:  2025-12-01
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-08-05   | systolic blood pressure      | 123        | mmHg            | normal
+2026-08-05   | diastolic blood pressure     | 80         | mmHg            | normal
+2026-08-05   | bmi                          | 23.2       | kg/m2           | normal
+2026-08-05   | creatinine                   | 0.85       | mg/dL           | normal
+2026-08-05   | egfr                         | 86         | mL/min/1.73m2   | normal
+2026-08-05   | potassium                    | 4.6        | mmol/L          | normal
+2026-08-05   | sodium                       | 139        | mmol/L          | normal
+2026-08-05   | hemoglobin a1c               | 9.7        | %               | high
+2026-08-05   | fasting glucose              | 182        | mg/dL           | high
+2026-08-05   | ldl cholesterol              | 154        | mg/dL           | high
+2026-08-05   | total cholesterol            | 247        | mg/dL           | high
+2025-11-03   | systolic blood pressure      | 117        | mmHg            | normal
+2025-11-03   | diastolic blood pressure     | 81         | mmHg            | normal
+2025-11-03   | bmi                          | 22.6       | kg/m2           | normal
+2025-11-03   | creatinine                   | 0.82       | mg/dL           | normal
+2025-11-03   | egfr                         | 104        | mL/min/1.73m2   | normal
+2025-11-03   | potassium                    | 3.9        | mmol/L          | normal
+2025-11-03   | sodium                       | 143        | mmol/L          | normal
+2025-11-03   | hemoglobin a1c               | 8.9        | %               | high
+2025-11-03   | fasting glucose              | 284        | mg/dL           | high
+2025-11-03   | ldl cholesterol              | 158        | mg/dL           | high
+... [21 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-05 [E004004]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-11-03 [E004003]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with hyperglycemia follow-up
+
+- Date:      2025-10-14 [E004002]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2024-12-01 [E004001]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with hyperglycemia follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-10-14) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-10-14
+Patient: Carlos Patel (P0040)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old male with hyperlipidemia, type 2 diabetes with hyperglycemia. Trying to limit fried food and red meat. Here for routine diabetes care. Checks fingerstick glucose a few times a week; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, abdominal pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- metformin 500 mg twice daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 127 mmHg; diastolic blood pressure 68 mmHg; bmi 24.0 kg/m2; creatinine 0.83 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin a1c 10.1%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+2. Type 2 diabetes with hyperglycemia: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+
+--- Note 2: Endocrinology follow-up note (2025-11-03) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-11-03
+Patient: Carlos Patel (P0040)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with hyperglycemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old male with type 2 diabetes with hyperglycemia, hyperlipidemia. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been variable. Most recent hemoglobin a1c 8.9% on 2025-11-03. Notes increased thirst and getting up twice a night to urinate. Lipid panel reviewed: ldl cholesterol 158 mg/dL on 2025-11-03.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- metformin 500 mg twice daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 117 mmHg; diastolic blood pressure 81 mmHg; bmi 22.6 kg/m2; creatinine 0.82 mg/dL; egfr 104 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin a1c 8.9%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with hyperglycemia: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+
+--- Note 3: Primary care progress note (2026-08-05) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-08-05
+Patient: Carlos Patel (P0040)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old male with hyperlipidemia, type 2 diabetes with hyperglycemia. Lipid panel reviewed: ldl cholesterol 154 mg/dL on 2026-08-05. Trying to limit fried food and red meat. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been variable.
+
+REVIEW OF SYSTEMS:
+Denies headache, chest pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 80 mmHg; bmi 23.2 kg/m2; creatinine 0.85 mg/dL; egfr 86 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin a1c 9.7%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Type 2 diabetes with hyperglycemia: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+
+================================================================================
+[END OF CHART]

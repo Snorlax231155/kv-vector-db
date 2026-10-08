@@ -1,0 +1,11 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Pantoprazole 40 mg (once daily)
+  Indication:  gerd
+  RxCUI:       40790
+  Start Date:  2025-04-27
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

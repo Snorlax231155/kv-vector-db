@@ -1,0 +1,220 @@
+================================================================================
+PATIENT MEDICAL CHART: WEI TANAKA (P0008)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0008
+Full Name:       Wei Tanaka
+Date of Birth:   1951-01-14
+Age:             75 years old
+Biological Sex:  Male
+Last Encounter:  2026-05-26
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: codeine
+  Reaction:  nausea and vomiting
+  Severity:  mild
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2019-04-05
+
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2013-06-17
+
+- Diagnosis:   Unspecified atrial fibrillation
+  ICD-10-CM:   I48.91
+  Status:      active
+  Onset Date:  2017-11-18
+
+- Diagnosis:   Generalized anxiety disorder
+  ICD-10-CM:   F41.1
+  Status:      active
+  Onset Date:  2014-01-19
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Levothyroxine 75 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2019-06-17
+  Status:      Active
+
+- Sitagliptin 100 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       593411
+  Start Date:  2015-02-07
+  Status:      Active
+
+- Metoprolol 50 mg (once daily)
+  Indication:  atrial fibrillation
+  RxCUI:       6918
+  Start Date:  2023-11-28
+  Status:      Active
+
+- Sertraline 50 mg (once daily)
+  Indication:  generalized anxiety disorder
+  RxCUI:       36437
+  Start Date:  2021-04-11
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-05-26   | systolic blood pressure      | 115        | mmHg            | normal
+2026-05-26   | diastolic blood pressure     | 72         | mmHg            | normal
+2026-05-26   | bmi                          | 22.0       | kg/m2           | normal
+2026-05-26   | creatinine                   | 0.83       | mg/dL           | normal
+2026-05-26   | egfr                         | 77         | mL/min/1.73m2   | normal
+2026-05-26   | potassium                    | 4.0        | mmol/L          | normal
+2026-05-26   | sodium                       | 136        | mmol/L          | normal
+2026-05-26   | tsh                          | 5.73       | mIU/L           | high
+2026-05-26   | hemoglobin a1c               | 6.9        | %               | high
+2026-05-26   | fasting glucose              | 189        | mg/dL           | high
+2026-05-26   | urine albumin-creatinine ratio | 55         | mg/g            | high
+2026-05-26   | inr                          | 0.9        |                 | normal
+2025-05-05   | systolic blood pressure      | 110        | mmHg            | normal
+2025-05-05   | diastolic blood pressure     | 73         | mmHg            | normal
+2025-05-05   | bmi                          | 25.1       | kg/m2           | normal
+2025-05-05   | creatinine                   | 1.04       | mg/dL           | normal
+2025-05-05   | egfr                         | 92         | mL/min/1.73m2   | normal
+2025-05-05   | potassium                    | 3.9        | mmol/L          | normal
+2025-05-05   | sodium                       | 143        | mmol/L          | normal
+2025-05-05   | tsh                          | 2.05       | mIU/L           | normal
+2025-05-05   | hemoglobin a1c               | 9.2        | %               | high
+... [26 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-05-26 [E000804]
+  Type:      Behavioral health follow-up note
+  Reason:    generalized anxiety disorder follow-up
+
+- Date:      2025-05-05 [E000803]
+  Type:      Cardiology clinic note
+  Reason:    atrial fibrillation follow-up
+
+- Date:      2025-02-01 [E000802]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2024-10-19 [E000801]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Endocrinology follow-up note (2025-02-01) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-02-01
+Patient: Wei Tanaka (P0008)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+75-year-old male with type 2 diabetes, hypothyroidism, atrial fibrillation, generalized anxiety disorder. Here for routine diabetes care. Checks fingerstick glucose a few times a week; readings have been slightly above goal. Most recent hemoglobin a1c 8.7% on 2025-02-01. Notes increased thirst and getting up twice a night to urinate. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies headache, fever, or leg swelling.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- sitagliptin 100 mg once daily
+- metoprolol 50 mg once daily
+- sertraline 50 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 73 mmHg; bmi 21.9 kg/m2; creatinine 1.04 mg/dL; egfr 101 mL/min/1.73m2; potassium 3.9 mmol/L; tsh 2.49 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+
+--- Note 2: Cardiology clinic note (2025-05-05) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2025-05-05
+Patient: Wei Tanaka (P0008)
+
+CHIEF COMPLAINT:
+Atrial fibrillation follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+75-year-old male with atrial fibrillation, hypothyroidism, type 2 diabetes, generalized anxiety disorder. Rate controlled at today's visit; discussed stroke prevention and bleeding risk with anticoagulation. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, abdominal pain, or dizziness.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- sitagliptin 100 mg once daily
+- metoprolol 50 mg once daily
+- sertraline 50 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 110 mmHg; diastolic blood pressure 73 mmHg; bmi 25.1 kg/m2; creatinine 1.04 mg/dL; egfr 92 mL/min/1.73m2; potassium 3.9 mmol/L; tsh 2.05 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+
+--- Note 3: Behavioral health follow-up note (2026-05-26) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-05-26
+Patient: Wei Tanaka (P0008)
+
+CHIEF COMPLAINT:
+Generalized anxiety disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+75-year-old male with generalized anxiety disorder, hypothyroidism, type 2 diabetes, atrial fibrillation. Worry is less intrusive; using breathing exercises before work meetings. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, leg swelling, or chest pain.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- sitagliptin 100 mg once daily
+- metoprolol 50 mg once daily
+- sertraline 50 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 72 mmHg; bmi 22.0 kg/m2; creatinine 0.83 mg/dL; egfr 77 mL/min/1.73m2; potassium 4.0 mmol/L; tsh 5.73 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+
+================================================================================
+[END OF CHART]

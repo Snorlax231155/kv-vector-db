@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Anemia, unspecified
+  ICD-10-CM:   D64.9
+  Status:      active
+  Onset Date:  2012-02-28
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2021-02-07
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2022-10-11

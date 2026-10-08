@@ -1,0 +1,11 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2013-08-15
+
+- Diagnosis:   Atherosclerotic heart disease of native coronary artery without angina pectoris
+  ICD-10-CM:   I25.10
+  Status:      active
+  Onset Date:  2016-09-08

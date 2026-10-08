@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0049
+Full Name:       Rahul Reddy
+Date of Birth:   1990-01-31
+Age:             36 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-14

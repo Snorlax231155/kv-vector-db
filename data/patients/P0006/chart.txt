@@ -1,0 +1,240 @@
+================================================================================
+PATIENT MEDICAL CHART: MICHAEL REDDY (P0006)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0006
+Full Name:       Michael Reddy
+Date of Birth:   1949-05-17
+Age:             77 years old
+Biological Sex:  Male
+Last Encounter:  2026-08-04
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: aspirin
+  Reaction:  wheezing
+  Severity:  moderate
+
+- Substance: lisinopril
+  Reaction:  angioedema
+  Severity:  severe
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus with diabetic chronic kidney disease
+  ICD-10-CM:   E11.22
+  Status:      active
+  Onset Date:  2023-01-22
+
+- Diagnosis:   Chronic kidney disease, stage 4 (severe)
+  ICD-10-CM:   N18.4
+  Status:      active
+  Onset Date:  2019-08-17
+
+- Diagnosis:   Heart failure, unspecified
+  ICD-10-CM:   I50.9
+  Status:      active
+  Onset Date:  2014-08-30
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Insulin glargine 24 units (at bedtime)
+  Indication:  type 2 diabetes with diabetic chronic kidney disease
+  RxCUI:       274783
+  Start Date:  2024-09-22
+  Status:      Active
+
+- Furosemide 40 mg (once daily)
+  Indication:  chronic kidney disease stage 4
+  RxCUI:       4603
+  Start Date:  2022-02-26
+  Status:      Active
+
+- Carvedilol 6.25 mg (twice daily)
+  Indication:  heart failure
+  RxCUI:       20352
+  Start Date:  2019-09-23
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-08-04   | systolic blood pressure      | 125        | mmHg            | normal
+2026-08-04   | diastolic blood pressure     | 76         | mmHg            | normal
+2026-08-04   | bmi                          | 21.8       | kg/m2           | normal
+2026-08-04   | creatinine                   | 2.9        | mg/dL           | high
+2026-08-04   | egfr                         | 21         | mL/min/1.73m2   | low
+2026-08-04   | potassium                    | 4.9        | mmol/L          | normal
+2026-08-04   | sodium                       | 144        | mmol/L          | normal
+2026-08-04   | hemoglobin a1c               | 7.9        | %               | high
+2026-08-04   | urine albumin-creatinine ratio | 153        | mg/g            | high
+2026-08-04   | bnp                          | 644        | pg/mL           | high
+2026-04-22   | systolic blood pressure      | 116        | mmHg            | normal
+2026-04-22   | diastolic blood pressure     | 72         | mmHg            | normal
+2026-04-22   | bmi                          | 22.2       | kg/m2           | normal
+2026-04-22   | creatinine                   | 2.3        | mg/dL           | high
+2026-04-22   | egfr                         | 24         | mL/min/1.73m2   | low
+2026-04-22   | potassium                    | 4.9        | mmol/L          | normal
+2026-04-22   | sodium                       | 144        | mmol/L          | normal
+2026-04-22   | hemoglobin a1c               | 7.5        | %               | high
+2026-04-22   | urine albumin-creatinine ratio | 197        | mg/g            | high
+2026-04-22   | bnp                          | 621        | pg/mL           | high
+2026-04-10   | systolic blood pressure      | 122        | mmHg            | normal
+... [19 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-04 [E000604]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with diabetic chronic kidney disease follow-up
+
+- Date:      2026-04-22 [E000603]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up
+
+- Date:      2026-04-10 [E000602]
+  Type:      Nephrology consult note
+  Reason:    chronic kidney disease stage 4 follow-up
+
+- Date:      2026-02-23 [E000601]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with diabetic chronic kidney disease follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Endocrinology follow-up note (2026-02-23) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-02-23
+Patient: Michael Reddy (P0006)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with diabetic chronic kidney disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with type 2 diabetes with diabetic chronic kidney disease, chronic kidney disease stage 4, heart failure. Here for routine diabetes care. Checks fingerstick glucose a few times a week; readings have been slightly above goal. Most recent hemoglobin a1c 8.9% on 2026-02-23. Notes increased thirst and getting up twice a night to urinate. Kidney function: egfr 18 mL/min/1.73m2 and creatinine 3.21 mg/dL on 2026-02-23.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, fever, or dizziness.
+
+CURRENT MEDICATIONS:
+- insulin glargine 24 units at bedtime
+- furosemide 40 mg once daily
+- carvedilol 6.25 mg twice daily
+
+ALLERGIES:
+aspirin (wheezing); lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 117 mmHg; diastolic blood pressure 72 mmHg; bmi 24.8 kg/m2; creatinine 3.21 mg/dL; egfr 18 mL/min/1.73m2; potassium 5.2 mmol/L; hemoglobin a1c 8.9%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+
+--- Note 2: Nephrology consult note (2026-04-10) ---
+NEPHROLOGY CONSULT NOTE
+Date: 2026-04-10
+Patient: Michael Reddy (P0006)
+
+CHIEF COMPLAINT:
+Chronic kidney disease stage 4 follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with chronic kidney disease stage 4, type 2 diabetes with diabetic chronic kidney disease, heart failure. Kidney function: egfr 27 mL/min/1.73m2 and creatinine 3.37 mg/dL on 2026-04-10. No edema or change in urine output reported. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, fever, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- insulin glargine 24 units at bedtime
+- furosemide 40 mg once daily
+- carvedilol 6.25 mg twice daily
+
+ALLERGIES:
+aspirin (wheezing); lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 122 mmHg; diastolic blood pressure 69 mmHg; bmi 24.3 kg/m2; creatinine 3.37 mg/dL; egfr 27 mL/min/1.73m2; potassium 5.0 mmol/L; hemoglobin a1c 8.6%.
+
+ASSESSMENT AND PLAN:
+1. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+2. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+
+--- Note 3: Cardiology clinic note (2026-04-22) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2026-04-22
+Patient: Michael Reddy (P0006)
+
+CHIEF COMPLAINT:
+Heart failure follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with heart failure, type 2 diabetes with diabetic chronic kidney disease, chronic kidney disease stage 4. Sleeps on two pillows to breathe comfortably and gained 3 pounds over the past week. BNP 621 pg/mL measured on 2026-04-22. Advised daily weights and to call if weight increases more than 2 to 3 pounds in a day. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been variable.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- insulin glargine 24 units at bedtime
+- furosemide 40 mg once daily
+- carvedilol 6.25 mg twice daily
+
+ALLERGIES:
+aspirin (wheezing); lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 116 mmHg; diastolic blood pressure 72 mmHg; bmi 22.2 kg/m2; creatinine 2.3 mg/dL; egfr 24 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin a1c 7.5%.
+
+ASSESSMENT AND PLAN:
+1. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+2. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+
+--- Note 4: Endocrinology follow-up note (2026-08-04) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-08-04
+Patient: Michael Reddy (P0006)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with diabetic chronic kidney disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with type 2 diabetes with diabetic chronic kidney disease, chronic kidney disease stage 4, heart failure. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been slightly above goal. Most recent hemoglobin a1c 7.9% on 2026-08-04. Notes increased thirst and getting up twice a night to urinate. Kidney function: egfr 21 mL/min/1.73m2 and creatinine 2.9 mg/dL on 2026-08-04.
+
+REVIEW OF SYSTEMS:
+Denies fever, abdominal pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- insulin glargine 24 units at bedtime
+- furosemide 40 mg once daily
+- carvedilol 6.25 mg twice daily
+
+ALLERGIES:
+aspirin (wheezing); lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 125 mmHg; diastolic blood pressure 76 mmHg; bmi 21.8 kg/m2; creatinine 2.9 mg/dL; egfr 21 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin a1c 7.9%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+
+================================================================================
+[END OF CHART]

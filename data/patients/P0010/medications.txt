@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Clopidogrel 75 mg (once daily)
+  Indication:  coronary artery disease
+  RxCUI:       32968
+  Start Date:  2024-03-21
+  Status:      Active
+
+- Losartan 100 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       52175
+  Start Date:  2025-01-20
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

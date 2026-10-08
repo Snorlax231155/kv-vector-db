@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0035
+Full Name:       Daniel Fischer
+Date of Birth:   1978-11-09
+Age:             47 years old
+Biological Sex:  Male
+Last Encounter:  2026-08-16

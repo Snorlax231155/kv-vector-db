@@ -1,0 +1,27 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-02-13
+Patient: Ethan Martin (P0047)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with diabetic chronic kidney disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+73-year-old male with type 2 diabetes with diabetic chronic kidney disease, coronary artery disease, hypothyroidism. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been variable. Most recent hemoglobin a1c 8.4% on 2025-02-13. Walking 20 minutes most days and has cut back on sweetened tea. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation.
+
+REVIEW OF SYSTEMS:
+Denies headache, chest pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- insulin glargine 24 units at bedtime
+- levothyroxine 50 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 118 mmHg; diastolic blood pressure 73 mmHg; bmi 23.8 kg/m2; creatinine 1.03 mg/dL; egfr 99 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin a1c 8.4%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with diabetic chronic kidney disease: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.

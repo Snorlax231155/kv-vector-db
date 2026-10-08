@@ -1,0 +1,29 @@
+PULMONOLOGY CLINIC NOTE
+Date: 2026-05-22
+Patient: Karan Osei (P0005)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+68-year-old male with copd, coronary artery disease, old myocardial infarction, hyperlipidemia. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, headache, or dizziness.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- aspirin 81 mg once daily
+- clopidogrel 75 mg once daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 69 mmHg; bmi 24.5 kg/m2; creatinine 1.03 mg/dL; egfr 83 mL/min/1.73m2; potassium 4.0 mmol/L; ldl cholesterol 138 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Old myocardial infarction: Stable; continue current management and follow up in 3 months.

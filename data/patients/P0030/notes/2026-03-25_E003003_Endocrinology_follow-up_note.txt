@@ -1,0 +1,29 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-03-25
+Patient: Karan Haddad (P0030)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with hyperglycemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+78-year-old male with type 2 diabetes with hyperglycemia, hyperlipidemia, asthma, chronic kidney disease stage 3. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 122 and 151 mg/dL. Most recent hemoglobin a1c 9.3% on 2026-03-25. Denies hypoglycemic episodes; admits to dietary lapses over the holidays. Lipid panel reviewed: ldl cholesterol 169 mg/dL on 2025-09-03.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, abdominal pain, or headache.
+
+CURRENT MEDICATIONS:
+- rosuvastatin 20 mg once daily
+- montelukast 10 mg once daily in the evening
+- insulin glargine 24 units at bedtime
+- losartan 50 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 119 mmHg; diastolic blood pressure 67 mmHg; bmi 25.0 kg/m2; creatinine 2.06 mg/dL; egfr 37 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin a1c 9.3%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with hyperglycemia: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+3. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.

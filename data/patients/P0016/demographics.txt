@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0016
+Full Name:       Vikram Das
+Date of Birth:   1963-07-04
+Age:             63 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-26

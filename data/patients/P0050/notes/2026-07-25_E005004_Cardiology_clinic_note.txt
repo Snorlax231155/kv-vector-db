@@ -1,0 +1,26 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2026-07-25
+Patient: Vikram Banerjee (P0050)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+47-year-old male with coronary artery disease, gerd. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest. Burning heartburn after large meals, worse when lying down at night.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, chest pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- clopidogrel 75 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 70 mmHg; bmi 24.3 kg/m2; creatinine 0.72 mg/dL; egfr 87 mL/min/1.73m2; potassium 4.4 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.

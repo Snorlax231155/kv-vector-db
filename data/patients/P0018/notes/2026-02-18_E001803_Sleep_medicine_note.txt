@@ -1,0 +1,27 @@
+SLEEP MEDICINE NOTE
+Date: 2026-02-18
+Patient: Irene Novak (P0018)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old female with obstructive sleep apnea, osteoporosis, hyperlipidemia. Uses CPAP about 4 hours per night; daytime sleepiness improved. DEXA scan showed a lumbar spine T-score of -2.6. Takes calcium and vitamin D.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, shortness of breath at rest, or palpitations.
+
+CURRENT MEDICATIONS:
+- alendronate 70 mg once weekly
+- atorvastatin 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 120 mmHg; diastolic blood pressure 78 mmHg; bmi 24.9 kg/m2; creatinine 1.18 mg/dL; egfr 95 mL/min/1.73m2; potassium 4.3 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+2. Osteoporosis: Stable; continue current management and follow up in 3 months.
+3. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.

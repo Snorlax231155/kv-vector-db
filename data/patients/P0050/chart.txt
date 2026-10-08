@@ -1,0 +1,193 @@
+================================================================================
+PATIENT MEDICAL CHART: VIKRAM BANERJEE (P0050)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0050
+Full Name:       Vikram Banerjee
+Date of Birth:   1979-02-02
+Age:             47 years old
+Biological Sex:  Male
+Last Encounter:  2026-08-16
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: shellfish
+  Reaction:  lip swelling
+  Severity:  severe
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Gastro-esophageal reflux disease without esophagitis
+  ICD-10-CM:   K21.9
+  Status:      active
+  Onset Date:  2020-11-05
+
+- Diagnosis:   Atherosclerotic heart disease of native coronary artery without angina pectoris
+  ICD-10-CM:   I25.10
+  Status:      active
+  Onset Date:  2024-05-18
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Omeprazole 20 mg (once daily before breakfast)
+  Indication:  gerd
+  RxCUI:       7646
+  Start Date:  2023-07-07
+  Status:      Active
+
+- Clopidogrel 75 mg (once daily)
+  Indication:  coronary artery disease
+  RxCUI:       32968
+  Start Date:  2024-10-01
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-08-16   | systolic blood pressure      | 116        | mmHg            | normal
+2026-08-16   | diastolic blood pressure     | 71         | mmHg            | normal
+2026-08-16   | bmi                          | 24.0       | kg/m2           | normal
+2026-08-16   | creatinine                   | 0.92       | mg/dL           | normal
+2026-08-16   | egfr                         | 80         | mL/min/1.73m2   | normal
+2026-08-16   | potassium                    | 4.8        | mmol/L          | normal
+2026-08-16   | sodium                       | 138        | mmol/L          | normal
+2026-07-25   | systolic blood pressure      | 111        | mmHg            | normal
+2026-07-25   | diastolic blood pressure     | 70         | mmHg            | normal
+2026-07-25   | bmi                          | 24.3       | kg/m2           | normal
+2026-07-25   | creatinine                   | 0.72       | mg/dL           | normal
+2026-07-25   | egfr                         | 87         | mL/min/1.73m2   | normal
+2026-07-25   | potassium                    | 4.4        | mmol/L          | normal
+2026-07-25   | sodium                       | 144        | mmol/L          | normal
+2026-06-30   | systolic blood pressure      | 109        | mmHg            | normal
+2026-06-30   | diastolic blood pressure     | 76         | mmHg            | normal
+2026-06-30   | bmi                          | 23.2       | kg/m2           | normal
+2026-06-30   | creatinine                   | 1.17       | mg/dL           | normal
+2026-06-30   | egfr                         | 85         | mL/min/1.73m2   | normal
+2026-06-30   | potassium                    | 3.9        | mmol/L          | normal
+2026-06-30   | sodium                       | 144        | mmol/L          | normal
+... [16 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-16 [E005005]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2026-07-25 [E005004]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+- Date:      2026-06-30 [E005003]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2026-04-25 [E005002]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+- Date:      2025-11-19 [E005001]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2026-06-30) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-06-30
+Patient: Vikram Banerjee (P0050)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+47-year-old male with gerd, coronary artery disease. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, shortness of breath at rest, or headache.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- clopidogrel 75 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 109 mmHg; diastolic blood pressure 76 mmHg; bmi 23.2 kg/m2; creatinine 1.17 mg/dL; egfr 85 mL/min/1.73m2; potassium 3.9 mmol/L; ldl cholesterol 81 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Cardiology clinic note (2026-07-25) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2026-07-25
+Patient: Vikram Banerjee (P0050)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+47-year-old male with coronary artery disease, gerd. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest. Burning heartburn after large meals, worse when lying down at night.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, chest pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- clopidogrel 75 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 70 mmHg; bmi 24.3 kg/m2; creatinine 0.72 mg/dL; egfr 87 mL/min/1.73m2; potassium 4.4 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.
+
+--- Note 3: Primary care progress note (2026-08-16) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-08-16
+Patient: Vikram Banerjee (P0050)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+47-year-old male with gerd, coronary artery disease. Burning heartburn after large meals, worse when lying down at night. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation.
+
+REVIEW OF SYSTEMS:
+Denies headache, chest pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- clopidogrel 75 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 116 mmHg; diastolic blood pressure 71 mmHg; bmi 24.0 kg/m2; creatinine 0.92 mg/dL; egfr 80 mL/min/1.73m2; potassium 4.8 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

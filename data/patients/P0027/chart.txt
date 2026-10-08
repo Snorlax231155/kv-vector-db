@@ -1,0 +1,209 @@
+================================================================================
+PATIENT MEDICAL CHART: SOFIA REDDY (P0027)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0027
+Full Name:       Sofia Reddy
+Date of Birth:   1967-04-18
+Age:             58 years old
+Biological Sex:  Female
+Last Encounter:  2026-01-31
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: penicillin
+  Reaction:  rash
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2016-05-22
+
+- Diagnosis:   Major depressive disorder, single episode, unspecified
+  ICD-10-CM:   F32.9
+  Status:      active
+  Onset Date:  2024-10-06
+
+- Diagnosis:   Unspecified atrial fibrillation
+  ICD-10-CM:   I48.91
+  Status:      active
+  Onset Date:  2023-02-09
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Sitagliptin 100 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       593411
+  Start Date:  2020-09-24
+  Status:      Active
+
+- Sertraline 100 mg (once daily)
+  Indication:  major depressive disorder
+  RxCUI:       36437
+  Start Date:  2025-06-28
+  Status:      Active
+
+- Warfarin 5 mg (once daily, adjusted to INR)
+  Indication:  atrial fibrillation
+  RxCUI:       11289
+  Start Date:  2024-09-10
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-01-31   | systolic blood pressure      | 120        | mmHg            | normal
+2026-01-31   | diastolic blood pressure     | 72         | mmHg            | normal
+2026-01-31   | bmi                          | 24.8       | kg/m2           | normal
+2026-01-31   | creatinine                   | 0.78       | mg/dL           | normal
+2026-01-31   | egfr                         | 89         | mL/min/1.73m2   | normal
+2026-01-31   | potassium                    | 4.3        | mmol/L          | normal
+2026-01-31   | sodium                       | 140        | mmol/L          | normal
+2026-01-31   | hemoglobin a1c               | 9.4        | %               | high
+2026-01-31   | fasting glucose              | 149        | mg/dL           | high
+2026-01-31   | urine albumin-creatinine ratio | 35         | mg/g            | high
+2026-01-31   | inr                          | 3.4        |                 | normal
+2026-01-31   | inr                          | 3.4        |                 | normal
+2025-10-06   | systolic blood pressure      | 111        | mmHg            | normal
+2025-10-06   | diastolic blood pressure     | 78         | mmHg            | normal
+2025-10-06   | bmi                          | 23.8       | kg/m2           | normal
+2025-10-06   | creatinine                   | 1.11       | mg/dL           | normal
+2025-10-06   | egfr                         | 91         | mL/min/1.73m2   | normal
+2025-10-06   | potassium                    | 4.2        | mmol/L          | normal
+2025-10-06   | sodium                       | 142        | mmol/L          | normal
+2025-10-06   | hemoglobin a1c               | 9.2        | %               | high
+2025-10-06   | fasting glucose              | 144        | mg/dL           | high
+... [37 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-01-31 [E002705]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2025-10-06 [E002704]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2025-01-28 [E002703]
+  Type:      Cardiology clinic note
+  Reason:    atrial fibrillation follow-up
+
+- Date:      2024-12-27 [E002702]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2024-12-08 [E002701]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Cardiology clinic note (2025-01-28) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2025-01-28
+Patient: Sofia Reddy (P0027)
+
+CHIEF COMPLAINT:
+Atrial fibrillation follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old female with atrial fibrillation, type 2 diabetes, major depressive disorder. Reports occasional episodes of fluttering in the chest lasting a few minutes, no fainting. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 139 and 189 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies fever, chest pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- warfarin 5 mg once daily, adjusted to INR
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 125 mmHg; diastolic blood pressure 68 mmHg; bmi 22.3 kg/m2; creatinine 1.14 mg/dL; egfr 100 mL/min/1.73m2; potassium 5.0 mmol/L; hemoglobin a1c 7.9%.
+
+ASSESSMENT AND PLAN:
+1. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+
+--- Note 2: Endocrinology follow-up note (2025-10-06) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-10-06
+Patient: Sofia Reddy (P0027)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old female with type 2 diabetes, major depressive disorder, atrial fibrillation. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 130 and 154 mg/dL. Most recent hemoglobin a1c 9.2% on 2025-10-06. Reports mild tingling in both feet in the evenings, no foot ulcers. Sleep has improved, still has low energy in the afternoons; engaged in weekly therapy.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, shortness of breath at rest, or palpitations.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- sertraline 100 mg once daily
+- warfarin 5 mg once daily, adjusted to INR
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 78 mmHg; bmi 23.8 kg/m2; creatinine 1.11 mg/dL; egfr 91 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin a1c 9.2%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+3. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+
+--- Note 3: Behavioral health follow-up note (2026-01-31) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-01-31
+Patient: Sofia Reddy (P0027)
+
+CHIEF COMPLAINT:
+Major depressive disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old female with major depressive disorder, type 2 diabetes, atrial fibrillation. Sleep has improved, still has low energy in the afternoons; engaged in weekly therapy. Denies thoughts of self-harm. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, abdominal pain, or fever.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- sertraline 100 mg once daily
+- warfarin 5 mg once daily, adjusted to INR
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 120 mmHg; diastolic blood pressure 72 mmHg; bmi 24.8 kg/m2; creatinine 0.78 mg/dL; egfr 89 mL/min/1.73m2; potassium 4.3 mmol/L; hemoglobin a1c 9.4%.
+
+ASSESSMENT AND PLAN:
+1. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+
+================================================================================
+[END OF CHART]

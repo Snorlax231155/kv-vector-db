@@ -1,0 +1,206 @@
+================================================================================
+PATIENT MEDICAL CHART: DANIEL HADDAD (P0002)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0002
+Full Name:       Daniel Haddad
+Date of Birth:   1954-10-16
+Age:             71 years old
+Biological Sex:  Male
+Last Encounter:  2026-06-07
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: sulfonamide antibiotics
+  Reaction:  hives
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Unspecified atrial fibrillation
+  ICD-10-CM:   I48.91
+  Status:      active
+  Onset Date:  2017-05-01
+
+- Diagnosis:   Heart failure, unspecified
+  ICD-10-CM:   I50.9
+  Status:      active
+  Onset Date:  2022-07-09
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2014-08-03
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Apixaban 5 mg (twice daily)
+  Indication:  atrial fibrillation
+  RxCUI:       1364430
+  Start Date:  2023-07-10
+  Status:      Active
+
+- Furosemide 40 mg (once daily)
+  Indication:  heart failure
+  RxCUI:       4603
+  Start Date:  2023-05-14
+  Status:      Active
+
+- Amlodipine 5 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       17767
+  Start Date:  2021-06-14
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-06-07   | systolic blood pressure      | 151        | mmHg            | high
+2026-06-07   | diastolic blood pressure     | 95         | mmHg            | high
+2026-06-07   | bmi                          | 25.4       | kg/m2           | normal
+2026-06-07   | creatinine                   | 0.67       | mg/dL           | normal
+2026-06-07   | egfr                         | 99         | mL/min/1.73m2   | normal
+2026-06-07   | potassium                    | 4.7        | mmol/L          | normal
+2026-06-07   | sodium                       | 140        | mmol/L          | normal
+2026-06-07   | inr                          | 0.9        |                 | normal
+2026-06-07   | bnp                          | 499        | pg/mL           | high
+2025-06-18   | systolic blood pressure      | 139        | mmHg            | high
+2025-06-18   | diastolic blood pressure     | 90         | mmHg            | high
+2025-06-18   | bmi                          | 23.5       | kg/m2           | normal
+2025-06-18   | creatinine                   | 0.97       | mg/dL           | normal
+2025-06-18   | egfr                         | 87         | mL/min/1.73m2   | normal
+2025-06-18   | potassium                    | 4.1        | mmol/L          | normal
+2025-06-18   | sodium                       | 144        | mmol/L          | normal
+2025-06-18   | inr                          | 1.1        |                 | normal
+2025-06-18   | bnp                          | 546        | pg/mL           | high
+2025-03-03   | systolic blood pressure      | 133        | mmHg            | high
+2025-03-03   | diastolic blood pressure     | 95         | mmHg            | high
+2025-03-03   | bmi                          | 21.3       | kg/m2           | normal
+... [15 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-06-07 [E000204]
+  Type:      Cardiology clinic note
+  Reason:    atrial fibrillation follow-up
+
+- Date:      2025-06-18 [E000203]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-03-03 [E000202]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up
+
+- Date:      2024-12-11 [E000201]
+  Type:      Cardiology clinic note
+  Reason:    atrial fibrillation follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Cardiology clinic note (2025-03-03) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2025-03-03
+Patient: Daniel Haddad (P0002)
+
+CHIEF COMPLAINT:
+Heart failure follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+72-year-old male with heart failure, atrial fibrillation, hypertension. Mild shortness of breath walking to the mailbox; ankle swelling improves overnight. BNP 434 pg/mL measured on 2025-03-03. Advised daily weights and to call if weight increases more than 2 to 3 pounds in a day. Reports occasional episodes of fluttering in the chest lasting a few minutes, no fainting.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or chest pain.
+
+CURRENT MEDICATIONS:
+- apixaban 5 mg twice daily
+- furosemide 40 mg once daily
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 133 mmHg; diastolic blood pressure 95 mmHg; bmi 21.3 kg/m2; creatinine 0.83 mg/dL; egfr 98 mL/min/1.73m2; potassium 5.0 mmol/L; inr 1.1.
+
+ASSESSMENT AND PLAN:
+1. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+2. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+
+--- Note 2: Primary care progress note (2025-06-18) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-06-18
+Patient: Daniel Haddad (P0002)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+72-year-old male with hypertension, atrial fibrillation, heart failure. Blood pressure today 139/90 mmHg. Occasional morning headaches, no vision changes. Noticed swelling around both ankles since the amlodipine dose was increased; worse at the end of the day, improves with leg elevation. Rate controlled at today's visit; discussed stroke prevention and bleeding risk with anticoagulation.
+
+REVIEW OF SYSTEMS:
+Denies headache, fever, or dizziness.
+
+CURRENT MEDICATIONS:
+- apixaban 5 mg twice daily
+- furosemide 40 mg once daily
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 139 mmHg; diastolic blood pressure 90 mmHg; bmi 23.5 kg/m2; creatinine 0.97 mg/dL; egfr 87 mL/min/1.73m2; potassium 4.1 mmol/L; inr 1.1.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+
+--- Note 3: Cardiology clinic note (2026-06-07) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2026-06-07
+Patient: Daniel Haddad (P0002)
+
+CHIEF COMPLAINT:
+Atrial fibrillation follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+72-year-old male with atrial fibrillation, heart failure, hypertension. Rate controlled at today's visit; discussed stroke prevention and bleeding risk with anticoagulation. Sleeps on two pillows to breathe comfortably and gained 3 pounds over the past week.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, headache, or leg swelling.
+
+CURRENT MEDICATIONS:
+- apixaban 5 mg twice daily
+- furosemide 40 mg once daily
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 151 mmHg; diastolic blood pressure 95 mmHg; bmi 25.4 kg/m2; creatinine 0.67 mg/dL; egfr 99 mL/min/1.73m2; potassium 4.7 mmol/L; inr 0.9.
+
+ASSESSMENT AND PLAN:
+1. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+2. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+
+================================================================================
+[END OF CHART]

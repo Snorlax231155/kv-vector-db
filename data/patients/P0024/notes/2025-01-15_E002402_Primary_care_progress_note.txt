@@ -1,0 +1,25 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-01-15
+Patient: Hannah Kowalski (P0024)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+76-year-old female with hypertension, type 2 diabetes. Blood pressure today 153/86 mmHg. Reports adherence to her antihypertensive regimen and a low-salt diet most days. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies fever, abdominal pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 12.5 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 153 mmHg; diastolic blood pressure 86 mmHg; bmi 22.6 kg/m2; creatinine 0.61 mg/dL; egfr 98 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin a1c 8.8%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.

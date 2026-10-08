@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0018
+Full Name:       Irene Novak
+Date of Birth:   1936-11-21
+Age:             89 years old
+Biological Sex:  Female
+Last Encounter:  2026-08-31

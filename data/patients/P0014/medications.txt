@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Sumatriptan 50 mg (as needed at migraine onset)
+  Indication:  migraine
+  RxCUI:       37418
+  Start Date:  2022-12-15
+  Status:      Active
+
+- Montelukast 10 mg (once daily in the evening)
+  Indication:  asthma
+  RxCUI:       88249
+  Start Date:  2023-12-14
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

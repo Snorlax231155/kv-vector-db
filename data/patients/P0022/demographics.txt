@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0022
+Full Name:       Daniel Iyer
+Date of Birth:   1970-06-11
+Age:             56 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-27

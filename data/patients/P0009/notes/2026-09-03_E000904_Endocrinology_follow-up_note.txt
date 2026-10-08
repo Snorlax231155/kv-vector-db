@@ -1,0 +1,28 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-09-03
+Patient: Luis Nair (P0009)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with type 2 diabetes, knee osteoarthritis, hypertension. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 122 and 174 mg/dL. Most recent hemoglobin a1c 6.8% on 2026-09-03. Notes increased thirst and getting up twice a night to urinate. Bilateral knee pain limits walking to about 15 minutes.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, dizziness, or headache.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- ibuprofen 400 mg as needed
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 151 mmHg; diastolic blood pressure 83 mmHg; bmi 21.7 kg/m2; creatinine 0.75 mg/dL; egfr 89 mL/min/1.73m2; potassium 4.1 mmol/L; hemoglobin a1c 6.8%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

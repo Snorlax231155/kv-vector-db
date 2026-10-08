@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Metformin 500 mg (twice daily)
+  Indication:  type 2 diabetes with hyperglycemia
+  RxCUI:       6809
+  Start Date:  2015-05-02
+  Status:      Active
+
+- Rosuvastatin 10 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       301542
+  Start Date:  2025-12-01
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

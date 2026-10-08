@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-06 [E001103]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+- Date:      2025-12-02 [E001102]
+  Type:      Nephrology consult note
+  Reason:    chronic kidney disease stage 4 follow-up
+
+- Date:      2024-11-09 [E001101]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up

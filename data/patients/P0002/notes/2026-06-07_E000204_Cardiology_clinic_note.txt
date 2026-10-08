@@ -1,0 +1,28 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2026-06-07
+Patient: Daniel Haddad (P0002)
+
+CHIEF COMPLAINT:
+Atrial fibrillation follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+72-year-old male with atrial fibrillation, heart failure, hypertension. Rate controlled at today's visit; discussed stroke prevention and bleeding risk with anticoagulation. Sleeps on two pillows to breathe comfortably and gained 3 pounds over the past week.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, headache, or leg swelling.
+
+CURRENT MEDICATIONS:
+- apixaban 5 mg twice daily
+- furosemide 40 mg once daily
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 151 mmHg; diastolic blood pressure 95 mmHg; bmi 25.4 kg/m2; creatinine 0.67 mg/dL; egfr 99 mL/min/1.73m2; potassium 4.7 mmol/L; inr 0.9.
+
+ASSESSMENT AND PLAN:
+1. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+2. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

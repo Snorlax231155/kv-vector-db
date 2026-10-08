@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Levothyroxine 75 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2017-04-15
+  Status:      Active
+
+- Sertraline 100 mg (once daily)
+  Indication:  major depressive disorder
+  RxCUI:       36437
+  Start Date:  2024-03-19
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

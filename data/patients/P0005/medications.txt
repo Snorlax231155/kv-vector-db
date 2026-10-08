@@ -1,0 +1,29 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Tiotropium 18 mcg inhaled (once daily)
+  Indication:  copd
+  RxCUI:       69120
+  Start Date:  2023-08-07
+  Status:      Active
+
+- Aspirin 81 mg (once daily)
+  Indication:  coronary artery disease
+  RxCUI:       1191
+  Start Date:  2023-11-25
+  Status:      Active
+
+- Clopidogrel 75 mg (once daily)
+  Indication:  old myocardial infarction
+  RxCUI:       32968
+  Start Date:  2018-05-05
+  Status:      Active
+
+- Rosuvastatin 10 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       301542
+  Start Date:  2021-11-13
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

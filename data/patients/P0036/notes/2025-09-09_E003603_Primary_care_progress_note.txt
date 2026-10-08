@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-09-09
+Patient: Priya Tanaka (P0036)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+81-year-old female with hypertension, knee osteoarthritis, anemia. Blood pressure today 148/95 mmHg. Occasional morning headaches, no vision changes. Right knee pain worse with stairs and after prolonged standing; morning stiffness under 30 minutes.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- ibuprofen 400 mg as needed
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 148 mmHg; diastolic blood pressure 95 mmHg; bmi 24.7 kg/m2; creatinine 1.15 mg/dL; egfr 79 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin 10.4 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Anemia: Stable; continue current management and follow up in 3 months.

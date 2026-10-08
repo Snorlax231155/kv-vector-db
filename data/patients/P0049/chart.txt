@@ -1,0 +1,227 @@
+================================================================================
+PATIENT MEDICAL CHART: RAHUL REDDY (P0049)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0049
+Full Name:       Rahul Reddy
+Date of Birth:   1990-01-31
+Age:             36 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-14
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Anemia, unspecified
+  ICD-10-CM:   D64.9
+  Status:      active
+  Onset Date:  2021-07-04
+
+- Diagnosis:   Generalized anxiety disorder
+  ICD-10-CM:   F41.1
+  Status:      active
+  Onset Date:  2024-07-28
+
+- Diagnosis:   Unspecified asthma, uncomplicated
+  ICD-10-CM:   J45.909
+  Status:      active
+  Onset Date:  2012-01-24
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Buspirone 10 mg (twice daily)
+  Indication:  generalized anxiety disorder
+  RxCUI:       1827
+  Start Date:  2025-07-31
+  Status:      Active
+
+- Montelukast 10 mg (once daily in the evening)
+  Indication:  asthma
+  RxCUI:       88249
+  Start Date:  2020-03-15
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-14   | systolic blood pressure      | 124        | mmHg            | normal
+2026-07-14   | diastolic blood pressure     | 72         | mmHg            | normal
+2026-07-14   | bmi                          | 20.6       | kg/m2           | normal
+2026-07-14   | creatinine                   | 1.01       | mg/dL           | normal
+2026-07-14   | egfr                         | 101        | mL/min/1.73m2   | normal
+2026-07-14   | potassium                    | 4.6        | mmol/L          | normal
+2026-07-14   | sodium                       | 144        | mmol/L          | normal
+2026-07-14   | hemoglobin                   | 10.6       | g/dL            | low
+2026-01-11   | systolic blood pressure      | 113        | mmHg            | normal
+2026-01-11   | diastolic blood pressure     | 73         | mmHg            | normal
+2026-01-11   | bmi                          | 25.7       | kg/m2           | normal
+2026-01-11   | creatinine                   | 1.09       | mg/dL           | normal
+2026-01-11   | egfr                         | 80         | mL/min/1.73m2   | normal
+2026-01-11   | potassium                    | 5.0        | mmol/L          | normal
+2026-01-11   | sodium                       | 138        | mmol/L          | normal
+2026-01-11   | hemoglobin                   | 10.2       | g/dL            | low
+2025-12-09   | systolic blood pressure      | 115        | mmHg            | normal
+2025-12-09   | diastolic blood pressure     | 71         | mmHg            | normal
+2025-12-09   | bmi                          | 23.6       | kg/m2           | normal
+2025-12-09   | creatinine                   | 0.8        | mg/dL           | normal
+2025-12-09   | egfr                         | 102        | mL/min/1.73m2   | normal
+... [19 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-14 [E004905]
+  Type:      Behavioral health follow-up note
+  Reason:    generalized anxiety disorder follow-up
+
+- Date:      2026-01-11 [E004904]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+- Date:      2025-12-09 [E004903]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2025-07-12 [E004902]
+  Type:      Behavioral health follow-up note
+  Reason:    generalized anxiety disorder follow-up
+
+- Date:      2025-05-01 [E004901]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Behavioral health follow-up note (2025-07-12) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2025-07-12
+Patient: Rahul Reddy (P0049)
+
+CHIEF COMPLAINT:
+Generalized anxiety disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+36-year-old male with generalized anxiety disorder, anemia, asthma. GAD-7 score improved with therapy and medication. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.2 g/dl on 2025-07-12.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, shortness of breath at rest, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- montelukast 10 mg once daily in the evening
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 110 mmHg; diastolic blood pressure 67 mmHg; bmi 22.8 kg/m2; creatinine 1.18 mg/dL; egfr 86 mL/min/1.73m2; potassium 4.1 mmol/L; hemoglobin 10.2 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+
+--- Note 2: Pulmonology clinic note (2025-12-09) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2025-12-09
+Patient: Rahul Reddy (P0049)
+
+CHIEF COMPLAINT:
+Asthma follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+36-year-old male with asthma, anemia, generalized anxiety disorder. Symptoms are triggered by cold air, exercise and exposure to cats. No emergency visits or oral steroid courses in the past year. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.6 g/dl on 2025-12-09.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, headache, or fever.
+
+CURRENT MEDICATIONS:
+- buspirone 10 mg twice daily
+- montelukast 10 mg once daily in the evening
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 71 mmHg; bmi 23.6 kg/m2; creatinine 0.8 mg/dL; egfr 102 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin 10.6 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Primary care progress note (2026-01-11) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-01-11
+Patient: Rahul Reddy (P0049)
+
+CHIEF COMPLAINT:
+Anemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+36-year-old male with anemia, generalized anxiety disorder, asthma. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.2 g/dl on 2026-01-11. Worry is less intrusive; using breathing exercises before work meetings.
+
+REVIEW OF SYSTEMS:
+Denies headache, palpitations, or fever.
+
+CURRENT MEDICATIONS:
+- buspirone 10 mg twice daily
+- montelukast 10 mg once daily in the evening
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 113 mmHg; diastolic blood pressure 73 mmHg; bmi 25.7 kg/m2; creatinine 1.09 mg/dL; egfr 80 mL/min/1.73m2; potassium 5.0 mmol/L; hemoglobin 10.2 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Anemia: Stable; continue current management and follow up in 3 months.
+2. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+3. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+
+--- Note 4: Behavioral health follow-up note (2026-07-14) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-07-14
+Patient: Rahul Reddy (P0049)
+
+CHIEF COMPLAINT:
+Generalized anxiety disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+36-year-old male with generalized anxiety disorder, anemia, asthma. GAD-7 score improved with therapy and medication. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.6 g/dl on 2026-07-14.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, leg swelling, or headache.
+
+CURRENT MEDICATIONS:
+- buspirone 10 mg twice daily
+- montelukast 10 mg once daily in the evening
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 124 mmHg; diastolic blood pressure 72 mmHg; bmi 20.6 kg/m2; creatinine 1.01 mg/dL; egfr 101 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin 10.6 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+
+================================================================================
+[END OF CHART]

@@ -1,0 +1,28 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2025-03-03
+Patient: Daniel Haddad (P0002)
+
+CHIEF COMPLAINT:
+Heart failure follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+72-year-old male with heart failure, atrial fibrillation, hypertension. Mild shortness of breath walking to the mailbox; ankle swelling improves overnight. BNP 434 pg/mL measured on 2025-03-03. Advised daily weights and to call if weight increases more than 2 to 3 pounds in a day. Reports occasional episodes of fluttering in the chest lasting a few minutes, no fainting.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or chest pain.
+
+CURRENT MEDICATIONS:
+- apixaban 5 mg twice daily
+- furosemide 40 mg once daily
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 133 mmHg; diastolic blood pressure 95 mmHg; bmi 21.3 kg/m2; creatinine 0.83 mg/dL; egfr 98 mL/min/1.73m2; potassium 5.0 mmol/L; inr 1.1.
+
+ASSESSMENT AND PLAN:
+1. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+2. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

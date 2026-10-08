@@ -1,0 +1,27 @@
+PULMONOLOGY CLINIC NOTE
+Date: 2025-12-09
+Patient: Rahul Reddy (P0049)
+
+CHIEF COMPLAINT:
+Asthma follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+36-year-old male with asthma, anemia, generalized anxiety disorder. Symptoms are triggered by cold air, exercise and exposure to cats. No emergency visits or oral steroid courses in the past year. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.6 g/dl on 2025-12-09.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, headache, or fever.
+
+CURRENT MEDICATIONS:
+- buspirone 10 mg twice daily
+- montelukast 10 mg once daily in the evening
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 71 mmHg; bmi 23.6 kg/m2; creatinine 0.8 mg/dL; egfr 102 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin 10.6 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.

@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2025-09-09 [E003603]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-06-25 [E003602]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+- Date:      2025-01-12 [E003601]
+  Type:      Orthopedics clinic note
+  Reason:    knee osteoarthritis follow-up

@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-04-10
+Patient: Carlos Ali (P0038)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+82-year-old male with hyperlipidemia, hypertension. Lipid panel reviewed: ldl cholesterol 152 mg/dL on 2025-04-10. Tolerating statin therapy without muscle aches. Blood pressure today 146/91 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, headache, or palpitations.
+
+CURRENT MEDICATIONS:
+- atorvastatin 20 mg once daily
+- hydrochlorothiazide 12.5 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 146 mmHg; diastolic blood pressure 91 mmHg; bmi 24.3 kg/m2; creatinine 1.2 mg/dL; egfr 92 mL/min/1.73m2; potassium 4.1 mmol/L; ldl cholesterol 152 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

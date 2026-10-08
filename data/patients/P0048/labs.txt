@@ -1,0 +1,56 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-28   | systolic blood pressure      | 122        | mmHg            | normal
+2026-07-28   | diastolic blood pressure     | 68         | mmHg            | normal
+2026-07-28   | bmi                          | 25.4       | kg/m2           | normal
+2026-07-28   | creatinine                   | 1.08       | mg/dL           | normal
+2026-07-28   | egfr                         | 96         | mL/min/1.73m2   | normal
+2026-07-28   | potassium                    | 3.9        | mmol/L          | normal
+2026-07-28   | sodium                       | 144        | mmol/L          | normal
+2026-07-28   | hemoglobin a1c               | 7.0        | %               | high
+2026-07-28   | fasting glucose              | 207        | mg/dL           | high
+2026-07-28   | urine albumin-creatinine ratio | 13         | mg/g            | normal
+2026-07-28   | total cholesterol            | 260        | mg/dL           | high
+2026-02-22   | systolic blood pressure      | 111        | mmHg            | normal
+2026-02-22   | diastolic blood pressure     | 70         | mmHg            | normal
+2026-02-22   | bmi                          | 21.4       | kg/m2           | normal
+2026-02-22   | creatinine                   | 0.7        | mg/dL           | normal
+2026-02-22   | egfr                         | 104        | mL/min/1.73m2   | normal
+2026-02-22   | potassium                    | 3.8        | mmol/L          | normal
+2026-02-22   | sodium                       | 145        | mmol/L          | normal
+2026-02-22   | hemoglobin a1c               | 8.1        | %               | high
+2026-02-22   | fasting glucose              | 155        | mg/dL           | high
+2026-02-22   | total cholesterol            | 228        | mg/dL           | high
+2026-02-14   | systolic blood pressure      | 124        | mmHg            | normal
+2026-02-14   | diastolic blood pressure     | 73         | mmHg            | normal
+2026-02-14   | bmi                          | 24.8       | kg/m2           | normal
+2026-02-14   | creatinine                   | 1.1        | mg/dL           | normal
+2026-02-14   | egfr                         | 100        | mL/min/1.73m2   | normal
+2026-02-14   | potassium                    | 4.4        | mmol/L          | normal
+2026-02-14   | sodium                       | 144        | mmol/L          | normal
+2026-02-14   | hemoglobin a1c               | 9.5        | %               | high
+2026-02-14   | fasting glucose              | 139        | mg/dL           | high
+2026-02-14   | urine albumin-creatinine ratio | 47         | mg/g            | high
+2026-02-14   | total cholesterol            | 212        | mg/dL           | high
+2025-07-12   | systolic blood pressure      | 115        | mmHg            | normal
+2025-07-12   | diastolic blood pressure     | 68         | mmHg            | normal
+2025-07-12   | bmi                          | 21.2       | kg/m2           | normal
+2025-07-12   | creatinine                   | 0.77       | mg/dL           | normal
+2025-07-12   | egfr                         | 80         | mL/min/1.73m2   | normal
+2025-07-12   | potassium                    | 4.1        | mmol/L          | normal
+2025-07-12   | sodium                       | 141        | mmol/L          | normal
+2025-07-12   | hemoglobin a1c               | 9.3        | %               | high
+2025-07-12   | fasting glucose              | 161        | mg/dL           | high
+2025-05-04   | systolic blood pressure      | 114        | mmHg            | normal
+2025-05-04   | diastolic blood pressure     | 68         | mmHg            | normal
+2025-05-04   | bmi                          | 21.0       | kg/m2           | normal
+2025-05-04   | creatinine                   | 0.81       | mg/dL           | normal
+2025-05-04   | egfr                         | 94         | mL/min/1.73m2   | normal
+2025-05-04   | potassium                    | 4.0        | mmol/L          | normal
+2025-05-04   | sodium                       | 138        | mmol/L          | normal
+2025-05-04   | hemoglobin a1c               | 9.4        | %               | high
+2025-05-04   | fasting glucose              | 171        | mg/dL           | high
+2025-05-04   | urine albumin-creatinine ratio | 39         | mg/g            | high
+2025-05-04   | total cholesterol            | 211        | mg/dL           | high

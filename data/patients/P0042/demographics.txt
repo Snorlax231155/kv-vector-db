@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0042
+Full Name:       Tariq Chen
+Date of Birth:   1991-06-02
+Age:             34 years old
+Biological Sex:  Male
+Last Encounter:  2026-04-05

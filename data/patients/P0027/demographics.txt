@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0027
+Full Name:       Sofia Reddy
+Date of Birth:   1967-04-18
+Age:             58 years old
+Biological Sex:  Female
+Last Encounter:  2026-01-31

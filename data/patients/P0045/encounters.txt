@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-06-12 [E004504]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2025-11-15 [E004503]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2025-09-23 [E004502]
+  Type:      Orthopedics clinic note
+  Reason:    knee osteoarthritis follow-up
+
+- Date:      2025-09-05 [E004501]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up

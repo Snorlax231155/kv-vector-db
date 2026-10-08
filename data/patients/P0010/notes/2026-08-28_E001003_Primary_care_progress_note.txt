@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-08-28
+Patient: Omar Johnson (P0010)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+86-year-old male with hypertension, coronary artery disease, anemia. Blood pressure today 151/95 mmHg. Occasional morning headaches, no vision changes. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, dizziness, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- clopidogrel 75 mg once daily
+- losartan 100 mg once daily
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 151 mmHg; diastolic blood pressure 95 mmHg; bmi 20.7 kg/m2; creatinine 0.93 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin 11.1 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Anemia: Stable; continue current management and follow up in 3 months.

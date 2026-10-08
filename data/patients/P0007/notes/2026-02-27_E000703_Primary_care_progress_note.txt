@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-02-27
+Patient: Joy Banerjee (P0007)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+58-year-old female with hypothyroidism, atrial fibrillation, osteoporosis. Fatigue and cold intolerance have improved since levothyroxine was adjusted. Most recent tsh 6.61 mIU/L on 2026-02-27. Rate controlled at today's visit; discussed stroke prevention and bleeding risk with anticoagulation.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or palpitations.
+
+CURRENT MEDICATIONS:
+- warfarin 5 mg once daily, adjusted to INR
+- alendronate 70 mg once weekly
+- levothyroxine 75 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 124 mmHg; diastolic blood pressure 74 mmHg; bmi 23.3 kg/m2; creatinine 1.12 mg/dL; egfr 88 mL/min/1.73m2; potassium 5.0 mmol/L; inr 3.3.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+3. Osteoporosis: Stable; continue current management and follow up in 3 months.

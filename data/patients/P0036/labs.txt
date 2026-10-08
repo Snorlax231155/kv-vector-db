@@ -1,0 +1,28 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2025-09-09   | systolic blood pressure      | 148        | mmHg            | high
+2025-09-09   | diastolic blood pressure     | 95         | mmHg            | high
+2025-09-09   | bmi                          | 24.7       | kg/m2           | normal
+2025-09-09   | creatinine                   | 1.15       | mg/dL           | normal
+2025-09-09   | egfr                         | 79         | mL/min/1.73m2   | normal
+2025-09-09   | potassium                    | 4.2        | mmol/L          | normal
+2025-09-09   | sodium                       | 141        | mmol/L          | normal
+2025-09-09   | hemoglobin                   | 10.4       | g/dL            | low
+2025-06-25   | systolic blood pressure      | 132        | mmHg            | high
+2025-06-25   | diastolic blood pressure     | 84         | mmHg            | high
+2025-06-25   | bmi                          | 22.8       | kg/m2           | normal
+2025-06-25   | creatinine                   | 0.67       | mg/dL           | normal
+2025-06-25   | egfr                         | 76         | mL/min/1.73m2   | normal
+2025-06-25   | potassium                    | 3.8        | mmol/L          | normal
+2025-06-25   | sodium                       | 143        | mmol/L          | normal
+2025-06-25   | hemoglobin                   | 9.4        | g/dL            | low
+2025-01-12   | systolic blood pressure      | 156        | mmHg            | high
+2025-01-12   | diastolic blood pressure     | 96         | mmHg            | high
+2025-01-12   | bmi                          | 21.8       | kg/m2           | normal
+2025-01-12   | creatinine                   | 0.87       | mg/dL           | normal
+2025-01-12   | egfr                         | 102        | mL/min/1.73m2   | normal
+2025-01-12   | potassium                    | 3.6        | mmol/L          | normal
+2025-01-12   | sodium                       | 138        | mmol/L          | normal
+2025-01-12   | hemoglobin                   | 9.8        | g/dL            | low

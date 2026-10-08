@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0005
+Full Name:       Karan Osei
+Date of Birth:   1958-06-06
+Age:             67 years old
+Biological Sex:  Male
+Last Encounter:  2026-05-22

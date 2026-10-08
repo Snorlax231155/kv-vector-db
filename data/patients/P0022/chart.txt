@@ -1,0 +1,204 @@
+================================================================================
+PATIENT MEDICAL CHART: DANIEL IYER (P0022)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0022
+Full Name:       Daniel Iyer
+Date of Birth:   1970-06-11
+Age:             56 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-27
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Anemia, unspecified
+  ICD-10-CM:   D64.9
+  Status:      active
+  Onset Date:  2016-10-20
+
+- Diagnosis:   Gastro-esophageal reflux disease without esophagitis
+  ICD-10-CM:   K21.9
+  Status:      active
+  Onset Date:  2016-05-21
+
+- Diagnosis:   Obesity, unspecified
+  ICD-10-CM:   E66.9
+  Status:      active
+  Onset Date:  2021-10-26
+
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2013-06-26
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Omeprazole 20 mg (once daily before breakfast)
+  Indication:  gerd
+  RxCUI:       7646
+  Start Date:  2018-09-14
+  Status:      Active
+
+- Levothyroxine 100 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2025-11-17
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-27   | systolic blood pressure      | 117        | mmHg            | normal
+2026-07-27   | diastolic blood pressure     | 70         | mmHg            | normal
+2026-07-27   | bmi                          | 38.4       | kg/m2           | high
+2026-07-27   | creatinine                   | 0.92       | mg/dL           | normal
+2026-07-27   | egfr                         | 101        | mL/min/1.73m2   | normal
+2026-07-27   | potassium                    | 3.6        | mmol/L          | normal
+2026-07-27   | sodium                       | 138        | mmol/L          | normal
+2026-07-27   | hemoglobin                   | 11.3       | g/dL            | low
+2025-12-28   | systolic blood pressure      | 118        | mmHg            | normal
+2025-12-28   | diastolic blood pressure     | 78         | mmHg            | normal
+2025-12-28   | bmi                          | 35.9       | kg/m2           | high
+2025-12-28   | creatinine                   | 0.91       | mg/dL           | normal
+2025-12-28   | egfr                         | 100        | mL/min/1.73m2   | normal
+2025-12-28   | potassium                    | 4.6        | mmol/L          | normal
+2025-12-28   | sodium                       | 137        | mmol/L          | normal
+2025-12-28   | hemoglobin                   | 9.6        | g/dL            | low
+2025-11-25   | systolic blood pressure      | 119        | mmHg            | normal
+2025-11-25   | diastolic blood pressure     | 76         | mmHg            | normal
+2025-11-25   | bmi                          | 33.6       | kg/m2           | high
+2025-11-25   | creatinine                   | 0.89       | mg/dL           | normal
+2025-11-25   | egfr                         | 87         | mL/min/1.73m2   | normal
+... [20 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-27 [E002205]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+- Date:      2025-12-28 [E002204]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-11-25 [E002203]
+  Type:      Primary care progress note
+  Reason:    obesity follow-up
+
+- Date:      2025-01-25 [E002202]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2024-12-08 [E002201]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-11-25) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-11-25
+Patient: Daniel Iyer (P0022)
+
+CHIEF COMPLAINT:
+Obesity follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with obesity, anemia, gerd, hypothyroidism. Discussed nutrition and a gradual increase in physical activity. BMI 33.6 kg/m2. Reports fatigue and reduced exercise tolerance. Hemoglobin 9.0 g/dl on 2025-11-25.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- levothyroxine 100 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 119 mmHg; diastolic blood pressure 76 mmHg; bmi 33.6 kg/m2; creatinine 0.89 mg/dL; egfr 87 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin 9.0 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Obesity: Stable; continue current management and follow up in 3 months.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Gerd: Continue proton pump inhibitor; elevate head of bed.
+
+--- Note 2: Primary care progress note (2025-12-28) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-12-28
+Patient: Daniel Iyer (P0022)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with hypothyroidism, anemia, gerd, obesity. Fatigue and cold intolerance have improved since levothyroxine was adjusted. Most recent tsh 2.18 mIU/L on 2025-11-25. Reports fatigue and reduced exercise tolerance. Hemoglobin 9.6 g/dl on 2025-12-28.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- levothyroxine 100 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 118 mmHg; diastolic blood pressure 78 mmHg; bmi 35.9 kg/m2; creatinine 0.91 mg/dL; egfr 100 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin 9.6 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Gerd: Continue proton pump inhibitor; elevate head of bed.
+
+--- Note 3: Primary care progress note (2026-07-27) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-07-27
+Patient: Daniel Iyer (P0022)
+
+CHIEF COMPLAINT:
+Anemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with anemia, gerd, obesity, hypothyroidism. Reports fatigue and reduced exercise tolerance. Hemoglobin 11.3 g/dl on 2026-07-27. Burning heartburn after large meals, worse when lying down at night.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- levothyroxine 100 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 117 mmHg; diastolic blood pressure 70 mmHg; bmi 38.4 kg/m2; creatinine 0.92 mg/dL; egfr 101 mL/min/1.73m2; potassium 3.6 mmol/L; hemoglobin 11.3 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Anemia: Stable; continue current management and follow up in 3 months.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.
+3. Obesity: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

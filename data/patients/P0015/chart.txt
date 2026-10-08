@@ -1,0 +1,206 @@
+================================================================================
+PATIENT MEDICAL CHART: ZARA OKAFOR (P0015)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0015
+Full Name:       Zara Okafor
+Date of Birth:   1974-05-05
+Age:             51 years old
+Biological Sex:  Female
+Last Encounter:  2025-10-31
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: penicillin
+  Reaction:  rash
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2019-11-17
+
+- Diagnosis:   Obstructive sleep apnea (adult) (pediatric)
+  ICD-10-CM:   G47.33
+  Status:      active
+  Onset Date:  2023-07-12
+
+- Diagnosis:   Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits
+  ICD-10-CM:   Z86.73
+  Status:      active
+  Onset Date:  2025-07-12
+
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2016-11-18
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Lisinopril 10 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       29046
+  Start Date:  2025-05-17
+  Status:      Active
+
+- Atorvastatin 40 mg (once daily)
+  Indication:  history of stroke
+  RxCUI:       83367
+  Start Date:  2026-01-27
+  Status:      Active
+
+- Empagliflozin 25 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       1545653
+  Start Date:  2023-03-20
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2025-10-31   | systolic blood pressure      | 148        | mmHg            | high
+2025-10-31   | diastolic blood pressure     | 87         | mmHg            | high
+2025-10-31   | bmi                          | 23.3       | kg/m2           | normal
+2025-10-31   | creatinine                   | 1.07       | mg/dL           | normal
+2025-10-31   | egfr                         | 108        | mL/min/1.73m2   | normal
+2025-10-31   | potassium                    | 4.3        | mmol/L          | normal
+2025-10-31   | sodium                       | 141        | mmol/L          | normal
+2025-10-31   | hemoglobin a1c               | 7.3        | %               | high
+2025-10-31   | fasting glucose              | 200        | mg/dL           | high
+2025-04-30   | systolic blood pressure      | 135        | mmHg            | high
+2025-04-30   | diastolic blood pressure     | 84         | mmHg            | high
+2025-04-30   | bmi                          | 23.5       | kg/m2           | normal
+2025-04-30   | creatinine                   | 1.05       | mg/dL           | normal
+2025-04-30   | egfr                         | 81         | mL/min/1.73m2   | normal
+2025-04-30   | potassium                    | 4.4        | mmol/L          | normal
+2025-04-30   | sodium                       | 143        | mmol/L          | normal
+2025-04-30   | hemoglobin a1c               | 8.9        | %               | high
+2025-04-30   | fasting glucose              | 131        | mg/dL           | high
+2025-04-30   | urine albumin-creatinine ratio | 12         | mg/g            | normal
+2024-11-18   | systolic blood pressure      | 152        | mmHg            | high
+2024-11-18   | diastolic blood pressure     | 86         | mmHg            | high
+... [18 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2025-10-31 [E001504]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2025-04-30 [E001503]
+  Type:      Neurology follow-up note
+  Reason:    history of stroke follow-up
+
+- Date:      2024-11-18 [E001502]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2024-11-13 [E001501]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Sleep medicine note (2024-11-18) ---
+SLEEP MEDICINE NOTE
+Date: 2024-11-18
+Patient: Zara Okafor (P0015)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old female with obstructive sleep apnea, hypertension, history of stroke, type 2 diabetes. Uses CPAP about 5 hours per night; daytime sleepiness improved. Blood pressure today 152/86 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or fever.
+
+CURRENT MEDICATIONS:
+- empagliflozin 25 mg once daily
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 152 mmHg; diastolic blood pressure 86 mmHg; bmi 24.5 kg/m2; creatinine 0.94 mg/dL; egfr 83 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin a1c 7.6%.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+3. History of stroke: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Neurology follow-up note (2025-04-30) ---
+NEUROLOGY FOLLOW-UP NOTE
+Date: 2025-04-30
+Patient: Zara Okafor (P0015)
+
+CHIEF COMPLAINT:
+History of stroke follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old female with history of stroke, hypertension, obstructive sleep apnea, type 2 diabetes. Prior ischemic stroke without residual deficits; continues secondary prevention. Blood pressure today 135/84 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, dizziness, or palpitations.
+
+CURRENT MEDICATIONS:
+- empagliflozin 25 mg once daily
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 135 mmHg; diastolic blood pressure 84 mmHg; bmi 23.5 kg/m2; creatinine 1.05 mg/dL; egfr 81 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 8.9%.
+
+ASSESSMENT AND PLAN:
+1. History of stroke: Stable; continue current management and follow up in 3 months.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Endocrinology follow-up note (2025-10-31) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-10-31
+Patient: Zara Okafor (P0015)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old female with type 2 diabetes, hypertension, obstructive sleep apnea, history of stroke. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been improving. Most recent hemoglobin a1c 7.3% on 2025-10-31. Walking 20 minutes most days and has cut back on sweetened tea. Blood pressure today 148/87 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, dizziness, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- lisinopril 10 mg once daily
+- empagliflozin 25 mg once daily
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 148 mmHg; diastolic blood pressure 87 mmHg; bmi 23.3 kg/m2; creatinine 1.07 mg/dL; egfr 108 mL/min/1.73m2; potassium 4.3 mmol/L; hemoglobin a1c 7.3%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

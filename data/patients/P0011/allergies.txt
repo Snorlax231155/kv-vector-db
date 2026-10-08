@@ -1,0 +1,9 @@
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: latex
+  Reaction:  contact dermatitis
+  Severity:  mild
+
+- Substance: sulfonamide antibiotics
+  Reaction:  hives
+  Severity:  moderate

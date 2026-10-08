@@ -1,0 +1,28 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-07-26
+Patient: Vikram Das (P0016)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+63-year-old male with type 2 diabetes, hypertension, heart failure. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 133 and 174 mg/dL. Most recent hemoglobin a1c 8.6% on 2026-07-26. Denies hypoglycemic episodes; admits to dietary lapses over the holidays. Blood pressure today 154/92 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- glipizide 10 mg once daily before breakfast
+- amlodipine 5 mg once daily
+- spironolactone 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 154 mmHg; diastolic blood pressure 92 mmHg; bmi 25.3 kg/m2; creatinine 0.85 mg/dL; egfr 86 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin a1c 8.6%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.

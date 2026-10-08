@@ -1,0 +1,197 @@
+================================================================================
+PATIENT MEDICAL CHART: ASHA REDDY (P0017)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0017
+Full Name:       Asha Reddy
+Date of Birth:   1985-02-14
+Age:             41 years old
+Biological Sex:  Female
+Last Encounter:  2026-05-24
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: aspirin
+  Reaction:  wheezing
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Anemia, unspecified
+  ICD-10-CM:   D64.9
+  Status:      active
+  Onset Date:  2012-02-28
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2021-02-07
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2022-10-11
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Simvastatin 40 mg (at bedtime)
+  Indication:  hyperlipidemia
+  RxCUI:       36567
+  Start Date:  2022-02-23
+  Status:      Active
+
+- Hydrochlorothiazide 25 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       5487
+  Start Date:  2022-10-20
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-05-24   | systolic blood pressure      | 150        | mmHg            | high
+2026-05-24   | diastolic blood pressure     | 83         | mmHg            | high
+2026-05-24   | bmi                          | 24.7       | kg/m2           | normal
+2026-05-24   | creatinine                   | 0.9        | mg/dL           | normal
+2026-05-24   | egfr                         | 83         | mL/min/1.73m2   | normal
+2026-05-24   | potassium                    | 4.1        | mmol/L          | normal
+2026-05-24   | sodium                       | 142        | mmol/L          | normal
+2026-05-24   | hemoglobin                   | 10.1       | g/dL            | low
+2026-05-24   | total cholesterol            | 258        | mg/dL           | high
+2025-11-29   | systolic blood pressure      | 140        | mmHg            | high
+2025-11-29   | diastolic blood pressure     | 85         | mmHg            | high
+2025-11-29   | bmi                          | 25.7       | kg/m2           | normal
+2025-11-29   | creatinine                   | 1.17       | mg/dL           | normal
+2025-11-29   | egfr                         | 104        | mL/min/1.73m2   | normal
+2025-11-29   | potassium                    | 4.2        | mmol/L          | normal
+2025-11-29   | sodium                       | 142        | mmol/L          | normal
+2025-11-29   | hemoglobin                   | 10.1       | g/dL            | low
+2025-11-29   | ldl cholesterol              | 120        | mg/dL           | normal
+2025-11-29   | total cholesterol            | 200        | mg/dL           | high
+2025-04-21   | systolic blood pressure      | 157        | mmHg            | high
+2025-04-21   | diastolic blood pressure     | 91         | mmHg            | high
+... [17 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-05-24 [E001704]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+- Date:      2025-11-29 [E001703]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-04-21 [E001702]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-04-19 [E001701]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-04-21) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-04-21
+Patient: Asha Reddy (P0017)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+41-year-old female with hyperlipidemia, anemia, hypertension. Lipid panel reviewed: ldl cholesterol 120 mg/dL on 2025-04-19. Trying to limit fried food and red meat. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.6 g/dl on 2025-04-21.
+
+REVIEW OF SYSTEMS:
+Denies fever, abdominal pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 157 mmHg; diastolic blood pressure 91 mmHg; bmi 22.8 kg/m2; creatinine 0.85 mg/dL; egfr 80 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin 10.6 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+
+--- Note 2: Primary care progress note (2025-11-29) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-11-29
+Patient: Asha Reddy (P0017)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+41-year-old female with hypertension, anemia, hyperlipidemia. Blood pressure today 140/85 mmHg. Occasional morning headaches, no vision changes. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.1 g/dl on 2025-11-29.
+
+REVIEW OF SYSTEMS:
+Denies headache, abdominal pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 140 mmHg; diastolic blood pressure 85 mmHg; bmi 25.7 kg/m2; creatinine 1.17 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin 10.1 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+
+--- Note 3: Primary care progress note (2026-05-24) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-05-24
+Patient: Asha Reddy (P0017)
+
+CHIEF COMPLAINT:
+Anemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+41-year-old female with anemia, hyperlipidemia, hypertension. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.1 g/dl on 2026-05-24. Lipid panel reviewed: ldl cholesterol 120 mg/dL on 2025-11-29.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 150 mmHg; diastolic blood pressure 83 mmHg; bmi 24.7 kg/m2; creatinine 0.9 mg/dL; egfr 83 mL/min/1.73m2; potassium 4.1 mmol/L; hemoglobin 10.1 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Anemia: Stable; continue current management and follow up in 3 months.
+2. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+
+================================================================================
+[END OF CHART]

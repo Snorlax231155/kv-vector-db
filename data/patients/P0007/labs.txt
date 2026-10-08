@@ -1,0 +1,42 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-05-09   | systolic blood pressure      | 126        | mmHg            | normal
+2026-05-09   | diastolic blood pressure     | 70         | mmHg            | normal
+2026-05-09   | bmi                          | 20.9       | kg/m2           | normal
+2026-05-09   | creatinine                   | 1.03       | mg/dL           | normal
+2026-05-09   | egfr                         | 105        | mL/min/1.73m2   | normal
+2026-05-09   | potassium                    | 3.8        | mmol/L          | normal
+2026-05-09   | sodium                       | 139        | mmol/L          | normal
+2026-05-09   | inr                          | 2.4        |                 | normal
+2026-05-09   | inr                          | 2.1        |                 | normal
+2026-02-27   | systolic blood pressure      | 124        | mmHg            | normal
+2026-02-27   | diastolic blood pressure     | 74         | mmHg            | normal
+2026-02-27   | bmi                          | 23.3       | kg/m2           | normal
+2026-02-27   | creatinine                   | 1.12       | mg/dL           | normal
+2026-02-27   | egfr                         | 88         | mL/min/1.73m2   | normal
+2026-02-27   | potassium                    | 5.0        | mmol/L          | normal
+2026-02-27   | sodium                       | 141        | mmol/L          | normal
+2026-02-27   | inr                          | 2.1        |                 | normal
+2026-02-27   | tsh                          | 6.61       | mIU/L           | high
+2026-02-27   | inr                          | 3.3        |                 | normal
+2025-03-23   | systolic blood pressure      | 111        | mmHg            | normal
+2025-03-23   | diastolic blood pressure     | 78         | mmHg            | normal
+2025-03-23   | bmi                          | 25.8       | kg/m2           | normal
+2025-03-23   | creatinine                   | 0.81       | mg/dL           | normal
+2025-03-23   | egfr                         | 91         | mL/min/1.73m2   | normal
+2025-03-23   | potassium                    | 4.5        | mmol/L          | normal
+2025-03-23   | sodium                       | 141        | mmol/L          | normal
+2025-03-23   | inr                          | 3.2        |                 | normal
+2025-03-23   | inr                          | 2.9        |                 | normal
+2025-02-06   | systolic blood pressure      | 124        | mmHg            | normal
+2025-02-06   | diastolic blood pressure     | 68         | mmHg            | normal
+2025-02-06   | bmi                          | 21.7       | kg/m2           | normal
+2025-02-06   | creatinine                   | 0.97       | mg/dL           | normal
+2025-02-06   | egfr                         | 76         | mL/min/1.73m2   | normal
+2025-02-06   | potassium                    | 5.0        | mmol/L          | normal
+2025-02-06   | sodium                       | 145        | mmol/L          | normal
+2025-02-06   | inr                          | 2.2        |                 | normal
+2025-02-06   | tsh                          | 1.24       | mIU/L           | normal
+2025-02-06   | inr                          | 2.5        |                 | normal

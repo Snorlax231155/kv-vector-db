@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-06-17
+Patient: Fatima Brown (P0001)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with hyperlipidemia, type 2 diabetes, hypertension, chronic kidney disease stage 3. Lipid panel reviewed: ldl cholesterol 162 mg/dL on 2025-06-03. Tolerating statin therapy without muscle aches. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 122 and 182 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, fever, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- metformin 500 mg twice daily
+- atorvastatin 20 mg once daily
+- losartan 50 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 135 mmHg; diastolic blood pressure 85 mmHg; bmi 25.1 kg/m2; creatinine 1.86 mg/dL; egfr 45 mL/min/1.73m2; potassium 4.0 mmol/L; hemoglobin a1c 8.1%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.

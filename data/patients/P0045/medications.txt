@@ -1,0 +1,23 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Montelukast 10 mg (once daily in the evening)
+  Indication:  asthma
+  RxCUI:       88249
+  Start Date:  2013-08-27
+  Status:      Active
+
+- Ibuprofen 400 mg (as needed)
+  Indication:  knee osteoarthritis
+  RxCUI:       5640
+  Start Date:  2025-07-26
+  Status:      Active
+
+- Glipizide 10 mg (once daily before breakfast)
+  Indication:  type 2 diabetes
+  RxCUI:       4821
+  Start Date:  2019-04-25
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0003
+Full Name:       Irene Osei
+Date of Birth:   1997-01-16
+Age:             29 years old
+Biological Sex:  Female
+Last Encounter:  2026-08-26

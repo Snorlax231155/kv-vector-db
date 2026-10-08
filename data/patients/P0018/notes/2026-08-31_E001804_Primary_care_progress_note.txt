@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-08-31
+Patient: Irene Novak (P0018)
+
+CHIEF COMPLAINT:
+Osteoporosis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old female with osteoporosis, hyperlipidemia, obstructive sleep apnea. DEXA scan showed a lumbar spine T-score of -2.8. Takes calcium and vitamin D. Lipid panel reviewed: ldl cholesterol 168 mg/dL on 2026-08-31.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or dizziness.
+
+CURRENT MEDICATIONS:
+- alendronate 70 mg once weekly
+- atorvastatin 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 109 mmHg; diastolic blood pressure 71 mmHg; bmi 20.5 kg/m2; creatinine 1.01 mg/dL; egfr 81 mL/min/1.73m2; potassium 4.0 mmol/L; ldl cholesterol 168 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Osteoporosis: Stable; continue current management and follow up in 3 months.
+2. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.

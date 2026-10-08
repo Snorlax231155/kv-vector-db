@@ -1,0 +1,21 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2013-04-09
+
+- Diagnosis:   Unspecified asthma, uncomplicated
+  ICD-10-CM:   J45.909
+  Status:      active
+  Onset Date:  2013-01-23
+
+- Diagnosis:   Type 2 diabetes mellitus with hyperglycemia
+  ICD-10-CM:   E11.65
+  Status:      active
+  Onset Date:  2016-01-25
+
+- Diagnosis:   Chronic kidney disease, stage 3 unspecified
+  ICD-10-CM:   N18.30
+  Status:      active
+  Onset Date:  2020-05-14

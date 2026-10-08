@@ -1,0 +1,45 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-27   | systolic blood pressure      | 117        | mmHg            | normal
+2026-07-27   | diastolic blood pressure     | 70         | mmHg            | normal
+2026-07-27   | bmi                          | 38.4       | kg/m2           | high
+2026-07-27   | creatinine                   | 0.92       | mg/dL           | normal
+2026-07-27   | egfr                         | 101        | mL/min/1.73m2   | normal
+2026-07-27   | potassium                    | 3.6        | mmol/L          | normal
+2026-07-27   | sodium                       | 138        | mmol/L          | normal
+2026-07-27   | hemoglobin                   | 11.3       | g/dL            | low
+2025-12-28   | systolic blood pressure      | 118        | mmHg            | normal
+2025-12-28   | diastolic blood pressure     | 78         | mmHg            | normal
+2025-12-28   | bmi                          | 35.9       | kg/m2           | high
+2025-12-28   | creatinine                   | 0.91       | mg/dL           | normal
+2025-12-28   | egfr                         | 100        | mL/min/1.73m2   | normal
+2025-12-28   | potassium                    | 4.6        | mmol/L          | normal
+2025-12-28   | sodium                       | 137        | mmol/L          | normal
+2025-12-28   | hemoglobin                   | 9.6        | g/dL            | low
+2025-11-25   | systolic blood pressure      | 119        | mmHg            | normal
+2025-11-25   | diastolic blood pressure     | 76         | mmHg            | normal
+2025-11-25   | bmi                          | 33.6       | kg/m2           | high
+2025-11-25   | creatinine                   | 0.89       | mg/dL           | normal
+2025-11-25   | egfr                         | 87         | mL/min/1.73m2   | normal
+2025-11-25   | potassium                    | 3.9        | mmol/L          | normal
+2025-11-25   | sodium                       | 138        | mmol/L          | normal
+2025-11-25   | hemoglobin                   | 9.0        | g/dL            | low
+2025-11-25   | tsh                          | 2.18       | mIU/L           | normal
+2025-01-25   | systolic blood pressure      | 108        | mmHg            | normal
+2025-01-25   | diastolic blood pressure     | 81         | mmHg            | normal
+2025-01-25   | bmi                          | 33.8       | kg/m2           | high
+2025-01-25   | creatinine                   | 1.17       | mg/dL           | normal
+2025-01-25   | egfr                         | 85         | mL/min/1.73m2   | normal
+2025-01-25   | potassium                    | 4.8        | mmol/L          | normal
+2025-01-25   | sodium                       | 139        | mmol/L          | normal
+2025-01-25   | hemoglobin                   | 9.5        | g/dL            | low
+2024-12-08   | systolic blood pressure      | 122        | mmHg            | normal
+2024-12-08   | diastolic blood pressure     | 75         | mmHg            | normal
+2024-12-08   | bmi                          | 37.2       | kg/m2           | high
+2024-12-08   | creatinine                   | 0.85       | mg/dL           | normal
+2024-12-08   | egfr                         | 90         | mL/min/1.73m2   | normal
+2024-12-08   | potassium                    | 4.9        | mmol/L          | normal
+2024-12-08   | sodium                       | 145        | mmol/L          | normal
+2024-12-08   | hemoglobin                   | 9.3        | g/dL            | low

@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Unspecified asthma, uncomplicated
+  ICD-10-CM:   J45.909
+  Status:      active
+  Onset Date:  2015-04-13
+
+- Diagnosis:   Gastro-esophageal reflux disease without esophagitis
+  ICD-10-CM:   K21.9
+  Status:      active
+  Onset Date:  2024-11-08
+
+- Diagnosis:   Migraine, unspecified, not intractable, without status migrainosus
+  ICD-10-CM:   G43.909
+  Status:      active
+  Onset Date:  2025-07-02

@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-08-02
+Patient: Michael Ali (P0021)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+73-year-old male with gerd, heart failure. Burning heartburn after large meals, worse when lying down at night. Mild shortness of breath walking to the mailbox; ankle swelling improves overnight.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, palpitations, or dizziness.
+
+CURRENT MEDICATIONS:
+- carvedilol 12.5 mg twice daily
+- omeprazole 20 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 118 mmHg; diastolic blood pressure 73 mmHg; bmi 23.6 kg/m2; creatinine 0.82 mg/dL; egfr 92 mL/min/1.73m2; potassium 3.8 mmol/L; bnp 684 pg/mL.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.

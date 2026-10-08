@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0023
+Full Name:       Rohan Garcia
+Date of Birth:   1963-05-18
+Age:             62 years old
+Biological Sex:  Male
+Last Encounter:  2026-04-03

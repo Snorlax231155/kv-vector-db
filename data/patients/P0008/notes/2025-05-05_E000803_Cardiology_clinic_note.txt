@@ -1,0 +1,29 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2025-05-05
+Patient: Wei Tanaka (P0008)
+
+CHIEF COMPLAINT:
+Atrial fibrillation follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+75-year-old male with atrial fibrillation, hypothyroidism, type 2 diabetes, generalized anxiety disorder. Rate controlled at today's visit; discussed stroke prevention and bleeding risk with anticoagulation. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, abdominal pain, or dizziness.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- sitagliptin 100 mg once daily
+- metoprolol 50 mg once daily
+- sertraline 50 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 110 mmHg; diastolic blood pressure 73 mmHg; bmi 25.1 kg/m2; creatinine 1.04 mg/dL; egfr 92 mL/min/1.73m2; potassium 3.9 mmol/L; tsh 2.05 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.

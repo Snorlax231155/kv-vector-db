@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Losartan 50 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       52175
+  Start Date:  2022-01-01
+  Status:      Active
+
+- Empagliflozin 10 mg (once daily)
+  Indication:  type 2 diabetes with hyperglycemia
+  RxCUI:       1545653
+  Start Date:  2025-04-09
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

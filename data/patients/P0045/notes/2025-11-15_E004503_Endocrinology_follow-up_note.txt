@@ -1,0 +1,28 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-11-15
+Patient: Wei Brown (P0045)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old male with type 2 diabetes, asthma, knee osteoarthritis. Here for routine diabetes care. Checks fingerstick glucose a few times a week; readings have been improving. Most recent hemoglobin a1c 8.6% on 2025-11-15. Reports mild tingling in both feet in the evenings, no foot ulcers. Reports nighttime cough about twice a week and uses the rescue inhaler three or four times a week.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, chest pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- montelukast 10 mg once daily in the evening
+- ibuprofen 400 mg as needed
+- glipizide 10 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 114 mmHg; diastolic blood pressure 76 mmHg; bmi 20.6 kg/m2; creatinine 0.77 mg/dL; egfr 107 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin a1c 8.6%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+3. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.

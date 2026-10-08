@@ -1,0 +1,29 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-09-14   | systolic blood pressure      | 139        | mmHg            | high
+2026-09-14   | diastolic blood pressure     | 83         | mmHg            | high
+2026-09-14   | bmi                          | 25.4       | kg/m2           | normal
+2026-09-14   | creatinine                   | 1.05       | mg/dL           | normal
+2026-09-14   | egfr                         | 82         | mL/min/1.73m2   | normal
+2026-09-14   | potassium                    | 4.9        | mmol/L          | normal
+2026-09-14   | sodium                       | 137        | mmol/L          | normal
+2026-04-09   | systolic blood pressure      | 152        | mmHg            | high
+2026-04-09   | diastolic blood pressure     | 94         | mmHg            | high
+2026-04-09   | bmi                          | 21.8       | kg/m2           | normal
+2026-04-09   | creatinine                   | 0.82       | mg/dL           | normal
+2026-04-09   | egfr                         | 104        | mL/min/1.73m2   | normal
+2026-04-09   | potassium                    | 4.0        | mmol/L          | normal
+2026-04-09   | sodium                       | 143        | mmol/L          | normal
+2026-04-09   | ldl cholesterol              | 133        | mg/dL           | high
+2026-04-09   | total cholesterol            | 223        | mg/dL           | high
+2025-04-10   | systolic blood pressure      | 146        | mmHg            | high
+2025-04-10   | diastolic blood pressure     | 91         | mmHg            | high
+2025-04-10   | bmi                          | 24.3       | kg/m2           | normal
+2025-04-10   | creatinine                   | 1.2        | mg/dL           | normal
+2025-04-10   | egfr                         | 92         | mL/min/1.73m2   | normal
+2025-04-10   | potassium                    | 4.1        | mmol/L          | normal
+2025-04-10   | sodium                       | 139        | mmol/L          | normal
+2025-04-10   | ldl cholesterol              | 152        | mg/dL           | high
+2025-04-10   | total cholesterol            | 262        | mg/dL           | high

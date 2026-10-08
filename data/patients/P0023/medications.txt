@@ -1,0 +1,11 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Amlodipine 10 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       17767
+  Start Date:  2021-03-17
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

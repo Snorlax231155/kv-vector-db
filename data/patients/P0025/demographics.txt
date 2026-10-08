@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0025
+Full Name:       Michael Haddad
+Date of Birth:   1970-07-15
+Age:             55 years old
+Biological Sex:  Male
+Last Encounter:  2026-02-08

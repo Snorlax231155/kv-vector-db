@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-07-30
+Patient: Michael Ali (P0021)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+73-year-old male with gerd, heart failure. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating. Sleeps on two pillows to breathe comfortably and gained 3 pounds over the past week.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- carvedilol 12.5 mg twice daily
+- omeprazole 20 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 125 mmHg; diastolic blood pressure 71 mmHg; bmi 23.1 kg/m2; creatinine 0.84 mg/dL; egfr 88 mL/min/1.73m2; potassium 4.2 mmol/L; bnp 765 pg/mL.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.

@@ -1,0 +1,26 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2026-01-17
+Patient: Daniel Tanaka (P0012)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old male with coronary artery disease, hyperlipidemia. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation. Lipid panel reviewed: ldl cholesterol 91 mg/dL on 2026-01-17.
+
+REVIEW OF SYSTEMS:
+Denies fever, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- metoprolol 25 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 112 mmHg; diastolic blood pressure 77 mmHg; bmi 24.5 kg/m2; creatinine 1.16 mg/dL; egfr 95 mL/min/1.73m2; potassium 3.8 mmol/L; ldl cholesterol 91 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.

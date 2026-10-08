@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-05-24
+Patient: Asha Reddy (P0017)
+
+CHIEF COMPLAINT:
+Anemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+41-year-old female with anemia, hyperlipidemia, hypertension. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.1 g/dl on 2026-05-24. Lipid panel reviewed: ldl cholesterol 120 mg/dL on 2025-11-29.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 150 mmHg; diastolic blood pressure 83 mmHg; bmi 24.7 kg/m2; creatinine 0.9 mg/dL; egfr 83 mL/min/1.73m2; potassium 4.1 mmol/L; hemoglobin 10.1 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Anemia: Stable; continue current management and follow up in 3 months.
+2. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

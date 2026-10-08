@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0028
+Full Name:       Karan Ali
+Date of Birth:   1975-05-29
+Age:             51 years old
+Biological Sex:  Male
+Last Encounter:  2026-09-06

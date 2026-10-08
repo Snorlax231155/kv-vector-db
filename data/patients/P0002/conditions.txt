@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Unspecified atrial fibrillation
+  ICD-10-CM:   I48.91
+  Status:      active
+  Onset Date:  2017-05-01
+
+- Diagnosis:   Heart failure, unspecified
+  ICD-10-CM:   I50.9
+  Status:      active
+  Onset Date:  2022-07-09
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2014-08-03

@@ -1,0 +1,23 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Lisinopril 10 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       29046
+  Start Date:  2025-05-17
+  Status:      Active
+
+- Atorvastatin 40 mg (once daily)
+  Indication:  history of stroke
+  RxCUI:       83367
+  Start Date:  2026-01-27
+  Status:      Active
+
+- Empagliflozin 25 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       1545653
+  Start Date:  2023-03-20
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

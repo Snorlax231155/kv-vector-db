@@ -1,0 +1,26 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-03-14
+Patient: Rohan Osei (P0033)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+38-year-old male with type 2 diabetes, hypothyroidism. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 120 and 178 mg/dL. Most recent hemoglobin a1c 7.4% on 2025-03-14. Notes increased thirst and getting up twice a night to urinate. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, leg swelling, or chest pain.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- glipizide 10 mg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 122 mmHg; diastolic blood pressure 77 mmHg; bmi 22.1 kg/m2; creatinine 0.93 mg/dL; egfr 83 mL/min/1.73m2; potassium 4.3 mmol/L; tsh 6.11 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.

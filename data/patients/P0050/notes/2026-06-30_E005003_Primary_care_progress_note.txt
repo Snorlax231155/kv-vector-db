@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-06-30
+Patient: Vikram Banerjee (P0050)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+47-year-old male with gerd, coronary artery disease. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, shortness of breath at rest, or headache.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- clopidogrel 75 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 109 mmHg; diastolic blood pressure 76 mmHg; bmi 23.2 kg/m2; creatinine 1.17 mg/dL; egfr 85 mL/min/1.73m2; potassium 3.9 mmol/L; ldl cholesterol 81 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.

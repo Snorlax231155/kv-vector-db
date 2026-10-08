@@ -1,0 +1,42 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-05-24   | systolic blood pressure      | 150        | mmHg            | high
+2026-05-24   | diastolic blood pressure     | 83         | mmHg            | high
+2026-05-24   | bmi                          | 24.7       | kg/m2           | normal
+2026-05-24   | creatinine                   | 0.9        | mg/dL           | normal
+2026-05-24   | egfr                         | 83         | mL/min/1.73m2   | normal
+2026-05-24   | potassium                    | 4.1        | mmol/L          | normal
+2026-05-24   | sodium                       | 142        | mmol/L          | normal
+2026-05-24   | hemoglobin                   | 10.1       | g/dL            | low
+2026-05-24   | total cholesterol            | 258        | mg/dL           | high
+2025-11-29   | systolic blood pressure      | 140        | mmHg            | high
+2025-11-29   | diastolic blood pressure     | 85         | mmHg            | high
+2025-11-29   | bmi                          | 25.7       | kg/m2           | normal
+2025-11-29   | creatinine                   | 1.17       | mg/dL           | normal
+2025-11-29   | egfr                         | 104        | mL/min/1.73m2   | normal
+2025-11-29   | potassium                    | 4.2        | mmol/L          | normal
+2025-11-29   | sodium                       | 142        | mmol/L          | normal
+2025-11-29   | hemoglobin                   | 10.1       | g/dL            | low
+2025-11-29   | ldl cholesterol              | 120        | mg/dL           | normal
+2025-11-29   | total cholesterol            | 200        | mg/dL           | high
+2025-04-21   | systolic blood pressure      | 157        | mmHg            | high
+2025-04-21   | diastolic blood pressure     | 91         | mmHg            | high
+2025-04-21   | bmi                          | 22.8       | kg/m2           | normal
+2025-04-21   | creatinine                   | 0.85       | mg/dL           | normal
+2025-04-21   | egfr                         | 80         | mL/min/1.73m2   | normal
+2025-04-21   | potassium                    | 4.9        | mmol/L          | normal
+2025-04-21   | sodium                       | 142        | mmol/L          | normal
+2025-04-21   | hemoglobin                   | 10.6       | g/dL            | low
+2025-04-21   | total cholesterol            | 225        | mg/dL           | high
+2025-04-19   | systolic blood pressure      | 136        | mmHg            | high
+2025-04-19   | diastolic blood pressure     | 95         | mmHg            | high
+2025-04-19   | bmi                          | 21.4       | kg/m2           | normal
+2025-04-19   | creatinine                   | 1.17       | mg/dL           | normal
+2025-04-19   | egfr                         | 106        | mL/min/1.73m2   | normal
+2025-04-19   | potassium                    | 4.7        | mmol/L          | normal
+2025-04-19   | sodium                       | 141        | mmol/L          | normal
+2025-04-19   | hemoglobin                   | 8.9        | g/dL            | low
+2025-04-19   | ldl cholesterol              | 120        | mg/dL           | normal
+2025-04-19   | total cholesterol            | 205        | mg/dL           | high

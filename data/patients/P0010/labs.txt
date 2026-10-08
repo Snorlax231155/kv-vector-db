@@ -1,0 +1,29 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-08-28   | systolic blood pressure      | 151        | mmHg            | high
+2026-08-28   | diastolic blood pressure     | 95         | mmHg            | high
+2026-08-28   | bmi                          | 20.7       | kg/m2           | normal
+2026-08-28   | creatinine                   | 0.93       | mg/dL           | normal
+2026-08-28   | egfr                         | 104        | mL/min/1.73m2   | normal
+2026-08-28   | potassium                    | 4.9        | mmol/L          | normal
+2026-08-28   | sodium                       | 144        | mmol/L          | normal
+2026-08-28   | hemoglobin                   | 11.1       | g/dL            | low
+2025-09-10   | systolic blood pressure      | 152        | mmHg            | high
+2025-09-10   | diastolic blood pressure     | 88         | mmHg            | high
+2025-09-10   | bmi                          | 21.0       | kg/m2           | normal
+2025-09-10   | creatinine                   | 1.08       | mg/dL           | normal
+2025-09-10   | egfr                         | 106        | mL/min/1.73m2   | normal
+2025-09-10   | potassium                    | 4.2        | mmol/L          | normal
+2025-09-10   | sodium                       | 139        | mmol/L          | normal
+2025-09-10   | ldl cholesterol              | 97         | mg/dL           | normal
+2025-09-10   | hemoglobin                   | 9.3        | g/dL            | low
+2025-08-05   | systolic blood pressure      | 155        | mmHg            | high
+2025-08-05   | diastolic blood pressure     | 95         | mmHg            | high
+2025-08-05   | bmi                          | 23.1       | kg/m2           | normal
+2025-08-05   | creatinine                   | 0.85       | mg/dL           | normal
+2025-08-05   | egfr                         | 105        | mL/min/1.73m2   | normal
+2025-08-05   | potassium                    | 4.6        | mmol/L          | normal
+2025-08-05   | sodium                       | 143        | mmol/L          | normal
+2025-08-05   | hemoglobin                   | 9.5        | g/dL            | low

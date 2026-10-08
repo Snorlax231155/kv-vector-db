@@ -1,0 +1,51 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-05-26   | systolic blood pressure      | 115        | mmHg            | normal
+2026-05-26   | diastolic blood pressure     | 72         | mmHg            | normal
+2026-05-26   | bmi                          | 22.0       | kg/m2           | normal
+2026-05-26   | creatinine                   | 0.83       | mg/dL           | normal
+2026-05-26   | egfr                         | 77         | mL/min/1.73m2   | normal
+2026-05-26   | potassium                    | 4.0        | mmol/L          | normal
+2026-05-26   | sodium                       | 136        | mmol/L          | normal
+2026-05-26   | tsh                          | 5.73       | mIU/L           | high
+2026-05-26   | hemoglobin a1c               | 6.9        | %               | high
+2026-05-26   | fasting glucose              | 189        | mg/dL           | high
+2026-05-26   | urine albumin-creatinine ratio | 55         | mg/g            | high
+2026-05-26   | inr                          | 0.9        |                 | normal
+2025-05-05   | systolic blood pressure      | 110        | mmHg            | normal
+2025-05-05   | diastolic blood pressure     | 73         | mmHg            | normal
+2025-05-05   | bmi                          | 25.1       | kg/m2           | normal
+2025-05-05   | creatinine                   | 1.04       | mg/dL           | normal
+2025-05-05   | egfr                         | 92         | mL/min/1.73m2   | normal
+2025-05-05   | potassium                    | 3.9        | mmol/L          | normal
+2025-05-05   | sodium                       | 143        | mmol/L          | normal
+2025-05-05   | tsh                          | 2.05       | mIU/L           | normal
+2025-05-05   | hemoglobin a1c               | 9.2        | %               | high
+2025-05-05   | fasting glucose              | 178        | mg/dL           | high
+2025-05-05   | urine albumin-creatinine ratio | 31         | mg/g            | high
+2025-05-05   | inr                          | 1.0        |                 | normal
+2025-02-01   | systolic blood pressure      | 123        | mmHg            | normal
+2025-02-01   | diastolic blood pressure     | 73         | mmHg            | normal
+2025-02-01   | bmi                          | 21.9       | kg/m2           | normal
+2025-02-01   | creatinine                   | 1.04       | mg/dL           | normal
+2025-02-01   | egfr                         | 101        | mL/min/1.73m2   | normal
+2025-02-01   | potassium                    | 3.9        | mmol/L          | normal
+2025-02-01   | sodium                       | 138        | mmol/L          | normal
+2025-02-01   | tsh                          | 2.49       | mIU/L           | normal
+2025-02-01   | hemoglobin a1c               | 8.7        | %               | high
+2025-02-01   | fasting glucose              | 170        | mg/dL           | high
+2025-02-01   | urine albumin-creatinine ratio | 27         | mg/g            | high
+2025-02-01   | inr                          | 1.1        |                 | normal
+2024-10-19   | systolic blood pressure      | 111        | mmHg            | normal
+2024-10-19   | diastolic blood pressure     | 81         | mmHg            | normal
+2024-10-19   | bmi                          | 24.1       | kg/m2           | normal
+2024-10-19   | creatinine                   | 0.61       | mg/dL           | normal
+2024-10-19   | egfr                         | 91         | mL/min/1.73m2   | normal
+2024-10-19   | potassium                    | 3.7        | mmol/L          | normal
+2024-10-19   | sodium                       | 138        | mmol/L          | normal
+2024-10-19   | hemoglobin a1c               | 8.6        | %               | high
+2024-10-19   | fasting glucose              | 209        | mg/dL           | high
+2024-10-19   | urine albumin-creatinine ratio | 49         | mg/g            | high
+2024-10-19   | inr                          | 1.0        |                 | normal

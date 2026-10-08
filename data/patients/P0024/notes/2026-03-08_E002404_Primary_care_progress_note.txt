@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-03-08
+Patient: Hannah Kowalski (P0024)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+76-year-old female with hypertension, type 2 diabetes. Blood pressure today 156/84 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 126 and 181 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies headache, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- empagliflozin 25 mg once daily
+- hydrochlorothiazide 12.5 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 156 mmHg; diastolic blood pressure 84 mmHg; bmi 24.7 kg/m2; creatinine 0.97 mg/dL; egfr 97 mL/min/1.73m2; potassium 5.0 mmol/L; hemoglobin a1c 8.9%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.

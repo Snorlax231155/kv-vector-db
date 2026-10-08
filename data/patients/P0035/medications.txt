@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Hydrochlorothiazide 25 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       5487
+  Start Date:  2023-10-26
+  Status:      Active
+
+- Levothyroxine 100 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2025-12-10
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

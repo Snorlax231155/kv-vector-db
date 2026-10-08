@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0046
+Full Name:       Aditya Okafor
+Date of Birth:   1961-12-03
+Age:             64 years old
+Biological Sex:  Male
+Last Encounter:  2026-01-29

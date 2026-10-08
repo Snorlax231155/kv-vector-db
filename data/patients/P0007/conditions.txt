@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Unspecified atrial fibrillation
+  ICD-10-CM:   I48.91
+  Status:      active
+  Onset Date:  2024-09-05
+
+- Diagnosis:   Age-related osteoporosis without current pathological fracture
+  ICD-10-CM:   M81.0
+  Status:      active
+  Onset Date:  2023-07-09
+
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2017-03-12

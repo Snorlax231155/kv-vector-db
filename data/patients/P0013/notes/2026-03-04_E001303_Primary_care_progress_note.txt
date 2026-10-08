@@ -1,0 +1,24 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-03-04
+Patient: Hiro Kowalski (P0013)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+49-year-old male with gerd. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, leg swelling, or headache.
+
+CURRENT MEDICATIONS:
+- pantoprazole 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 128 mmHg; diastolic blood pressure 67 mmHg; bmi 23.0 kg/m2; creatinine 1.03 mg/dL; egfr 96 mL/min/1.73m2; potassium 4.2 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.

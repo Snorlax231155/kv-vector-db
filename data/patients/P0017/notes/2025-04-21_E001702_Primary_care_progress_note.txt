@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-04-21
+Patient: Asha Reddy (P0017)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+41-year-old female with hyperlipidemia, anemia, hypertension. Lipid panel reviewed: ldl cholesterol 120 mg/dL on 2025-04-19. Trying to limit fried food and red meat. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.6 g/dl on 2025-04-21.
+
+REVIEW OF SYSTEMS:
+Denies fever, abdominal pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 157 mmHg; diastolic blood pressure 91 mmHg; bmi 22.8 kg/m2; creatinine 0.85 mg/dL; egfr 80 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin 10.6 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.

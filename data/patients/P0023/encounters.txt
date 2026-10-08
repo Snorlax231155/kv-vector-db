@@ -1,0 +1,21 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-04-03 [E002305]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-12-29 [E002304]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-09-11 [E002303]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-04-27 [E002302]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2024-12-03 [E002301]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up

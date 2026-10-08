@@ -1,0 +1,21 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2016-03-15
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2020-03-15
+
+- Diagnosis:   Generalized anxiety disorder
+  ICD-10-CM:   F41.1
+  Status:      active
+  Onset Date:  2015-04-27
+
+- Diagnosis:   Osteoarthritis of knee, unspecified
+  ICD-10-CM:   M17.9
+  Status:      active
+  Onset Date:  2017-09-20

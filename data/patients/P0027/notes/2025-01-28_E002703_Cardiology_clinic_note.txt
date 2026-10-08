@@ -1,0 +1,27 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2025-01-28
+Patient: Sofia Reddy (P0027)
+
+CHIEF COMPLAINT:
+Atrial fibrillation follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old female with atrial fibrillation, type 2 diabetes, major depressive disorder. Reports occasional episodes of fluttering in the chest lasting a few minutes, no fainting. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 139 and 189 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies fever, chest pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- warfarin 5 mg once daily, adjusted to INR
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 125 mmHg; diastolic blood pressure 68 mmHg; bmi 22.3 kg/m2; creatinine 1.14 mg/dL; egfr 100 mL/min/1.73m2; potassium 5.0 mmol/L; hemoglobin a1c 7.9%.
+
+ASSESSMENT AND PLAN:
+1. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.

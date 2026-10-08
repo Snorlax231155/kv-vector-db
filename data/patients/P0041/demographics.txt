@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0041
+Full Name:       Yuki Iyer
+Date of Birth:   1962-08-29
+Age:             63 years old
+Biological Sex:  Female
+Last Encounter:  2026-04-18

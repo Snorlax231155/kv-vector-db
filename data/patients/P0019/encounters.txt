@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-07 [E001904]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2026-02-05 [E001903]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2025-03-25 [E001902]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2024-12-16 [E001901]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up

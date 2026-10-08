@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-09-10 [E003303]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-03-14 [E003302]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2024-11-07 [E003301]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up

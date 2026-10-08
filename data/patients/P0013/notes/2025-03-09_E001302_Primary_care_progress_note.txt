@@ -1,0 +1,24 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-03-09
+Patient: Hiro Kowalski (P0013)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+49-year-old male with gerd. Burning heartburn after large meals, worse when lying down at night.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, shortness of breath at rest, or palpitations.
+
+CURRENT MEDICATIONS:
+- pantoprazole 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 75 mmHg; bmi 21.7 kg/m2; creatinine 0.62 mg/dL; egfr 95 mL/min/1.73m2; potassium 4.4 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.

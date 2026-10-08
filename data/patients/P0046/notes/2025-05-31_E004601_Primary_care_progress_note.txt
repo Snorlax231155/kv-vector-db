@@ -1,0 +1,24 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-05-31
+Patient: Aditya Okafor (P0046)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old male with hypertension. Blood pressure today 136/96 mmHg. Reports adherence to his antihypertensive regimen and a low-salt diet most days.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, chest pain, or fever.
+
+CURRENT MEDICATIONS:
+- lisinopril 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 136 mmHg; diastolic blood pressure 96 mmHg; bmi 24.8 kg/m2; creatinine 0.78 mg/dL; egfr 87 mL/min/1.73m2; potassium 4.1 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

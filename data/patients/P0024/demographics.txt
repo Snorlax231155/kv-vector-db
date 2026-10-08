@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0024
+Full Name:       Hannah Kowalski
+Date of Birth:   1950-06-13
+Age:             75 years old
+Biological Sex:  Female
+Last Encounter:  2026-03-08

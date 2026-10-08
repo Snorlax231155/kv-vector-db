@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-07-15
+Patient: Vikram Das (P0016)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+63-year-old male with hypertension, type 2 diabetes, heart failure. Blood pressure today 151/92 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been slightly above goal.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, fever, or leg swelling.
+
+CURRENT MEDICATIONS:
+- glipizide 10 mg once daily before breakfast
+- amlodipine 5 mg once daily
+- spironolactone 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 151 mmHg; diastolic blood pressure 92 mmHg; bmi 21.7 kg/m2; creatinine 1.16 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.7 mmol/L; hemoglobin a1c 7.7%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.

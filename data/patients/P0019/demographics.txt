@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0019
+Full Name:       Grace Kowalski
+Date of Birth:   1961-02-10
+Age:             65 years old
+Biological Sex:  Female
+Last Encounter:  2026-07-07

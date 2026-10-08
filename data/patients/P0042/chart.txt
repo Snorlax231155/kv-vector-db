@@ -1,0 +1,189 @@
+================================================================================
+PATIENT MEDICAL CHART: TARIQ CHEN (P0042)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0042
+Full Name:       Tariq Chen
+Date of Birth:   1991-06-02
+Age:             34 years old
+Biological Sex:  Male
+Last Encounter:  2026-04-05
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: lisinopril
+  Reaction:  angioedema
+  Severity:  severe
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2021-01-21
+
+- Diagnosis:   Type 2 diabetes mellitus with hyperglycemia
+  ICD-10-CM:   E11.65
+  Status:      active
+  Onset Date:  2023-04-15
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Losartan 50 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       52175
+  Start Date:  2022-01-01
+  Status:      Active
+
+- Empagliflozin 10 mg (once daily)
+  Indication:  type 2 diabetes with hyperglycemia
+  RxCUI:       1545653
+  Start Date:  2025-04-09
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-04-05   | systolic blood pressure      | 147        | mmHg            | high
+2026-04-05   | diastolic blood pressure     | 89         | mmHg            | high
+2026-04-05   | bmi                          | 24.2       | kg/m2           | normal
+2026-04-05   | creatinine                   | 0.72       | mg/dL           | normal
+2026-04-05   | egfr                         | 80         | mL/min/1.73m2   | normal
+2026-04-05   | potassium                    | 4.5        | mmol/L          | normal
+2026-04-05   | sodium                       | 137        | mmol/L          | normal
+2026-04-05   | hemoglobin a1c               | 9.6        | %               | high
+2026-04-05   | fasting glucose              | 286        | mg/dL           | high
+2025-12-08   | systolic blood pressure      | 135        | mmHg            | high
+2025-12-08   | diastolic blood pressure     | 90         | mmHg            | high
+2025-12-08   | bmi                          | 25.8       | kg/m2           | normal
+2025-12-08   | creatinine                   | 0.99       | mg/dL           | normal
+2025-12-08   | egfr                         | 96         | mL/min/1.73m2   | normal
+2025-12-08   | potassium                    | 4.1        | mmol/L          | normal
+2025-12-08   | sodium                       | 144        | mmol/L          | normal
+2025-12-08   | hemoglobin a1c               | 10.9       | %               | high
+2025-12-08   | fasting glucose              | 212        | mg/dL           | high
+2025-12-01   | systolic blood pressure      | 146        | mmHg            | high
+2025-12-01   | diastolic blood pressure     | 93         | mmHg            | high
+2025-12-01   | bmi                          | 24.8       | kg/m2           | normal
+... [15 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-04-05 [E004204]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with hyperglycemia follow-up
+
+- Date:      2025-12-08 [E004203]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-12-01 [E004202]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with hyperglycemia follow-up
+
+- Date:      2025-04-11 [E004201]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Endocrinology follow-up note (2025-12-01) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-12-01
+Patient: Tariq Chen (P0042)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with hyperglycemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+35-year-old male with type 2 diabetes with hyperglycemia, hypertension. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been improving. Most recent hemoglobin a1c 9.2% on 2025-12-01. Notes increased thirst and getting up twice a night to urinate. Blood pressure today 146/93 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, shortness of breath at rest, or chest pain.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- empagliflozin 10 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 146 mmHg; diastolic blood pressure 93 mmHg; bmi 24.8 kg/m2; creatinine 0.97 mg/dL; egfr 80 mL/min/1.73m2; potassium 3.8 mmol/L; hemoglobin a1c 9.2%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with hyperglycemia: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+
+--- Note 2: Primary care progress note (2025-12-08) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-12-08
+Patient: Tariq Chen (P0042)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+35-year-old male with hypertension, type 2 diabetes with hyperglycemia. Blood pressure today 135/90 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, headache, or palpitations.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- empagliflozin 10 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 135 mmHg; diastolic blood pressure 90 mmHg; bmi 25.8 kg/m2; creatinine 0.99 mg/dL; egfr 96 mL/min/1.73m2; potassium 4.1 mmol/L; hemoglobin a1c 10.9%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+2. Type 2 diabetes with hyperglycemia: Reinforced diet and activity goals; review home glucose log at next visit.
+
+--- Note 3: Endocrinology follow-up note (2026-04-05) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-04-05
+Patient: Tariq Chen (P0042)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with hyperglycemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+35-year-old male with type 2 diabetes with hyperglycemia, hypertension. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 126 and 191 mg/dL. Most recent hemoglobin a1c 9.6% on 2026-04-05. Denies hypoglycemic episodes; admits to dietary lapses over the holidays. Blood pressure today 147/89 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, headache, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- empagliflozin 10 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 147 mmHg; diastolic blood pressure 89 mmHg; bmi 24.2 kg/m2; creatinine 0.72 mg/dL; egfr 80 mL/min/1.73m2; potassium 4.5 mmol/L; hemoglobin a1c 9.6%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with hyperglycemia: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+
+================================================================================
+[END OF CHART]

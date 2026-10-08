@@ -1,0 +1,21 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Chronic kidney disease, stage 3 unspecified
+  ICD-10-CM:   N18.30
+  Status:      active
+  Onset Date:  2017-09-16
+
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2022-09-06
+
+- Diagnosis:   Obesity, unspecified
+  ICD-10-CM:   E66.9
+  Status:      active
+  Onset Date:  2014-02-20
+
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2019-02-24

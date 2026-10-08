@@ -1,0 +1,247 @@
+================================================================================
+PATIENT MEDICAL CHART: HANNAH NGUYEN (P0039)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0039
+Full Name:       Hannah Nguyen
+Date of Birth:   1973-02-05
+Age:             53 years old
+Biological Sex:  Female
+Last Encounter:  2026-09-21
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2016-02-03
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2011-12-12
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Hydrochlorothiazide 25 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       5487
+  Start Date:  2022-02-13
+  Status:      Active
+
+- Rosuvastatin 20 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       301542
+  Start Date:  2024-01-21
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-09-21   | systolic blood pressure      | 152        | mmHg            | high
+2026-09-21   | diastolic blood pressure     | 86         | mmHg            | high
+2026-09-21   | bmi                          | 23.7       | kg/m2           | normal
+2026-09-21   | creatinine                   | 1.02       | mg/dL           | normal
+2026-09-21   | egfr                         | 104        | mL/min/1.73m2   | normal
+2026-09-21   | potassium                    | 4.6        | mmol/L          | normal
+2026-09-21   | sodium                       | 144        | mmol/L          | normal
+2026-09-21   | ldl cholesterol              | 156        | mg/dL           | high
+2026-09-11   | systolic blood pressure      | 143        | mmHg            | high
+2026-09-11   | diastolic blood pressure     | 85         | mmHg            | high
+2026-09-11   | bmi                          | 24.6       | kg/m2           | normal
+2026-09-11   | creatinine                   | 1.02       | mg/dL           | normal
+2026-09-11   | egfr                         | 104        | mL/min/1.73m2   | normal
+2026-09-11   | potassium                    | 4.6        | mmol/L          | normal
+2026-09-11   | sodium                       | 138        | mmol/L          | normal
+2026-09-11   | ldl cholesterol              | 171        | mg/dL           | high
+2026-09-11   | total cholesterol            | 220        | mg/dL           | high
+2026-05-08   | systolic blood pressure      | 145        | mmHg            | high
+2026-05-08   | diastolic blood pressure     | 86         | mmHg            | high
+2026-05-08   | bmi                          | 21.9       | kg/m2           | normal
+2026-05-08   | creatinine                   | 0.72       | mg/dL           | normal
+... [21 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-09-21 [E003905]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2026-09-11 [E003904]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2026-05-08 [E003903]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2026-02-15 [E003902]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-09-11 [E003901]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-09-11) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-09-11
+Patient: Hannah Nguyen (P0039)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old female with hypertension, hyperlipidemia. Blood pressure today 142/93 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Tolerating statin therapy without muscle aches.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, fever, or palpitations.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 25 mg once daily
+- rosuvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 142 mmHg; diastolic blood pressure 93 mmHg; bmi 24.9 kg/m2; creatinine 1.03 mg/dL; egfr 80 mL/min/1.73m2; potassium 4.8 mmol/L; total cholesterol 241 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+
+--- Note 2: Primary care progress note (2026-02-15) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-02-15
+Patient: Hannah Nguyen (P0039)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old female with hyperlipidemia, hypertension. Lipid panel reviewed: ldl cholesterol 159 mg/dL on 2026-02-15. Tolerating statin therapy without muscle aches. Blood pressure today 141/89 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 25 mg once daily
+- rosuvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 141 mmHg; diastolic blood pressure 89 mmHg; bmi 24.1 kg/m2; creatinine 0.85 mg/dL; egfr 99 mL/min/1.73m2; potassium 3.7 mmol/L; ldl cholesterol 159 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+
+--- Note 3: Primary care progress note (2026-05-08) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-05-08
+Patient: Hannah Nguyen (P0039)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old female with hypertension, hyperlipidemia. Blood pressure today 145/86 mmHg. Reports adherence to her antihypertensive regimen and a low-salt diet most days. Lipid panel reviewed: ldl cholesterol 124 mg/dL on 2026-05-08.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, dizziness, or headache.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 25 mg once daily
+- rosuvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 145 mmHg; diastolic blood pressure 86 mmHg; bmi 21.9 kg/m2; creatinine 0.72 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.1 mmol/L; ldl cholesterol 124 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+
+--- Note 4: Primary care progress note (2026-09-11) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-09-11
+Patient: Hannah Nguyen (P0039)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old female with hyperlipidemia, hypertension. Lipid panel reviewed: ldl cholesterol 171 mg/dL on 2026-09-11. Trying to limit fried food and red meat. Blood pressure today 143/85 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, headache, or leg swelling.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 25 mg once daily
+- rosuvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 143 mmHg; diastolic blood pressure 85 mmHg; bmi 24.6 kg/m2; creatinine 1.02 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.6 mmol/L; ldl cholesterol 171 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+
+--- Note 5: Primary care progress note (2026-09-21) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-09-21
+Patient: Hannah Nguyen (P0039)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old female with hypertension, hyperlipidemia. Blood pressure today 152/86 mmHg. Reports adherence to her antihypertensive regimen and a low-salt diet most days. Lipid panel reviewed: ldl cholesterol 156 mg/dL on 2026-09-21.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, chest pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 25 mg once daily
+- rosuvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 152 mmHg; diastolic blood pressure 86 mmHg; bmi 23.7 kg/m2; creatinine 1.02 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.6 mmol/L; ldl cholesterol 156 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+
+================================================================================
+[END OF CHART]

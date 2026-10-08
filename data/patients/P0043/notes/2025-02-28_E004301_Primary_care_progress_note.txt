@@ -1,0 +1,24 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-02-28
+Patient: Kenji Martin (P0043)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+29-year-old male with hyperlipidemia. Lipid panel reviewed: ldl cholesterol 148 mg/dL on 2025-02-28. Trying to limit fried food and red meat.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, fever, or chest pain.
+
+CURRENT MEDICATIONS:
+None.
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 126 mmHg; diastolic blood pressure 73 mmHg; bmi 21.0 kg/m2; creatinine 0.67 mg/dL; egfr 82 mL/min/1.73m2; potassium 4.0 mmol/L; ldl cholesterol 148 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.

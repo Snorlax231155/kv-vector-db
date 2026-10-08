@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-03-24 [E000404]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-12-06 [E000403]
+  Type:      Primary care progress note
+  Reason:    obesity follow-up
+
+- Date:      2025-09-10 [E000402]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2024-11-24 [E000401]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up

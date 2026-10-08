@@ -1,0 +1,23 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Glipizide 10 mg (once daily before breakfast)
+  Indication:  type 2 diabetes
+  RxCUI:       4821
+  Start Date:  2025-02-07
+  Status:      Active
+
+- Amlodipine 5 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       17767
+  Start Date:  2019-08-28
+  Status:      Active
+
+- Spironolactone 25 mg (once daily)
+  Indication:  heart failure
+  RxCUI:       9997
+  Start Date:  2023-05-08
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

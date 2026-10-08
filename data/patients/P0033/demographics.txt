@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0033
+Full Name:       Rohan Osei
+Date of Birth:   1987-10-22
+Age:             38 years old
+Biological Sex:  Male
+Last Encounter:  2026-09-10

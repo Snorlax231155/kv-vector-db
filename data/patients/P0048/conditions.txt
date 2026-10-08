@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2020-11-08
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2020-07-31
+
+- Diagnosis:   Generalized anxiety disorder
+  ICD-10-CM:   F41.1
+  Status:      active
+  Onset Date:  2016-07-24

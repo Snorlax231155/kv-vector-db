@@ -1,0 +1,29 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2024-11-27
+Patient: Karan Osei (P0005)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+68-year-old male with coronary artery disease, copd, old myocardial infarction, hyperlipidemia. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies fever, headache, or chest pain.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- aspirin 81 mg once daily
+- clopidogrel 75 mg once daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 119 mmHg; diastolic blood pressure 75 mmHg; bmi 23.4 kg/m2; creatinine 1.09 mg/dL; egfr 109 mL/min/1.73m2; potassium 5.0 mmol/L; total cholesterol 209 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+3. Old myocardial infarction: Stable; continue current management and follow up in 3 months.

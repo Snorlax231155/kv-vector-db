@@ -1,0 +1,5 @@
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: shellfish
+  Reaction:  lip swelling
+  Severity:  severe

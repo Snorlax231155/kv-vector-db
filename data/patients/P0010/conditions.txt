@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Atherosclerotic heart disease of native coronary artery without angina pectoris
+  ICD-10-CM:   I25.10
+  Status:      active
+  Onset Date:  2013-07-18
+
+- Diagnosis:   Anemia, unspecified
+  ICD-10-CM:   D64.9
+  Status:      active
+  Onset Date:  2019-06-11
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2013-03-29

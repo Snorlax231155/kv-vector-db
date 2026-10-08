@@ -1,0 +1,28 @@
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-01-31
+Patient: Sofia Reddy (P0027)
+
+CHIEF COMPLAINT:
+Major depressive disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old female with major depressive disorder, type 2 diabetes, atrial fibrillation. Sleep has improved, still has low energy in the afternoons; engaged in weekly therapy. Denies thoughts of self-harm. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, abdominal pain, or fever.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- sertraline 100 mg once daily
+- warfarin 5 mg once daily, adjusted to INR
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 120 mmHg; diastolic blood pressure 72 mmHg; bmi 24.8 kg/m2; creatinine 0.78 mg/dL; egfr 89 mL/min/1.73m2; potassium 4.3 mmol/L; hemoglobin a1c 9.4%.
+
+ASSESSMENT AND PLAN:
+1. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.

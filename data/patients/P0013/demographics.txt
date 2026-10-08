@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0013
+Full Name:       Hiro Kowalski
+Date of Birth:   1977-03-31
+Age:             48 years old
+Biological Sex:  Male
+Last Encounter:  2026-03-30

@@ -1,0 +1,28 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Metformin 500 mg (twice daily)
+  Indication:  type 2 diabetes
+  RxCUI:       6809
+  Start Date:  2026-02-10
+  Status:      Active
+
+- Atorvastatin 20 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       83367
+  Start Date:  2023-08-16
+  Status:      Active
+
+- Losartan 50 mg (once daily)
+  Indication:  hypertension; chronic kidney disease stage 3
+  RxCUI:       52175
+  Start Date:  2025-11-25
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+- Lisinopril 20 mg (once daily)
+  Indication:  hypertension
+  Start Date:  2025-11-18
+  Stop Date:   2025-11-22
+  Stop Reason: persistent dry cough
+  Status:      Discontinued

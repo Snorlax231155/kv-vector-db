@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Carvedilol 12.5 mg (twice daily)
+  Indication:  heart failure
+  RxCUI:       20352
+  Start Date:  2021-03-23
+  Status:      Active
+
+- Omeprazole 20 mg (once daily before breakfast)
+  Indication:  gerd
+  RxCUI:       7646
+  Start Date:  2013-01-17
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

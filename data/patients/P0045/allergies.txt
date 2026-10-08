@@ -1,0 +1,5 @@
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: aspirin
+  Reaction:  wheezing
+  Severity:  moderate

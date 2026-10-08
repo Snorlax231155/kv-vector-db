@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-06-25
+Patient: Priya Tanaka (P0036)
+
+CHIEF COMPLAINT:
+Anemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+81-year-old female with anemia, knee osteoarthritis, hypertension. Reports fatigue and reduced exercise tolerance. Hemoglobin 9.4 g/dl on 2025-06-25. Bilateral knee pain limits walking to about 15 minutes.
+
+REVIEW OF SYSTEMS:
+Denies headache, chest pain, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- ibuprofen 400 mg as needed
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 132 mmHg; diastolic blood pressure 84 mmHg; bmi 22.8 kg/m2; creatinine 0.67 mg/dL; egfr 76 mL/min/1.73m2; potassium 3.8 mmol/L; hemoglobin 9.4 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Anemia: Stable; continue current management and follow up in 3 months.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.

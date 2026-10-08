@@ -1,0 +1,9 @@
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: lisinopril
+  Reaction:  angioedema
+  Severity:  severe
+
+- Substance: shellfish
+  Reaction:  lip swelling
+  Severity:  severe

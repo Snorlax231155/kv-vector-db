@@ -1,0 +1,27 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2025-08-05
+Patient: Omar Johnson (P0010)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+86-year-old male with coronary artery disease, anemia, hypertension. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest. Reports fatigue and reduced exercise tolerance. Hemoglobin 9.5 g/dl on 2025-08-05.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, chest pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- clopidogrel 75 mg once daily
+- losartan 100 mg once daily
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 155 mmHg; diastolic blood pressure 95 mmHg; bmi 23.1 kg/m2; creatinine 0.85 mg/dL; egfr 105 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin 9.5 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0015
+Full Name:       Zara Okafor
+Date of Birth:   1974-05-05
+Age:             51 years old
+Biological Sex:  Female
+Last Encounter:  2025-10-31

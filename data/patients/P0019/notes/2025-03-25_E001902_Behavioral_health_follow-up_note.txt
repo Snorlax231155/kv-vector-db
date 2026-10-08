@@ -1,0 +1,24 @@
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2025-03-25
+Patient: Grace Kowalski (P0019)
+
+CHIEF COMPLAINT:
+Major depressive disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+65-year-old female with major depressive disorder. Mood is improving; PHQ-9 score decreased from 14 to 7. Denies thoughts of self-harm.
+
+REVIEW OF SYSTEMS:
+Denies fever, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- sertraline 50 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 126 mmHg; diastolic blood pressure 69 mmHg; bmi 25.5 kg/m2; creatinine 0.82 mg/dL; egfr 77 mL/min/1.73m2; potassium 4.2 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.

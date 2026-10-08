@@ -1,0 +1,21 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-05-22 [E000505]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+- Date:      2026-01-26 [E000504]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-01-11 [E000503]
+  Type:      Cardiology clinic note
+  Reason:    old myocardial infarction follow-up
+
+- Date:      2024-11-27 [E000502]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+- Date:      2024-10-19 [E000501]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up

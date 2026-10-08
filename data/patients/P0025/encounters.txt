@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-02-08 [E002503]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2025-11-06 [E002502]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2025-10-01 [E002501]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up

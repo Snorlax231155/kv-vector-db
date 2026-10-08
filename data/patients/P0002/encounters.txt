@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-06-07 [E000204]
+  Type:      Cardiology clinic note
+  Reason:    atrial fibrillation follow-up
+
+- Date:      2025-06-18 [E000203]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-03-03 [E000202]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up
+
+- Date:      2024-12-11 [E000201]
+  Type:      Cardiology clinic note
+  Reason:    atrial fibrillation follow-up

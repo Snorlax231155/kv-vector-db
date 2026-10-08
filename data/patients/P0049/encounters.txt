@@ -1,0 +1,21 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-14 [E004905]
+  Type:      Behavioral health follow-up note
+  Reason:    generalized anxiety disorder follow-up
+
+- Date:      2026-01-11 [E004904]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+- Date:      2025-12-09 [E004903]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2025-07-12 [E004902]
+  Type:      Behavioral health follow-up note
+  Reason:    generalized anxiety disorder follow-up
+
+- Date:      2025-05-01 [E004901]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up

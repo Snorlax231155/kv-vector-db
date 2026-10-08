@@ -1,0 +1,25 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-10-01
+Patient: Michael Haddad (P0025)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with gerd, obstructive sleep apnea. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating. Uses CPAP about 5 hours per night; daytime sleepiness improved.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, chest pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- pantoprazole 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 79 mmHg; bmi 21.4 kg/m2; creatinine 0.61 mg/dL; egfr 82 mL/min/1.73m2; potassium 4.1 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.

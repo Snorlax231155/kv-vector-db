@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0043
+Full Name:       Kenji Martin
+Date of Birth:   1996-11-06
+Age:             29 years old
+Biological Sex:  Male
+Last Encounter:  2026-08-18

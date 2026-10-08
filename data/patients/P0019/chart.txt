@@ -1,0 +1,198 @@
+================================================================================
+PATIENT MEDICAL CHART: GRACE KOWALSKI (P0019)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0019
+Full Name:       Grace Kowalski
+Date of Birth:   1961-02-10
+Age:             65 years old
+Biological Sex:  Female
+Last Encounter:  2026-07-07
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: codeine
+  Reaction:  nausea and vomiting
+  Severity:  mild
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Major depressive disorder, single episode, unspecified
+  ICD-10-CM:   F32.9
+  Status:      active
+  Onset Date:  2022-01-27
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Sertraline 50 mg (once daily)
+  Indication:  major depressive disorder
+  RxCUI:       36437
+  Start Date:  2024-09-04
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-07   | systolic blood pressure      | 110        | mmHg            | normal
+2026-07-07   | diastolic blood pressure     | 76         | mmHg            | normal
+2026-07-07   | bmi                          | 24.3       | kg/m2           | normal
+2026-07-07   | creatinine                   | 0.76       | mg/dL           | normal
+2026-07-07   | egfr                         | 79         | mL/min/1.73m2   | normal
+2026-07-07   | potassium                    | 4.2        | mmol/L          | normal
+2026-07-07   | sodium                       | 137        | mmol/L          | normal
+2026-02-05   | systolic blood pressure      | 125        | mmHg            | normal
+2026-02-05   | diastolic blood pressure     | 74         | mmHg            | normal
+2026-02-05   | bmi                          | 22.6       | kg/m2           | normal
+2026-02-05   | creatinine                   | 0.83       | mg/dL           | normal
+2026-02-05   | egfr                         | 90         | mL/min/1.73m2   | normal
+2026-02-05   | potassium                    | 4.7        | mmol/L          | normal
+2026-02-05   | sodium                       | 138        | mmol/L          | normal
+2025-03-25   | systolic blood pressure      | 126        | mmHg            | normal
+2025-03-25   | diastolic blood pressure     | 69         | mmHg            | normal
+2025-03-25   | bmi                          | 25.5       | kg/m2           | normal
+2025-03-25   | creatinine                   | 0.82       | mg/dL           | normal
+2025-03-25   | egfr                         | 77         | mL/min/1.73m2   | normal
+2025-03-25   | potassium                    | 4.2        | mmol/L          | normal
+2025-03-25   | sodium                       | 137        | mmol/L          | normal
+... [7 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-07 [E001904]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2026-02-05 [E001903]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2025-03-25 [E001902]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+- Date:      2024-12-16 [E001901]
+  Type:      Behavioral health follow-up note
+  Reason:    major depressive disorder follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Behavioral health follow-up note (2024-12-16) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2024-12-16
+Patient: Grace Kowalski (P0019)
+
+CHIEF COMPLAINT:
+Major depressive disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+65-year-old female with major depressive disorder. Sleep has improved, still has low energy in the afternoons; engaged in weekly therapy. Denies thoughts of self-harm.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, leg swelling, or chest pain.
+
+CURRENT MEDICATIONS:
+- sertraline 50 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 113 mmHg; diastolic blood pressure 75 mmHg; bmi 20.9 kg/m2; creatinine 0.68 mg/dL; egfr 79 mL/min/1.73m2; potassium 3.9 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+
+--- Note 2: Behavioral health follow-up note (2025-03-25) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2025-03-25
+Patient: Grace Kowalski (P0019)
+
+CHIEF COMPLAINT:
+Major depressive disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+65-year-old female with major depressive disorder. Mood is improving; PHQ-9 score decreased from 14 to 7. Denies thoughts of self-harm.
+
+REVIEW OF SYSTEMS:
+Denies fever, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- sertraline 50 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 126 mmHg; diastolic blood pressure 69 mmHg; bmi 25.5 kg/m2; creatinine 0.82 mg/dL; egfr 77 mL/min/1.73m2; potassium 4.2 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+
+--- Note 3: Behavioral health follow-up note (2026-02-05) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-02-05
+Patient: Grace Kowalski (P0019)
+
+CHIEF COMPLAINT:
+Major depressive disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+65-year-old female with major depressive disorder. Sleep has improved, still has low energy in the afternoons; engaged in weekly therapy. Denies thoughts of self-harm.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, shortness of breath at rest, or dizziness.
+
+CURRENT MEDICATIONS:
+- sertraline 50 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 125 mmHg; diastolic blood pressure 74 mmHg; bmi 22.6 kg/m2; creatinine 0.83 mg/dL; egfr 90 mL/min/1.73m2; potassium 4.7 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+
+--- Note 4: Behavioral health follow-up note (2026-07-07) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-07-07
+Patient: Grace Kowalski (P0019)
+
+CHIEF COMPLAINT:
+Major depressive disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+65-year-old female with major depressive disorder. Sleep has improved, still has low energy in the afternoons; engaged in weekly therapy. Denies thoughts of self-harm.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, fever, or palpitations.
+
+CURRENT MEDICATIONS:
+- sertraline 50 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 110 mmHg; diastolic blood pressure 76 mmHg; bmi 24.3 kg/m2; creatinine 0.76 mg/dL; egfr 79 mL/min/1.73m2; potassium 4.2 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+
+================================================================================
+[END OF CHART]

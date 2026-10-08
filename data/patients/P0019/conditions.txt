@@ -1,0 +1,6 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Major depressive disorder, single episode, unspecified
+  ICD-10-CM:   F32.9
+  Status:      active
+  Onset Date:  2022-01-27

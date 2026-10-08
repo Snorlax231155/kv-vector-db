@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-03-23
+Patient: Joy Banerjee (P0007)
+
+CHIEF COMPLAINT:
+Osteoporosis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+58-year-old female with osteoporosis, atrial fibrillation, hypothyroidism. DEXA scan showed a lumbar spine T-score of -2.7. Takes calcium and vitamin D. Rate controlled at today's visit; discussed stroke prevention and bleeding risk with anticoagulation.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, palpitations, or dizziness.
+
+CURRENT MEDICATIONS:
+- alendronate 70 mg once weekly
+- levothyroxine 75 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 78 mmHg; bmi 25.8 kg/m2; creatinine 0.81 mg/dL; egfr 91 mL/min/1.73m2; potassium 4.5 mmol/L; inr 2.9.
+
+ASSESSMENT AND PLAN:
+1. Osteoporosis: Stable; continue current management and follow up in 3 months.
+2. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.

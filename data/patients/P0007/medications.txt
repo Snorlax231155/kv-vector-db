@@ -1,0 +1,23 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Warfarin 5 mg (once daily, adjusted to INR)
+  Indication:  atrial fibrillation
+  RxCUI:       11289
+  Start Date:  2025-03-24
+  Status:      Active
+
+- Alendronate 70 mg (once weekly)
+  Indication:  osteoporosis
+  RxCUI:       46041
+  Start Date:  2024-07-14
+  Status:      Active
+
+- Levothyroxine 75 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2017-10-14
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

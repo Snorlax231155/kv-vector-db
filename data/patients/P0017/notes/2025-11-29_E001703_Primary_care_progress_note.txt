@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-11-29
+Patient: Asha Reddy (P0017)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+41-year-old female with hypertension, anemia, hyperlipidemia. Blood pressure today 140/85 mmHg. Occasional morning headaches, no vision changes. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.1 g/dl on 2025-11-29.
+
+REVIEW OF SYSTEMS:
+Denies headache, abdominal pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 140 mmHg; diastolic blood pressure 85 mmHg; bmi 25.7 kg/m2; creatinine 1.17 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin 10.1 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.

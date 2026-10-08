@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0017
+Full Name:       Asha Reddy
+Date of Birth:   1985-02-14
+Age:             41 years old
+Biological Sex:  Female
+Last Encounter:  2026-05-24

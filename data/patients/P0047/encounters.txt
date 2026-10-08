@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-09-02 [E004704]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+- Date:      2025-07-02 [E004703]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-02-13 [E004702]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with diabetic chronic kidney disease follow-up
+
+- Date:      2024-10-21 [E004701]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up

@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Age-related osteoporosis without current pathological fracture
+  ICD-10-CM:   M81.0
+  Status:      active
+  Onset Date:  2019-07-30
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2017-06-15
+
+- Diagnosis:   Obstructive sleep apnea (adult) (pediatric)
+  ICD-10-CM:   G47.33
+  Status:      active
+  Onset Date:  2015-11-13

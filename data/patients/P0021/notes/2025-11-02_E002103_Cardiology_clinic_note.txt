@@ -1,0 +1,26 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2025-11-02
+Patient: Michael Ali (P0021)
+
+CHIEF COMPLAINT:
+Heart failure follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+73-year-old male with heart failure, gerd. Sleeps on two pillows to breathe comfortably and gained 3 pounds over the past week. BNP 586 pg/mL measured on 2025-11-02. Advised daily weights and to call if weight increases more than 2 to 3 pounds in a day. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or chest pain.
+
+CURRENT MEDICATIONS:
+- carvedilol 12.5 mg twice daily
+- omeprazole 20 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 108 mmHg; diastolic blood pressure 82 mmHg; bmi 23.0 kg/m2; creatinine 0.98 mg/dL; egfr 103 mL/min/1.73m2; potassium 3.7 mmol/L; bnp 586 pg/mL.
+
+ASSESSMENT AND PLAN:
+1. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.

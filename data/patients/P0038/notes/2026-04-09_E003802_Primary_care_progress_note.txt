@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-04-09
+Patient: Carlos Ali (P0038)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+82-year-old male with hypertension, hyperlipidemia. Blood pressure today 152/94 mmHg. Reports adherence to his antihypertensive regimen and a low-salt diet most days. Lipid panel reviewed: ldl cholesterol 133 mg/dL on 2026-04-09.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, headache, or fever.
+
+CURRENT MEDICATIONS:
+- atorvastatin 20 mg once daily
+- hydrochlorothiazide 12.5 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 152 mmHg; diastolic blood pressure 94 mmHg; bmi 21.8 kg/m2; creatinine 0.82 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.0 mmol/L; ldl cholesterol 133 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.

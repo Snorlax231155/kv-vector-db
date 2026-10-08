@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0026
+Full Name:       Samuel Verma
+Date of Birth:   1966-05-05
+Age:             59 years old
+Biological Sex:  Male
+Last Encounter:  2026-02-26

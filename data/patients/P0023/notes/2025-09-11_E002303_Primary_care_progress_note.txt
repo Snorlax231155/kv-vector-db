@@ -1,0 +1,24 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-09-11
+Patient: Rohan Garcia (P0023)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+63-year-old male with hypertension. Blood pressure today 156/82 mmHg. Reports adherence to his antihypertensive regimen and a low-salt diet most days.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, fever, or palpitations.
+
+CURRENT MEDICATIONS:
+- amlodipine 10 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 156 mmHg; diastolic blood pressure 82 mmHg; bmi 22.4 kg/m2; creatinine 1.05 mg/dL; egfr 85 mL/min/1.73m2; potassium 3.7 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

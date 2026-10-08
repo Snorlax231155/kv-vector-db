@@ -1,0 +1,268 @@
+================================================================================
+PATIENT MEDICAL CHART: SOFIA VERMA (P0048)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0048
+Full Name:       Sofia Verma
+Date of Birth:   1942-10-06
+Age:             83 years old
+Biological Sex:  Female
+Last Encounter:  2026-07-28
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2020-11-08
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2020-07-31
+
+- Diagnosis:   Generalized anxiety disorder
+  ICD-10-CM:   F41.1
+  Status:      active
+  Onset Date:  2016-07-24
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Metformin 1000 mg (twice daily)
+  Indication:  type 2 diabetes
+  RxCUI:       6809
+  Start Date:  2022-08-03
+  Status:      Active
+
+- Rosuvastatin 20 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       301542
+  Start Date:  2020-12-07
+  Status:      Active
+
+- Sertraline 100 mg (once daily)
+  Indication:  generalized anxiety disorder
+  RxCUI:       36437
+  Start Date:  2024-09-12
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-28   | systolic blood pressure      | 122        | mmHg            | normal
+2026-07-28   | diastolic blood pressure     | 68         | mmHg            | normal
+2026-07-28   | bmi                          | 25.4       | kg/m2           | normal
+2026-07-28   | creatinine                   | 1.08       | mg/dL           | normal
+2026-07-28   | egfr                         | 96         | mL/min/1.73m2   | normal
+2026-07-28   | potassium                    | 3.9        | mmol/L          | normal
+2026-07-28   | sodium                       | 144        | mmol/L          | normal
+2026-07-28   | hemoglobin a1c               | 7.0        | %               | high
+2026-07-28   | fasting glucose              | 207        | mg/dL           | high
+2026-07-28   | urine albumin-creatinine ratio | 13         | mg/g            | normal
+2026-07-28   | total cholesterol            | 260        | mg/dL           | high
+2026-02-22   | systolic blood pressure      | 111        | mmHg            | normal
+2026-02-22   | diastolic blood pressure     | 70         | mmHg            | normal
+2026-02-22   | bmi                          | 21.4       | kg/m2           | normal
+2026-02-22   | creatinine                   | 0.7        | mg/dL           | normal
+2026-02-22   | egfr                         | 104        | mL/min/1.73m2   | normal
+2026-02-22   | potassium                    | 3.8        | mmol/L          | normal
+2026-02-22   | sodium                       | 145        | mmol/L          | normal
+2026-02-22   | hemoglobin a1c               | 8.1        | %               | high
+2026-02-22   | fasting glucose              | 155        | mg/dL           | high
+2026-02-22   | total cholesterol            | 228        | mg/dL           | high
+... [31 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-28 [E004805]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2026-02-22 [E004804]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2026-02-14 [E004803]
+  Type:      Behavioral health follow-up note
+  Reason:    generalized anxiety disorder follow-up
+
+- Date:      2025-07-12 [E004802]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-05-04 [E004801]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Endocrinology follow-up note (2025-05-04) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-05-04
+Patient: Sofia Verma (P0048)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+84-year-old female with type 2 diabetes, hyperlipidemia, generalized anxiety disorder. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 127 and 171 mg/dL. Most recent hemoglobin a1c 9.4% on 2025-05-04. Denies hypoglycemic episodes; admits to dietary lapses over the holidays. Tolerating statin therapy without muscle aches.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, leg swelling, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 20 mg once daily
+- sertraline 100 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 114 mmHg; diastolic blood pressure 68 mmHg; bmi 21.0 kg/m2; creatinine 0.81 mg/dL; egfr 94 mL/min/1.73m2; potassium 4.0 mmol/L; hemoglobin a1c 9.4%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Primary care progress note (2025-07-12) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-07-12
+Patient: Sofia Verma (P0048)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+84-year-old female with hyperlipidemia, type 2 diabetes, generalized anxiety disorder. Trying to limit fried food and red meat. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 126 and 183 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, palpitations, or headache.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 20 mg once daily
+- sertraline 100 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 68 mmHg; bmi 21.2 kg/m2; creatinine 0.77 mg/dL; egfr 80 mL/min/1.73m2; potassium 4.1 mmol/L; hemoglobin a1c 9.3%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Behavioral health follow-up note (2026-02-14) ---
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-02-14
+Patient: Sofia Verma (P0048)
+
+CHIEF COMPLAINT:
+Generalized anxiety disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+84-year-old female with generalized anxiety disorder, type 2 diabetes, hyperlipidemia. Worry is less intrusive; using breathing exercises before work meetings. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 137 and 167 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, abdominal pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 20 mg once daily
+- sertraline 100 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 124 mmHg; diastolic blood pressure 73 mmHg; bmi 24.8 kg/m2; creatinine 1.1 mg/dL; egfr 100 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 9.5%.
+
+ASSESSMENT AND PLAN:
+1. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+
+--- Note 4: Endocrinology follow-up note (2026-02-22) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-02-22
+Patient: Sofia Verma (P0048)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+84-year-old female with type 2 diabetes, hyperlipidemia, generalized anxiety disorder. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 139 and 169 mg/dL. Most recent hemoglobin a1c 8.1% on 2026-02-22. Denies hypoglycemic episodes; admits to dietary lapses over the holidays. Tolerating statin therapy without muscle aches.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, shortness of breath at rest, or chest pain.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 20 mg once daily
+- sertraline 100 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 70 mmHg; bmi 21.4 kg/m2; creatinine 0.7 mg/dL; egfr 104 mL/min/1.73m2; potassium 3.8 mmol/L; hemoglobin a1c 8.1%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+
+--- Note 5: Primary care progress note (2026-07-28) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-07-28
+Patient: Sofia Verma (P0048)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+84-year-old female with hyperlipidemia, type 2 diabetes, generalized anxiety disorder. Trying to limit fried food and red meat. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been slightly above goal.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, fever, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 20 mg once daily
+- sertraline 100 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 122 mmHg; diastolic blood pressure 68 mmHg; bmi 25.4 kg/m2; creatinine 1.08 mg/dL; egfr 96 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin a1c 7.0%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

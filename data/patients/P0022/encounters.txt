@@ -1,0 +1,21 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-27 [E002205]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+- Date:      2025-12-28 [E002204]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-11-25 [E002203]
+  Type:      Primary care progress note
+  Reason:    obesity follow-up
+
+- Date:      2025-01-25 [E002202]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2024-12-08 [E002201]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up

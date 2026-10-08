@@ -1,0 +1,24 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-12-29
+Patient: Rohan Garcia (P0023)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+63-year-old male with hypertension. Blood pressure today 133/83 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, fever, or chest pain.
+
+CURRENT MEDICATIONS:
+- amlodipine 10 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 133 mmHg; diastolic blood pressure 83 mmHg; bmi 24.1 kg/m2; creatinine 0.65 mg/dL; egfr 105 mL/min/1.73m2; potassium 5.0 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.

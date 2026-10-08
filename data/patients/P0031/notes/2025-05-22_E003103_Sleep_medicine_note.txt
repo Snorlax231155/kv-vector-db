@@ -1,0 +1,27 @@
+SLEEP MEDICINE NOTE
+Date: 2025-05-22
+Patient: Samuel Banerjee (P0031)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+78-year-old male with obstructive sleep apnea, coronary artery disease, type 2 diabetes with diabetic chronic kidney disease. Uses CPAP about 6 hours per night; daytime sleepiness improved. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies fever, palpitations, or headache.
+
+CURRENT MEDICATIONS:
+- aspirin 81 mg once daily
+- metformin 1000 mg twice daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 109 mmHg; diastolic blood pressure 78 mmHg; bmi 21.2 kg/m2; creatinine 0.64 mg/dL; egfr 81 mL/min/1.73m2; potassium 4.6 mmol/L; ldl cholesterol 98 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Type 2 diabetes with diabetic chronic kidney disease: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.

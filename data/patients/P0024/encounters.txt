@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-03-08 [E002404]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-10-18 [E002403]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2025-01-15 [E002402]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2024-11-16 [E002401]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up

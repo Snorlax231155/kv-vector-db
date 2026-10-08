@@ -1,0 +1,27 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-10-31
+Patient: Zara Okafor (P0015)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old female with type 2 diabetes, hypertension, obstructive sleep apnea, history of stroke. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been improving. Most recent hemoglobin a1c 7.3% on 2025-10-31. Walking 20 minutes most days and has cut back on sweetened tea. Blood pressure today 148/87 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, dizziness, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- lisinopril 10 mg once daily
+- empagliflozin 25 mg once daily
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 148 mmHg; diastolic blood pressure 87 mmHg; bmi 23.3 kg/m2; creatinine 1.07 mg/dL; egfr 108 mL/min/1.73m2; potassium 4.3 mmol/L; hemoglobin a1c 7.3%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.

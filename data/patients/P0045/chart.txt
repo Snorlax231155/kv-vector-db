@@ -1,0 +1,236 @@
+================================================================================
+PATIENT MEDICAL CHART: WEI BROWN (P0045)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0045
+Full Name:       Wei Brown
+Date of Birth:   1973-07-02
+Age:             52 years old
+Biological Sex:  Male
+Last Encounter:  2026-06-12
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: aspirin
+  Reaction:  wheezing
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Unspecified asthma, uncomplicated
+  ICD-10-CM:   J45.909
+  Status:      active
+  Onset Date:  2013-08-10
+
+- Diagnosis:   Osteoarthritis of knee, unspecified
+  ICD-10-CM:   M17.9
+  Status:      active
+  Onset Date:  2024-05-09
+
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2014-12-26
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Montelukast 10 mg (once daily in the evening)
+  Indication:  asthma
+  RxCUI:       88249
+  Start Date:  2013-08-27
+  Status:      Active
+
+- Ibuprofen 400 mg (as needed)
+  Indication:  knee osteoarthritis
+  RxCUI:       5640
+  Start Date:  2025-07-26
+  Status:      Active
+
+- Glipizide 10 mg (once daily before breakfast)
+  Indication:  type 2 diabetes
+  RxCUI:       4821
+  Start Date:  2019-04-25
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-06-12   | systolic blood pressure      | 123        | mmHg            | normal
+2026-06-12   | diastolic blood pressure     | 72         | mmHg            | normal
+2026-06-12   | bmi                          | 21.8       | kg/m2           | normal
+2026-06-12   | creatinine                   | 0.81       | mg/dL           | normal
+2026-06-12   | egfr                         | 96         | mL/min/1.73m2   | normal
+2026-06-12   | potassium                    | 3.7        | mmol/L          | normal
+2026-06-12   | sodium                       | 138        | mmol/L          | normal
+2026-06-12   | hemoglobin a1c               | 7.1        | %               | high
+2026-06-12   | fasting glucose              | 126        | mg/dL           | high
+2026-06-12   | urine albumin-creatinine ratio | 37         | mg/g            | high
+2025-11-15   | systolic blood pressure      | 114        | mmHg            | normal
+2025-11-15   | diastolic blood pressure     | 76         | mmHg            | normal
+2025-11-15   | bmi                          | 20.6       | kg/m2           | normal
+2025-11-15   | creatinine                   | 0.77       | mg/dL           | normal
+2025-11-15   | egfr                         | 107        | mL/min/1.73m2   | normal
+2025-11-15   | potassium                    | 4.2        | mmol/L          | normal
+2025-11-15   | sodium                       | 142        | mmol/L          | normal
+2025-11-15   | hemoglobin a1c               | 8.6        | %               | high
+2025-11-15   | fasting glucose              | 158        | mg/dL           | high
+2025-11-15   | urine albumin-creatinine ratio | 10         | mg/g            | normal
+2025-09-23   | systolic blood pressure      | 114        | mmHg            | normal
+... [18 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-06-12 [E004504]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2025-11-15 [E004503]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2025-09-23 [E004502]
+  Type:      Orthopedics clinic note
+  Reason:    knee osteoarthritis follow-up
+
+- Date:      2025-09-05 [E004501]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Pulmonology clinic note (2025-09-05) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2025-09-05
+Patient: Wei Brown (P0045)
+
+CHIEF COMPLAINT:
+Asthma follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old male with asthma, knee osteoarthritis, type 2 diabetes. Reports nighttime cough about twice a week and uses the rescue inhaler three or four times a week. No emergency visits or oral steroid courses in the past year. Bilateral knee pain limits walking to about 15 minutes.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, leg swelling, or dizziness.
+
+CURRENT MEDICATIONS:
+- montelukast 10 mg once daily in the evening
+- ibuprofen 400 mg as needed
+- glipizide 10 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 116 mmHg; diastolic blood pressure 67 mmHg; bmi 23.4 kg/m2; creatinine 0.84 mg/dL; egfr 81 mL/min/1.73m2; potassium 4.3 mmol/L; hemoglobin a1c 7.5%.
+
+ASSESSMENT AND PLAN:
+1. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+
+--- Note 2: Orthopedics clinic note (2025-09-23) ---
+ORTHOPEDICS CLINIC NOTE
+Date: 2025-09-23
+Patient: Wei Brown (P0045)
+
+CHIEF COMPLAINT:
+Knee osteoarthritis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old male with knee osteoarthritis, asthma, type 2 diabetes. Bilateral knee pain limits walking to about 15 minutes. Reports nighttime cough about twice a week and uses the rescue inhaler three or four times a week.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, palpitations, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- montelukast 10 mg once daily in the evening
+- ibuprofen 400 mg as needed
+- glipizide 10 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 114 mmHg; diastolic blood pressure 71 mmHg; bmi 24.7 kg/m2; creatinine 0.91 mg/dL; egfr 75 mL/min/1.73m2; potassium 4.5 mmol/L; hemoglobin a1c 7.6%.
+
+ASSESSMENT AND PLAN:
+1. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+2. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+3. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+
+--- Note 3: Endocrinology follow-up note (2025-11-15) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-11-15
+Patient: Wei Brown (P0045)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old male with type 2 diabetes, asthma, knee osteoarthritis. Here for routine diabetes care. Checks fingerstick glucose a few times a week; readings have been improving. Most recent hemoglobin a1c 8.6% on 2025-11-15. Reports mild tingling in both feet in the evenings, no foot ulcers. Reports nighttime cough about twice a week and uses the rescue inhaler three or four times a week.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, chest pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- montelukast 10 mg once daily in the evening
+- ibuprofen 400 mg as needed
+- glipizide 10 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 114 mmHg; diastolic blood pressure 76 mmHg; bmi 20.6 kg/m2; creatinine 0.77 mg/dL; egfr 107 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin a1c 8.6%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+3. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+
+--- Note 4: Pulmonology clinic note (2026-06-12) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2026-06-12
+Patient: Wei Brown (P0045)
+
+CHIEF COMPLAINT:
+Asthma follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old male with asthma, knee osteoarthritis, type 2 diabetes. Reports nighttime cough about twice a week and uses the rescue inhaler three or four times a week. No emergency visits or oral steroid courses in the past year. Bilateral knee pain limits walking to about 15 minutes.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, abdominal pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- montelukast 10 mg once daily in the evening
+- ibuprofen 400 mg as needed
+- glipizide 10 mg once daily before breakfast
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 72 mmHg; bmi 21.8 kg/m2; creatinine 0.81 mg/dL; egfr 96 mL/min/1.73m2; potassium 3.7 mmol/L; hemoglobin a1c 7.1%.
+
+ASSESSMENT AND PLAN:
+1. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+
+================================================================================
+[END OF CHART]

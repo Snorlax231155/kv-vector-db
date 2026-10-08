@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-05-08 [E003704]
+  Type:      Orthopedics clinic note
+  Reason:    knee osteoarthritis follow-up
+
+- Date:      2025-08-13 [E003703]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-04-27 [E003702]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-01-12 [E003701]
+  Type:      Orthopedics clinic note
+  Reason:    knee osteoarthritis follow-up

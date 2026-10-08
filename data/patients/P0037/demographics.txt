@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0037
+Full Name:       Kavya Patel
+Date of Birth:   1974-10-18
+Age:             51 years old
+Biological Sex:  Female
+Last Encounter:  2026-05-08

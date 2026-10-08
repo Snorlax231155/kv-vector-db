@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0044
+Full Name:       Rahul Kim
+Date of Birth:   1937-07-29
+Age:             89 years old
+Biological Sex:  Male
+Last Encounter:  2026-09-18

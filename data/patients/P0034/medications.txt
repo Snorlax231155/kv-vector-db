@@ -1,0 +1,23 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Losartan 50 mg (once daily)
+  Indication:  chronic kidney disease stage 3
+  RxCUI:       52175
+  Start Date:  2020-11-15
+  Status:      Active
+
+- Levothyroxine 100 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2025-05-17
+  Status:      Active
+
+- Metformin 850 mg (twice daily)
+  Indication:  type 2 diabetes
+  RxCUI:       6809
+  Start Date:  2023-12-26
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

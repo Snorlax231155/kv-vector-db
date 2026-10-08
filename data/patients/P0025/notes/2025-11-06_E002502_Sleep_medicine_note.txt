@@ -1,0 +1,25 @@
+SLEEP MEDICINE NOTE
+Date: 2025-11-06
+Patient: Michael Haddad (P0025)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with obstructive sleep apnea, gerd. Uses CPAP about 6 hours per night; daytime sleepiness improved. Burning heartburn after large meals, worse when lying down at night.
+
+REVIEW OF SYSTEMS:
+Denies fever, palpitations, or leg swelling.
+
+CURRENT MEDICATIONS:
+- pantoprazole 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 124 mmHg; diastolic blood pressure 81 mmHg; bmi 23.1 kg/m2; creatinine 1.01 mg/dL; egfr 106 mL/min/1.73m2; potassium 4.8 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.

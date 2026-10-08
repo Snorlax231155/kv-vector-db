@@ -1,0 +1,21 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-03-01 [E003105]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with diabetic chronic kidney disease follow-up
+
+- Date:      2025-07-09 [E003104]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+- Date:      2025-05-22 [E003103]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2025-05-16 [E003102]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with diabetic chronic kidney disease follow-up
+
+- Date:      2024-12-14 [E003101]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up

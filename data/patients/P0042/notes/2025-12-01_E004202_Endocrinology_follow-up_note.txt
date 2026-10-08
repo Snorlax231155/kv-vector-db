@@ -1,0 +1,26 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-12-01
+Patient: Tariq Chen (P0042)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with hyperglycemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+35-year-old male with type 2 diabetes with hyperglycemia, hypertension. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been improving. Most recent hemoglobin a1c 9.2% on 2025-12-01. Notes increased thirst and getting up twice a night to urinate. Blood pressure today 146/93 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, shortness of breath at rest, or chest pain.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- empagliflozin 10 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 146 mmHg; diastolic blood pressure 93 mmHg; bmi 24.8 kg/m2; creatinine 0.97 mg/dL; egfr 80 mL/min/1.73m2; potassium 3.8 mmol/L; hemoglobin a1c 9.2%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with hyperglycemia: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.

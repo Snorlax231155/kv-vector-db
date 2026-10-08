@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-28 [E001404]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2026-06-22 [E001403]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2025-07-03 [E001402]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2025-01-16 [E001401]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up

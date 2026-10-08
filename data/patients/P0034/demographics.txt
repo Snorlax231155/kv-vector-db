@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0034
+Full Name:       Daniel Silva
+Date of Birth:   1945-12-11
+Age:             79 years old
+Biological Sex:  Male
+Last Encounter:  2025-10-03

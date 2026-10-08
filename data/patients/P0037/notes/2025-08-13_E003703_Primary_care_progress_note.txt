@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-08-13
+Patient: Kavya Patel (P0037)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with hypothyroidism, knee osteoarthritis, hypertension. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements. Most recent tsh 3.88 mIU/L on 2025-04-27. Bilateral knee pain limits walking to about 15 minutes.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, palpitations, or chest pain.
+
+CURRENT MEDICATIONS:
+- meloxicam 7.5 mg once daily
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 145 mmHg; diastolic blood pressure 91 mmHg; bmi 22.7 kg/m2; creatinine 0.66 mg/dL; egfr 107 mL/min/1.73m2; potassium 4.7 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

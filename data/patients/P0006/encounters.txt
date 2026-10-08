@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-04 [E000604]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with diabetic chronic kidney disease follow-up
+
+- Date:      2026-04-22 [E000603]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up
+
+- Date:      2026-04-10 [E000602]
+  Type:      Nephrology consult note
+  Reason:    chronic kidney disease stage 4 follow-up
+
+- Date:      2026-02-23 [E000601]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with diabetic chronic kidney disease follow-up

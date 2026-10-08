@@ -1,0 +1,6 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Chronic obstructive pulmonary disease, unspecified
+  ICD-10-CM:   J44.9
+  Status:      active
+  Onset Date:  2025-08-16

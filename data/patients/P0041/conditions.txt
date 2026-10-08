@@ -1,0 +1,6 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Obstructive sleep apnea (adult) (pediatric)
+  ICD-10-CM:   G47.33
+  Status:      active
+  Onset Date:  2023-03-30

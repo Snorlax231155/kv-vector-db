@@ -1,0 +1,29 @@
+ORTHOPEDICS CLINIC NOTE
+Date: 2026-09-18
+Patient: Rahul Kim (P0044)
+
+CHIEF COMPLAINT:
+Knee osteoarthritis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old male with knee osteoarthritis, hypothyroidism, hypertension, generalized anxiety disorder. Right knee pain worse with stairs and after prolonged standing; morning stiffness under 30 minutes. Fatigue and cold intolerance have improved since levothyroxine was adjusted.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, chest pain, or fever.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- losartan 100 mg once daily
+- sertraline 50 mg once daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+shellfish (lip swelling); codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 157 mmHg; diastolic blood pressure 90 mmHg; bmi 23.4 kg/m2; creatinine 0.65 mg/dL; egfr 108 mL/min/1.73m2; potassium 4.5 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

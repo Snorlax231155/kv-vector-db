@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-02-15
+Patient: Hannah Nguyen (P0039)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+53-year-old female with hyperlipidemia, hypertension. Lipid panel reviewed: ldl cholesterol 159 mg/dL on 2026-02-15. Tolerating statin therapy without muscle aches. Blood pressure today 141/89 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 25 mg once daily
+- rosuvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 141 mmHg; diastolic blood pressure 89 mmHg; bmi 24.1 kg/m2; creatinine 0.85 mg/dL; egfr 99 mL/min/1.73m2; potassium 3.7 mmol/L; ldl cholesterol 159 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.

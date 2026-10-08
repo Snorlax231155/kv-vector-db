@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2024-11-24
+Patient: Ananya Osei (P0004)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with hypothyroidism, major depressive disorder, obesity. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements. Most recent tsh 4.98 mIU/L on 2024-11-24. Sleep has improved, still has low energy in the afternoons; engaged in weekly therapy.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- sertraline 100 mg once daily
+
+ALLERGIES:
+lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 120 mmHg; diastolic blood pressure 69 mmHg; bmi 33.6 kg/m2; creatinine 0.92 mg/dL; egfr 98 mL/min/1.73m2; potassium 4.2 mmol/L; tsh 4.98 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Major depressive disorder: Continue SSRI and therapy; safety plan reviewed.
+3. Obesity: Stable; continue current management and follow up in 3 months.

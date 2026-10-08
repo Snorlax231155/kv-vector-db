@@ -1,0 +1,26 @@
+SLEEP MEDICINE NOTE
+Date: 2024-11-18
+Patient: Zara Okafor (P0015)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old female with obstructive sleep apnea, hypertension, history of stroke, type 2 diabetes. Uses CPAP about 5 hours per night; daytime sleepiness improved. Blood pressure today 152/86 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or fever.
+
+CURRENT MEDICATIONS:
+- empagliflozin 25 mg once daily
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 152 mmHg; diastolic blood pressure 86 mmHg; bmi 24.5 kg/m2; creatinine 0.94 mg/dL; egfr 83 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin a1c 7.6%.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+3. History of stroke: Stable; continue current management and follow up in 3 months.

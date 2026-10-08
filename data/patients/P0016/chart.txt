@@ -1,0 +1,206 @@
+================================================================================
+PATIENT MEDICAL CHART: VIKRAM DAS (P0016)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0016
+Full Name:       Vikram Das
+Date of Birth:   1963-07-04
+Age:             63 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-26
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: aspirin
+  Reaction:  wheezing
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2017-02-09
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2019-06-20
+
+- Diagnosis:   Heart failure, unspecified
+  ICD-10-CM:   I50.9
+  Status:      active
+  Onset Date:  2020-04-19
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Glipizide 10 mg (once daily before breakfast)
+  Indication:  type 2 diabetes
+  RxCUI:       4821
+  Start Date:  2025-02-07
+  Status:      Active
+
+- Amlodipine 5 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       17767
+  Start Date:  2019-08-28
+  Status:      Active
+
+- Spironolactone 25 mg (once daily)
+  Indication:  heart failure
+  RxCUI:       9997
+  Start Date:  2023-05-08
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-26   | systolic blood pressure      | 154        | mmHg            | high
+2026-07-26   | diastolic blood pressure     | 92         | mmHg            | high
+2026-07-26   | bmi                          | 25.3       | kg/m2           | normal
+2026-07-26   | creatinine                   | 0.85       | mg/dL           | normal
+2026-07-26   | egfr                         | 86         | mL/min/1.73m2   | normal
+2026-07-26   | potassium                    | 4.6        | mmol/L          | normal
+2026-07-26   | sodium                       | 137        | mmol/L          | normal
+2026-07-26   | hemoglobin a1c               | 8.6        | %               | high
+2026-07-26   | fasting glucose              | 176        | mg/dL           | high
+2026-07-26   | bnp                          | 671        | pg/mL           | high
+2026-01-08   | systolic blood pressure      | 149        | mmHg            | high
+2026-01-08   | diastolic blood pressure     | 94         | mmHg            | high
+2026-01-08   | bmi                          | 24.7       | kg/m2           | normal
+2026-01-08   | creatinine                   | 1.06       | mg/dL           | normal
+2026-01-08   | egfr                         | 109        | mL/min/1.73m2   | normal
+2026-01-08   | potassium                    | 3.9        | mmol/L          | normal
+2026-01-08   | sodium                       | 145        | mmol/L          | normal
+2026-01-08   | hemoglobin a1c               | 7.2        | %               | high
+2026-01-08   | fasting glucose              | 153        | mg/dL           | high
+2026-01-08   | bnp                          | 460        | pg/mL           | high
+2025-07-15   | systolic blood pressure      | 151        | mmHg            | high
+... [20 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-26 [E001604]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2026-01-08 [E001603]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up
+
+- Date:      2025-07-15 [E001602]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-01-14 [E001601]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-07-15) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-07-15
+Patient: Vikram Das (P0016)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+63-year-old male with hypertension, type 2 diabetes, heart failure. Blood pressure today 151/92 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been slightly above goal.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, fever, or leg swelling.
+
+CURRENT MEDICATIONS:
+- glipizide 10 mg once daily before breakfast
+- amlodipine 5 mg once daily
+- spironolactone 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 151 mmHg; diastolic blood pressure 92 mmHg; bmi 21.7 kg/m2; creatinine 1.16 mg/dL; egfr 104 mL/min/1.73m2; potassium 4.7 mmol/L; hemoglobin a1c 7.7%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+
+--- Note 2: Cardiology clinic note (2026-01-08) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2026-01-08
+Patient: Vikram Das (P0016)
+
+CHIEF COMPLAINT:
+Heart failure follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+63-year-old male with heart failure, type 2 diabetes, hypertension. Mild shortness of breath walking to the mailbox; ankle swelling improves overnight. BNP 460 pg/mL measured on 2026-01-08. Advised daily weights and to call if weight increases more than 2 to 3 pounds in a day. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been variable.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, abdominal pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- glipizide 10 mg once daily before breakfast
+- amlodipine 5 mg once daily
+- spironolactone 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 149 mmHg; diastolic blood pressure 94 mmHg; bmi 24.7 kg/m2; creatinine 1.06 mg/dL; egfr 109 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin a1c 7.2%.
+
+ASSESSMENT AND PLAN:
+1. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+
+--- Note 3: Endocrinology follow-up note (2026-07-26) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-07-26
+Patient: Vikram Das (P0016)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+63-year-old male with type 2 diabetes, hypertension, heart failure. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 133 and 174 mg/dL. Most recent hemoglobin a1c 8.6% on 2026-07-26. Denies hypoglycemic episodes; admits to dietary lapses over the holidays. Blood pressure today 154/92 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- glipizide 10 mg once daily before breakfast
+- amlodipine 5 mg once daily
+- spironolactone 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 154 mmHg; diastolic blood pressure 92 mmHg; bmi 25.3 kg/m2; creatinine 0.85 mg/dL; egfr 86 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin a1c 8.6%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+
+================================================================================
+[END OF CHART]

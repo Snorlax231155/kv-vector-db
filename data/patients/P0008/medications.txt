@@ -1,0 +1,29 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Levothyroxine 75 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2019-06-17
+  Status:      Active
+
+- Sitagliptin 100 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       593411
+  Start Date:  2015-02-07
+  Status:      Active
+
+- Metoprolol 50 mg (once daily)
+  Indication:  atrial fibrillation
+  RxCUI:       6918
+  Start Date:  2023-11-28
+  Status:      Active
+
+- Sertraline 50 mg (once daily)
+  Indication:  generalized anxiety disorder
+  RxCUI:       36437
+  Start Date:  2021-04-11
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

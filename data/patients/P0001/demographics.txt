@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0001
+Full Name:       Fatima Brown
+Date of Birth:   1962-03-01
+Age:             64 years old
+Biological Sex:  Female
+Last Encounter:  2026-08-02

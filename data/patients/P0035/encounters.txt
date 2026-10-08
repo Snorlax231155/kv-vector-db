@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-16 [E003504]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-12-01 [E003503]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2025-11-12 [E003502]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-02-17 [E003501]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up

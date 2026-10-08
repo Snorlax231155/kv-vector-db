@@ -1,0 +1,26 @@
+NEUROLOGY FOLLOW-UP NOTE
+Date: 2025-04-30
+Patient: Zara Okafor (P0015)
+
+CHIEF COMPLAINT:
+History of stroke follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+52-year-old female with history of stroke, hypertension, obstructive sleep apnea, type 2 diabetes. Prior ischemic stroke without residual deficits; continues secondary prevention. Blood pressure today 135/84 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, dizziness, or palpitations.
+
+CURRENT MEDICATIONS:
+- empagliflozin 25 mg once daily
+
+ALLERGIES:
+penicillin (rash)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 135 mmHg; diastolic blood pressure 84 mmHg; bmi 23.5 kg/m2; creatinine 1.05 mg/dL; egfr 81 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 8.9%.
+
+ASSESSMENT AND PLAN:
+1. History of stroke: Stable; continue current management and follow up in 3 months.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.

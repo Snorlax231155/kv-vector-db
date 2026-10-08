@@ -1,0 +1,28 @@
+NEUROLOGY FOLLOW-UP NOTE
+Date: 2025-08-18
+Patient: Sanjay Brown (P0032)
+
+CHIEF COMPLAINT:
+Migraine follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+54-year-old male with migraine, type 2 diabetes, hyperlipidemia. Has 4 migraines per month with light sensitivity and nausea; triptan helps within two hours. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 125 and 189 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, shortness of breath at rest, or chest pain.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- atorvastatin 40 mg once daily
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 79 mmHg; bmi 22.9 kg/m2; creatinine 1.02 mg/dL; egfr 96 mL/min/1.73m2; potassium 4.5 mmol/L; hemoglobin a1c 6.7%.
+
+ASSESSMENT AND PLAN:
+1. Migraine: Stable; continue current management and follow up in 3 months.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.

@@ -1,0 +1,25 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-01-29   | systolic blood pressure      | 147        | mmHg            | high
+2026-01-29   | diastolic blood pressure     | 89         | mmHg            | high
+2026-01-29   | bmi                          | 21.3       | kg/m2           | normal
+2026-01-29   | creatinine                   | 0.87       | mg/dL           | normal
+2026-01-29   | egfr                         | 105        | mL/min/1.73m2   | normal
+2026-01-29   | potassium                    | 4.9        | mmol/L          | normal
+2026-01-29   | sodium                       | 137        | mmol/L          | normal
+2025-09-23   | systolic blood pressure      | 134        | mmHg            | high
+2025-09-23   | diastolic blood pressure     | 85         | mmHg            | high
+2025-09-23   | bmi                          | 22.8       | kg/m2           | normal
+2025-09-23   | creatinine                   | 0.73       | mg/dL           | normal
+2025-09-23   | egfr                         | 90         | mL/min/1.73m2   | normal
+2025-09-23   | potassium                    | 5.0        | mmol/L          | normal
+2025-09-23   | sodium                       | 144        | mmol/L          | normal
+2025-05-31   | systolic blood pressure      | 136        | mmHg            | high
+2025-05-31   | diastolic blood pressure     | 96         | mmHg            | high
+2025-05-31   | bmi                          | 24.8       | kg/m2           | normal
+2025-05-31   | creatinine                   | 0.78       | mg/dL           | normal
+2025-05-31   | egfr                         | 87         | mL/min/1.73m2   | normal
+2025-05-31   | potassium                    | 4.1        | mmol/L          | normal
+2025-05-31   | sodium                       | 141        | mmol/L          | normal

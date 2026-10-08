@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-04-05 [E004204]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with hyperglycemia follow-up
+
+- Date:      2025-12-08 [E004203]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-12-01 [E004202]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with hyperglycemia follow-up
+
+- Date:      2025-04-11 [E004201]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up

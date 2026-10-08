@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Omeprazole 20 mg (once daily before breakfast)
+  Indication:  gerd
+  RxCUI:       7646
+  Start Date:  2018-09-14
+  Status:      Active
+
+- Levothyroxine 100 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2025-11-17
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

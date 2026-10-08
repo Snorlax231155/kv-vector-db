@@ -1,0 +1,11 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Chronic obstructive pulmonary disease, unspecified
+  ICD-10-CM:   J44.9
+  Status:      active
+  Onset Date:  2021-06-17
+
+- Diagnosis:   Chronic kidney disease, stage 4 (severe)
+  ICD-10-CM:   N18.4
+  Status:      active
+  Onset Date:  2023-04-04

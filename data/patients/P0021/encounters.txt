@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-30 [E002104]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2025-11-02 [E002103]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up
+
+- Date:      2025-08-02 [E002102]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2025-04-23 [E002101]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up

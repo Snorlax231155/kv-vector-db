@@ -1,0 +1,193 @@
+================================================================================
+PATIENT MEDICAL CHART: DANIEL TANAKA (P0012)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0012
+Full Name:       Daniel Tanaka
+Date of Birth:   1960-04-04
+Age:             66 years old
+Biological Sex:  Male
+Last Encounter:  2026-06-11
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: shellfish
+  Reaction:  lip swelling
+  Severity:  severe
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2013-08-15
+
+- Diagnosis:   Atherosclerotic heart disease of native coronary artery without angina pectoris
+  ICD-10-CM:   I25.10
+  Status:      active
+  Onset Date:  2016-09-08
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Simvastatin 40 mg (at bedtime)
+  Indication:  hyperlipidemia
+  RxCUI:       36567
+  Start Date:  2022-05-09
+  Status:      Active
+
+- Metoprolol 25 mg (once daily)
+  Indication:  coronary artery disease
+  RxCUI:       6918
+  Start Date:  2018-04-21
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-06-11   | systolic blood pressure      | 122        | mmHg            | normal
+2026-06-11   | diastolic blood pressure     | 80         | mmHg            | normal
+2026-06-11   | bmi                          | 20.6       | kg/m2           | normal
+2026-06-11   | creatinine                   | 0.74       | mg/dL           | normal
+2026-06-11   | egfr                         | 88         | mL/min/1.73m2   | normal
+2026-06-11   | potassium                    | 3.6        | mmol/L          | normal
+2026-06-11   | sodium                       | 138        | mmol/L          | normal
+2026-01-17   | systolic blood pressure      | 112        | mmHg            | normal
+2026-01-17   | diastolic blood pressure     | 77         | mmHg            | normal
+2026-01-17   | bmi                          | 24.5       | kg/m2           | normal
+2026-01-17   | creatinine                   | 1.16       | mg/dL           | normal
+2026-01-17   | egfr                         | 95         | mL/min/1.73m2   | normal
+2026-01-17   | potassium                    | 3.8        | mmol/L          | normal
+2026-01-17   | sodium                       | 141        | mmol/L          | normal
+2026-01-17   | ldl cholesterol              | 91         | mg/dL           | normal
+2025-11-10   | systolic blood pressure      | 123        | mmHg            | normal
+2025-11-10   | diastolic blood pressure     | 73         | mmHg            | normal
+2025-11-10   | bmi                          | 22.7       | kg/m2           | normal
+2025-11-10   | creatinine                   | 0.99       | mg/dL           | normal
+2025-11-10   | egfr                         | 98         | mL/min/1.73m2   | normal
+2025-11-10   | potassium                    | 4.0        | mmol/L          | normal
+... [19 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-06-11 [E001205]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2026-01-17 [E001204]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+- Date:      2025-11-10 [E001203]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-09-03 [E001202]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+- Date:      2025-02-17 [E001201]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-11-10) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-11-10
+Patient: Daniel Tanaka (P0012)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old male with hyperlipidemia, coronary artery disease. Lipid panel reviewed: ldl cholesterol 70 mg/dL on 2025-11-10. Trying to limit fried food and red meat. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies headache, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- metoprolol 25 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 73 mmHg; bmi 22.7 kg/m2; creatinine 0.99 mg/dL; egfr 98 mL/min/1.73m2; potassium 4.0 mmol/L; ldl cholesterol 70 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Cardiology clinic note (2026-01-17) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2026-01-17
+Patient: Daniel Tanaka (P0012)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old male with coronary artery disease, hyperlipidemia. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation. Lipid panel reviewed: ldl cholesterol 91 mg/dL on 2026-01-17.
+
+REVIEW OF SYSTEMS:
+Denies fever, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- metoprolol 25 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 112 mmHg; diastolic blood pressure 77 mmHg; bmi 24.5 kg/m2; creatinine 1.16 mg/dL; egfr 95 mL/min/1.73m2; potassium 3.8 mmol/L; ldl cholesterol 91 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+
+--- Note 3: Primary care progress note (2026-06-11) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-06-11
+Patient: Daniel Tanaka (P0012)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old male with hyperlipidemia, coronary artery disease. Lipid panel reviewed: ldl cholesterol 91 mg/dL on 2026-01-17. Trying to limit fried food and red meat. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, dizziness, or palpitations.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- metoprolol 25 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 122 mmHg; diastolic blood pressure 80 mmHg; bmi 20.6 kg/m2; creatinine 0.74 mg/dL; egfr 88 mL/min/1.73m2; potassium 3.6 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

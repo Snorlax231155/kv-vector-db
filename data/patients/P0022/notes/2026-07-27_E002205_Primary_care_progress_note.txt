@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-07-27
+Patient: Daniel Iyer (P0022)
+
+CHIEF COMPLAINT:
+Anemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with anemia, gerd, obesity, hypothyroidism. Reports fatigue and reduced exercise tolerance. Hemoglobin 11.3 g/dl on 2026-07-27. Burning heartburn after large meals, worse when lying down at night.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- omeprazole 20 mg once daily before breakfast
+- levothyroxine 100 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 117 mmHg; diastolic blood pressure 70 mmHg; bmi 38.4 kg/m2; creatinine 0.92 mg/dL; egfr 101 mL/min/1.73m2; potassium 3.6 mmol/L; hemoglobin 11.3 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Anemia: Stable; continue current management and follow up in 3 months.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.
+3. Obesity: Stable; continue current management and follow up in 3 months.

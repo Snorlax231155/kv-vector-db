@@ -1,0 +1,27 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-09-10
+Patient: Omar Johnson (P0010)
+
+CHIEF COMPLAINT:
+Anemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+86-year-old male with anemia, coronary artery disease, hypertension. Reports fatigue and reduced exercise tolerance. Hemoglobin 9.3 g/dl on 2025-09-10. History of myocardial infarction treated with a stent; no angina since cardiac rehabilitation.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, shortness of breath at rest, or headache.
+
+CURRENT MEDICATIONS:
+- clopidogrel 75 mg once daily
+- losartan 100 mg once daily
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 152 mmHg; diastolic blood pressure 88 mmHg; bmi 21.0 kg/m2; creatinine 1.08 mg/dL; egfr 106 mL/min/1.73m2; potassium 4.2 mmol/L; ldl cholesterol 97 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Anemia: Stable; continue current management and follow up in 3 months.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.

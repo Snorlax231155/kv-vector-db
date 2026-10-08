@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Atherosclerotic heart disease of native coronary artery without angina pectoris
+  ICD-10-CM:   I25.10
+  Status:      active
+  Onset Date:  2023-01-27
+
+- Diagnosis:   Type 2 diabetes mellitus with diabetic chronic kidney disease
+  ICD-10-CM:   E11.22
+  Status:      active
+  Onset Date:  2017-07-21
+
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2015-10-06

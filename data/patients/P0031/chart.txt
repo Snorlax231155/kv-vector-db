@@ -1,0 +1,199 @@
+================================================================================
+PATIENT MEDICAL CHART: SAMUEL BANERJEE (P0031)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0031
+Full Name:       Samuel Banerjee
+Date of Birth:   1948-07-07
+Age:             77 years old
+Biological Sex:  Male
+Last Encounter:  2026-03-01
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Atherosclerotic heart disease of native coronary artery without angina pectoris
+  ICD-10-CM:   I25.10
+  Status:      active
+  Onset Date:  2014-06-26
+
+- Diagnosis:   Type 2 diabetes mellitus with diabetic chronic kidney disease
+  ICD-10-CM:   E11.22
+  Status:      active
+  Onset Date:  2016-06-25
+
+- Diagnosis:   Obstructive sleep apnea (adult) (pediatric)
+  ICD-10-CM:   G47.33
+  Status:      active
+  Onset Date:  2020-04-16
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Aspirin 81 mg (once daily)
+  Indication:  coronary artery disease
+  RxCUI:       1191
+  Start Date:  2020-08-31
+  Status:      Active
+
+- Metformin 1000 mg (twice daily)
+  Indication:  type 2 diabetes with diabetic chronic kidney disease
+  RxCUI:       6809
+  Start Date:  2021-07-06
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-03-01   | systolic blood pressure      | 123        | mmHg            | normal
+2026-03-01   | diastolic blood pressure     | 68         | mmHg            | normal
+2026-03-01   | bmi                          | 25.8       | kg/m2           | normal
+2026-03-01   | creatinine                   | 0.95       | mg/dL           | normal
+2026-03-01   | egfr                         | 101        | mL/min/1.73m2   | normal
+2026-03-01   | potassium                    | 4.1        | mmol/L          | normal
+2026-03-01   | sodium                       | 138        | mmol/L          | normal
+2026-03-01   | ldl cholesterol              | 74         | mg/dL           | normal
+2026-03-01   | hemoglobin a1c               | 9.1        | %               | high
+2026-03-01   | urine albumin-creatinine ratio | 154        | mg/g            | high
+2025-07-09   | systolic blood pressure      | 123        | mmHg            | normal
+2025-07-09   | diastolic blood pressure     | 70         | mmHg            | normal
+2025-07-09   | bmi                          | 25.5       | kg/m2           | normal
+2025-07-09   | creatinine                   | 0.84       | mg/dL           | normal
+2025-07-09   | egfr                         | 107        | mL/min/1.73m2   | normal
+2025-07-09   | potassium                    | 4.9        | mmol/L          | normal
+2025-07-09   | sodium                       | 137        | mmol/L          | normal
+2025-07-09   | hemoglobin a1c               | 7.2        | %               | high
+2025-07-09   | urine albumin-creatinine ratio | 72         | mg/g            | high
+2025-05-22   | systolic blood pressure      | 109        | mmHg            | normal
+2025-05-22   | diastolic blood pressure     | 78         | mmHg            | normal
+... [27 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-03-01 [E003105]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with diabetic chronic kidney disease follow-up
+
+- Date:      2025-07-09 [E003104]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+- Date:      2025-05-22 [E003103]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2025-05-16 [E003102]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with diabetic chronic kidney disease follow-up
+
+- Date:      2024-12-14 [E003101]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Sleep medicine note (2025-05-22) ---
+SLEEP MEDICINE NOTE
+Date: 2025-05-22
+Patient: Samuel Banerjee (P0031)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+78-year-old male with obstructive sleep apnea, coronary artery disease, type 2 diabetes with diabetic chronic kidney disease. Uses CPAP about 6 hours per night; daytime sleepiness improved. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies fever, palpitations, or headache.
+
+CURRENT MEDICATIONS:
+- aspirin 81 mg once daily
+- metformin 1000 mg twice daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 109 mmHg; diastolic blood pressure 78 mmHg; bmi 21.2 kg/m2; creatinine 0.64 mg/dL; egfr 81 mL/min/1.73m2; potassium 4.6 mmol/L; ldl cholesterol 98 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Type 2 diabetes with diabetic chronic kidney disease: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+
+--- Note 2: Cardiology clinic note (2025-07-09) ---
+CARDIOLOGY CLINIC NOTE
+Date: 2025-07-09
+Patient: Samuel Banerjee (P0031)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+78-year-old male with coronary artery disease, type 2 diabetes with diabetic chronic kidney disease, obstructive sleep apnea. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 130 and 161 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, fever, or headache.
+
+CURRENT MEDICATIONS:
+- aspirin 81 mg once daily
+- metformin 1000 mg twice daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 70 mmHg; bmi 25.5 kg/m2; creatinine 0.84 mg/dL; egfr 107 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin a1c 7.2%.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Endocrinology follow-up note (2026-03-01) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-03-01
+Patient: Samuel Banerjee (P0031)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with diabetic chronic kidney disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+78-year-old male with type 2 diabetes with diabetic chronic kidney disease, coronary artery disease, obstructive sleep apnea. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 126 and 156 mg/dL. Most recent hemoglobin a1c 9.1% on 2026-03-01. Walking 20 minutes most days and has cut back on sweetened tea. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies headache, leg swelling, or chest pain.
+
+CURRENT MEDICATIONS:
+- aspirin 81 mg once daily
+- metformin 1000 mg twice daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 68 mmHg; bmi 25.8 kg/m2; creatinine 0.95 mg/dL; egfr 101 mL/min/1.73m2; potassium 4.1 mmol/L; ldl cholesterol 74 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with diabetic chronic kidney disease: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-31 [E001804]
+  Type:      Primary care progress note
+  Reason:    osteoporosis follow-up
+
+- Date:      2026-02-18 [E001803]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2025-09-02 [E001802]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-07-24 [E001801]
+  Type:      Primary care progress note
+  Reason:    osteoporosis follow-up

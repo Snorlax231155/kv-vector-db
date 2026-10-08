@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Simvastatin 40 mg (at bedtime)
+  Indication:  hyperlipidemia
+  RxCUI:       36567
+  Start Date:  2022-02-23
+  Status:      Active
+
+- Hydrochlorothiazide 25 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       5487
+  Start Date:  2022-10-20
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

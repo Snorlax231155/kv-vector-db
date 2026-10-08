@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Levothyroxine 75 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2019-09-18
+  Status:      Active
+
+- Glipizide 10 mg (once daily before breakfast)
+  Indication:  type 2 diabetes
+  RxCUI:       4821
+  Start Date:  2018-07-03
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

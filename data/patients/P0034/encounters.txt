@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2025-10-03 [E003403]
+  Type:      Primary care progress note
+  Reason:    obesity follow-up
+
+- Date:      2025-05-20 [E003402]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-03-12 [E003401]
+  Type:      Nephrology consult note
+  Reason:    chronic kidney disease stage 3 follow-up

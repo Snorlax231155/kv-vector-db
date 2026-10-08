@@ -1,0 +1,210 @@
+================================================================================
+PATIENT MEDICAL CHART: DANIEL SILVA (P0034)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0034
+Full Name:       Daniel Silva
+Date of Birth:   1945-12-11
+Age:             79 years old
+Biological Sex:  Male
+Last Encounter:  2025-10-03
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: lisinopril
+  Reaction:  angioedema
+  Severity:  severe
+
+- Substance: shellfish
+  Reaction:  lip swelling
+  Severity:  severe
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Chronic kidney disease, stage 3 unspecified
+  ICD-10-CM:   N18.30
+  Status:      active
+  Onset Date:  2017-09-16
+
+- Diagnosis:   Hypothyroidism, unspecified
+  ICD-10-CM:   E03.9
+  Status:      active
+  Onset Date:  2022-09-06
+
+- Diagnosis:   Obesity, unspecified
+  ICD-10-CM:   E66.9
+  Status:      active
+  Onset Date:  2014-02-20
+
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2019-02-24
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Losartan 50 mg (once daily)
+  Indication:  chronic kidney disease stage 3
+  RxCUI:       52175
+  Start Date:  2020-11-15
+  Status:      Active
+
+- Levothyroxine 100 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2025-05-17
+  Status:      Active
+
+- Metformin 850 mg (twice daily)
+  Indication:  type 2 diabetes
+  RxCUI:       6809
+  Start Date:  2023-12-26
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2025-10-03   | systolic blood pressure      | 114        | mmHg            | normal
+2025-10-03   | diastolic blood pressure     | 79         | mmHg            | normal
+2025-10-03   | bmi                          | 36.5       | kg/m2           | high
+2025-10-03   | creatinine                   | 1.84       | mg/dL           | high
+2025-10-03   | egfr                         | 42         | mL/min/1.73m2   | low
+2025-10-03   | potassium                    | 4.1        | mmol/L          | normal
+2025-10-03   | sodium                       | 144        | mmol/L          | normal
+2025-10-03   | urine albumin-creatinine ratio | 41         | mg/g            | high
+2025-10-03   | hemoglobin a1c               | 7.0        | %               | high
+2025-10-03   | fasting glucose              | 169        | mg/dL           | high
+2025-05-20   | systolic blood pressure      | 112        | mmHg            | normal
+2025-05-20   | diastolic blood pressure     | 79         | mmHg            | normal
+2025-05-20   | bmi                          | 34.5       | kg/m2           | high
+2025-05-20   | creatinine                   | 1.56       | mg/dL           | high
+2025-05-20   | egfr                         | 43         | mL/min/1.73m2   | low
+2025-05-20   | potassium                    | 3.8        | mmol/L          | normal
+2025-05-20   | sodium                       | 144        | mmol/L          | normal
+2025-05-20   | tsh                          | 4.94       | mIU/L           | high
+2025-05-20   | hemoglobin a1c               | 7.8        | %               | high
+2025-05-20   | fasting glucose              | 141        | mg/dL           | high
+2025-03-12   | systolic blood pressure      | 111        | mmHg            | normal
+... [9 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2025-10-03 [E003403]
+  Type:      Primary care progress note
+  Reason:    obesity follow-up
+
+- Date:      2025-05-20 [E003402]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-03-12 [E003401]
+  Type:      Nephrology consult note
+  Reason:    chronic kidney disease stage 3 follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Nephrology consult note (2025-03-12) ---
+NEPHROLOGY CONSULT NOTE
+Date: 2025-03-12
+Patient: Daniel Silva (P0034)
+
+CHIEF COMPLAINT:
+Chronic kidney disease stage 3 follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+80-year-old male with chronic kidney disease stage 3, hypothyroidism, obesity, type 2 diabetes. Kidney function: egfr 44 mL/min/1.73m2 and creatinine 1.89 mg/dL on 2025-03-12. No edema or change in urine output reported. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements.
+
+REVIEW OF SYSTEMS:
+Denies fever, leg swelling, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- metformin 850 mg twice daily
+
+ALLERGIES:
+lisinopril (angioedema); shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 80 mmHg; bmi 33.1 kg/m2; creatinine 1.89 mg/dL; egfr 44 mL/min/1.73m2; potassium 4.2 mmol/L; tsh 3.05 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Chronic kidney disease stage 3: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Obesity: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Primary care progress note (2025-05-20) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-05-20
+Patient: Daniel Silva (P0034)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+80-year-old male with hypothyroidism, chronic kidney disease stage 3, obesity, type 2 diabetes. Fatigue and cold intolerance have improved since levothyroxine was adjusted. Most recent tsh 4.94 mIU/L on 2025-05-20. Kidney function: egfr 43 mL/min/1.73m2 and creatinine 1.56 mg/dL on 2025-05-20.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or dizziness.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- levothyroxine 100 mcg once daily before breakfast
+- metformin 850 mg twice daily
+
+ALLERGIES:
+lisinopril (angioedema); shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 112 mmHg; diastolic blood pressure 79 mmHg; bmi 34.5 kg/m2; creatinine 1.56 mg/dL; egfr 43 mL/min/1.73m2; potassium 3.8 mmol/L; tsh 4.94 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Chronic kidney disease stage 3: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+3. Obesity: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Primary care progress note (2025-10-03) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-10-03
+Patient: Daniel Silva (P0034)
+
+CHIEF COMPLAINT:
+Obesity follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+80-year-old male with obesity, chronic kidney disease stage 3, hypothyroidism, type 2 diabetes. Discussed nutrition and a gradual increase in physical activity. BMI 36.5 kg/m2. Kidney function: egfr 42 mL/min/1.73m2 and creatinine 1.84 mg/dL on 2025-10-03.
+
+REVIEW OF SYSTEMS:
+Denies headache, leg swelling, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- levothyroxine 100 mcg once daily before breakfast
+- metformin 850 mg twice daily
+
+ALLERGIES:
+lisinopril (angioedema); shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 114 mmHg; diastolic blood pressure 79 mmHg; bmi 36.5 kg/m2; creatinine 1.84 mg/dL; egfr 42 mL/min/1.73m2; potassium 4.1 mmol/L; urine albumin-creatinine ratio 41 mg/g.
+
+ASSESSMENT AND PLAN:
+1. Obesity: Stable; continue current management and follow up in 3 months.
+2. Chronic kidney disease stage 3: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+
+================================================================================
+[END OF CHART]

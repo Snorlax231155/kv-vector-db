@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Empagliflozin 25 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       1545653
+  Start Date:  2025-09-11
+  Status:      Active
+
+- Hydrochlorothiazide 12.5 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       5487
+  Start Date:  2020-06-09
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

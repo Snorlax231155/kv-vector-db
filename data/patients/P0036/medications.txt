@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Ibuprofen 400 mg (as needed)
+  Indication:  knee osteoarthritis
+  RxCUI:       5640
+  Start Date:  2023-07-25
+  Status:      Active
+
+- Amlodipine 5 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       17767
+  Start Date:  2018-01-12
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

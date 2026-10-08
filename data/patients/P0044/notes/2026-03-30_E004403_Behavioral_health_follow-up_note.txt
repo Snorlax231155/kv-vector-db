@@ -1,0 +1,29 @@
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-03-30
+Patient: Rahul Kim (P0044)
+
+CHIEF COMPLAINT:
+Generalized anxiety disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old male with generalized anxiety disorder, hypothyroidism, hypertension, knee osteoarthritis. Worry is less intrusive; using breathing exercises before work meetings. Fatigue and cold intolerance have improved since levothyroxine was adjusted.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, abdominal pain, or dizziness.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- losartan 100 mg once daily
+- sertraline 50 mg once daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+shellfish (lip swelling); codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 140 mmHg; diastolic blood pressure 86 mmHg; bmi 23.9 kg/m2; creatinine 1.16 mg/dL; egfr 97 mL/min/1.73m2; potassium 4.4 mmol/L; tsh 7.02 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+2. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.

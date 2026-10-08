@@ -1,0 +1,29 @@
+PULMONOLOGY CLINIC NOTE
+Date: 2025-09-03
+Patient: Karan Haddad (P0030)
+
+CHIEF COMPLAINT:
+Asthma follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+78-year-old male with asthma, hyperlipidemia, type 2 diabetes with hyperglycemia, chronic kidney disease stage 3. Reports nighttime cough about twice a week and uses the rescue inhaler three or four times a week. No emergency visits or oral steroid courses in the past year. Lipid panel reviewed: ldl cholesterol 169 mg/dL on 2025-09-03.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or palpitations.
+
+CURRENT MEDICATIONS:
+- rosuvastatin 20 mg once daily
+- montelukast 10 mg once daily in the evening
+- insulin glargine 24 units at bedtime
+- losartan 50 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 124 mmHg; diastolic blood pressure 79 mmHg; bmi 23.9 kg/m2; creatinine 1.57 mg/dL; egfr 40 mL/min/1.73m2; potassium 4.9 mmol/L; ldl cholesterol 169 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+2. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+3. Type 2 diabetes with hyperglycemia: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.

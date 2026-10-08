@@ -1,0 +1,193 @@
+================================================================================
+PATIENT MEDICAL CHART: PRIYA TANAKA (P0036)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0036
+Full Name:       Priya Tanaka
+Date of Birth:   1945-07-01
+Age:             80 years old
+Biological Sex:  Female
+Last Encounter:  2025-09-09
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: codeine
+  Reaction:  nausea and vomiting
+  Severity:  mild
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Osteoarthritis of knee, unspecified
+  ICD-10-CM:   M17.9
+  Status:      active
+  Onset Date:  2021-12-20
+
+- Diagnosis:   Anemia, unspecified
+  ICD-10-CM:   D64.9
+  Status:      active
+  Onset Date:  2012-07-30
+
+- Diagnosis:   Essential (primary) hypertension
+  ICD-10-CM:   I10
+  Status:      active
+  Onset Date:  2014-08-05
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Ibuprofen 400 mg (as needed)
+  Indication:  knee osteoarthritis
+  RxCUI:       5640
+  Start Date:  2023-07-25
+  Status:      Active
+
+- Amlodipine 5 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       17767
+  Start Date:  2018-01-12
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2025-09-09   | systolic blood pressure      | 148        | mmHg            | high
+2025-09-09   | diastolic blood pressure     | 95         | mmHg            | high
+2025-09-09   | bmi                          | 24.7       | kg/m2           | normal
+2025-09-09   | creatinine                   | 1.15       | mg/dL           | normal
+2025-09-09   | egfr                         | 79         | mL/min/1.73m2   | normal
+2025-09-09   | potassium                    | 4.2        | mmol/L          | normal
+2025-09-09   | sodium                       | 141        | mmol/L          | normal
+2025-09-09   | hemoglobin                   | 10.4       | g/dL            | low
+2025-06-25   | systolic blood pressure      | 132        | mmHg            | high
+2025-06-25   | diastolic blood pressure     | 84         | mmHg            | high
+2025-06-25   | bmi                          | 22.8       | kg/m2           | normal
+2025-06-25   | creatinine                   | 0.67       | mg/dL           | normal
+2025-06-25   | egfr                         | 76         | mL/min/1.73m2   | normal
+2025-06-25   | potassium                    | 3.8        | mmol/L          | normal
+2025-06-25   | sodium                       | 143        | mmol/L          | normal
+2025-06-25   | hemoglobin                   | 9.4        | g/dL            | low
+2025-01-12   | systolic blood pressure      | 156        | mmHg            | high
+2025-01-12   | diastolic blood pressure     | 96         | mmHg            | high
+2025-01-12   | bmi                          | 21.8       | kg/m2           | normal
+2025-01-12   | creatinine                   | 0.87       | mg/dL           | normal
+2025-01-12   | egfr                         | 102        | mL/min/1.73m2   | normal
+... [3 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2025-09-09 [E003603]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-06-25 [E003602]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+- Date:      2025-01-12 [E003601]
+  Type:      Orthopedics clinic note
+  Reason:    knee osteoarthritis follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Orthopedics clinic note (2025-01-12) ---
+ORTHOPEDICS CLINIC NOTE
+Date: 2025-01-12
+Patient: Priya Tanaka (P0036)
+
+CHIEF COMPLAINT:
+Knee osteoarthritis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+81-year-old female with knee osteoarthritis, anemia, hypertension. Bilateral knee pain limits walking to about 15 minutes. Reports fatigue and reduced exercise tolerance. Hemoglobin 9.8 g/dl on 2025-01-12.
+
+REVIEW OF SYSTEMS:
+Denies fever, dizziness, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- ibuprofen 400 mg as needed
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 156 mmHg; diastolic blood pressure 96 mmHg; bmi 21.8 kg/m2; creatinine 0.87 mg/dL; egfr 102 mL/min/1.73m2; potassium 3.6 mmol/L; hemoglobin 9.8 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+
+--- Note 2: Primary care progress note (2025-06-25) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-06-25
+Patient: Priya Tanaka (P0036)
+
+CHIEF COMPLAINT:
+Anemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+81-year-old female with anemia, knee osteoarthritis, hypertension. Reports fatigue and reduced exercise tolerance. Hemoglobin 9.4 g/dl on 2025-06-25. Bilateral knee pain limits walking to about 15 minutes.
+
+REVIEW OF SYSTEMS:
+Denies headache, chest pain, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- ibuprofen 400 mg as needed
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 132 mmHg; diastolic blood pressure 84 mmHg; bmi 22.8 kg/m2; creatinine 0.67 mg/dL; egfr 76 mL/min/1.73m2; potassium 3.8 mmol/L; hemoglobin 9.4 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Anemia: Stable; continue current management and follow up in 3 months.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+
+--- Note 3: Primary care progress note (2025-09-09) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-09-09
+Patient: Priya Tanaka (P0036)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+81-year-old female with hypertension, knee osteoarthritis, anemia. Blood pressure today 148/95 mmHg. Occasional morning headaches, no vision changes. Right knee pain worse with stairs and after prolonged standing; morning stiffness under 30 minutes.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- ibuprofen 400 mg as needed
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 148 mmHg; diastolic blood pressure 95 mmHg; bmi 24.7 kg/m2; creatinine 1.15 mg/dL; egfr 79 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin 10.4 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+3. Anemia: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

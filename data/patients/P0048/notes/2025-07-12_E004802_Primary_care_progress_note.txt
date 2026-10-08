@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-07-12
+Patient: Sofia Verma (P0048)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+84-year-old female with hyperlipidemia, type 2 diabetes, generalized anxiety disorder. Trying to limit fried food and red meat. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 126 and 183 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, palpitations, or headache.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 20 mg once daily
+- sertraline 100 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 68 mmHg; bmi 21.2 kg/m2; creatinine 0.77 mg/dL; egfr 80 mL/min/1.73m2; potassium 4.1 mmol/L; hemoglobin a1c 9.3%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.

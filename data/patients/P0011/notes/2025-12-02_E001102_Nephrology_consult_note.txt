@@ -1,0 +1,25 @@
+NEPHROLOGY CONSULT NOTE
+Date: 2025-12-02
+Patient: James Menon (P0011)
+
+CHIEF COMPLAINT:
+Chronic kidney disease stage 4 follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old male with chronic kidney disease stage 4, copd. Kidney function: egfr 19 mL/min/1.73m2 and creatinine 2.64 mg/dL on 2025-12-02. No edema or change in urine output reported. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, headache, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+
+ALLERGIES:
+latex (contact dermatitis); sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 125 mmHg; diastolic blood pressure 75 mmHg; bmi 24.4 kg/m2; creatinine 2.64 mg/dL; egfr 19 mL/min/1.73m2; potassium 4.9 mmol/L; urine albumin-creatinine ratio 22 mg/g.
+
+ASSESSMENT AND PLAN:
+1. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+2. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.

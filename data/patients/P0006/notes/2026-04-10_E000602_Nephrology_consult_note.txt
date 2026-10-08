@@ -1,0 +1,28 @@
+NEPHROLOGY CONSULT NOTE
+Date: 2026-04-10
+Patient: Michael Reddy (P0006)
+
+CHIEF COMPLAINT:
+Chronic kidney disease stage 4 follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with chronic kidney disease stage 4, type 2 diabetes with diabetic chronic kidney disease, heart failure. Kidney function: egfr 27 mL/min/1.73m2 and creatinine 3.37 mg/dL on 2026-04-10. No edema or change in urine output reported. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, fever, or abdominal pain.
+
+CURRENT MEDICATIONS:
+- insulin glargine 24 units at bedtime
+- furosemide 40 mg once daily
+- carvedilol 6.25 mg twice daily
+
+ALLERGIES:
+aspirin (wheezing); lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 122 mmHg; diastolic blood pressure 69 mmHg; bmi 24.3 kg/m2; creatinine 3.37 mg/dL; egfr 27 mL/min/1.73m2; potassium 5.0 mmol/L; hemoglobin a1c 8.6%.
+
+ASSESSMENT AND PLAN:
+1. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+2. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.

@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-07-26 [E001604]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+- Date:      2026-01-08 [E001603]
+  Type:      Cardiology clinic note
+  Reason:    heart failure follow-up
+
+- Date:      2025-07-15 [E001602]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-01-14 [E001601]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up

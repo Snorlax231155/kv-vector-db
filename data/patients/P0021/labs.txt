@@ -1,0 +1,36 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-07-30   | systolic blood pressure      | 125        | mmHg            | normal
+2026-07-30   | diastolic blood pressure     | 71         | mmHg            | normal
+2026-07-30   | bmi                          | 23.1       | kg/m2           | normal
+2026-07-30   | creatinine                   | 0.84       | mg/dL           | normal
+2026-07-30   | egfr                         | 88         | mL/min/1.73m2   | normal
+2026-07-30   | potassium                    | 4.2        | mmol/L          | normal
+2026-07-30   | sodium                       | 140        | mmol/L          | normal
+2026-07-30   | bnp                          | 765        | pg/mL           | high
+2025-11-02   | systolic blood pressure      | 108        | mmHg            | normal
+2025-11-02   | diastolic blood pressure     | 82         | mmHg            | normal
+2025-11-02   | bmi                          | 23.0       | kg/m2           | normal
+2025-11-02   | creatinine                   | 0.98       | mg/dL           | normal
+2025-11-02   | egfr                         | 103        | mL/min/1.73m2   | normal
+2025-11-02   | potassium                    | 3.7        | mmol/L          | normal
+2025-11-02   | sodium                       | 143        | mmol/L          | normal
+2025-11-02   | bnp                          | 586        | pg/mL           | high
+2025-08-02   | systolic blood pressure      | 118        | mmHg            | normal
+2025-08-02   | diastolic blood pressure     | 73         | mmHg            | normal
+2025-08-02   | bmi                          | 23.6       | kg/m2           | normal
+2025-08-02   | creatinine                   | 0.82       | mg/dL           | normal
+2025-08-02   | egfr                         | 92         | mL/min/1.73m2   | normal
+2025-08-02   | potassium                    | 3.8        | mmol/L          | normal
+2025-08-02   | sodium                       | 139        | mmol/L          | normal
+2025-08-02   | bnp                          | 684        | pg/mL           | high
+2025-04-23   | systolic blood pressure      | 109        | mmHg            | normal
+2025-04-23   | diastolic blood pressure     | 77         | mmHg            | normal
+2025-04-23   | bmi                          | 22.1       | kg/m2           | normal
+2025-04-23   | creatinine                   | 0.94       | mg/dL           | normal
+2025-04-23   | egfr                         | 79         | mL/min/1.73m2   | normal
+2025-04-23   | potassium                    | 3.9        | mmol/L          | normal
+2025-04-23   | sodium                       | 138        | mmol/L          | normal
+2025-04-23   | bnp                          | 761        | pg/mL           | high

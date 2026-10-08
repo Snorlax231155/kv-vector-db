@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2025-08-18 [E003203]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2025-06-19 [E003202]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-04-27 [E003201]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up

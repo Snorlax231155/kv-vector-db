@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0021
+Full Name:       Michael Ali
+Date of Birth:   1953-03-25
+Age:             73 years old
+Biological Sex:  Male
+Last Encounter:  2026-07-30

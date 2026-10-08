@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-09-06 [E002803]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+- Date:      2025-06-09 [E002802]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+- Date:      2024-12-09 [E002801]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up

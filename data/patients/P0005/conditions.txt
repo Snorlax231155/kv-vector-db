@@ -1,0 +1,21 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Chronic obstructive pulmonary disease, unspecified
+  ICD-10-CM:   J44.9
+  Status:      active
+  Onset Date:  2022-07-30
+
+- Diagnosis:   Atherosclerotic heart disease of native coronary artery without angina pectoris
+  ICD-10-CM:   I25.10
+  Status:      active
+  Onset Date:  2017-07-27
+
+- Diagnosis:   Old myocardial infarction
+  ICD-10-CM:   I25.2
+  Status:      active
+  Onset Date:  2016-11-16
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2016-02-04

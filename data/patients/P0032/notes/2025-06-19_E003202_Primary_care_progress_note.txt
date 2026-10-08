@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-06-19
+Patient: Sanjay Brown (P0032)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+54-year-old male with hyperlipidemia, type 2 diabetes, migraine. Lipid panel reviewed: ldl cholesterol 141 mg/dL on 2025-06-19. Trying to limit fried food and red meat. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- atorvastatin 40 mg once daily
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 67 mmHg; bmi 25.2 kg/m2; creatinine 1.08 mg/dL; egfr 83 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 6.9%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Migraine: Stable; continue current management and follow up in 3 months.

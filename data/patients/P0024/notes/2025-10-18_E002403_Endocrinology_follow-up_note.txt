@@ -1,0 +1,26 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-10-18
+Patient: Hannah Kowalski (P0024)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+76-year-old female with type 2 diabetes, hypertension. Here for routine diabetes care. Checks fingerstick glucose a few times a week; readings have been slightly above goal. Most recent hemoglobin a1c 8.8% on 2025-10-18. Walking 20 minutes most days and has cut back on sweetened tea. Blood pressure today 147/85 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies fever, abdominal pain, or palpitations.
+
+CURRENT MEDICATIONS:
+- empagliflozin 25 mg once daily
+- hydrochlorothiazide 12.5 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 147 mmHg; diastolic blood pressure 85 mmHg; bmi 22.9 kg/m2; creatinine 0.95 mg/dL; egfr 75 mL/min/1.73m2; potassium 4.3 mmol/L; hemoglobin a1c 8.8%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

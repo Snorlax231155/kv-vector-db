@@ -1,0 +1,43 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-03-08   | systolic blood pressure      | 156        | mmHg            | high
+2026-03-08   | diastolic blood pressure     | 84         | mmHg            | high
+2026-03-08   | bmi                          | 24.7       | kg/m2           | normal
+2026-03-08   | creatinine                   | 0.97       | mg/dL           | normal
+2026-03-08   | egfr                         | 97         | mL/min/1.73m2   | normal
+2026-03-08   | potassium                    | 5.0        | mmol/L          | normal
+2026-03-08   | sodium                       | 138        | mmol/L          | normal
+2026-03-08   | hemoglobin a1c               | 8.9        | %               | high
+2026-03-08   | fasting glucose              | 206        | mg/dL           | high
+2026-03-08   | urine albumin-creatinine ratio | 48         | mg/g            | high
+2025-10-18   | systolic blood pressure      | 147        | mmHg            | high
+2025-10-18   | diastolic blood pressure     | 85         | mmHg            | high
+2025-10-18   | bmi                          | 22.9       | kg/m2           | normal
+2025-10-18   | creatinine                   | 0.95       | mg/dL           | normal
+2025-10-18   | egfr                         | 75         | mL/min/1.73m2   | normal
+2025-10-18   | potassium                    | 4.3        | mmol/L          | normal
+2025-10-18   | sodium                       | 141        | mmol/L          | normal
+2025-10-18   | hemoglobin a1c               | 8.8        | %               | high
+2025-10-18   | fasting glucose              | 208        | mg/dL           | high
+2025-10-18   | urine albumin-creatinine ratio | 52         | mg/g            | high
+2025-01-15   | systolic blood pressure      | 153        | mmHg            | high
+2025-01-15   | diastolic blood pressure     | 86         | mmHg            | high
+2025-01-15   | bmi                          | 22.6       | kg/m2           | normal
+2025-01-15   | creatinine                   | 0.61       | mg/dL           | normal
+2025-01-15   | egfr                         | 98         | mL/min/1.73m2   | normal
+2025-01-15   | potassium                    | 3.9        | mmol/L          | normal
+2025-01-15   | sodium                       | 137        | mmol/L          | normal
+2025-01-15   | hemoglobin a1c               | 8.8        | %               | high
+2025-01-15   | fasting glucose              | 139        | mg/dL           | high
+2024-11-16   | systolic blood pressure      | 148        | mmHg            | high
+2024-11-16   | diastolic blood pressure     | 95         | mmHg            | high
+2024-11-16   | bmi                          | 24.8       | kg/m2           | normal
+2024-11-16   | creatinine                   | 0.95       | mg/dL           | normal
+2024-11-16   | egfr                         | 102        | mL/min/1.73m2   | normal
+2024-11-16   | potassium                    | 4.4        | mmol/L          | normal
+2024-11-16   | sodium                       | 138        | mmol/L          | normal
+2024-11-16   | hemoglobin a1c               | 6.8        | %               | high
+2024-11-16   | fasting glucose              | 201        | mg/dL           | high
+2024-11-16   | urine albumin-creatinine ratio | 35         | mg/g            | high

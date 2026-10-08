@@ -1,0 +1,28 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-02-23
+Patient: Michael Reddy (P0006)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with diabetic chronic kidney disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with type 2 diabetes with diabetic chronic kidney disease, chronic kidney disease stage 4, heart failure. Here for routine diabetes care. Checks fingerstick glucose a few times a week; readings have been slightly above goal. Most recent hemoglobin a1c 8.9% on 2026-02-23. Notes increased thirst and getting up twice a night to urinate. Kidney function: egfr 18 mL/min/1.73m2 and creatinine 3.21 mg/dL on 2026-02-23.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, fever, or dizziness.
+
+CURRENT MEDICATIONS:
+- insulin glargine 24 units at bedtime
+- furosemide 40 mg once daily
+- carvedilol 6.25 mg twice daily
+
+ALLERGIES:
+aspirin (wheezing); lisinopril (angioedema)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 117 mmHg; diastolic blood pressure 72 mmHg; bmi 24.8 kg/m2; creatinine 3.21 mg/dL; egfr 18 mL/min/1.73m2; potassium 5.2 mmol/L; hemoglobin a1c 8.9%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.

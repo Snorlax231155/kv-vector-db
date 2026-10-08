@@ -1,0 +1,29 @@
+NEPHROLOGY CONSULT NOTE
+Date: 2026-06-08
+Patient: Karan Haddad (P0030)
+
+CHIEF COMPLAINT:
+Chronic kidney disease stage 3 follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+78-year-old male with chronic kidney disease stage 3, hyperlipidemia, asthma, type 2 diabetes with hyperglycemia. Kidney function: egfr 40 mL/min/1.73m2 and creatinine 1.8 mg/dL on 2026-06-08. Referred to nephrology for co-management; discussed limiting high-sodium processed foods. Lipid panel reviewed: ldl cholesterol 120 mg/dL on 2026-06-08.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, dizziness, or headache.
+
+CURRENT MEDICATIONS:
+- rosuvastatin 20 mg once daily
+- montelukast 10 mg once daily in the evening
+- insulin glargine 24 units at bedtime
+- losartan 50 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 121 mmHg; diastolic blood pressure 71 mmHg; bmi 22.8 kg/m2; creatinine 1.8 mg/dL; egfr 40 mL/min/1.73m2; potassium 4.0 mmol/L; ldl cholesterol 120 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Chronic kidney disease stage 3: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+3. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.

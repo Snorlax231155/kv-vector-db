@@ -1,0 +1,28 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-04-27
+Patient: Sanjay Brown (P0032)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+54-year-old male with type 2 diabetes, hyperlipidemia, migraine. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been slightly above goal. Most recent hemoglobin a1c 7.9% on 2025-04-27. Denies hypoglycemic episodes; admits to dietary lapses over the holidays. Tolerating statin therapy without muscle aches.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- atorvastatin 40 mg once daily
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 116 mmHg; diastolic blood pressure 74 mmHg; bmi 20.8 kg/m2; creatinine 0.69 mg/dL; egfr 97 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 7.9%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+3. Migraine: Stable; continue current management and follow up in 3 months.

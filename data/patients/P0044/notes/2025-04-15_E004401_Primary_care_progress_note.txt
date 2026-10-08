@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-04-15
+Patient: Rahul Kim (P0044)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+89-year-old male with hypothyroidism, hypertension, generalized anxiety disorder, knee osteoarthritis. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements. Most recent tsh 7.12 mIU/L on 2025-04-15. Blood pressure today 145/88 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, shortness of breath at rest, or chest pain.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- losartan 100 mg once daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+shellfish (lip swelling); codeine (nausea and vomiting)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 145 mmHg; diastolic blood pressure 88 mmHg; bmi 22.0 kg/m2; creatinine 1.18 mg/dL; egfr 89 mL/min/1.73m2; potassium 3.8 mmol/L; tsh 7.12 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.

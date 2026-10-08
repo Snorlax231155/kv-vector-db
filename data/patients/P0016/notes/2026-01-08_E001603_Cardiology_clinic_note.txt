@@ -1,0 +1,28 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2026-01-08
+Patient: Vikram Das (P0016)
+
+CHIEF COMPLAINT:
+Heart failure follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+63-year-old male with heart failure, type 2 diabetes, hypertension. Mild shortness of breath walking to the mailbox; ankle swelling improves overnight. BNP 460 pg/mL measured on 2026-01-08. Advised daily weights and to call if weight increases more than 2 to 3 pounds in a day. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been variable.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, abdominal pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- glipizide 10 mg once daily before breakfast
+- amlodipine 5 mg once daily
+- spironolactone 25 mg once daily
+
+ALLERGIES:
+aspirin (wheezing)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 149 mmHg; diastolic blood pressure 94 mmHg; bmi 24.7 kg/m2; creatinine 1.06 mg/dL; egfr 109 mL/min/1.73m2; potassium 3.9 mmol/L; hemoglobin a1c 7.2%.
+
+ASSESSMENT AND PLAN:
+1. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

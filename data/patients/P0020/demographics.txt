@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0020
+Full Name:       Zara Ali
+Date of Birth:   1960-09-13
+Age:             65 years old
+Biological Sex:  Female
+Last Encounter:  2026-07-05

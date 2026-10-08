@@ -1,0 +1,24 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-09-23
+Patient: Aditya Okafor (P0046)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old male with hypertension. Blood pressure today 134/85 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, fever, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- lisinopril 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 134 mmHg; diastolic blood pressure 85 mmHg; bmi 22.8 kg/m2; creatinine 0.73 mg/dL; egfr 90 mL/min/1.73m2; potassium 5.0 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.

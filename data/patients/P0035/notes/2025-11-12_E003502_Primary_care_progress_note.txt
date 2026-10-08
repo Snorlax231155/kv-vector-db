@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-11-12
+Patient: Daniel Fischer (P0035)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+47-year-old male with hypothyroidism, hypertension, obstructive sleep apnea. Takes levothyroxine on an empty stomach before breakfast, separate from calcium supplements. Most recent tsh 6.57 mIU/L on 2025-11-12. Blood pressure today 150/92 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies headache, fever, or dizziness.
+
+CURRENT MEDICATIONS:
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 150 mmHg; diastolic blood pressure 92 mmHg; bmi 24.7 kg/m2; creatinine 0.81 mg/dL; egfr 101 mL/min/1.73m2; potassium 4.0 mmol/L; tsh 6.57 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.

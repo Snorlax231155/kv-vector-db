@@ -1,0 +1,24 @@
+PULMONOLOGY CLINIC NOTE
+Date: 2026-02-26
+Patient: Samuel Verma (P0026)
+
+CHIEF COMPLAINT:
+Asthma follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+60-year-old male with asthma. Reports nighttime cough about twice a week and uses the rescue inhaler three or four times a week. No emergency visits or oral steroid courses in the past year.
+
+REVIEW OF SYSTEMS:
+Denies headache, leg swelling, or fever.
+
+CURRENT MEDICATIONS:
+- albuterol 90 mcg/actuation, 2 puffs every 4 to 6 hours as needed
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 112 mmHg; diastolic blood pressure 73 mmHg; bmi 25.0 kg/m2; creatinine 0.79 mg/dL; egfr 109 mL/min/1.73m2; potassium 3.9 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.

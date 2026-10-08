@@ -1,0 +1,9 @@
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: shellfish
+  Reaction:  lip swelling
+  Severity:  severe
+
+- Substance: codeine
+  Reaction:  nausea and vomiting
+  Severity:  mild

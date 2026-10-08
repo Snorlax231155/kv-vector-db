@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-08-29
+Patient: Luis Nair (P0009)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+77-year-old male with hypertension, type 2 diabetes, knee osteoarthritis. Blood pressure today 137/86 mmHg. Reports adherence to his antihypertensive regimen and a low-salt diet most days. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 129 and 176 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies fever, headache, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- ibuprofen 400 mg as needed
+- hydrochlorothiazide 25 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 137 mmHg; diastolic blood pressure 86 mmHg; bmi 24.6 kg/m2; creatinine 0.72 mg/dL; egfr 77 mL/min/1.73m2; potassium 4.9 mmol/L; hemoglobin a1c 9.3%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.

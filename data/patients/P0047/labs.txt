@@ -1,0 +1,43 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-09-02   | systolic blood pressure      | 127        | mmHg            | normal
+2026-09-02   | diastolic blood pressure     | 73         | mmHg            | normal
+2026-09-02   | bmi                          | 24.4       | kg/m2           | normal
+2026-09-02   | creatinine                   | 0.7        | mg/dL           | normal
+2026-09-02   | egfr                         | 89         | mL/min/1.73m2   | normal
+2026-09-02   | potassium                    | 4.5        | mmol/L          | normal
+2026-09-02   | sodium                       | 142        | mmol/L          | normal
+2026-09-02   | ldl cholesterol              | 68         | mg/dL           | low
+2026-09-02   | hemoglobin a1c               | 8.4        | %               | high
+2026-09-02   | urine albumin-creatinine ratio | 97         | mg/g            | high
+2026-09-02   | tsh                          | 1.66       | mIU/L           | normal
+2025-07-02   | systolic blood pressure      | 114        | mmHg            | normal
+2025-07-02   | diastolic blood pressure     | 72         | mmHg            | normal
+2025-07-02   | bmi                          | 24.4       | kg/m2           | normal
+2025-07-02   | creatinine                   | 0.68       | mg/dL           | normal
+2025-07-02   | egfr                         | 82         | mL/min/1.73m2   | normal
+2025-07-02   | potassium                    | 4.7        | mmol/L          | normal
+2025-07-02   | sodium                       | 145        | mmol/L          | normal
+2025-07-02   | hemoglobin a1c               | 7.9        | %               | high
+2025-07-02   | tsh                          | 3.07       | mIU/L           | normal
+2025-02-13   | systolic blood pressure      | 118        | mmHg            | normal
+2025-02-13   | diastolic blood pressure     | 73         | mmHg            | normal
+2025-02-13   | bmi                          | 23.8       | kg/m2           | normal
+2025-02-13   | creatinine                   | 1.03       | mg/dL           | normal
+2025-02-13   | egfr                         | 99         | mL/min/1.73m2   | normal
+2025-02-13   | potassium                    | 4.2        | mmol/L          | normal
+2025-02-13   | sodium                       | 139        | mmol/L          | normal
+2025-02-13   | hemoglobin a1c               | 8.4        | %               | high
+2025-02-13   | urine albumin-creatinine ratio | 108        | mg/g            | high
+2025-02-13   | tsh                          | 2.96       | mIU/L           | normal
+2024-10-21   | systolic blood pressure      | 113        | mmHg            | normal
+2024-10-21   | diastolic blood pressure     | 68         | mmHg            | normal
+2024-10-21   | bmi                          | 22.0       | kg/m2           | normal
+2024-10-21   | creatinine                   | 0.88       | mg/dL           | normal
+2024-10-21   | egfr                         | 87         | mL/min/1.73m2   | normal
+2024-10-21   | potassium                    | 4.7        | mmol/L          | normal
+2024-10-21   | sodium                       | 141        | mmol/L          | normal
+2024-10-21   | hemoglobin a1c               | 8.4        | %               | high
+2024-10-21   | tsh                          | 6.69       | mIU/L           | high

@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-02-26 [E002603]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2026-02-05 [E002602]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2024-11-29 [E002601]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up

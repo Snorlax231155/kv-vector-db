@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-05-09 [E000704]
+  Type:      Cardiology clinic note
+  Reason:    atrial fibrillation follow-up
+
+- Date:      2026-02-27 [E000703]
+  Type:      Primary care progress note
+  Reason:    hypothyroidism follow-up
+
+- Date:      2025-03-23 [E000702]
+  Type:      Primary care progress note
+  Reason:    osteoporosis follow-up
+
+- Date:      2025-02-06 [E000701]
+  Type:      Cardiology clinic note
+  Reason:    atrial fibrillation follow-up

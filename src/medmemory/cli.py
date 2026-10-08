@@ -43,6 +43,14 @@ def cmd_ingest(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_export_patients(args: argparse.Namespace) -> int:
+    from medmemory.ingest.export_patients import export_all_patients
+
+    res = export_all_patients(args.data_dir)
+    print(f"Exported {res['patients']} patients to {args.data_dir}/patients/ ({res['notes']} notes).")
+    return 0
+
+
 def cmd_serve(args: argparse.Namespace) -> int:
     import uvicorn
 
@@ -98,6 +106,12 @@ def main(argv: list[str] | None = None) -> int:
     s = sub.add_parser("ingest", help="load seed into the configured KV + vector stores")
     s.add_argument("--force", action="store_true")
     s.set_defaults(fn=cmd_ingest)
+
+    s = sub.add_parser(
+        "export-patients", help="export isolated per-patient readable text files into data/patients/<PID>/"
+    )
+    s.add_argument("--data-dir", default="data")
+    s.set_defaults(fn=cmd_export_patients)
 
     s = sub.add_parser("serve", help="run the API")
     s.add_argument("--host", default="127.0.0.1")

@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0047
+Full Name:       Ethan Martin
+Date of Birth:   1952-11-25
+Age:             73 years old
+Biological Sex:  Male
+Last Encounter:  2026-09-02

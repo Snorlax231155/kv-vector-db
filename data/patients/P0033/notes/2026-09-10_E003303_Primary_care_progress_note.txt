@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-09-10
+Patient: Rohan Osei (P0033)
+
+CHIEF COMPLAINT:
+Hypothyroidism follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+38-year-old male with hypothyroidism, type 2 diabetes. Fatigue and cold intolerance have improved since levothyroxine was adjusted. Most recent tsh 6.11 mIU/L on 2025-03-14. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 130 and 184 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, shortness of breath at rest, or chest pain.
+
+CURRENT MEDICATIONS:
+- levothyroxine 75 mcg once daily before breakfast
+- glipizide 10 mg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 126 mmHg; diastolic blood pressure 75 mmHg; bmi 25.1 kg/m2; creatinine 1.05 mg/dL; egfr 96 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 8.0%.
+
+ASSESSMENT AND PLAN:
+1. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.

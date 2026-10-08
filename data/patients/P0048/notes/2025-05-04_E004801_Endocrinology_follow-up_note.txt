@@ -1,0 +1,28 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-05-04
+Patient: Sofia Verma (P0048)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+84-year-old female with type 2 diabetes, hyperlipidemia, generalized anxiety disorder. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 127 and 171 mg/dL. Most recent hemoglobin a1c 9.4% on 2025-05-04. Denies hypoglycemic episodes; admits to dietary lapses over the holidays. Tolerating statin therapy without muscle aches.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, leg swelling, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- metformin 1000 mg twice daily
+- rosuvastatin 20 mg once daily
+- sertraline 100 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 114 mmHg; diastolic blood pressure 68 mmHg; bmi 21.0 kg/m2; creatinine 0.81 mg/dL; egfr 94 mL/min/1.73m2; potassium 4.0 mmol/L; hemoglobin a1c 9.4%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+3. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.

@@ -1,0 +1,11 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Sumatriptan 50 mg (as needed at migraine onset)
+  Indication:  migraine
+  RxCUI:       37418
+  Start Date:  2021-09-13
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

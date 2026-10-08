@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0010
+Full Name:       Omar Johnson
+Date of Birth:   1940-04-09
+Age:             86 years old
+Biological Sex:  Male
+Last Encounter:  2026-08-28

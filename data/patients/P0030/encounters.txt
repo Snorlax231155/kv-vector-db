@@ -1,0 +1,17 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-06-08 [E003004]
+  Type:      Nephrology consult note
+  Reason:    chronic kidney disease stage 3 follow-up
+
+- Date:      2026-03-25 [E003003]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes with hyperglycemia follow-up
+
+- Date:      2025-09-03 [E003002]
+  Type:      Pulmonology clinic note
+  Reason:    asthma follow-up
+
+- Date:      2025-06-12 [E003001]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up

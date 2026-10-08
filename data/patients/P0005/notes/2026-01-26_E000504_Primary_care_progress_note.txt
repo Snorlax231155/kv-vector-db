@@ -1,0 +1,29 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-01-26
+Patient: Karan Osei (P0005)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+68-year-old male with hyperlipidemia, copd, coronary artery disease, old myocardial infarction. Lipid panel reviewed: ldl cholesterol 126 mg/dL on 2025-01-11. Reports aching in both thighs and calves after climbing stairs, started a few months after beginning a statin. No dark urine. CK was within normal limits. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or chest pain.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- aspirin 81 mg once daily
+- clopidogrel 75 mg once daily
+- rosuvastatin 10 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 76 mmHg; bmi 22.2 kg/m2; creatinine 0.98 mg/dL; egfr 101 mL/min/1.73m2; potassium 4.9 mmol/L; total cholesterol 196 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+3. Coronary artery disease: Stable; continue current management and follow up in 3 months.

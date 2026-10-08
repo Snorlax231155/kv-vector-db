@@ -1,0 +1,27 @@
+BEHAVIORAL HEALTH FOLLOW-UP NOTE
+Date: 2026-07-14
+Patient: Rahul Reddy (P0049)
+
+CHIEF COMPLAINT:
+Generalized anxiety disorder follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+36-year-old male with generalized anxiety disorder, anemia, asthma. GAD-7 score improved with therapy and medication. Reports fatigue and reduced exercise tolerance. Hemoglobin 10.6 g/dl on 2026-07-14.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, leg swelling, or headache.
+
+CURRENT MEDICATIONS:
+- buspirone 10 mg twice daily
+- montelukast 10 mg once daily in the evening
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 124 mmHg; diastolic blood pressure 72 mmHg; bmi 20.6 kg/m2; creatinine 1.01 mg/dL; egfr 101 mL/min/1.73m2; potassium 4.6 mmol/L; hemoglobin 10.6 g/dL.
+
+ASSESSMENT AND PLAN:
+1. Generalized anxiety disorder: Stable; continue current management and follow up in 3 months.
+2. Anemia: Stable; continue current management and follow up in 3 months.
+3. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.

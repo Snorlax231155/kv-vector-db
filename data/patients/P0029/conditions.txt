@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2012-05-29
+
+- Diagnosis:   Type 2 diabetes mellitus with diabetic chronic kidney disease
+  ICD-10-CM:   E11.22
+  Status:      active
+  Onset Date:  2020-08-21
+
+- Diagnosis:   Osteoarthritis of knee, unspecified
+  ICD-10-CM:   M17.9
+  Status:      active
+  Onset Date:  2021-11-02

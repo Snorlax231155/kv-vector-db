@@ -1,0 +1,26 @@
+PULMONOLOGY CLINIC NOTE
+Date: 2026-07-06
+Patient: James Menon (P0011)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old male with copd, chronic kidney disease stage 4. Becomes short of breath after one flight of stairs; uses rescue inhaler about once a day. Kidney function: egfr 22 mL/min/1.73m2 and creatinine 3.24 mg/dL on 2026-07-06.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, chest pain, or leg swelling.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+- furosemide 40 mg once daily
+
+ALLERGIES:
+latex (contact dermatitis); sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 110 mmHg; diastolic blood pressure 66 mmHg; bmi 23.6 kg/m2; creatinine 3.24 mg/dL; egfr 22 mL/min/1.73m2; potassium 5.2 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+2. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.

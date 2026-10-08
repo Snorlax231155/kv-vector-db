@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0030
+Full Name:       Karan Haddad
+Date of Birth:   1948-05-17
+Age:             78 years old
+Biological Sex:  Male
+Last Encounter:  2026-06-08

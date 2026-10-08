@@ -1,0 +1,167 @@
+================================================================================
+PATIENT MEDICAL CHART: KARAN ALI (P0028)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0028
+Full Name:       Karan Ali
+Date of Birth:   1975-05-29
+Age:             51 years old
+Biological Sex:  Male
+Last Encounter:  2026-09-06
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: sulfonamide antibiotics
+  Reaction:  hives
+  Severity:  moderate
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Chronic obstructive pulmonary disease, unspecified
+  ICD-10-CM:   J44.9
+  Status:      active
+  Onset Date:  2025-08-16
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Albuterol 90 mcg/actuation, 2 puffs (every 4 to 6 hours as needed)
+  Indication:  copd
+  RxCUI:       435
+  Start Date:  2025-11-21
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-09-06   | systolic blood pressure      | 110        | mmHg            | normal
+2026-09-06   | diastolic blood pressure     | 79         | mmHg            | normal
+2026-09-06   | bmi                          | 21.5       | kg/m2           | normal
+2026-09-06   | creatinine                   | 0.91       | mg/dL           | normal
+2026-09-06   | egfr                         | 106        | mL/min/1.73m2   | normal
+2026-09-06   | potassium                    | 3.7        | mmol/L          | normal
+2026-09-06   | sodium                       | 136        | mmol/L          | normal
+2025-06-09   | systolic blood pressure      | 116        | mmHg            | normal
+2025-06-09   | diastolic blood pressure     | 78         | mmHg            | normal
+2025-06-09   | bmi                          | 23.9       | kg/m2           | normal
+2025-06-09   | creatinine                   | 1.11       | mg/dL           | normal
+2025-06-09   | egfr                         | 105        | mL/min/1.73m2   | normal
+2025-06-09   | potassium                    | 4.4        | mmol/L          | normal
+2025-06-09   | sodium                       | 144        | mmol/L          | normal
+2024-12-09   | systolic blood pressure      | 128        | mmHg            | normal
+2024-12-09   | diastolic blood pressure     | 66         | mmHg            | normal
+2024-12-09   | bmi                          | 25.8       | kg/m2           | normal
+2024-12-09   | creatinine                   | 1.18       | mg/dL           | normal
+2024-12-09   | egfr                         | 94         | mL/min/1.73m2   | normal
+2024-12-09   | potassium                    | 3.9        | mmol/L          | normal
+2024-12-09   | sodium                       | 140        | mmol/L          | normal
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-09-06 [E002803]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+- Date:      2025-06-09 [E002802]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+- Date:      2024-12-09 [E002801]
+  Type:      Pulmonology clinic note
+  Reason:    copd follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Pulmonology clinic note (2024-12-09) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2024-12-09
+Patient: Karan Ali (P0028)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old male with copd. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies fever, leg swelling, or abdominal pain.
+
+CURRENT MEDICATIONS:
+None.
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 128 mmHg; diastolic blood pressure 66 mmHg; bmi 25.8 kg/m2; creatinine 1.18 mg/dL; egfr 94 mL/min/1.73m2; potassium 3.9 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+
+--- Note 2: Pulmonology clinic note (2025-06-09) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2025-06-09
+Patient: Karan Ali (P0028)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old male with copd. Becomes short of breath after one flight of stairs; uses rescue inhaler about once a day.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, palpitations, or chest pain.
+
+CURRENT MEDICATIONS:
+None.
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 116 mmHg; diastolic blood pressure 78 mmHg; bmi 23.9 kg/m2; creatinine 1.11 mg/dL; egfr 105 mL/min/1.73m2; potassium 4.4 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+
+--- Note 3: Pulmonology clinic note (2026-09-06) ---
+PULMONOLOGY CLINIC NOTE
+Date: 2026-09-06
+Patient: Karan Ali (P0028)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old male with copd. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, headache, or chest pain.
+
+CURRENT MEDICATIONS:
+- albuterol 90 mcg/actuation, 2 puffs every 4 to 6 hours as needed
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 110 mmHg; diastolic blood pressure 79 mmHg; bmi 21.5 kg/m2; creatinine 0.91 mg/dL; egfr 106 mL/min/1.73m2; potassium 3.7 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+
+================================================================================
+[END OF CHART]

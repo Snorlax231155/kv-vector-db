@@ -1,0 +1,16 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus with diabetic chronic kidney disease
+  ICD-10-CM:   E11.22
+  Status:      active
+  Onset Date:  2023-01-22
+
+- Diagnosis:   Chronic kidney disease, stage 4 (severe)
+  ICD-10-CM:   N18.4
+  Status:      active
+  Onset Date:  2019-08-17
+
+- Diagnosis:   Heart failure, unspecified
+  ICD-10-CM:   I50.9
+  Status:      active
+  Onset Date:  2014-08-30

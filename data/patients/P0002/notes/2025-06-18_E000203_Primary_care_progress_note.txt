@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-06-18
+Patient: Daniel Haddad (P0002)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+72-year-old male with hypertension, atrial fibrillation, heart failure. Blood pressure today 139/90 mmHg. Occasional morning headaches, no vision changes. Noticed swelling around both ankles since the amlodipine dose was increased; worse at the end of the day, improves with leg elevation. Rate controlled at today's visit; discussed stroke prevention and bleeding risk with anticoagulation.
+
+REVIEW OF SYSTEMS:
+Denies headache, fever, or dizziness.
+
+CURRENT MEDICATIONS:
+- apixaban 5 mg twice daily
+- furosemide 40 mg once daily
+- amlodipine 5 mg once daily
+
+ALLERGIES:
+sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 139 mmHg; diastolic blood pressure 90 mmHg; bmi 23.5 kg/m2; creatinine 0.97 mg/dL; egfr 87 mL/min/1.73m2; potassium 4.1 mmol/L; inr 1.1.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+2. Atrial fibrillation: Continue anticoagulation and rate control; discussed bleeding precautions.
+3. Heart failure: Daily weights, fluid and salt restriction; continue diuretic.

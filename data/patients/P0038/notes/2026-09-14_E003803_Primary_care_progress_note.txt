@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-09-14
+Patient: Carlos Ali (P0038)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+82-year-old male with hyperlipidemia, hypertension. Lipid panel reviewed: ldl cholesterol 133 mg/dL on 2026-04-09. Trying to limit fried food and red meat. Blood pressure today 139/83 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, dizziness, or chest pain.
+
+CURRENT MEDICATIONS:
+- atorvastatin 20 mg once daily
+- hydrochlorothiazide 12.5 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 139 mmHg; diastolic blood pressure 83 mmHg; bmi 25.4 kg/m2; creatinine 1.05 mg/dL; egfr 82 mL/min/1.73m2; potassium 4.9 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.

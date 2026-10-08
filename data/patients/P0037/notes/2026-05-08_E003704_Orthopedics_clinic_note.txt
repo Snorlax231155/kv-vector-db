@@ -1,0 +1,28 @@
+ORTHOPEDICS CLINIC NOTE
+Date: 2026-05-08
+Patient: Kavya Patel (P0037)
+
+CHIEF COMPLAINT:
+Knee osteoarthritis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+51-year-old female with knee osteoarthritis, hypertension, hypothyroidism. Bilateral knee pain limits walking to about 15 minutes. Blood pressure today 157/84 mmHg.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, fever, or headache.
+
+CURRENT MEDICATIONS:
+- meloxicam 7.5 mg once daily
+- hydrochlorothiazide 25 mg once daily
+- levothyroxine 100 mcg once daily before breakfast
+
+ALLERGIES:
+latex (contact dermatitis)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 157 mmHg; diastolic blood pressure 84 mmHg; bmi 25.3 kg/m2; creatinine 0.67 mg/dL; egfr 101 mL/min/1.73m2; potassium 4.9 mmol/L; tsh 4.0 mIU/L.
+
+ASSESSMENT AND PLAN:
+1. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+2. Hypertension: Home blood pressure monitoring; reduce sodium intake.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.

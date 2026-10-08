@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0031
+Full Name:       Samuel Banerjee
+Date of Birth:   1948-07-07
+Age:             77 years old
+Biological Sex:  Male
+Last Encounter:  2026-03-01

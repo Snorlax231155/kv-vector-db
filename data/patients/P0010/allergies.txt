@@ -1,0 +1,5 @@
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: sulfonamide antibiotics
+  Reaction:  hives
+  Severity:  moderate

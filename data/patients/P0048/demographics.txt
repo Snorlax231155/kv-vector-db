@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0048
+Full Name:       Sofia Verma
+Date of Birth:   1942-10-06
+Age:             83 years old
+Biological Sex:  Female
+Last Encounter:  2026-07-28

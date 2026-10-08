@@ -1,0 +1,23 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Sitagliptin 100 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       593411
+  Start Date:  2020-09-24
+  Status:      Active
+
+- Sertraline 100 mg (once daily)
+  Indication:  major depressive disorder
+  RxCUI:       36437
+  Start Date:  2025-06-28
+  Status:      Active
+
+- Warfarin 5 mg (once daily, adjusted to INR)
+  Indication:  atrial fibrillation
+  RxCUI:       11289
+  Start Date:  2024-09-10
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

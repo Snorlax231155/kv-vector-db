@@ -1,0 +1,24 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-01-05
+Patient: Kenji Martin (P0043)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+29-year-old male with hyperlipidemia. Lipid panel reviewed: ldl cholesterol 140 mg/dL on 2026-01-05. Trying to limit fried food and red meat.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, fever, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- rosuvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 108 mmHg; diastolic blood pressure 66 mmHg; bmi 21.1 kg/m2; creatinine 0.89 mg/dL; egfr 87 mL/min/1.73m2; potassium 4.9 mmol/L; ldl cholesterol 140 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.

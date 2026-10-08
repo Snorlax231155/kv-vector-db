@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-10-03
+Patient: Daniel Silva (P0034)
+
+CHIEF COMPLAINT:
+Obesity follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+80-year-old male with obesity, chronic kidney disease stage 3, hypothyroidism, type 2 diabetes. Discussed nutrition and a gradual increase in physical activity. BMI 36.5 kg/m2. Kidney function: egfr 42 mL/min/1.73m2 and creatinine 1.84 mg/dL on 2025-10-03.
+
+REVIEW OF SYSTEMS:
+Denies headache, leg swelling, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- losartan 50 mg once daily
+- levothyroxine 100 mcg once daily before breakfast
+- metformin 850 mg twice daily
+
+ALLERGIES:
+lisinopril (angioedema); shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 114 mmHg; diastolic blood pressure 79 mmHg; bmi 36.5 kg/m2; creatinine 1.84 mg/dL; egfr 42 mL/min/1.73m2; potassium 4.1 mmol/L; urine albumin-creatinine ratio 41 mg/g.
+
+ASSESSMENT AND PLAN:
+1. Obesity: Stable; continue current management and follow up in 3 months.
+2. Chronic kidney disease stage 3: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.

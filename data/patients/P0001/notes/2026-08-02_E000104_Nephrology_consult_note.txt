@@ -1,0 +1,28 @@
+NEPHROLOGY CONSULT NOTE
+Date: 2026-08-02
+Patient: Fatima Brown (P0001)
+
+CHIEF COMPLAINT:
+Chronic kidney disease stage 3 follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with chronic kidney disease stage 3, type 2 diabetes, hypertension, hyperlipidemia. Kidney function: egfr 47 mL/min/1.73m2 and creatinine 1.95 mg/dL on 2026-08-02. No edema or change in urine output reported. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, leg swelling, or headache.
+
+CURRENT MEDICATIONS:
+- metformin 500 mg twice daily
+- atorvastatin 20 mg once daily
+- losartan 50 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 133 mmHg; diastolic blood pressure 86 mmHg; bmi 25.6 kg/m2; creatinine 1.95 mg/dL; egfr 47 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin a1c 7.7%.
+
+ASSESSMENT AND PLAN:
+1. Chronic kidney disease stage 3: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.
+2. Type 2 diabetes: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+3. Hypertension: Home blood pressure monitoring; reduce sodium intake.

@@ -1,0 +1,13 @@
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-08-28 [E001003]
+  Type:      Primary care progress note
+  Reason:    hypertension follow-up
+
+- Date:      2025-09-10 [E001002]
+  Type:      Primary care progress note
+  Reason:    anemia follow-up
+
+- Date:      2025-08-05 [E001001]
+  Type:      Cardiology clinic note
+  Reason:    coronary artery disease follow-up

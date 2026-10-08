@@ -1,0 +1,27 @@
+CARDIOLOGY CLINIC NOTE
+Date: 2024-10-21
+Patient: Ethan Martin (P0047)
+
+CHIEF COMPLAINT:
+Coronary artery disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+73-year-old male with coronary artery disease, type 2 diabetes with diabetic chronic kidney disease, hypothyroidism. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies palpitations, shortness of breath at rest, or fever.
+
+CURRENT MEDICATIONS:
+- insulin glargine 24 units at bedtime
+- levothyroxine 50 mcg once daily before breakfast
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 113 mmHg; diastolic blood pressure 68 mmHg; bmi 22.0 kg/m2; creatinine 0.88 mg/dL; egfr 87 mL/min/1.73m2; potassium 4.7 mmol/L; hemoglobin a1c 8.4%.
+
+ASSESSMENT AND PLAN:
+1. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+2. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Hypothyroidism: Continue levothyroxine; repeat TSH in 6 to 8 weeks.

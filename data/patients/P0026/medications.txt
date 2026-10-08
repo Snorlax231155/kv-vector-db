@@ -1,0 +1,11 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Albuterol 90 mcg/actuation, 2 puffs (every 4 to 6 hours as needed)
+  Indication:  asthma
+  RxCUI:       435
+  Start Date:  2022-06-11
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

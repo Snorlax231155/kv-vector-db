@@ -1,0 +1,44 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-08-04   | systolic blood pressure      | 125        | mmHg            | normal
+2026-08-04   | diastolic blood pressure     | 76         | mmHg            | normal
+2026-08-04   | bmi                          | 21.8       | kg/m2           | normal
+2026-08-04   | creatinine                   | 2.9        | mg/dL           | high
+2026-08-04   | egfr                         | 21         | mL/min/1.73m2   | low
+2026-08-04   | potassium                    | 4.9        | mmol/L          | normal
+2026-08-04   | sodium                       | 144        | mmol/L          | normal
+2026-08-04   | hemoglobin a1c               | 7.9        | %               | high
+2026-08-04   | urine albumin-creatinine ratio | 153        | mg/g            | high
+2026-08-04   | bnp                          | 644        | pg/mL           | high
+2026-04-22   | systolic blood pressure      | 116        | mmHg            | normal
+2026-04-22   | diastolic blood pressure     | 72         | mmHg            | normal
+2026-04-22   | bmi                          | 22.2       | kg/m2           | normal
+2026-04-22   | creatinine                   | 2.3        | mg/dL           | high
+2026-04-22   | egfr                         | 24         | mL/min/1.73m2   | low
+2026-04-22   | potassium                    | 4.9        | mmol/L          | normal
+2026-04-22   | sodium                       | 144        | mmol/L          | normal
+2026-04-22   | hemoglobin a1c               | 7.5        | %               | high
+2026-04-22   | urine albumin-creatinine ratio | 197        | mg/g            | high
+2026-04-22   | bnp                          | 621        | pg/mL           | high
+2026-04-10   | systolic blood pressure      | 122        | mmHg            | normal
+2026-04-10   | diastolic blood pressure     | 69         | mmHg            | normal
+2026-04-10   | bmi                          | 24.3       | kg/m2           | normal
+2026-04-10   | creatinine                   | 3.37       | mg/dL           | high
+2026-04-10   | egfr                         | 27         | mL/min/1.73m2   | low
+2026-04-10   | potassium                    | 5.0        | mmol/L          | normal
+2026-04-10   | sodium                       | 144        | mmol/L          | normal
+2026-04-10   | hemoglobin a1c               | 8.6        | %               | high
+2026-04-10   | urine albumin-creatinine ratio | 159        | mg/g            | high
+2026-04-10   | bnp                          | 459        | pg/mL           | high
+2026-02-23   | systolic blood pressure      | 117        | mmHg            | normal
+2026-02-23   | diastolic blood pressure     | 72         | mmHg            | normal
+2026-02-23   | bmi                          | 24.8       | kg/m2           | normal
+2026-02-23   | creatinine                   | 3.21       | mg/dL           | high
+2026-02-23   | egfr                         | 18         | mL/min/1.73m2   | low
+2026-02-23   | potassium                    | 5.2        | mmol/L          | high
+2026-02-23   | sodium                       | 137        | mmol/L          | normal
+2026-02-23   | hemoglobin a1c               | 8.9        | %               | high
+2026-02-23   | urine albumin-creatinine ratio | 216        | mg/g            | high
+2026-02-23   | bnp                          | 252        | pg/mL           | high

@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0008
+Full Name:       Wei Tanaka
+Date of Birth:   1951-01-14
+Age:             75 years old
+Biological Sex:  Male
+Last Encounter:  2026-05-26

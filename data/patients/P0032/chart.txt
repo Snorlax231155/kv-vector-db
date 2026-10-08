@@ -1,0 +1,200 @@
+================================================================================
+PATIENT MEDICAL CHART: SANJAY BROWN (P0032)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0032
+Full Name:       Sanjay Brown
+Date of Birth:   1972-09-12
+Age:             52 years old
+Biological Sex:  Male
+Last Encounter:  2025-08-18
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Type 2 diabetes mellitus without complications
+  ICD-10-CM:   E11.9
+  Status:      active
+  Onset Date:  2014-03-28
+
+- Diagnosis:   Hyperlipidemia, unspecified
+  ICD-10-CM:   E78.5
+  Status:      active
+  Onset Date:  2017-10-21
+
+- Diagnosis:   Migraine, unspecified, not intractable, without status migrainosus
+  ICD-10-CM:   G43.909
+  Status:      active
+  Onset Date:  2017-06-27
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Sitagliptin 100 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       593411
+  Start Date:  2021-10-07
+  Status:      Active
+
+- Atorvastatin 40 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       83367
+  Start Date:  2018-04-21
+  Status:      Active
+
+- Sumatriptan 50 mg (as needed at migraine onset)
+  Indication:  migraine
+  RxCUI:       37418
+  Start Date:  2023-01-24
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2025-08-18   | systolic blood pressure      | 123        | mmHg            | normal
+2025-08-18   | diastolic blood pressure     | 79         | mmHg            | normal
+2025-08-18   | bmi                          | 22.9       | kg/m2           | normal
+2025-08-18   | creatinine                   | 1.02       | mg/dL           | normal
+2025-08-18   | egfr                         | 96         | mL/min/1.73m2   | normal
+2025-08-18   | potassium                    | 4.5        | mmol/L          | normal
+2025-08-18   | sodium                       | 144        | mmol/L          | normal
+2025-08-18   | hemoglobin a1c               | 6.7        | %               | high
+2025-08-18   | fasting glucose              | 122        | mg/dL           | high
+2025-08-18   | urine albumin-creatinine ratio | 32         | mg/g            | high
+2025-08-18   | ldl cholesterol              | 168        | mg/dL           | high
+2025-08-18   | total cholesterol            | 236        | mg/dL           | high
+2025-06-19   | systolic blood pressure      | 111        | mmHg            | normal
+2025-06-19   | diastolic blood pressure     | 67         | mmHg            | normal
+2025-06-19   | bmi                          | 25.2       | kg/m2           | normal
+2025-06-19   | creatinine                   | 1.08       | mg/dL           | normal
+2025-06-19   | egfr                         | 83         | mL/min/1.73m2   | normal
+2025-06-19   | potassium                    | 4.4        | mmol/L          | normal
+2025-06-19   | sodium                       | 142        | mmol/L          | normal
+2025-06-19   | hemoglobin a1c               | 6.9        | %               | high
+2025-06-19   | fasting glucose              | 205        | mg/dL           | high
+... [12 earlier laboratory readings archived in labs.txt] ...
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2025-08-18 [E003203]
+  Type:      Neurology follow-up note
+  Reason:    migraine follow-up
+
+- Date:      2025-06-19 [E003202]
+  Type:      Primary care progress note
+  Reason:    hyperlipidemia follow-up
+
+- Date:      2025-04-27 [E003201]
+  Type:      Endocrinology follow-up note
+  Reason:    type 2 diabetes follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Endocrinology follow-up note (2025-04-27) ---
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2025-04-27
+Patient: Sanjay Brown (P0032)
+
+CHIEF COMPLAINT:
+Type 2 diabetes follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+54-year-old male with type 2 diabetes, hyperlipidemia, migraine. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been slightly above goal. Most recent hemoglobin a1c 7.9% on 2025-04-27. Denies hypoglycemic episodes; admits to dietary lapses over the holidays. Tolerating statin therapy without muscle aches.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- atorvastatin 40 mg once daily
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 116 mmHg; diastolic blood pressure 74 mmHg; bmi 20.8 kg/m2; creatinine 0.69 mg/dL; egfr 97 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 7.9%.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+2. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+3. Migraine: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Primary care progress note (2025-06-19) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-06-19
+Patient: Sanjay Brown (P0032)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+54-year-old male with hyperlipidemia, type 2 diabetes, migraine. Lipid panel reviewed: ldl cholesterol 141 mg/dL on 2025-06-19. Trying to limit fried food and red meat. Here for routine diabetes care. Checks fingerstick glucose most mornings; readings have been improving.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, palpitations, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- atorvastatin 40 mg once daily
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 111 mmHg; diastolic blood pressure 67 mmHg; bmi 25.2 kg/m2; creatinine 1.08 mg/dL; egfr 83 mL/min/1.73m2; potassium 4.4 mmol/L; hemoglobin a1c 6.9%.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Migraine: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Neurology follow-up note (2025-08-18) ---
+NEUROLOGY FOLLOW-UP NOTE
+Date: 2025-08-18
+Patient: Sanjay Brown (P0032)
+
+CHIEF COMPLAINT:
+Migraine follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+54-year-old male with migraine, type 2 diabetes, hyperlipidemia. Has 4 migraines per month with light sensitivity and nausea; triptan helps within two hours. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 125 and 189 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies dizziness, shortness of breath at rest, or chest pain.
+
+CURRENT MEDICATIONS:
+- sitagliptin 100 mg once daily
+- atorvastatin 40 mg once daily
+- sumatriptan 50 mg as needed at migraine onset
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 79 mmHg; bmi 22.9 kg/m2; creatinine 1.02 mg/dL; egfr 96 mL/min/1.73m2; potassium 4.5 mmol/L; hemoglobin a1c 6.7%.
+
+ASSESSMENT AND PLAN:
+1. Migraine: Stable; continue current management and follow up in 3 months.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+
+================================================================================
+[END OF CHART]

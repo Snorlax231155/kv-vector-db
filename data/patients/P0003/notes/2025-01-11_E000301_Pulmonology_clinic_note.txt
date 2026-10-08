@@ -1,0 +1,26 @@
+PULMONOLOGY CLINIC NOTE
+Date: 2025-01-11
+Patient: Irene Osei (P0003)
+
+CHIEF COMPLAINT:
+Asthma follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+29-year-old female with asthma, gerd, migraine. Symptoms are triggered by cold air, exercise and exposure to cats. No emergency visits or oral steroid courses in the past year. Burning heartburn after large meals, worse when lying down at night.
+
+REVIEW OF SYSTEMS:
+Denies fever, shortness of breath at rest, or dizziness.
+
+CURRENT MEDICATIONS:
+- albuterol 90 mcg/actuation, 2 puffs every 4 to 6 hours as needed
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 117 mmHg; diastolic blood pressure 75 mmHg; bmi 25.0 kg/m2; creatinine 0.61 mg/dL; egfr 81 mL/min/1.73m2; potassium 4.5 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Asthma: Continue controller therapy; reviewed inhaler technique and asthma action plan.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.
+3. Migraine: Stable; continue current management and follow up in 3 months.

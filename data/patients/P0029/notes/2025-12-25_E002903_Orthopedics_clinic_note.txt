@@ -1,0 +1,28 @@
+ORTHOPEDICS CLINIC NOTE
+Date: 2025-12-25
+Patient: Kavya Haddad (P0029)
+
+CHIEF COMPLAINT:
+Knee osteoarthritis follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with knee osteoarthritis, hyperlipidemia, type 2 diabetes with diabetic chronic kidney disease. Bilateral knee pain limits walking to about 15 minutes. Lipid panel reviewed: ldl cholesterol 165 mg/dL on 2025-12-25.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, palpitations, or fever.
+
+CURRENT MEDICATIONS:
+- simvastatin 20 mg at bedtime
+- metformin 500 mg twice daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 112 mmHg; diastolic blood pressure 75 mmHg; bmi 21.3 kg/m2; creatinine 1.02 mg/dL; egfr 83 mL/min/1.73m2; potassium 4.2 mmol/L; ldl cholesterol 165 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.
+2. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+3. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.

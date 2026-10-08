@@ -1,0 +1,25 @@
+PULMONOLOGY CLINIC NOTE
+Date: 2024-11-09
+Patient: James Menon (P0011)
+
+CHIEF COMPLAINT:
+Copd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+59-year-old male with copd, chronic kidney disease stage 4. Chronic morning cough with clear sputum; former smoker with a 35 pack-year history, quit in 2015. Kidney function: egfr 19 mL/min/1.73m2 and creatinine 2.48 mg/dL on 2024-11-09.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, headache, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- tiotropium 18 mcg inhaled once daily
+
+ALLERGIES:
+latex (contact dermatitis); sulfonamide antibiotics (hives)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 120 mmHg; diastolic blood pressure 78 mmHg; bmi 20.6 kg/m2; creatinine 2.48 mg/dL; egfr 19 mL/min/1.73m2; potassium 5.1 mmol/L; urine albumin-creatinine ratio 8 mg/g.
+
+ASSESSMENT AND PLAN:
+1. Copd: Continue long-acting bronchodilator; pulmonary rehabilitation referral.
+2. Chronic kidney disease stage 4: Monitor renal function and potassium every 3 months; avoid nephrotoxic medications.

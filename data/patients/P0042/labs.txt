@@ -1,0 +1,40 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-04-05   | systolic blood pressure      | 147        | mmHg            | high
+2026-04-05   | diastolic blood pressure     | 89         | mmHg            | high
+2026-04-05   | bmi                          | 24.2       | kg/m2           | normal
+2026-04-05   | creatinine                   | 0.72       | mg/dL           | normal
+2026-04-05   | egfr                         | 80         | mL/min/1.73m2   | normal
+2026-04-05   | potassium                    | 4.5        | mmol/L          | normal
+2026-04-05   | sodium                       | 137        | mmol/L          | normal
+2026-04-05   | hemoglobin a1c               | 9.6        | %               | high
+2026-04-05   | fasting glucose              | 286        | mg/dL           | high
+2025-12-08   | systolic blood pressure      | 135        | mmHg            | high
+2025-12-08   | diastolic blood pressure     | 90         | mmHg            | high
+2025-12-08   | bmi                          | 25.8       | kg/m2           | normal
+2025-12-08   | creatinine                   | 0.99       | mg/dL           | normal
+2025-12-08   | egfr                         | 96         | mL/min/1.73m2   | normal
+2025-12-08   | potassium                    | 4.1        | mmol/L          | normal
+2025-12-08   | sodium                       | 144        | mmol/L          | normal
+2025-12-08   | hemoglobin a1c               | 10.9       | %               | high
+2025-12-08   | fasting glucose              | 212        | mg/dL           | high
+2025-12-01   | systolic blood pressure      | 146        | mmHg            | high
+2025-12-01   | diastolic blood pressure     | 93         | mmHg            | high
+2025-12-01   | bmi                          | 24.8       | kg/m2           | normal
+2025-12-01   | creatinine                   | 0.97       | mg/dL           | normal
+2025-12-01   | egfr                         | 80         | mL/min/1.73m2   | normal
+2025-12-01   | potassium                    | 3.8        | mmol/L          | normal
+2025-12-01   | sodium                       | 139        | mmol/L          | normal
+2025-12-01   | hemoglobin a1c               | 9.2        | %               | high
+2025-12-01   | fasting glucose              | 271        | mg/dL           | high
+2025-04-11   | systolic blood pressure      | 132        | mmHg            | high
+2025-04-11   | diastolic blood pressure     | 95         | mmHg            | high
+2025-04-11   | bmi                          | 24.8       | kg/m2           | normal
+2025-04-11   | creatinine                   | 1.07       | mg/dL           | normal
+2025-04-11   | egfr                         | 104        | mL/min/1.73m2   | normal
+2025-04-11   | potassium                    | 4.5        | mmol/L          | normal
+2025-04-11   | sodium                       | 137        | mmol/L          | normal
+2025-04-11   | hemoglobin a1c               | 10.2       | %               | high
+2025-04-11   | fasting glucose              | 205        | mg/dL           | high

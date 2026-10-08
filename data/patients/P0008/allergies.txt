@@ -1,0 +1,5 @@
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: codeine
+  Reaction:  nausea and vomiting
+  Severity:  mild

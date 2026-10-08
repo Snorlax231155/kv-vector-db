@@ -1,0 +1,6 @@
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Migraine, unspecified, not intractable, without status migrainosus
+  ICD-10-CM:   G43.909
+  Status:      active
+  Onset Date:  2016-02-19

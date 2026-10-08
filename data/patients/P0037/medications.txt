@@ -1,0 +1,23 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Meloxicam 7.5 mg (once daily)
+  Indication:  knee osteoarthritis
+  RxCUI:       41493
+  Start Date:  2023-05-04
+  Status:      Active
+
+- Hydrochlorothiazide 25 mg (once daily)
+  Indication:  hypertension
+  RxCUI:       5487
+  Start Date:  2013-08-08
+  Status:      Active
+
+- Levothyroxine 100 mcg (once daily before breakfast)
+  Indication:  hypothyroidism
+  RxCUI:       10582
+  Start Date:  2025-10-26
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

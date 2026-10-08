@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-10-31
+Patient: Fatima Brown (P0001)
+
+CHIEF COMPLAINT:
+Hypertension follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with hypertension, type 2 diabetes, hyperlipidemia, chronic kidney disease stage 3. Blood pressure today 136/92 mmHg. Home blood pressure log shows readings in the 130s to 150s systolic. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 119 and 150 mg/dL.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, fever, or leg swelling.
+
+CURRENT MEDICATIONS:
+- atorvastatin 20 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 136 mmHg; diastolic blood pressure 92 mmHg; bmi 20.7 kg/m2; creatinine 1.9 mg/dL; egfr 48 mL/min/1.73m2; potassium 4.2 mmol/L; hemoglobin a1c 8.5%.
+
+ASSESSMENT AND PLAN:
+1. Hypertension: Continue current antihypertensive; recheck blood pressure in 4 weeks.
+2. Type 2 diabetes: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.

@@ -1,0 +1,17 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Tiotropium 18 mcg inhaled (once daily)
+  Indication:  copd
+  RxCUI:       69120
+  Start Date:  2024-01-26
+  Status:      Active
+
+- Furosemide 40 mg (once daily)
+  Indication:  chronic kidney disease stage 4
+  RxCUI:       4603
+  Start Date:  2025-12-25
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

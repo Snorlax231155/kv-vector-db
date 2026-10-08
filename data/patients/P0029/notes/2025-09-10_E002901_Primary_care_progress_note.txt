@@ -1,0 +1,28 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-09-10
+Patient: Kavya Haddad (P0029)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with hyperlipidemia, type 2 diabetes with diabetic chronic kidney disease, knee osteoarthritis. Tolerating statin therapy without muscle aches. Here for routine diabetes care. Checks fingerstick glucose daily; readings have been slightly above goal.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, headache, or fever.
+
+CURRENT MEDICATIONS:
+- simvastatin 20 mg at bedtime
+- metformin 500 mg twice daily
+- ibuprofen 400 mg as needed
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 74 mmHg; bmi 21.7 kg/m2; creatinine 1.12 mg/dL; egfr 87 mL/min/1.73m2; potassium 3.9 mmol/L; total cholesterol 259 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Lifestyle modification; recheck fasting lipids.
+2. Type 2 diabetes with diabetic chronic kidney disease: Reinforced diet and activity goals; review home glucose log at next visit.
+3. Knee osteoarthritis: Physical therapy; topical analgesic; weight management.

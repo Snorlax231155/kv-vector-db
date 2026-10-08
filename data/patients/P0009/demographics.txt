@@ -1,0 +1,8 @@
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0009
+Full Name:       Luis Nair
+Date of Birth:   1948-12-21
+Age:             77 years old
+Biological Sex:  Male
+Last Encounter:  2026-09-03

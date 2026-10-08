@@ -1,0 +1,26 @@
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-06-11
+Patient: Daniel Tanaka (P0012)
+
+CHIEF COMPLAINT:
+Hyperlipidemia follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+66-year-old male with hyperlipidemia, coronary artery disease. Lipid panel reviewed: ldl cholesterol 91 mg/dL on 2026-01-17. Trying to limit fried food and red meat. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies shortness of breath at rest, dizziness, or palpitations.
+
+CURRENT MEDICATIONS:
+- simvastatin 40 mg at bedtime
+- metoprolol 25 mg once daily
+
+ALLERGIES:
+shellfish (lip swelling)
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 122 mmHg; diastolic blood pressure 80 mmHg; bmi 20.6 kg/m2; creatinine 0.74 mg/dL; egfr 88 mL/min/1.73m2; potassium 3.6 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Hyperlipidemia: Continue statin; repeat lipid panel in 6 months.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.

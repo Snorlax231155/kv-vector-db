@@ -1,0 +1,9 @@
+ALLERGIES & ADVERSE REACTIONS
+=============================
+- Substance: aspirin
+  Reaction:  wheezing
+  Severity:  moderate
+
+- Substance: lisinopril
+  Reaction:  angioedema
+  Severity:  severe

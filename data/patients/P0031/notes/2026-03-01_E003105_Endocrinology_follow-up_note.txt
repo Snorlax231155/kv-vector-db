@@ -1,0 +1,27 @@
+ENDOCRINOLOGY FOLLOW-UP NOTE
+Date: 2026-03-01
+Patient: Samuel Banerjee (P0031)
+
+CHIEF COMPLAINT:
+Type 2 diabetes with diabetic chronic kidney disease follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+78-year-old male with type 2 diabetes with diabetic chronic kidney disease, coronary artery disease, obstructive sleep apnea. Presents for diabetes follow-up. Reports home fasting glucose readings mostly between 126 and 156 mg/dL. Most recent hemoglobin a1c 9.1% on 2026-03-01. Walking 20 minutes most days and has cut back on sweetened tea. Stable exertional chest tightness when walking uphill, relieved within minutes by rest; no symptoms at rest.
+
+REVIEW OF SYSTEMS:
+Denies headache, leg swelling, or chest pain.
+
+CURRENT MEDICATIONS:
+- aspirin 81 mg once daily
+- metformin 1000 mg twice daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 68 mmHg; bmi 25.8 kg/m2; creatinine 0.95 mg/dL; egfr 101 mL/min/1.73m2; potassium 4.1 mmol/L; ldl cholesterol 74 mg/dL.
+
+ASSESSMENT AND PLAN:
+1. Type 2 diabetes with diabetic chronic kidney disease: Continue current regimen; repeat hemoglobin A1c in 3 months; annual eye and foot exams.
+2. Coronary artery disease: Stable; continue current management and follow up in 3 months.
+3. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.

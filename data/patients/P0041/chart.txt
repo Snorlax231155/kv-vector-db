@@ -1,0 +1,161 @@
+================================================================================
+PATIENT MEDICAL CHART: YUKI IYER (P0041)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0041
+Full Name:       Yuki Iyer
+Date of Birth:   1962-08-29
+Age:             63 years old
+Biological Sex:  Female
+Last Encounter:  2026-04-18
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Obstructive sleep apnea (adult) (pediatric)
+  ICD-10-CM:   G47.33
+  Status:      active
+  Onset Date:  2023-03-30
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+  None active.
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-04-18   | systolic blood pressure      | 115        | mmHg            | normal
+2026-04-18   | diastolic blood pressure     | 74         | mmHg            | normal
+2026-04-18   | bmi                          | 25.0       | kg/m2           | normal
+2026-04-18   | creatinine                   | 0.7        | mg/dL           | normal
+2026-04-18   | egfr                         | 103        | mL/min/1.73m2   | normal
+2026-04-18   | potassium                    | 4.0        | mmol/L          | normal
+2026-04-18   | sodium                       | 143        | mmol/L          | normal
+2025-09-03   | systolic blood pressure      | 127        | mmHg            | normal
+2025-09-03   | diastolic blood pressure     | 79         | mmHg            | normal
+2025-09-03   | bmi                          | 24.7       | kg/m2           | normal
+2025-09-03   | creatinine                   | 0.97       | mg/dL           | normal
+2025-09-03   | egfr                         | 96         | mL/min/1.73m2   | normal
+2025-09-03   | potassium                    | 4.8        | mmol/L          | normal
+2025-09-03   | sodium                       | 140        | mmol/L          | normal
+2025-04-26   | systolic blood pressure      | 125        | mmHg            | normal
+2025-04-26   | diastolic blood pressure     | 78         | mmHg            | normal
+2025-04-26   | bmi                          | 23.0       | kg/m2           | normal
+2025-04-26   | creatinine                   | 0.83       | mg/dL           | normal
+2025-04-26   | egfr                         | 92         | mL/min/1.73m2   | normal
+2025-04-26   | potassium                    | 3.9        | mmol/L          | normal
+2025-04-26   | sodium                       | 141        | mmol/L          | normal
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-04-18 [E004103]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2025-09-03 [E004102]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2025-04-26 [E004101]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Sleep medicine note (2025-04-26) ---
+SLEEP MEDICINE NOTE
+Date: 2025-04-26
+Patient: Yuki Iyer (P0041)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with obstructive sleep apnea. Uses CPAP about 5 hours per night; daytime sleepiness improved.
+
+REVIEW OF SYSTEMS:
+Denies abdominal pain, dizziness, or fever.
+
+CURRENT MEDICATIONS:
+None.
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 125 mmHg; diastolic blood pressure 78 mmHg; bmi 23.0 kg/m2; creatinine 0.83 mg/dL; egfr 92 mL/min/1.73m2; potassium 3.9 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Sleep medicine note (2025-09-03) ---
+SLEEP MEDICINE NOTE
+Date: 2025-09-03
+Patient: Yuki Iyer (P0041)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with obstructive sleep apnea. Uses CPAP about 6 hours per night; daytime sleepiness improved.
+
+REVIEW OF SYSTEMS:
+Denies headache, fever, or abdominal pain.
+
+CURRENT MEDICATIONS:
+None.
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 127 mmHg; diastolic blood pressure 79 mmHg; bmi 24.7 kg/m2; creatinine 0.97 mg/dL; egfr 96 mL/min/1.73m2; potassium 4.8 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+--- Note 3: Sleep medicine note (2026-04-18) ---
+SLEEP MEDICINE NOTE
+Date: 2026-04-18
+Patient: Yuki Iyer (P0041)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+64-year-old female with obstructive sleep apnea. Uses CPAP about 5 hours per night; daytime sleepiness improved.
+
+REVIEW OF SYSTEMS:
+Denies fever, abdominal pain, or dizziness.
+
+CURRENT MEDICATIONS:
+None.
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 74 mmHg; bmi 25.0 kg/m2; creatinine 0.7 mg/dL; egfr 103 mL/min/1.73m2; potassium 4.0 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]

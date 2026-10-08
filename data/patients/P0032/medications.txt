@@ -1,0 +1,23 @@
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Sitagliptin 100 mg (once daily)
+  Indication:  type 2 diabetes
+  RxCUI:       593411
+  Start Date:  2021-10-07
+  Status:      Active
+
+- Atorvastatin 40 mg (once daily)
+  Indication:  hyperlipidemia
+  RxCUI:       83367
+  Start Date:  2018-04-21
+  Status:      Active
+
+- Sumatriptan 50 mg (as needed at migraine onset)
+  Indication:  migraine
+  RxCUI:       37418
+  Start Date:  2023-01-24
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.

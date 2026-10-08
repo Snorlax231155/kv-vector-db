@@ -1,0 +1,35 @@
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-05-08   | systolic blood pressure      | 157        | mmHg            | high
+2026-05-08   | diastolic blood pressure     | 84         | mmHg            | high
+2026-05-08   | bmi                          | 25.3       | kg/m2           | normal
+2026-05-08   | creatinine                   | 0.67       | mg/dL           | normal
+2026-05-08   | egfr                         | 101        | mL/min/1.73m2   | normal
+2026-05-08   | potassium                    | 4.9        | mmol/L          | normal
+2026-05-08   | sodium                       | 138        | mmol/L          | normal
+2026-05-08   | tsh                          | 4.0        | mIU/L           | normal
+2025-08-13   | systolic blood pressure      | 145        | mmHg            | high
+2025-08-13   | diastolic blood pressure     | 91         | mmHg            | high
+2025-08-13   | bmi                          | 22.7       | kg/m2           | normal
+2025-08-13   | creatinine                   | 0.66       | mg/dL           | normal
+2025-08-13   | egfr                         | 107        | mL/min/1.73m2   | normal
+2025-08-13   | potassium                    | 4.7        | mmol/L          | normal
+2025-08-13   | sodium                       | 144        | mmol/L          | normal
+2025-04-27   | systolic blood pressure      | 148        | mmHg            | high
+2025-04-27   | diastolic blood pressure     | 88         | mmHg            | high
+2025-04-27   | bmi                          | 20.5       | kg/m2           | normal
+2025-04-27   | creatinine                   | 1.0        | mg/dL           | normal
+2025-04-27   | egfr                         | 103        | mL/min/1.73m2   | normal
+2025-04-27   | potassium                    | 3.7        | mmol/L          | normal
+2025-04-27   | sodium                       | 143        | mmol/L          | normal
+2025-04-27   | tsh                          | 3.88       | mIU/L           | normal
+2025-01-12   | systolic blood pressure      | 134        | mmHg            | high
+2025-01-12   | diastolic blood pressure     | 95         | mmHg            | high
+2025-01-12   | bmi                          | 21.1       | kg/m2           | normal
+2025-01-12   | creatinine                   | 1.09       | mg/dL           | normal
+2025-01-12   | egfr                         | 106        | mL/min/1.73m2   | normal
+2025-01-12   | potassium                    | 4.7        | mmol/L          | normal
+2025-01-12   | sodium                       | 137        | mmol/L          | normal
+2025-01-12   | tsh                          | 2.77       | mIU/L           | normal

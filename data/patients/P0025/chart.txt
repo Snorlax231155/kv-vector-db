@@ -1,0 +1,173 @@
+================================================================================
+PATIENT MEDICAL CHART: MICHAEL HADDAD (P0025)
+================================================================================
+
+PATIENT IDENTIFICATION & DEMOGRAPHICS
+====================================
+Patient ID:      P0025
+Full Name:       Michael Haddad
+Date of Birth:   1970-07-15
+Age:             55 years old
+Biological Sex:  Male
+Last Encounter:  2026-02-08
+
+--------------------------------------------------------------------------------
+ALLERGIES & ADVERSE REACTIONS
+=============================
+No known drug allergies (NKDA) documented.
+
+--------------------------------------------------------------------------------
+DOCUMENTED CONDITIONS & PROBLEM LIST
+====================================
+- Diagnosis:   Gastro-esophageal reflux disease without esophagitis
+  ICD-10-CM:   K21.9
+  Status:      active
+  Onset Date:  2016-05-19
+
+- Diagnosis:   Obstructive sleep apnea (adult) (pediatric)
+  ICD-10-CM:   G47.33
+  Status:      active
+  Onset Date:  2023-12-27
+
+--------------------------------------------------------------------------------
+PHARMACOTHERAPY & MEDICATION REGIMEN
+====================================
+ACTIVE MEDICATIONS:
+- Pantoprazole 40 mg (once daily)
+  Indication:  gerd
+  RxCUI:       40790
+  Start Date:  2025-04-27
+  Status:      Active
+
+DISCONTINUED / PAST MEDICATIONS:
+  None documented.
+
+--------------------------------------------------------------------------------
+LONGITUDINAL LABORATORY TEST RESULTS
+====================================
+Date         | Test Name                    | Value      | Unit            | Flag
+------------------------------------------------------------------------------
+2026-02-08   | systolic blood pressure      | 115        | mmHg            | normal
+2026-02-08   | diastolic blood pressure     | 74         | mmHg            | normal
+2026-02-08   | bmi                          | 22.3       | kg/m2           | normal
+2026-02-08   | creatinine                   | 0.77       | mg/dL           | normal
+2026-02-08   | egfr                         | 92         | mL/min/1.73m2   | normal
+2026-02-08   | potassium                    | 4.8        | mmol/L          | normal
+2026-02-08   | sodium                       | 141        | mmol/L          | normal
+2025-11-06   | systolic blood pressure      | 124        | mmHg            | normal
+2025-11-06   | diastolic blood pressure     | 81         | mmHg            | normal
+2025-11-06   | bmi                          | 23.1       | kg/m2           | normal
+2025-11-06   | creatinine                   | 1.01       | mg/dL           | normal
+2025-11-06   | egfr                         | 106        | mL/min/1.73m2   | normal
+2025-11-06   | potassium                    | 4.8        | mmol/L          | normal
+2025-11-06   | sodium                       | 137        | mmol/L          | normal
+2025-10-01   | systolic blood pressure      | 123        | mmHg            | normal
+2025-10-01   | diastolic blood pressure     | 79         | mmHg            | normal
+2025-10-01   | bmi                          | 21.4       | kg/m2           | normal
+2025-10-01   | creatinine                   | 0.61       | mg/dL           | normal
+2025-10-01   | egfr                         | 82         | mL/min/1.73m2   | normal
+2025-10-01   | potassium                    | 4.1        | mmol/L          | normal
+2025-10-01   | sodium                       | 144        | mmol/L          | normal
+
+--------------------------------------------------------------------------------
+CLINICAL ENCOUNTERS & CONSULTATIONS
+===================================
+- Date:      2026-02-08 [E002503]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+- Date:      2025-11-06 [E002502]
+  Type:      Sleep medicine note
+  Reason:    obstructive sleep apnea follow-up
+
+- Date:      2025-10-01 [E002501]
+  Type:      Primary care progress note
+  Reason:    gerd follow-up
+
+--------------------------------------------------------------------------------
+CLINICAL NARRATIVE PROGRESS NOTES
+=================================
+
+--- Note 1: Primary care progress note (2025-10-01) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2025-10-01
+Patient: Michael Haddad (P0025)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with gerd, obstructive sleep apnea. Reflux symptoms well controlled on a proton pump inhibitor; avoids late-night eating. Uses CPAP about 5 hours per night; daytime sleepiness improved.
+
+REVIEW OF SYSTEMS:
+Denies leg swelling, chest pain, or shortness of breath at rest.
+
+CURRENT MEDICATIONS:
+- pantoprazole 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 123 mmHg; diastolic blood pressure 79 mmHg; bmi 21.4 kg/m2; creatinine 0.61 mg/dL; egfr 82 mL/min/1.73m2; potassium 4.1 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+--- Note 2: Sleep medicine note (2025-11-06) ---
+SLEEP MEDICINE NOTE
+Date: 2025-11-06
+Patient: Michael Haddad (P0025)
+
+CHIEF COMPLAINT:
+Obstructive sleep apnea follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with obstructive sleep apnea, gerd. Uses CPAP about 6 hours per night; daytime sleepiness improved. Burning heartburn after large meals, worse when lying down at night.
+
+REVIEW OF SYSTEMS:
+Denies fever, palpitations, or leg swelling.
+
+CURRENT MEDICATIONS:
+- pantoprazole 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 124 mmHg; diastolic blood pressure 81 mmHg; bmi 23.1 kg/m2; creatinine 1.01 mg/dL; egfr 106 mL/min/1.73m2; potassium 4.8 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+2. Gerd: Continue proton pump inhibitor; elevate head of bed.
+
+--- Note 3: Primary care progress note (2026-02-08) ---
+PRIMARY CARE PROGRESS NOTE
+Date: 2026-02-08
+Patient: Michael Haddad (P0025)
+
+CHIEF COMPLAINT:
+Gerd follow-up.
+
+HISTORY OF PRESENT ILLNESS:
+56-year-old male with gerd, obstructive sleep apnea. Burning heartburn after large meals, worse when lying down at night. Uses CPAP about 6 hours per night; daytime sleepiness improved.
+
+REVIEW OF SYSTEMS:
+Denies chest pain, shortness of breath at rest, or leg swelling.
+
+CURRENT MEDICATIONS:
+- pantoprazole 40 mg once daily
+
+ALLERGIES:
+No known drug allergies.
+
+OBJECTIVE:
+Vitals and labs: systolic blood pressure 115 mmHg; diastolic blood pressure 74 mmHg; bmi 22.3 kg/m2; creatinine 0.77 mg/dL; egfr 92 mL/min/1.73m2; potassium 4.8 mmol/L.
+
+ASSESSMENT AND PLAN:
+1. Gerd: Continue proton pump inhibitor; elevate head of bed.
+2. Obstructive sleep apnea: Stable; continue current management and follow up in 3 months.
+
+================================================================================
+[END OF CHART]
